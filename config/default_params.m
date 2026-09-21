@@ -79,7 +79,7 @@ function params = default_params()
     params.marginGoal     = 5.0;    % 障碍物离目标点的最小距离
     params.marginObs      = 1.0;    % 两个障碍物之间的最小间距
     params.pathGridResolution = 1.0; % 障碍物场景可行性检查的网格分辨率
-    params.pathClearance  = 5.8;    % 规划通道需要为编队预留的横向安全距离
+    params.pathClearance  = 4.2;    % 规划通道需要为编队预留的横向安全距离
     params.maxObstacleSetAttempts = 60; % 重新生成整组障碍物的最大次数
     params.maxObstaclePlacementAttempts = 300; % 单个障碍物的最大放置次数
 
