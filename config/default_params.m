@@ -4,20 +4,20 @@ function params = default_params()
 % 无人机用质点表示，1 号机是长机，其余 4 架是僚机
 
     params.softwareName   = '无人机编队智能避障仿真软件';
-    params.version        = '1.1.0';
+    params.version        = '1.1.1';
 
     params.dt             = 0.05;   % 仿真积分步长，单位秒
     params.Tmax           = 500;     % 最大仿真时间，单位秒
     params.nUAV           = 5;      % 无人机总数
     params.leaderIdx      = 1;      % 长机编号，1 号机是长机
     params.mass           = 1;      % 无人机质量，质点模型取 1
-    params.vmax           = 3.0;    % 最大飞行速度，单位 m/s
+    params.vmax           = 4.5;    % 最大飞行速度，单位 m/s
     params.amax           = 3.0;    % 最大加速度，单位 m/s^2
 
     params.workspace      = [0 0; 80 80]; % 二维工作空间，左下角和右上角坐标
     params.start          = [10; 10];     % 长机起点坐标
     params.target         = [70; 62];     % 任务目标点坐标
-    params.seed           = 33;      % 随机种子，保证每次运行障碍物一致
+    params.seed           = 61;      % 随机场景种子，保留当前设置
     params.animate        = true;   % 仿真结束后是否播放动态动画
 
     % 编队几何参数：长机在最前面，僚机在后面组成 V 形
