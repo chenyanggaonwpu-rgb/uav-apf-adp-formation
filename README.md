@@ -59,6 +59,16 @@ run_batch(20)
 每次批量运行都会写入独立的 `results/batch_v1.1.1_时间戳/` 目录，不覆盖历史结果。
 批量结果包含参数、随机种子、错误信息和可复现的 MAT 数据。
 
+障碍环境三参数扫描（固定限速 3 m/s；125 组、每组 seed 1–200）：
+
+```matlab
+outputDir = run_obstacle_sweep('Workers',4);
+% 中断后继续：run_obstacle_sweep('ResumeDir',outputDir,'Workers',4)
+```
+
+支持并行计算、按批检查点、源码快照、逐组 95% 置信区间和 PNG/PDF 图表。
+完整参数、统计分母及恢复方法见 [三参数扫描说明](docs/OBSTACLE_SWEEP.md)。
+
 ## 目录结构
 
 ```text

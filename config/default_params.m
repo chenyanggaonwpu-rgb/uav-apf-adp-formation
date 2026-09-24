@@ -11,13 +11,13 @@ function params = default_params()
     params.nUAV           = 5;      % 无人机总数
     params.leaderIdx      = 1;      % 长机编号，1 号机是长机
     params.mass           = 1;      % 无人机质量，质点模型取 1
-    params.vmax           = 4.5;    % 最大飞行速度，单位 m/s
+    params.vmax           = 3;    % 最大飞行速度，单位 m/s
     params.amax           = 3.0;    % 最大加速度，单位 m/s^2
 
     params.workspace      = [0 0; 80 80]; % 二维工作空间，左下角和右上角坐标
     params.start          = [10; 10];     % 长机起点坐标
     params.target         = [70; 62];     % 任务目标点坐标
-    params.seed           = 61;      % 随机场景种子，保留当前设置
+    params.seed           = 25;      % 随机场景种子，保留当前设置
     params.animate        = true;   % 仿真结束后是否播放动态动画
 
     % 编队几何参数：长机在最前面，僚机在后面组成 V 形
@@ -71,10 +71,10 @@ function params = default_params()
     params.kHoldD         = 4.0;    % 保持控制器速度阻尼
 
     % 随机静态障碍物参数
-    params.nObstacles     = 8;      % 障碍物数量
+    params.nObstacles     = 16;      % 障碍物数量
     params.obsRMin        = 1.2;    % 障碍物最小半径
     params.obsRMax        = 2.6;    % 障碍物最大半径
-    params.corridorBand   = 14;     % 障碍物在起点到目标走廊两侧的散布宽度
+    params.corridorBand   = 50;     % 障碍物在起点到目标走廊两侧的散布宽度
     params.marginStart    = 5.0;    % 障碍物离起点的最小距离
     params.marginGoal     = 5.0;    % 障碍物离目标点的最小距离
     params.marginObs      = 1.0;    % 两个障碍物之间的最小间距

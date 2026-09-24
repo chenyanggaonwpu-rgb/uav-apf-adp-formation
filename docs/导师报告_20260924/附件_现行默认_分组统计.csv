@@ -1,0 +1,2 @@
+combinationId,nObstacles,corridorBand,marginObs,planned,completed,generated,successes,collisions,timeouts,invalidStates,generationFailures,executionErrors,successPct,ci95LowPct,ci95HighPct,overallSuccessPct,generationFailurePct,collisionPct,timeoutPct,meanSuccessTime_s,meanLeaderPathRatio,meanFormationRMS_m,meanWallTime_s,boundaryClampedScenePct
+1,16,50,1,200,200,200,200,0,0,0,0,0,100,98.1154673622734,100,100,0,0,0,33.4455,1.05819273853735,4.1473195153473,2.1186017485,100
