@@ -6,7 +6,11 @@ function write_obstacle_sweep_readout(outputDir)
     fid=fopen(fullfile(outputDir,'RESULTS.md'),'w','n','UTF-8');
     assert(fid>=0,'UAV:SweepWrite','Cannot write results readout.');
     closer=onCleanup(@() fclose(fid)); %#ok<NASGU>
-    fprintf(fid,'# 障碍环境三参数扫描结果\n\n');
+    if height(cfg.combinations)==1
+        fprintf(fid,'# 障碍环境单组合验证结果\n\n');
+    else
+        fprintf(fid,'# 障碍环境三参数扫描结果\n\n');
+    end
     if height(rows)<height(cfg.jobs)
         fprintf(fid,'**阶段性结果：试验尚未完成，不用于最终比较。**\n\n');
     end
@@ -48,7 +52,7 @@ function write_obstacle_sweep_readout(outputDir)
     end
     fprintf(fid,'## 图表与数据\n\n');
     fprintf(fid,'- `figures/01_factor_effects`：固定其它两项的成功率与 95%% 区间。\n');
-    fprintf(fid,'- `figures/02_flight_success_heatmaps`：125 组的条件飞行成功率。\n');
+    fprintf(fid,'- `figures/02_flight_success_heatmaps`：%d 组的条件飞行成功率。\n',height(s));
     fprintf(fid,'- `figures/03_overall_success_heatmaps`：包含生成失败的整体成功比例。\n');
     fprintf(fid,'- `figures/04_generation_failure_heatmaps`：场景生成失败率。\n');
     fprintf(fid,'- `figures/05_completion_time_heatmaps`：仅成功样本的平均完成时间。\n');
@@ -57,7 +61,7 @@ function write_obstacle_sweep_readout(outputDir)
     fprintf(fid,'- 图表均输出 PNG 和矢量 PDF；`summary.csv` 保存每组分母、置信区间和指标。\n');
     fprintf(fid,'- `trials.csv` 保存每个组合×seed 的结果；`source_snapshot/` 与参数快照可复现。\n\n');
     fprintf(fid,'## 解释边界\n\n');
-    fprintf(fid,'1. 每组 200 个 seed 用于趋势筛选，细微差异不自动代表统计显著。95%% 区间为逐组区间。\n');
+    fprintf(fid,'1. 每组计划 %d 个 seed；细微差异不自动代表统计显著。95%% 区间为逐组区间。\n',numel(cfg.seeds));
     fprintf(fid,'2. 场景仍经过原程序的可行性筛选；生成失败指耗尽重试，不能解释为原始地图不可行概率。\n');
     fprintf(fid,'3. 相同 seed 在不同参数下不保证相同地图；不作严格配对推断。\n');
     fprintf(fid,'4. 散布半宽 B 为航线左右各 B m，越界采样会被截断；实际障碍间距也不等于所设下限。\n');

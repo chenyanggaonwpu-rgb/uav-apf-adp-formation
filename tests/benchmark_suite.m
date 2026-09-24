@@ -1,6 +1,6 @@
 function benchmark_suite(projectRoot, outputFile, firstSeed, lastSeed)
 % BENCHMARK_SUITE 对同一参数与 seed 范围运行批量仿真，输出 MAT 和 CSV。
-% 分别传入原版解压目录和当前项目目录，可复现报告中的配对口径。
+% 历史配对需传入对应版本的源码目录；当前目录的参数不代表历史版本。
 
 oldPath = path;
 cleanup = onCleanup(@()path(oldPath)); %#ok<NASGU>
