@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "testEnvironment": "Node VM with DOM and Canvas stubs; actual browser rendering is not verified",
+  "sourceSha256": "4556fa34c68955d6de4d1814923a849b9b34d36235d0fa0f1c3aa836587cbae8",
+  "samplePoints": 49,
+  "denominators": [
+    200,
+    157
+  ],
+  "baselinePercent": 40,
+  "peakCoordinates": [
+    1.2,
+    4
+  ],
+  "peakCount": 121,
+  "buttonHandlersPassed": true,
+  "hoverHandlerPassed": true,
+  "rotationHandlerPassed": true,
+  "zoomHandlerPassed": true,
+  "tableRows": 49,
+  "allOutcomesSumTo200": true,
+  "actualBrowserCheckPassed": false,
+  "browserBlock": "CUA initialization failed writing kernel assets (os error 3). Two headless Microsoft Edge launches exited before a page opened; crashpad named-pipe errors were reported."
+}

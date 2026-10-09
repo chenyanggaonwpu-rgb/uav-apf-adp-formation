@@ -1,0 +1,206 @@
+{
+  "version": "2.1.0",
+  "firstSeed": 1,
+  "lastSeed": 1000,
+  "scheduled": 1000,
+  "completed": 1000,
+  "uniqueSeeds": 1000,
+  "success": 564,
+  "failure": 436,
+  "successPercent": 56.4,
+  "denominator": "All predeclared seed 1--1000, no outcome exclusions",
+  "fixedHeightLayersM": [
+    5,
+    10,
+    15,
+    20,
+    25
+  ],
+  "heightInsertionOrAdaptation": false,
+  "verticalCostWeight": 1,
+  "group": "C",
+  "noiseStd": 0,
+  "disturbanceMax": 0,
+  "familyAllocation": "250 seeds per family, seed modulo four",
+  "overallIntervalRule": "No iid pooled Wilson interval; family counts were fixed in advance",
+  "outcomes": {
+    "planning_failed": 436,
+    "success": 564
+  },
+  "families": {
+    "mixed": {
+      "label": "混合三维障碍",
+      "scheduled": 250,
+      "success": 250,
+      "failure": 0,
+      "successPercent": 100.0,
+      "wilson95Percent": [
+        98.48667005045553,
+        99.99999999999997
+      ],
+      "outcomes": {
+        "success": 250
+      },
+      "missedWindowSeeds": 0
+    },
+    "underpass": {
+      "label": "顶棚下穿",
+      "scheduled": 250,
+      "success": 250,
+      "failure": 0,
+      "successPercent": 100.0,
+      "wilson95Percent": [
+        98.48667005045553,
+        99.99999999999997
+      ],
+      "outcomes": {
+        "success": 250
+      },
+      "missedWindowSeeds": 0
+    },
+    "window": {
+      "label": "单窗口墙",
+      "scheduled": 250,
+      "success": 55,
+      "failure": 195,
+      "successPercent": 22.0,
+      "wilson95Percent": [
+        17.310192411547416,
+        27.53727236019748
+      ],
+      "outcomes": {
+        "planning_failed": 195,
+        "success": 55
+      },
+      "missedWindowSeeds": 195
+    },
+    "staggered_windows": {
+      "label": "交错双窗口墙",
+      "scheduled": 250,
+      "success": 9,
+      "failure": 241,
+      "successPercent": 3.6,
+      "wilson95Percent": [
+        1.9053279530003278,
+        6.699042240176928
+      ],
+      "outcomes": {
+        "planning_failed": 241,
+        "success": 9
+      },
+      "missedWindowSeeds": 241
+    }
+  },
+  "generationOK": 1000,
+  "enteredFlightLoop": 564,
+  "successAmongEnteredFlightsPercent": 100.0,
+  "cycles": 361880,
+  "seedsWithSafetyTriggers": 4,
+  "safetyTriggerCycles": 71,
+  "rawMatFiles": 1000,
+  "rawMatBytes": 335325646,
+  "rawMatAudit": {
+    "passed": true,
+    "records": 1000,
+    "uniqueSeeds": 1000,
+    "success": 564,
+    "failure": 436,
+    "allCsvRowsMatchMat": true,
+    "allInitialParametersMatchProtocol": true,
+    "allFixedLayersUnchanged": true,
+    "allSuccessHoldAndClearanceChecksPass": true,
+    "missedWindowSeeds": 436,
+    "wallSeconds": 14.245556,
+    "completedLocal": "2026-10-05 11:57:26"
+  },
+  "frozenSourceFiles": 25,
+  "sourceHashMismatches": 0,
+  "pilotNumericSourceMatches": 23,
+  "pilotReplicatedSeeds": 16,
+  "workers": [
+    {
+      "worker": 1,
+      "status": "complete",
+      "range": [
+        1,
+        250
+      ],
+      "completed": 250,
+      "scheduled": 250,
+      "success": 144,
+      "wallSeconds": 1350.759403,
+      "updatedLocal": "2026-10-05 11:56:28"
+    },
+    {
+      "worker": 2,
+      "status": "complete",
+      "range": [
+        251,
+        500
+      ],
+      "completed": 250,
+      "scheduled": 250,
+      "success": 138,
+      "wallSeconds": 1332.0725452,
+      "updatedLocal": "2026-10-05 11:56:09"
+    },
+    {
+      "worker": 3,
+      "status": "complete",
+      "range": [
+        501,
+        750
+      ],
+      "completed": 250,
+      "scheduled": 250,
+      "success": 145,
+      "wallSeconds": 1372.939515,
+      "updatedLocal": "2026-10-05 11:56:50"
+    },
+    {
+      "worker": 4,
+      "status": "complete",
+      "range": [
+        751,
+        1000
+      ],
+      "completed": 250,
+      "scheduled": 250,
+      "success": 137,
+      "wallSeconds": 1315.6571024,
+      "updatedLocal": "2026-10-05 11:55:52"
+    }
+  ],
+  "successfulTrialMetrics": {
+    "population": "successful trials only",
+    "count": 564,
+    "time": {
+      "mean": 32.08156028368794,
+      "min": 29.95,
+      "max": 41.9
+    },
+    "path": {
+      "mean": 82.72889131893302,
+      "min": 79.7734977506861,
+      "max": 99.4174305452498
+    },
+    "formationRms": {
+      "mean": 2.573192906423145,
+      "min": 0.677516015408766,
+      "max": 7.68686645995425
+    },
+    "verticalTravel": {
+      "mean": 4.565027795098392,
+      "min": 0.0,
+      "max": 25.6403221759821
+    },
+    "wallSeconds": {
+      "mean": 7.092779275177305,
+      "min": 3.074856,
+      "max": 11.4291635
+    }
+  },
+  "analyzedAt": "2026-10-05T03:57:30.020043+00:00",
+  "timingCaveat": "Four concurrent MATLAB workers; these timings are not a realtime benchmark",
+  "interpretationCaveat": "Equal mixture of four specified synthetic map families; not a real-world universal success rate"
+}

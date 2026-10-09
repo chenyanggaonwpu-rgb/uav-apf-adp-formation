@@ -1,0 +1,9 @@
+{
+  "numericFigureSourcesPassed": true,
+  "figuresReviewed": 4,
+  "caseTrajectoryReviewed": true,
+  "decodedMovieFramesReviewed": 3,
+  "repairedZeroLabelsPassed": true,
+  "allFigureSourceDataUnchangedByLayoutRepair": true,
+  "notes": "Reviewed title, axes, denominator, confidence bars, data labels, start/mid/end movie frames and physical-height trace."
+}

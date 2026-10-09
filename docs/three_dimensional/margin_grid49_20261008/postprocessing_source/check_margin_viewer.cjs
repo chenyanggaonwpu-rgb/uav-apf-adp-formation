@@ -1,0 +1,44 @@
+// Verify the delivered offline viewer using an isolated headless browser.
+const fs=require('node:fs');const path=require('node:path');const crypto=require('node:crypto');
+const {chromium}=require('C:/Program Files/WindowsApps/OpenAI.CodexPrimaryRuntime.v26-1007-641-0_26.1007.641.0_x64__3k8sg7r9htsxt/dependencies/node/node_modules/playwright');
+const study=path.resolve(process.argv[2]), out=path.join(study,'validation/viewer_qa');fs.mkdirSync(out,{recursive:true});
+const temp=path.resolve('.runtime/margin_viewer_tmp');fs.mkdirSync(temp,{recursive:true});
+function assert(value,message){if(!value)throw Error(message)}
+(async()=>{
+ process.env.TEMP=temp;process.env.TMP=temp;process.env.TMPDIR=temp;
+ const browser=await chromium.launchPersistentContext(path.join(temp,'profile'),{executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true,env:{...process.env,TEMP:temp,TMP:temp},args:['--disable-gpu','--no-first-run','--disable-crash-reporter','--disable-crashpad','--noerrdialogs']});
+ const page=await browser.newPage();await page.setViewportSize({width:1360,height:1000});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const html=path.join(study,'margin_success_surface.html');await page.goto('file:///'+html.replaceAll('\\','/'));await page.locator('#count').waitFor();
+ assert(await page.locator('#rate').innerText()==='40.00%','Default baseline rate');
+ await page.getByRole('button',{name:'查看本轮最高',exact:true}).click();
+ assert(await page.locator('#count').innerText()==='121 / 200','Peak denominator');
+ assert(await page.locator('#rate').innerText()==='60.50%','Peak rate');
+ assert(await page.locator('#margins').innerText()==='1.2 / 4.0 m','Peak coordinates');
+ await page.screenshot({path:path.join(out,'desktop_all200.png'),fullPage:true});
+ await page.getByRole('button',{name:'初始安全子集 · 157',exact:true}).click();
+ assert(await page.locator('#count').innerText()==='121 / 157','Fixed safe denominator');
+ assert(await page.locator('#rate').innerText()==='77.07%','Fixed safe rate');
+ await page.screenshot({path:path.join(out,'desktop_safe157.png'),fullPage:true});
+ await page.getByRole('button',{name:'全部地图 · 200',exact:true}).click();
+ const before=await page.locator('canvas').evaluate(e=>e.toDataURL());const box=await page.locator('canvas').boundingBox();
+ await page.mouse.move(box.x+box.width*.5,box.y+box.height*.5);await page.mouse.down();await page.mouse.move(box.x+box.width*.58,box.y+box.height*.46,{steps:7});await page.mouse.up();
+ assert(before!==await page.locator('canvas').evaluate(e=>e.toDataURL()),'Rotation changes drawing');
+ const rotated=await page.locator('canvas').evaluate(e=>e.toDataURL());await page.mouse.wheel(0,-150);
+ assert(rotated!==await page.locator('canvas').evaluate(e=>e.toDataURL()),'Wheel zoom changes drawing');
+ await page.getByRole('button',{name:'重置视角',exact:true}).click();
+ await page.getByRole('button',{name:'查看原基线',exact:true}).click();
+ const coordinate=await page.evaluate(()=>{const hit=hits.find(h=>h.d===peak),r=canvas.getBoundingClientRect();return {x:r.x+hit.p[0],y:r.y+hit.p[1]}});
+ await page.mouse.move(coordinate.x,coordinate.y);
+ assert(await page.locator('#count').innerText()==='121 / 200','Point hover selects exact grid result');
+ await page.locator('.sources summary').click();assert(await page.locator('#rows tr').count()===49,'49 exact table rows');
+ const embedded=await page.evaluate(()=>data.map(d=>({id:d.configId,total:d.success+d.initialUnsafe+d.planningFailed+d.timeout+d.safetyUnresolved+d.replanFailed+d.collision+d.boundaryViolation+d.invalidState})));
+ assert(embedded.length===49 && embedded.every(d=>d.total===200),'All outcome counts use complete 200-map denominator');
+ await page.locator('.sources summary').click();await page.setViewportSize({width:390,height:844});await page.getByRole('button',{name:'查看本轮最高',exact:true}).click();
+ await page.screenshot({path:path.join(out,'narrow_all200.png'),fullPage:true});
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No narrow viewport horizontal overflow');
+ assert(errors.length===0,'No JavaScript runtime errors');await browser.close();
+ const hashes=fs.readdirSync(out).filter(n=>n.endsWith('.png')).map(n=>({file:n,sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(out,n))).digest('hex')}));
+ fs.writeFileSync(path.join(out,'functional_qa.json'),JSON.stringify({passed:true,browser:'Microsoft Edge headless',urlScheme:'file',sourceSha256:crypto.createHash('sha256').update(fs.readFileSync(html)).digest('hex'),samplePoints:49,denominators:[200,157],peak:[1.2,4.0,121],baselinePercent:40,rotationPassed:true,zoomPassed:true,hoverPassed:true,tableRows:49,narrowNoHorizontalOverflow:true,runtimeErrors:errors,screenshots:hashes},null,2));
+ process.stdout.write('OFFLINE_MARGIN_VIEWER_FUNCTIONAL_QA_PASSED\n');
+})().catch(e=>{process.stderr.write(e.stack+'\n');process.exitCode=1});

@@ -1,0 +1,8 @@
+[警告: 在为表创建变量名称之前，对文件中的列标题进行了修改，以使其成为有效的 MATLAB 标识符。原始列标题保存在 VariableDescriptions 属性中。
+将 'VariableNamingRule' 设置为 'preserve' 以使用原始列标题作为表变量名称。] 
+{错误使用 tabular/dotParenReference (第 77 行)
+无法识别表变量名称 'mapFile'。
+
+出错 audit_clearance_study3d (第 8 行)
+        map=load(fullfile(studyDir,char(maps.mapFile(mapIndex))),'scene','mapHash');
+} 

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "records": 200,
+  "uniqueSeeds": 200,
+  "success": 80,
+  "failure": 120,
+  "sourceFiles": 38,
+  "allFrozenMapFilesUnchanged": true,
+  "allMapsRegenerateExactly": true,
+  "allParametersAndCsvPassed": true,
+  "independentGeometryAndSuccessHoldPassed": true,
+  "wallSeconds": 4.1177835
+}

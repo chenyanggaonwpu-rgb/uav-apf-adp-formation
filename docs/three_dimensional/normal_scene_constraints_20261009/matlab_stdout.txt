@@ -1,0 +1,37 @@
+NORMAL_VALIDATION_BEGIN output=F:/UAV project/UAV_APF_ADP_Formation/results/normal_scene_v2.3.3_20261009_validation_final
+NORMAL_MAP_TEST seed=3001
+NORMAL_MAP_TEST seed=3002
+NORMAL_MAP_TEST seed=3003
+NORMAL_MAP_TEST seed=3004
+NORMAL_MAP_TEST seed=3005
+NORMAL_MAP_TEST seed=3006
+NORMAL_MAP_TEST seed=3007
+NORMAL_MAP_TEST seed=3008
+NORMAL_MAP_TEST seed=3009
+NORMAL_MAP_TEST seed=3010
+NORMAL_MAP_TEST seed=3011
+NORMAL_MAP_TEST seed=3012
+NORMAL_SCENE_TEST_PASSED maps=12 proposals=81 rejected=69
+UNSTRUCTURED_TEST_PASSED maps=200 distinct_counts=40 occupied_initial=43 nominal_sum=3.4053e+06
+HISTORICAL_MAP_HASHES_PASSED maps=200
+REGRESSION_BEGIN test_3d
+3-D tests passed. Empty-map completion 30.15 s; overpass 2 waypoints.
+REGRESSION_PASSED test_3d
+REGRESSION_BEGIN test_environment3d
+3-D environment tests passed: roof, window, fixed-layer gap and closed-solid checks.
+REGRESSION_PASSED test_environment3d
+REGRESSION_BEGIN test_adaptive_height3d
+ADAPTIVE_HEIGHT_TESTS_PASSED: gap=13 m, covered, sealed, two-window, cache, budget and all solids.
+REGRESSION_PASSED test_adaptive_height3d
+REGRESSION_BEGIN test_directional_clearance3d
+DIRECTIONAL_CLEARANCE_TESTS_PASSED
+REGRESSION_PASSED test_directional_clearance3d
+NORMAL_FLIGHT_BEGIN seed=3001
+[警告: MATLAB 已通过改用 OpenGL 软件禁用了某些高级的图形渲染功能。欲了解有关详细信息，请点击<a href="matlab:opengl('problems')">此处</a>。]
+3-D scene=random_normal result=success time=30.10 s output=F:\UAV project\UAV_APF_ADP_Formation\results\normal_scene_v2.3.3_20261009_validation_final\flight_003001\3d_run_v2.3.3_20261009_193508_218
+NORMAL_FLIGHT_COMPLETE seed=3001 reason=success time=30.10
+NORMAL_FLIGHT_BEGIN seed=3002
+NORMAL_FLIGHT_COMPLETE seed=3002 reason=success time=32.15
+NORMAL_FLIGHT_BEGIN seed=3003
+NORMAL_FLIGHT_COMPLETE seed=3003 reason=success time=38.30
+NORMAL_RELEASE_VALIDATION_PASSED

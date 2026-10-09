@@ -1,0 +1,7 @@
+ADAPTIVE_HEIGHT_TESTS_PASSED: gap=13 m, covered, sealed, two-window, cache, budget and all solids.
+COVERAGE_REPAIR seed=68 path=path layers=7 minClear=4.20283022
+COVERAGE_REPAIR seed=284 path=path layers=9 minClear=4.24982704
+COVERAGE_REPAIR seed=531 path=path layers=8 minClear=4.28288168
+COVERAGE_REPAIR seed=563 path=path layers=8 minClear=4.26996851
+COVERAGE_REPAIR seed=796 path=path layers=8 minClear=4.30235346
+COVERAGE_REPAIR_TESTS_PASSED cases=5

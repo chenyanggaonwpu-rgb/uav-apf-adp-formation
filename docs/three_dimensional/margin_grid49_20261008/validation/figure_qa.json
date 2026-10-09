@@ -1,0 +1,1138 @@
+{
+  "passed": true,
+  "figures": [
+    {
+      "name": "01_success_surface_all200",
+      "pdfPages": 1,
+      "pdfRasterImageXObjects": [
+        {
+          "label": "/Im1",
+          "width": 1290,
+          "height": 117
+        },
+        {
+          "label": "/Im2",
+          "width": 1290,
+          "height": 117
+        },
+        {
+          "label": "/Im3",
+          "width": 952,
+          "height": 155
+        },
+        {
+          "label": "/Im4",
+          "width": 952,
+          "height": 155
+        },
+        {
+          "label": "/Im5",
+          "width": 952,
+          "height": 155
+        },
+        {
+          "label": "/Im6",
+          "width": 952,
+          "height": 155
+        },
+        {
+          "label": "/Im7",
+          "width": 1797,
+          "height": 282
+        },
+        {
+          "label": "/Im8",
+          "width": 1797,
+          "height": 282
+        },
+        {
+          "label": "/Im9",
+          "width": 814,
+          "height": 104
+        },
+        {
+          "label": "/Im10",
+          "width": 814,
+          "height": 104
+        },
+        {
+          "label": "/Im11",
+          "width": 898,
+          "height": 142
+        },
+        {
+          "label": "/Im12",
+          "width": 898,
+          "height": 142
+        },
+        {
+          "label": "/Im13",
+          "width": 1018,
+          "height": 132
+        },
+        {
+          "label": "/Im14",
+          "width": 1018,
+          "height": 132
+        },
+        {
+          "label": "/Im15",
+          "width": 952,
+          "height": 267
+        },
+        {
+          "label": "/Im16",
+          "width": 952,
+          "height": 267
+        },
+        {
+          "label": "/Im17",
+          "width": 952,
+          "height": 267
+        },
+        {
+          "label": "/Im18",
+          "width": 952,
+          "height": 267
+        },
+        {
+          "label": "/Im19",
+          "width": 846,
+          "height": 254
+        },
+        {
+          "label": "/Im20",
+          "width": 846,
+          "height": 254
+        },
+        {
+          "label": "/Im21",
+          "width": 845,
+          "height": 243
+        },
+        {
+          "label": "/Im22",
+          "width": 845,
+          "height": 243
+        },
+        {
+          "label": "/Im23",
+          "width": 1102,
+          "height": 170
+        },
+        {
+          "label": "/Im24",
+          "width": 1102,
+          "height": 170
+        },
+        {
+          "label": "/Im25",
+          "width": 952,
+          "height": 290
+        },
+        {
+          "label": "/Im26",
+          "width": 952,
+          "height": 290
+        },
+        {
+          "label": "/Im27",
+          "width": 952,
+          "height": 290
+        },
+        {
+          "label": "/Im28",
+          "width": 952,
+          "height": 290
+        },
+        {
+          "label": "/Im29",
+          "width": 815,
+          "height": 79
+        },
+        {
+          "label": "/Im30",
+          "width": 815,
+          "height": 79
+        },
+        {
+          "label": "/Im31",
+          "width": 1524,
+          "height": 271
+        },
+        {
+          "label": "/Im32",
+          "width": 1524,
+          "height": 271
+        },
+        {
+          "label": "/Im33",
+          "width": 899,
+          "height": 141
+        },
+        {
+          "label": "/Im34",
+          "width": 899,
+          "height": 141
+        },
+        {
+          "label": "/Im35",
+          "width": 1068,
+          "height": 250
+        },
+        {
+          "label": "/Im36",
+          "width": 1068,
+          "height": 250
+        },
+        {
+          "label": "/Im37",
+          "width": 1289,
+          "height": 228
+        },
+        {
+          "label": "/Im38",
+          "width": 1289,
+          "height": 228
+        },
+        {
+          "label": "/Im39",
+          "width": 746,
+          "height": 94
+        },
+        {
+          "label": "/Im40",
+          "width": 746,
+          "height": 94
+        },
+        {
+          "label": "/Im41",
+          "width": 845,
+          "height": 267
+        },
+        {
+          "label": "/Im42",
+          "width": 845,
+          "height": 267
+        },
+        {
+          "label": "/Im43",
+          "width": 846,
+          "height": 267
+        },
+        {
+          "label": "/Im44",
+          "width": 846,
+          "height": 267
+        },
+        {
+          "label": "/Im45",
+          "width": 830,
+          "height": 143
+        },
+        {
+          "label": "/Im46",
+          "width": 830,
+          "height": 143
+        },
+        {
+          "label": "/Im47",
+          "width": 681,
+          "height": 282
+        },
+        {
+          "label": "/Im48",
+          "width": 681,
+          "height": 282
+        },
+        {
+          "label": "/Im49",
+          "width": 680,
+          "height": 282
+        },
+        {
+          "label": "/Im50",
+          "width": 680,
+          "height": 282
+        },
+        {
+          "label": "/Im51",
+          "width": 508,
+          "height": 264
+        },
+        {
+          "label": "/Im52",
+          "width": 508,
+          "height": 264
+        },
+        {
+          "label": "/Im53",
+          "width": 507,
+          "height": 275
+        },
+        {
+          "label": "/Im54",
+          "width": 507,
+          "height": 275
+        },
+        {
+          "label": "/Im55",
+          "width": 611,
+          "height": 173
+        },
+        {
+          "label": "/Im56",
+          "width": 611,
+          "height": 173
+        },
+        {
+          "label": "/Im57",
+          "width": 1253,
+          "height": 269
+        },
+        {
+          "label": "/Im58",
+          "width": 1253,
+          "height": 269
+        },
+        {
+          "label": "/Im59",
+          "width": 695,
+          "height": 210
+        },
+        {
+          "label": "/Im60",
+          "width": 695,
+          "height": 210
+        },
+        {
+          "label": "/Im61",
+          "width": 814,
+          "height": 141
+        },
+        {
+          "label": "/Im62",
+          "width": 814,
+          "height": 141
+        },
+        {
+          "label": "/Im63",
+          "width": 681,
+          "height": 354
+        },
+        {
+          "label": "/Im64",
+          "width": 681,
+          "height": 354
+        },
+        {
+          "label": "/Im65",
+          "width": 680,
+          "height": 354
+        },
+        {
+          "label": "/Im66",
+          "width": 680,
+          "height": 354
+        },
+        {
+          "label": "/Im67",
+          "width": 592,
+          "height": 363
+        },
+        {
+          "label": "/Im68",
+          "width": 592,
+          "height": 363
+        },
+        {
+          "label": "/Im69",
+          "width": 592,
+          "height": 363
+        },
+        {
+          "label": "/Im70",
+          "width": 592,
+          "height": 363
+        },
+        {
+          "label": "/Im71",
+          "width": 845,
+          "height": 349
+        },
+        {
+          "label": "/Im72",
+          "width": 845,
+          "height": 349
+        },
+        {
+          "label": "/Im73",
+          "width": 846,
+          "height": 349
+        },
+        {
+          "label": "/Im74",
+          "width": 846,
+          "height": 349
+        },
+        {
+          "label": "/Im75",
+          "width": 1018,
+          "height": 218
+        },
+        {
+          "label": "/Im76",
+          "width": 1018,
+          "height": 218
+        },
+        {
+          "label": "/Im77",
+          "width": 592,
+          "height": 382
+        },
+        {
+          "label": "/Im78",
+          "width": 592,
+          "height": 382
+        },
+        {
+          "label": "/Im79",
+          "width": 593,
+          "height": 385
+        },
+        {
+          "label": "/Im80",
+          "width": 593,
+          "height": 385
+        },
+        {
+          "label": "/Im81",
+          "width": 508,
+          "height": 447
+        },
+        {
+          "label": "/Im82",
+          "width": 508,
+          "height": 447
+        },
+        {
+          "label": "/Im83",
+          "width": 508,
+          "height": 447
+        },
+        {
+          "label": "/Im84",
+          "width": 508,
+          "height": 447
+        },
+        {
+          "label": "/Im85",
+          "width": 477,
+          "height": 299
+        },
+        {
+          "label": "/Im86",
+          "width": 477,
+          "height": 299
+        },
+        {
+          "label": "/Im87",
+          "width": 476,
+          "height": 299
+        },
+        {
+          "label": "/Im88",
+          "width": 476,
+          "height": 299
+        },
+        {
+          "label": "/Im89",
+          "width": 593,
+          "height": 407
+        },
+        {
+          "label": "/Im90",
+          "width": 593,
+          "height": 407
+        },
+        {
+          "label": "/Im91",
+          "width": 592,
+          "height": 407
+        },
+        {
+          "label": "/Im92",
+          "width": 592,
+          "height": 407
+        },
+        {
+          "label": "/Im93",
+          "width": 507,
+          "height": 405
+        },
+        {
+          "label": "/Im94",
+          "width": 507,
+          "height": 405
+        },
+        {
+          "label": "/Im95",
+          "width": 508,
+          "height": 405
+        },
+        {
+          "label": "/Im96",
+          "width": 508,
+          "height": 405
+        },
+        {
+          "label": "/Im97",
+          "width": 746,
+          "height": 220
+        },
+        {
+          "label": "/Im98",
+          "width": 746,
+          "height": 220
+        },
+        {
+          "label": "/Im99",
+          "width": 508,
+          "height": 333
+        },
+        {
+          "label": "/Im100",
+          "width": 508,
+          "height": 333
+        },
+        {
+          "label": "/Im101",
+          "width": 507,
+          "height": 360
+        },
+        {
+          "label": "/Im102",
+          "width": 507,
+          "height": 360
+        },
+        {
+          "label": "/Im103",
+          "width": 610,
+          "height": 261
+        },
+        {
+          "label": "/Im104",
+          "width": 610,
+          "height": 261
+        },
+        {
+          "label": "/Im105",
+          "width": 169,
+          "height": 3045
+        }
+      ],
+      "pngSha256": "d7247166e99a3d95c9c7826c261765c94fb34165481f9ffbed772c7f991e71e0",
+      "pdfSha256": "a6c2cdd93c055a795a7ced4aee374035975d571a4028be5c4b44cbf247e05225",
+      "figSha256": "9ddd516e8a2d3a7c682e29ba2b21c276035fdbbd31e26103e1697a17f6926ae4"
+    },
+    {
+      "name": "02_success_surface_safe157",
+      "pdfPages": 1,
+      "pdfRasterImageXObjects": [
+        {
+          "label": "/Im1",
+          "width": 1290,
+          "height": 150
+        },
+        {
+          "label": "/Im2",
+          "width": 1290,
+          "height": 150
+        },
+        {
+          "label": "/Im3",
+          "width": 952,
+          "height": 127
+        },
+        {
+          "label": "/Im4",
+          "width": 952,
+          "height": 127
+        },
+        {
+          "label": "/Im5",
+          "width": 952,
+          "height": 143
+        },
+        {
+          "label": "/Im6",
+          "width": 952,
+          "height": 143
+        },
+        {
+          "label": "/Im7",
+          "width": 1797,
+          "height": 286
+        },
+        {
+          "label": "/Im8",
+          "width": 1797,
+          "height": 286
+        },
+        {
+          "label": "/Im9",
+          "width": 814,
+          "height": 134
+        },
+        {
+          "label": "/Im10",
+          "width": 814,
+          "height": 134
+        },
+        {
+          "label": "/Im11",
+          "width": 898,
+          "height": 175
+        },
+        {
+          "label": "/Im12",
+          "width": 898,
+          "height": 175
+        },
+        {
+          "label": "/Im13",
+          "width": 952,
+          "height": 223
+        },
+        {
+          "label": "/Im14",
+          "width": 952,
+          "height": 223
+        },
+        {
+          "label": "/Im15",
+          "width": 952,
+          "height": 256
+        },
+        {
+          "label": "/Im16",
+          "width": 952,
+          "height": 256
+        },
+        {
+          "label": "/Im17",
+          "width": 680,
+          "height": 92
+        },
+        {
+          "label": "/Im18",
+          "width": 680,
+          "height": 92
+        },
+        {
+          "label": "/Im19",
+          "width": 680,
+          "height": 102
+        },
+        {
+          "label": "/Im20",
+          "width": 680,
+          "height": 102
+        },
+        {
+          "label": "/Im21",
+          "width": 846,
+          "height": 253
+        },
+        {
+          "label": "/Im22",
+          "width": 846,
+          "height": 253
+        },
+        {
+          "label": "/Im23",
+          "width": 845,
+          "height": 238
+        },
+        {
+          "label": "/Im24",
+          "width": 845,
+          "height": 238
+        },
+        {
+          "label": "/Im25",
+          "width": 1102,
+          "height": 153
+        },
+        {
+          "label": "/Im26",
+          "width": 1102,
+          "height": 153
+        },
+        {
+          "label": "/Im27",
+          "width": 952,
+          "height": 260
+        },
+        {
+          "label": "/Im28",
+          "width": 952,
+          "height": 260
+        },
+        {
+          "label": "/Im29",
+          "width": 952,
+          "height": 260
+        },
+        {
+          "label": "/Im30",
+          "width": 952,
+          "height": 260
+        },
+        {
+          "label": "/Im31",
+          "width": 815,
+          "height": 103
+        },
+        {
+          "label": "/Im32",
+          "width": 815,
+          "height": 103
+        },
+        {
+          "label": "/Im33",
+          "width": 1524,
+          "height": 248
+        },
+        {
+          "label": "/Im34",
+          "width": 1524,
+          "height": 248
+        },
+        {
+          "label": "/Im35",
+          "width": 1289,
+          "height": 194
+        },
+        {
+          "label": "/Im36",
+          "width": 1289,
+          "height": 194
+        },
+        {
+          "label": "/Im37",
+          "width": 1068,
+          "height": 303
+        },
+        {
+          "label": "/Im38",
+          "width": 1068,
+          "height": 303
+        },
+        {
+          "label": "/Im39",
+          "width": 899,
+          "height": 175
+        },
+        {
+          "label": "/Im40",
+          "width": 899,
+          "height": 175
+        },
+        {
+          "label": "/Im41",
+          "width": 746,
+          "height": 120
+        },
+        {
+          "label": "/Im42",
+          "width": 746,
+          "height": 120
+        },
+        {
+          "label": "/Im43",
+          "width": 845,
+          "height": 238
+        },
+        {
+          "label": "/Im44",
+          "width": 845,
+          "height": 238
+        },
+        {
+          "label": "/Im45",
+          "width": 846,
+          "height": 270
+        },
+        {
+          "label": "/Im46",
+          "width": 846,
+          "height": 270
+        },
+        {
+          "label": "/Im47",
+          "width": 983,
+          "height": 308
+        },
+        {
+          "label": "/Im48",
+          "width": 983,
+          "height": 308
+        },
+        {
+          "label": "/Im49",
+          "width": 1272,
+          "height": 272
+        },
+        {
+          "label": "/Im50",
+          "width": 1272,
+          "height": 272
+        },
+        {
+          "label": "/Im51",
+          "width": 830,
+          "height": 177
+        },
+        {
+          "label": "/Im52",
+          "width": 830,
+          "height": 177
+        },
+        {
+          "label": "/Im53",
+          "width": 611,
+          "height": 173
+        },
+        {
+          "label": "/Im54",
+          "width": 611,
+          "height": 173
+        },
+        {
+          "label": "/Im55",
+          "width": 814,
+          "height": 117
+        },
+        {
+          "label": "/Im56",
+          "width": 814,
+          "height": 117
+        },
+        {
+          "label": "/Im57",
+          "width": 1253,
+          "height": 304
+        },
+        {
+          "label": "/Im58",
+          "width": 1253,
+          "height": 304
+        },
+        {
+          "label": "/Im59",
+          "width": 423,
+          "height": 214
+        },
+        {
+          "label": "/Im60",
+          "width": 423,
+          "height": 214
+        },
+        {
+          "label": "/Im61",
+          "width": 423,
+          "height": 214
+        },
+        {
+          "label": "/Im62",
+          "width": 423,
+          "height": 214
+        },
+        {
+          "label": "/Im63",
+          "width": 681,
+          "height": 360
+        },
+        {
+          "label": "/Im64",
+          "width": 681,
+          "height": 360
+        },
+        {
+          "label": "/Im65",
+          "width": 680,
+          "height": 360
+        },
+        {
+          "label": "/Im66",
+          "width": 680,
+          "height": 360
+        },
+        {
+          "label": "/Im67",
+          "width": 1067,
+          "height": 380
+        },
+        {
+          "label": "/Im68",
+          "width": 1067,
+          "height": 380
+        },
+        {
+          "label": "/Im69",
+          "width": 680,
+          "height": 201
+        },
+        {
+          "label": "/Im70",
+          "width": 680,
+          "height": 201
+        },
+        {
+          "label": "/Im71",
+          "width": 680,
+          "height": 201
+        },
+        {
+          "label": "/Im72",
+          "width": 680,
+          "height": 201
+        },
+        {
+          "label": "/Im73",
+          "width": 845,
+          "height": 356
+        },
+        {
+          "label": "/Im74",
+          "width": 845,
+          "height": 356
+        },
+        {
+          "label": "/Im75",
+          "width": 846,
+          "height": 356
+        },
+        {
+          "label": "/Im76",
+          "width": 846,
+          "height": 356
+        },
+        {
+          "label": "/Im77",
+          "width": 983,
+          "height": 494
+        },
+        {
+          "label": "/Im78",
+          "width": 983,
+          "height": 494
+        },
+        {
+          "label": "/Im79",
+          "width": 1000,
+          "height": 442
+        },
+        {
+          "label": "/Im80",
+          "width": 1000,
+          "height": 442
+        },
+        {
+          "label": "/Im81",
+          "width": 477,
+          "height": 319
+        },
+        {
+          "label": "/Im82",
+          "width": 477,
+          "height": 319
+        },
+        {
+          "label": "/Im83",
+          "width": 476,
+          "height": 319
+        },
+        {
+          "label": "/Im84",
+          "width": 476,
+          "height": 319
+        },
+        {
+          "label": "/Im85",
+          "width": 508,
+          "height": 445
+        },
+        {
+          "label": "/Im86",
+          "width": 508,
+          "height": 445
+        },
+        {
+          "label": "/Im87",
+          "width": 507,
+          "height": 445
+        },
+        {
+          "label": "/Im88",
+          "width": 507,
+          "height": 445
+        },
+        {
+          "label": "/Im89",
+          "width": 864,
+          "height": 450
+        },
+        {
+          "label": "/Im90",
+          "width": 864,
+          "height": 450
+        },
+        {
+          "label": "/Im91",
+          "width": 408,
+          "height": 223
+        },
+        {
+          "label": "/Im92",
+          "width": 408,
+          "height": 223
+        },
+        {
+          "label": "/Im93",
+          "width": 409,
+          "height": 223
+        },
+        {
+          "label": "/Im94",
+          "width": 409,
+          "height": 223
+        },
+        {
+          "label": "/Im95",
+          "width": 508,
+          "height": 363
+        },
+        {
+          "label": "/Im96",
+          "width": 508,
+          "height": 363
+        },
+        {
+          "label": "/Im97",
+          "width": 507,
+          "height": 417
+        },
+        {
+          "label": "/Im98",
+          "width": 507,
+          "height": 417
+        },
+        {
+          "label": "/Im99",
+          "width": 338,
+          "height": 305
+        },
+        {
+          "label": "/Im100",
+          "width": 338,
+          "height": 305
+        },
+        {
+          "label": "/Im101",
+          "width": 339,
+          "height": 251
+        },
+        {
+          "label": "/Im102",
+          "width": 339,
+          "height": 251
+        },
+        {
+          "label": "/Im103",
+          "width": 169,
+          "height": 3045
+        }
+      ],
+      "pngSha256": "6022ccdb004cdf41e31cf8c9196e028eaf962a4e1933fa3030565167da6c15ca",
+      "pdfSha256": "bf4c31f9a6e37a1a333e809db7e96d2639e88a8f87fb546529959d3df4717231",
+      "figSha256": "7813a4b6ba12974e179e54fd1c14b5df4db3dc23b2695bc2eb06d19fcfcf13e4"
+    },
+    {
+      "name": "03_success_heatmaps",
+      "pdfPages": 1,
+      "pdfRasterImageXObjects": [
+        {
+          "label": "/Im1",
+          "width": 2601,
+          "height": 2601
+        },
+        {
+          "label": "/Im2",
+          "width": 97,
+          "height": 2601
+        },
+        {
+          "label": "/Im3",
+          "width": 2601,
+          "height": 2601
+        },
+        {
+          "label": "/Im4",
+          "width": 97,
+          "height": 2601
+        }
+      ],
+      "pngSha256": "ea243cf91f3c2661a344857c8c52417152be04771cdf4f9f76eb460267b51603",
+      "pdfSha256": "b7597de11fed2518e90a07265ca07d2c080b8485c749309fbfbeb0b8ac2f4dce",
+      "figSha256": "4bded0b3795ced94aa757ef33f693f5a8a748452e2b89b87e5b2022db3c8ea9d"
+    },
+    {
+      "name": "04_flight_failure_heatmaps",
+      "pdfPages": 1,
+      "pdfRasterImageXObjects": [
+        {
+          "label": "/Im1",
+          "width": 2461,
+          "height": 2461
+        },
+        {
+          "label": "/Im2",
+          "width": 97,
+          "height": 2461
+        },
+        {
+          "label": "/Im3",
+          "width": 2461,
+          "height": 2461
+        },
+        {
+          "label": "/Im4",
+          "width": 97,
+          "height": 2461
+        },
+        {
+          "label": "/Im5",
+          "width": 2461,
+          "height": 2461
+        },
+        {
+          "label": "/Im6",
+          "width": 97,
+          "height": 2461
+        }
+      ],
+      "pngSha256": "3ce49b8a8a72e8eee4475b4cc71c8a45da6bc3cc0145f448a7cd096ce6d5f8ef",
+      "pdfSha256": "dda4fd05393b3076bea9f59f2f3b7eac50791b61a4d4625c1a85112b7e79d08c",
+      "figSha256": "1960cd8a3f3cc00c0130898c2027c475c79b3fd3704f1b0884462d9b1fc53f61"
+    }
+  ],
+  "sourceCsvMatchesSummaryByteForByte": true,
+  "primaryDenominator": 200,
+  "conditionalDenominator": 157,
+  "visualReview": "All four final PNG exports inspected. Surface labels and maximum/baseline markers are legible; heatmap footnotes do not overlap axes; flight panels include all six replanning failures.",
+  "pdfNote": "MATLAB ContentType vector export contains embedded raster objects for some markers or heatmaps; do not claim a purely vector PDF.",
+  "source": "experiments3d/plot_margin_grid49_reviewed3d.m",
+  "sourceSha256": "cdcbd45e74ba1b43fbc7a6ea67c23c3d9483fcc929711fa08aaebf14abc418e1"
+}

@@ -1,0 +1,6 @@
+{
+  "initialError": "TypeError: float object is not iterable while formatting one temporary height.",
+  "repair": "Normalize scalar or array JSON height values to a list for presentation.",
+  "scriptSha256": "84446e082a3ac6c73467609d97a233c4d0f2514f19e8b7586e5d97949a034bde",
+  "numericalResultsChanged": false
+}

@@ -1,0 +1,12 @@
+{
+  "hashes": {
+    "plot_clearance_study3d.m": "c8252ac81cce1386acce41977731d91d32ea2b3b10d7a804858d450bd819c789",
+    "analyze_clearance_study.py": "eac899e91625eb152e693328767e413bdff6db4053fea57aeca87ca1cb21d4d7"
+  },
+  "auditSnapshot": "postprocessing_repair01",
+  "snapshot": "postprocessing_graphics02",
+  "purpose": "Consistent color semantics, exact small-sample labels, chart CSVs and report links",
+  "numericalCommit": "da6b2db6b6c6c3dcd339b8e8e9f99934c2d04b3d",
+  "passed": true,
+  "completedLocal": "2026-10-07 00:29:12"
+}

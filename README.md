@@ -1,237 +1,120 @@
-# 无人机编队智能避障仿真软件 V1.1.1
+# 无人机编队智能避障仿真软件 2.3.3
 
-这是一个 MATLAB 2D 仿真工程，用质点模型表示无人机，五架无人机以 V 字形编队
-飞行，采用领航-跟随结构。长机向目标点飞行，编队内各机在改进人工势场法（APF）
-和自适应动态规划（ADP）协同下避开随机生成的圆形障碍物。当长机到达目标点、
-各僚机收敛到当前参考位置、全机减速并连续保持一段时间后，任务判定完成。终端参考以初始 V 形为基准，遇障时仍会调整。
+五架无人机在 **80×80×30 m** 的三维静态环境中飞行。规划使用有限高度层，控制由 APF、编队参考跟踪、共享 Actor–Critic ADP 和预测安全修正组成。当前重点是可解释性、实时性、鲁棒性与轻量性。
 
-现行版本标识为 V1.1.1（2026-09-24 配置），采用领航-跟随编队控制，最大速度为 **3 m/s**，长机规划膨胀净空为 **4.2 m**。巡航跟踪动态队形参考，终端以固定 V 形为参考基准并保留避障修正；不保证全航程刚性队形。
+## 当前状态 · 2026-10-09
 
-## 当前配置与结果入口
+| 项目 | 当前结果或配置 |
+|---|---|
+| 软件版本 | **2.3.3**，权威配置为 `config/default_params3d.m` |
+| 正常随机场景完整任务 | **1955/2000 = 97.75%**；seed 10001–12000；95% Wilson 区间 97.00%–98.31% |
+| 失败 | 34 次安全修正未解决、10 次任务超时、1 次重规划失败 |
+| 规划 / 参考余量 | **1.2 / 4.0 m**；各向同性；硬障碍 / 机间阈值为 0.6 / 1.0 m |
+| 高度选择 | 基础 **5、10、15、20、25 m**；规划失败后补可用区间中点，最多新增 8 层 |
+| 速度 / 命令加速度上限 | 3 m/s / 3 m/s²，按三维向量模长限幅 |
+| 仿真步长 / 任务上限 | 0.05 s / 120 s |
+| 共享 ADP 参数 | Critic 6 个、Actor 3×6 个，共 **24 个标量** |
+| 已记录单步耗时 | 平均 11.67 ms，P95 26.36 ms，P99 40.08 ms；**5478/1423679 步超过 50 ms（0.3848%）** |
+| 实时性状态 | 计时来自六个并行 MATLAB 进程；最大单步 12.55 s；**单进程复测尚未开展** |
 
-以下数值以 `config/default_params.m` 为准。扫描范围是实验自变量，不等于日常演示默认值。
+正常随机地图通过初始编队、首尾连续航段、终端队形及独立运动见证条件筛选，保留全部候选与拒绝原因。97.75% 只适用于该条件分布和无噪声质点模型；不直接与旧无约束或结构化地图的成功率比较。初始规划不计入上述单步分母，飞行中重规划和终端规划计入。
 
-| 参数 | 当前默认值 | 三参数扫描 |
-| --- | --- | --- |
-| 最大速度 `vmax` | 3 m/s | 固定 3 m/s |
-| 最大加速度 `amax` | 3 m/s² | 固定 3 m/s² |
-| 障碍物数量 `nObstacles` | 16 | 4、8、12、16、20 |
-| 航线两侧散布半宽 `corridorBand` | 50 m（左右各 50 m） | 10、15、20、25、30 m |
-| 最小障碍边缘间距 `marginObs` | 1 m | 1、2、3、4、5 m |
-| 长机规划膨胀净空 `pathClearance` | 4.2 m | 固定 4.2 m |
-| 场景筛选有效净空 | 5.6 m | 固定 5.6 m |
-| 随机种子 `seed` | 25 | 每组合 1–200 |
-| 时间步长 / 时间上限 | 0.05 s / 500 s | 同默认 |
-| 工作空间 / 无人机数量 | 80×80 m / 5 架 | 同默认 |
+**组员先读：**[当前状态](docs/CURRENT_STATUS.md) · [协作与复现指南](docs/TEAM_GUIDE.md) · [最新交接](docs/HANDOFF_CURRENT_20261009.md)
 
-生成器有效净空为 `max(pathClearance, 最大编队横向偏移 + obsSafe)`，即 `max(4.2,5.0+0.6)=5.6 m`；它与长机实际规划的 4.2 m 是不同环节。散布宽度为采样前半宽，超出工作空间时障碍圆心会被截回场地内。
+## 快速运行
 
-- [现行导师报告及数据](docs/导师报告_20260924/)：仅使用 3 m/s 的主扫描和默认环境补测。
-- [报告及数据压缩包](docs/导师报告_20260924_报告及数据.zip)。
-- [完整原始结果压缩包](docs/障碍物扫描原始结果_20260923_20260924.zip)：两批实验的 MAT 检查点、参数与源码快照、CSV 和图表。
-- [三参数扫描与统计口径](docs/OBSTACLE_SWEEP.md)、[当前交接说明](docs/PROJECT_HANDOFF.md)。
-
-主扫描 25,000 次计划试验：24,783 成功、1 碰撞、7 超时、209 场景生成失败，无无效状态或执行异常。条件飞行成功率为 24,783/24,791 = **99.9677%**；含生成失败的整体成功比例为 24,783/25,000 = **99.132%**。当前默认环境（16 个障碍、50 m 半宽、1 m 间距）另测 seed 1–200，**200/200 成功**，不与主扫描混合。上述均为特定生成器下的仿真观察，不是普遍安全保证。
-
-## 运行方式
-
-Windows 下直接双击项目根目录的 `Start_UAV.cmd`，会通过 MATLAB 批处理启动运行
-`main`、显示轨迹/指标图窗和播放动画，无需先打开 MATLAB 桌面。运行结束后图窗保留，
-关闭全部结果图窗后该 MATLAB 进程退出。启动器针对本机 MATLAB R2024a 自动设置
-`MATLAB_PREFDIR`，使用 `.runtime/preferences_R2024a/`，解决原有
-`failed to load settings errors_warnings plugin` 启动故障。无需手动配置环境变量。
-原有用户配置不被删除，启动日志保存在 `.runtime/startup_时间戳.log`。
-启动器使用软件 OpenGL，以避开本机图形驱动初始化问题。
-
-在另一台电脑使用时，可在 PowerShell 指定安装路径：
-
-```powershell
-.\launch_project.ps1 -MatlabExe 'C:\Program Files\MATLAB\R2024a\bin\matlab.exe'
-```
-
-在 MATLAB 中打开项目根目录，运行：
+需要 Windows 与 MATLAB R2024a。克隆本私有仓库后，在 MATLAB 中进入项目根目录：
 
 ```matlab
-main
+r = main;                          % 默认 S8_window，保存 MAT 和三维诊断图
 ```
 
-也可打开 `main.m` 后点击 MATLAB 的“运行”。`main` 会自动加载源码和参数目录。
-需要自定义参数并取得结果时：
+运行正常随机场景并导出动画：
 
 ```matlab
 cleanup = setup_project();
-p = default_params();
-p.animate = false;
-result = main(p);
+p = default_params3d();
+p.sceneId = 'random_normal';
+p.seed = 10001;
+p.animate = true;
+r = main3d(p);
 ```
 
-默认运行一次随机障碍物仿真，在 `results/run_v1.1.1_时间戳/` 下保存轨迹图、
-指标图和完整 MAT 结果，并在命令行
-打印任务结果。运行结束后会自动弹出一个动态过程动画窗口，可以直观看到五机编队
-绕障飞行和队形收敛过程。如果只想重新播放某次仿真结果，可以单独调用：
+`main`、`main3d` 与 `Start_UAV.cmd` 使用当前三维配置。输出目录为项目内 `results/3d_run_v2.3.3_时间戳/`，包含仿真 MAT、`cycle_ms.csv`、PNG/FIG 及启用动画时的 `flight_3d.mp4`。正常地图还保存生成候选 MAT、CSV 和 JSON 收据。本机项目根目录位于 F 盘，运行与临时文件继续保存在 F 盘。
+
+对已有轨迹导出视频：
 
 ```matlab
 cleanup = setup_project();
-result = run_simulation(default_params());
-play_flight_animation(result);
+render_3d_animation(fullfile('results','某次运行','simulation_result.mat'), ...
+    fullfile('results','某次运行','flight_3d.mp4'));
 ```
 
-批量统计不同随机场景的成功率：
+MAT 格式支持 `main3d` 的 `result` 与实验运行器的 `r`。当前默认 `animate=false`。
 
-```matlab
-run_batch(20)
+## 随机场景入口
+
+| 场景 ID | 规则与用途 |
+|---|---|
+| `random` / `random_normal` / `normal_random` | 当前 2.3.3 正常场景，最多 100 张完整候选；保存拒绝记录 |
+| `random_unconditioned` | 原无约束随机体，数量、类型、尺寸和中心随机，允许重叠；可能出现无效初始位置 |
+| `random_structured` | 历史四类结构化分布：混合体、顶棚、单窗口、交错窗口 |
+| `random_legacy` | 2.0.0 的旧几何分布；精确复现还需对应冻结源码 |
+
+所有障碍均为已知静态球体、有限圆柱或轴对齐箱体，支持悬空、顶棚和高度窗口。正常图要求初始五机净空至少 2 m、首尾 5 m 航段净空至少 1.2 m、目标固定朝向 V 形净空至少 4 m、边界至少 1.2 m；独立固定朝向编队平移见证检查净空、速度、加速度与 120 s 时限。[详细生成规则](experiments3d/README_NORMAL_SCENES.md)
+
+## 算法与职责
+
+```mermaid
+flowchart LR
+  M[静态地图与任务约束] --> H[基础五层规划<br/>失败后有限中点补层]
+  H --> W[导航航点]
+  X[五机状态] --> R[动态编队参考]
+  W --> C[APF 与参考跟踪]
+  R --> C
+  X --> A[共享 ADP 修正]
+  C --> S[模长限幅与预测安全检查]
+  A --> S
+  S --> D[三维质点推进与连续安全评价]
+  D --> X
+  D --> L[学习更新、成功判据与记录]
 ```
 
-每次批量运行都会写入独立的 `results/batch_v1.1.1_时间戳/` 目录，不覆盖历史结果。
-批量结果包含参数、随机种子、错误信息和可复现的 MAT 数据。`run_batch` 的成功率以全部请求 seed 为分母（含异常），不能直接与三参数扫描排除生成失败后的“条件飞行成功率”混用。
+规划回答“路线经过哪里”；参考生成回答“每架机跟踪哪里”；APF 与跟踪控制生成基础加速度；ADP 依据六维特征在线修正；安全层检查下一步运动并在预算内修正。安全修正失败时终止任务并保留原因。[函数接口与实现说明](docs/three_dimensional/IMPLEMENTATION.md)
 
-障碍环境三参数扫描（固定限速 3 m/s；125 组、每组 seed 1–200）：
+完整任务成功要求：长机目标误差≤1 m，僚机对动态参考的最大误差≤1 m，全部速度≤0.25 m/s，连续保持 1 s，且无硬失败。成功不等于全程维持刚性 V 形。
 
-```matlab
-outputDir = run_obstacle_sweep('Workers',4);
-% 中断后继续：run_obstacle_sweep('ResumeDir',outputDir,'Workers',4)
-```
+## 最新证据
 
-支持并行计算、按批检查点、源码快照、逐组 95% 置信区间和 PNG/PDF 图表。
-完整参数、统计分母及恢复方法见 [三参数扫描说明](docs/OBSTACLE_SWEEP.md)。
+- [正常场景 2000 seed 报告与完整 CSV](docs/three_dimensional/normal_random_2000_20261009/README.md)：全部预定任务、拒绝候选、冻结哈希和原始 MAT 审核。
+- [单步耗时统计](docs/three_dimensional/step_timing_20261009/README.md)：逐 seed 汇总、全部 5478 条超时步骤、统计方法及核对记录。
+- [正常场景功能验收](docs/three_dimensional/normal_scene_constraints_20261009/README.md)：12 图几何验证、四个三维回归套件及三次端到端冒烟。
+- [结果与复现索引](docs/three_dimensional/RESULT_INDEX.md)：各阶段证据、图表与历史视频。
+- [本次更新记录](CHANGELOG.md)。
 
-## 目录结构
+仓库包含当前源码、运行器、紧凑 CSV/JSON、历史科研图与示例 MP4。完整逐步 MAT 和全部候选几何保存在本机 F 盘 `results/`，该目录不进入 Git；组员复测方法及数据边界见[协作指南](docs/TEAM_GUIDE.md)。
 
-```text
-UAV_APF_ADP_Formation/
-  main.m                单次演示入口
-  run_batch.m           随机场景批量统计
-  setup_project.m       临时配置 MATLAB 搜索路径
-  config/
-    default_params.m    全部仿真参数
-  src/
-    run_simulation.m    主仿真循环与停滞逃逸逻辑
-    validate_params.m   参数合法性检查
-    init_formation.m    初始 V 形编队
-    generate_obstacles.m 随机障碍生成与可行性过滤
-    formation_desired_positions.m 领航轨迹跟踪期望位置
-    leader_control.m    长机控制
-    follower_control.m  僚机控制
-    apf_attractive_force.m 目标制导力
-    apf_repulsive_force.m 改进斥力场
-    inter_uav_repulsion.m 机间避让
-    adp_features.m      ADP 状态特征
-    adp_actor.m         ADP Actor 网络
-    adp_critic.m        ADP Critic 网络
-    adp_update.m        ADP 在线学习与策略更新
-    resolve_collisions.m 预测式碰撞安全层
-    play_flight_animation.m 动态过程动画播放
-    plot_scene.m        场景绘制
-    plot_trajectory.m   轨迹图
-    plot_metrics.m      指标图
-  results/              运行后自动生成
-  tests/
-    run_all_tests.m     核心回归测试
-```
-
-## 算法说明
-
-### 领航-跟随编队
-
-无人机 1 是长机，其余四架是僚机。长机实时记录历史轨迹；僚机在长机历史轨迹上
-取滞后一定距离的点，再叠加 V 形横向偏移，得到期望位置；随后按障碍表面4 m净空修正期望点。该机制倾向沿长机走廊跟随，但不保证僚机实际轨迹始终安全。
-
-长机进入目标保持区后，队形期望点切换回初始 V 形相对偏移，并以到点瞬间的航向
-固定队形朝向，参考点仍保留避障修正。记录的队形误差是各僚机到这些参考点的最大距离，不能等同于刚性 V 形几何误差。
-
-### 改进人工势场
-
-长机使用“按剩余距离限速”的目标制导，接近目标时自动减速。障碍斥力采用带目标
-距离衰减的改进势场，并加入切向分量，降低目标不可达和局部极小的影响。
-
-### ADP
-
-ADP 采用 Actor-Critic 结构：
-
-- 状态特征包含最近障碍距离、目标距离、速度、队形误差和航向对齐程度；
-- Critic 用线性网络逼近长期代价 J；
-- Actor 输出二维修正加速度，叠加到 APF/编队控制量上；
-- 在线用归一化时序差分误差更新 Critic，并用即时控制代价和下一状态代价对实际控制量
-  的梯度更新 Actor；运行增益与学习梯度使用一致尺度，权重范数受到限制。
-
-可在 `config/default_params.m` 中关闭：
-
-```matlab
-params.adp.enable = false;
-```
-
-### 局部极小逃逸与碰撞安全
-
-长机先在带编队净空的占据栅格上规划路径，再沿经过简化的航点飞行。若出现局部
-停滞，仍可选择临时逃逸航点；进入保持模式时会清除旧航点。
-
-长机进入目标保持区后，僚机会对归队目标规划局部绕障路径；归队过程保留障碍避让
-权重，不再为了快速归队主动削弱避障。安全层还会根据当前接近速度和剩余净空提前
-制动，并在保持阶段保留原有预警余量。受有限加速度和路径规划离散化影响，任意
-场景的无碰撞和收敛仍不能保证；检测到碰撞或达到时间上限时如实返回 `collision`
-或 `timeout`。
-
-控制量计算完成后还有一层预测式碰撞安全层：迭代预测下一步扫掠轨迹，若连续轨迹
-会进入障碍安全区或机间安全区，则追加径向避让和闭合速度抵消项。最终碰撞判定也
-检查相邻离散状态之间的连续线段，避免只检查采样点造成“穿透”。
-
-### 随机障碍可行性
-
-随机障碍生成后会在二维占据网格上搜索从起点到终点的通道，并按编队最大横向尺寸
-预留净空。单个障碍放置失败时会重新生成整组场景；超过最大尝试次数会明确报错，
-不再静默返回不合格布局。
-
-## 任务完成条件
-
-满足以下全部条件且保持 `holdDuration` 秒后任务成功：
-
-1. 长机与目标点距离不大于 `goalTol`；
-2. 所有僚机到各自当前期望位置的误差不大于 `formTol`；
-3. 全机速度不大于 `vTol`；
-4. 仿真过程中没有发生碰撞，且未超过 `Tmax`。
-
-## 常用参数
-
-所有参数在 `config/default_params.m` 中集中配置：
-
-```text
-seed              随机场景种子
-nObstacles        障碍物数量
-formSpacing       V 形纵向间距
-formWing          每排横向偏移增量（默认 2.5 m，第二排为 5 m）
-kRep              斥力增益
-rho0              斥力作用半径
-navGain           目标接近速度增益
-closeBoostDist    近目标引力增强距离
-closeBoostGain    近目标引力增强倍数
-holdTriggerDist   长机开始保持的距离
-escapeRadius      局部极小逃逸航点距离
-collisionMargin   碰撞安全层触发余量
-adp.lrC           Critic 学习率
-adp.lrA           Actor 学习率
-```
-
-修改后重新运行 `main` 即可。长机栅格膨胀4.2 m，常规路径简化检查净空为3.4 m，端点连接检查为0.75 m；僚机归队栅格规划净空为1.9 m。这些是不同阶段的参数，不是实际轨迹全程净空保证。
-
-## 测试
-
-Windows 下双击 `Test_UAV.cmd` 可运行核心测试。完整验证（包含绘图、动画及20个
-固定种子的批量场景）可在 PowerShell 运行 `.\launch_project.ps1 -Mode Verify`。
-
-在 MATLAB 中运行：
+## 检查与复现
 
 ```matlab
 cleanup = setup_project();
-run_all_tests
+test_3d;
+test_environment3d;
+test_adaptive_height3d;
+test_directional_clearance3d;
 ```
 
-11 项测试覆盖参数校验、任意机数 V 形初始化、障碍物内部斥力、连续碰撞检测、重合无人机
-分离、成功条件连续保持、ADP 权重有限更新、短时仿真、绕障路径和提前制动。
+正常随机实验按照 `prepare → generate → flight → audit → analyze` 冻结地图，再运行完整任务。[2000 seed 运行器说明](experiments3d/README_NORMAL_SEED_STUDY.md)。不要把生成接受率当作飞行成功率，参数对照复用冻结地图，单进程计时复测尚未执行。
 
-历史 v1.0.0/v1.1.0 的 100 个配对场景结果见 `docs/性能对比报告_v1.0.0_vs_v1.1.0.pdf`，仅代表当时版本与配置。它们不作为当前 3 m/s、16 障碍默认环境的性能结果；复现必须使用对应历史源码，见 [历史性能复现说明](docs/性能测试复现说明.md)。历史导师报告归档于 [docs/archive](docs/archive/)。
+## 历史实验
 
-## 运行环境
+| 版本 / 场景分布 | 已完成结果 | 入口 |
+|---|---|---|
+| 2.3.2 默认余量更新 | 1.2/4.0 m；S8 与回归验证通过 | [记录](docs/three_dimensional/default_margin_update_20261009/README.md) |
+| 2.3.1，无约束 200 图、49 组合 | 9800 次任务；最高 121/200（60.5%），基线 80/200（40%） | [扫描报告](docs/three_dimensional/margin_grid49_20261008/REPORT.md) |
+| 2.3.1，原结构化 1000 图同图回放 | 固定五层 564/1000，补层 1000/1000 | [回放报告](docs/three_dimensional/midpoint_study_20261008/REPORT.md) |
+| 2.2.0，分方向余量独立验证 | 候选 1000/1000；属于另一参数与地图协议 | [边界报告](docs/three_dimensional/clearance_study_20261006/REPORT.md) |
+| 2.0.0 三维基础阶段 | 489 次消融与扰动试验 | [历史技术报告](docs/three_dimensional/TECHNICAL_REPORT.md) |
+| 1.1.1 二维 | 25000 次主扫描与 200 次补测 | [历史二维说明](docs/archive/README_v1.1.1_2d.md) |
 
-- MATLAB R2024a；单次仿真可直接运行；并行扫描需要 Parallel Computing Toolbox，无该工具箱时指定 `UseParallel=false`；
-- 项目不包含或分发第三方源代码；
-- `MathWorks/` 若由 MATLAB 自动生成，属于本机环境数据，不是项目源码。
+历史报告、源码快照和数据保持各自版本信息。当前有限层搜索与五轮安全修正没有任意环境完备性或形式安全保证；仿真没有六自由度、动态障碍、通信延迟和实际电池功率模型。累计爬升、路长及加速度平方积分均为代理指标。

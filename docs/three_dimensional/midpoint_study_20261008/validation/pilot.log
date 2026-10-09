@@ -1,0 +1,21 @@
+ADAPTIVE_HEIGHT_TESTS_PASSED: gap=13 m, covered, sealed, two-window, cache, budget and all solids.
+3-D environment tests passed: roof, window, fixed-layer gap and closed-solid checks.
+DIRECTIONAL_CLEARANCE_TESTS_PASSED
+3-D tests passed. Empty-map completion 30.15 s; overpass 2 waypoints.
+MIDPOINT_PILOT seed=1 old=success new=success added=
+MIDPOINT_PILOT seed=2 old=success new=success added=
+MIDPOINT_PILOT seed=3 old=success new=success added=
+MIDPOINT_PILOT seed=4 old=planning_failed new=success added=18.7362387121
+MIDPOINT_PILOT seed=5 old=success new=success added=
+MIDPOINT_PILOT seed=6 old=success new=success added=
+MIDPOINT_PILOT seed=7 old=planning_failed new=success added=11.610466315;25.4168930018
+MIDPOINT_PILOT seed=8 old=planning_failed new=success added=17.9874352223
+MIDPOINT_PILOT seed=9 old=success new=success added=
+MIDPOINT_PILOT seed=10 old=success new=success added=
+MIDPOINT_PILOT seed=11 old=planning_failed new=success added=12.442157511;4.55830615997
+MIDPOINT_PILOT seed=12 old=planning_failed new=success added=16.9203975721;12.233302739;25.4835377828
+MIDPOINT_PILOT seed=13 old=success new=success added=
+MIDPOINT_PILOT seed=14 old=success new=success added=
+MIDPOINT_PILOT seed=15 old=planning_failed new=success added=17.7905415781
+MIDPOINT_PILOT seed=16 old=planning_failed new=success added=12.7863286332
+MIDPOINT_PILOT_COMPLETE success=16/16 exact_legacy=16/16

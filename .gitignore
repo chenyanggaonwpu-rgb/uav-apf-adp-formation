@@ -5,6 +5,9 @@ results/
 *.m~
 slprj/
 codegen/
+__pycache__/
+*.pyc
+交付文件/
 
 # LaTeX build artifacts
 *.aux

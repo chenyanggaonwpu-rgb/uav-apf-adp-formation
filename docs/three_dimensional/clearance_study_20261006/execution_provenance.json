@@ -1,0 +1,9 @@
+{
+  "screenControllerCommit": "da6b2db6b6c6c3dcd339b8e8e9f99934c2d04b3d",
+  "sequentialLauncherCommit": "1e05f75",
+  "queuedPostprocessLauncherCommit": "7d101d1",
+  "numericalFunctions": "Immutable source_snapshot checked against source_sha256.csv",
+  "postprocessingFunctions": "Read and frozen into postprocessing_snapshot when numerical stages finish",
+  "logicalProcessors": 20,
+  "note": "Queued postprocessing launcher predates the addition of check_clearance_baseline.py to its snapshot list; that separate check is tracked in Git and has already passed."
+}

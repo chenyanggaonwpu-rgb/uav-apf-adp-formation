@@ -1,0 +1,8 @@
+{
+  "phase": "audit",
+  "complete": true,
+  "records": 2000,
+  "wallSeconds": 163.76599999999962,
+  "workers": 6,
+  "endedUTC": "2026-10-09T13:32:14.174337+00:00"
+}

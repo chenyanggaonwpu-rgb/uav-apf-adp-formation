@@ -28,6 +28,7 @@ function result = run_simulation(params)
     hist.stallTime = zeros(nSteps, 1);    % 预分配停滞时间记录
     hist.successHoldTime = zeros(nSteps, 1); % 连续满足全部成功条件的时长
     hist.predictedSafe = false(nSteps, 1); % 安全层最终预测是否通过硬碰撞检查
+    hist.cycleMs = zeros(nSteps, 1);       % 完整在线周期耗时（不含绘图/磁盘）
 
     leaderReached = false;                % 长机是否已进入目标保持区
     holdTime = 0;                         % 成功条件已连续保持的时间
@@ -51,6 +52,7 @@ function result = run_simulation(params)
     params.holdMode = false;              % 初始不在保持队形模式
 
     for k = 1:nSteps                      % 主仿真循环，逐时间步推进
+        cycleClock = tic;
         t = (k - 1) * params.dt;          % 当前仿真时刻
         params.holdMode = leaderReached;  % 先更新模式，再计算本步期望队形
         [pDes, vDes, psi] = formation_desired_positions(state, obstacles, params); % 计算每架僚机的期望位置和期望速度
@@ -137,6 +139,7 @@ function result = run_simulation(params)
             hist.leaderDist(k) = inf;
             hist.formationErr(k) = inf;
             hist.state(:, :, k) = state;
+            hist.cycleMs(k) = 1000 * toc(cycleClock);
             break;
         end
         params.leaderTrailCount = params.leaderTrailCount + 1;
@@ -294,6 +297,7 @@ function result = run_simulation(params)
             success = false;              % 任务失败
             reason = 'collision';         % 结束原因设为碰撞
             kStop = k;                    % 记录结束步数
+            hist.cycleMs(k) = 1000 * toc(cycleClock);
             break;                        % 跳出主循环
         end                               % 结束 if
 
@@ -301,8 +305,10 @@ function result = run_simulation(params)
             success = true;               % 任务成功
             reason = 'success';           % 结束原因设为成功
             kStop = k;                    % 记录结束步数
+            hist.cycleMs(k) = 1000 * toc(cycleClock);
             break;                        % 跳出主循环
         end                               % 结束 if
+        hist.cycleMs(k) = 1000 * toc(cycleClock);
     end                                   % 结束主仿真循环
 
     result.success = success;             % 保存是否成功
@@ -328,6 +334,7 @@ function result = run_simulation(params)
     result.history.stallTime = hist.stallTime(1:kStop); % 截取停滞时间记录
     result.history.successHoldTime = hist.successHoldTime(1:kStop);
     result.history.predictedSafe = hist.predictedSafe(1:kStop);
+    result.history.cycleMs = hist.cycleMs(1:kStop);
 end                                       % 结束 run_simulation 函数
 
 function wp = pick_escape_waypoint(p, goalDir, obstacles, params)

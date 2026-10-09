@@ -1,0 +1,10 @@
+{
+  "records": 8422,
+  "checked": 8422,
+  "passed": true,
+  "mapGeometryCount": 2045,
+  "executionErrors": 0,
+  "problems": [],
+  "independentChecks": "Map identity, input/row equality, all true state vertices and pair distances; original stored swept-distance records and final hold checks reconciled.",
+  "limits": "Vertex recomputation does not replace the frozen simulator swept checks. No independent full continuous trajectory proof."
+}

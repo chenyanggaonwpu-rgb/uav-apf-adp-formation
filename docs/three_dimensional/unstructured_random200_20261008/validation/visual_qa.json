@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "finalPngChartsReviewed": 4,
+  "planningFailureMapReviewed": true,
+  "decodedVideoFramesReviewed": 3,
+  "videoSeed": 2001,
+  "videoWidth": 1920,
+  "videoHeight": 1080,
+  "method": "Manual visual inspection of the four final scientific chart PNGs, the failure scene, and three decoded MP4 frames.",
+  "repairs": [
+    "Move count labels above interval caps and bar tops",
+    "Reserve left label space",
+    "Add scatter type legend",
+    "Place 50 ms threshold inside the axes"
+  ],
+  "firstRenderPreserved": "figures_first_render",
+  "extraNumericalSimulations": 0,
+  "files": [
+    {
+      "file": "figures/01_outcomes.png",
+      "sha256": "8712387328a93b91c05bfc600968cb9760fe90f1156bbb556955d8056aee8367"
+    },
+    {
+      "file": "figures/02_success_by_count.png",
+      "sha256": "b34854096ee494e0262e39be80e9cc568ce7fd3732e07f57c7c028b0a9de5fd5"
+    },
+    {
+      "file": "figures/03_random_input_distribution.png",
+      "sha256": "188d544ce623b43a10f832c5cb1392881879bd84acab22c9ccd5eecf5eaef217"
+    },
+    {
+      "file": "figures/04_computation_time.png",
+      "sha256": "2f4792844e688da954a66ec856b9385c9d14f6df6fb36d7169fc438edaad6158"
+    },
+    {
+      "file": "examples/seed_002001/video_qa/frame_1.png",
+      "sha256": "f8bde13065c493be6c81915880d5ef389104961db9b50372e49db51a56821959"
+    },
+    {
+      "file": "examples/seed_002001/video_qa/frame_2.png",
+      "sha256": "7ed9627e6af45da34d98f5b9b4009c2d4098e242b3c3dbec5a8f07650308b724"
+    },
+    {
+      "file": "examples/seed_002001/video_qa/frame_3.png",
+      "sha256": "150f736483464b74a6393afef7da5dc6e23fe6f2a1bddf47a5d7f66d00203fc7"
+    },
+    {
+      "file": "examples/seed_002003/map_3d.png",
+      "sha256": "3098238f2c879d95137cd393e7ba7d1a09da7093956bbc4bd833616179a8ddf8"
+    }
+  ]
+}

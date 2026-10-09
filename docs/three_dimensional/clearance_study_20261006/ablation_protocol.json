@@ -1,0 +1,109 @@
+{
+  "stage": "ablation",
+  "scheduled": 240,
+  "jobCsvSha256": "aea8d3ce5016752ed2f57ac85db21e371c90d55abb6b5c4c61fedab4b2abf62c",
+  "createdLocal": "2026-10-06 23:58:55",
+  "configs": [
+    {
+      "configId": "baseline",
+      "enabled": 0,
+      "pathXY": 4.2,
+      "refXY": 4.0,
+      "planZ": 4.2,
+      "refZ": 4.0
+    },
+    {
+      "configId": "plan_vertical_only",
+      "enabled": 1,
+      "pathXY": 4.2,
+      "refXY": 4,
+      "planZ": 2.0,
+      "refZ": 4.0
+    },
+    {
+      "configId": "both_vertical",
+      "enabled": 1,
+      "pathXY": 4.2,
+      "refXY": 4,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "reference_vertical_only",
+      "enabled": 1,
+      "pathXY": 4.2,
+      "refXY": 4,
+      "planZ": 4.2,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f005",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 4.4,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "horizontal_only",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 4.4,
+      "planZ": 4.2,
+      "refZ": 4.0
+    }
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "conditions": [
+    [
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "policies": [
+    "fixed5"
+  ]
+}

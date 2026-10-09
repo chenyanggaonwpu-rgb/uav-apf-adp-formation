@@ -1,0 +1,10 @@
+{
+  "reason": "Zero-value labels crossed axis tick marks; small layer-count labels touched bar tops.",
+  "changes": [
+    "Align labels above their anchor",
+    "Increase paired-outcome label offset",
+    "Allow chart-only export without rendering the movie again"
+  ],
+  "scriptSha256": "31020970657cbfb6cf21dc1f299b51eee578a06045828cfa2b9e7e4e6ea52cd4",
+  "numericalResultsChanged": false
+}

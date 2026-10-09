@@ -1,0 +1,4 @@
+seed,success,reason,planStatus,time,obstacleCount
+3001,1,success,direct,30.1,5
+3002,1,success,direct,32.15,12
+3003,1,success,path,38.3,22

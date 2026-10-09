@@ -1,0 +1,6 @@
+DEFAULT_MARGIN_SMOKE scene=S8_window success=1 reason=success time=30.65 minObs=4.210367 minPair=3.667191
+3-D tests passed. Empty-map completion 30.15 s; overpass 2 waypoints.
+3-D environment tests passed: roof, window, fixed-layer gap and closed-solid checks.
+ADAPTIVE_HEIGHT_TESTS_PASSED: gap=13 m, covered, sealed, two-window, cache, budget and all solids.
+DIRECTIONAL_CLEARANCE_TESTS_PASSED
+DEFAULT_MARGIN_UPDATE_VALIDATION_PASSED

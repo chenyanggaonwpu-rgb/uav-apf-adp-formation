@@ -1,0 +1,22 @@
+{
+  "seed": 4,
+  "source": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\adaptive_midpoint3d_v2.3.1_20261008_154420_015\\examples\\seed_000004\\flight_3d.mp4",
+  "width": 1920,
+  "height": 1080,
+  "duration": 13.2499166,
+  "frameRate": 12.000004800001919,
+  "decodedFrames": [
+    {
+      "frame": "flight_frame_01.png",
+      "timeSeconds": 0.66249583000000012
+    },
+    {
+      "frame": "flight_frame_02.png",
+      "timeSeconds": 6.6249583
+    },
+    {
+      "frame": "flight_frame_03.png",
+      "timeSeconds": 12.58742077
+    }
+  ]
+}

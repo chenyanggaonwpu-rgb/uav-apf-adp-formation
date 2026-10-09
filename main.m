@@ -3,10 +3,14 @@ function result = main(params)
     projectRoot = fileparts(mfilename('fullpath')); % 获取本项目根目录
     oldPath = path;
     pathCleanup = onCleanup(@() path(oldPath));
-    addpath(fullfile(projectRoot, 'src'), ...
+    addpath(fullfile(projectRoot, 'src'), fullfile(projectRoot, 'src3d'), ...
             fullfile(projectRoot, 'config'));       % 把源码目录和配置目录加入 MATLAB 搜索路径
     if nargin < 1
-        params = default_params();
+        params = default_params3d();
+    end
+    if numel(params.start) == 3
+        result = main3d(params);
+        return;
     end
     params = validate_params(params);
     params.figDir = create_run_output_dir(params.resultsRoot, 'run', params.version);

@@ -1,0 +1,109 @@
+{
+  "n": 1000,
+  "baselineSuccess": 564,
+  "adaptiveSuccess": 1000,
+  "pairedTransitions": {
+    "retained_success": 564,
+    "rescued": 436
+  },
+  "adaptiveOutcomes": {
+    "success": 1000
+  },
+  "families": [
+    {
+      "family": "all",
+      "n": 1000,
+      "baselineSuccess": 564,
+      "adaptiveSuccess": 1000,
+      "baselinePercent": 56.4,
+      "adaptivePercent": 100.0,
+      "increasePercentagePoints": 43.6,
+      "baselineLow": 53.30781384432805,
+      "baselineHigh": 59.44320364705682,
+      "adaptiveLow": 99.61732415144449,
+      "adaptiveHigh": 100,
+      "initialPlanFound": 1000
+    },
+    {
+      "family": "mixed",
+      "n": 250,
+      "baselineSuccess": 250,
+      "adaptiveSuccess": 250,
+      "baselinePercent": 100.0,
+      "adaptivePercent": 100.0,
+      "increasePercentagePoints": 0.0,
+      "baselineLow": 98.48667005045553,
+      "baselineHigh": 99.99999999999997,
+      "adaptiveLow": 98.48667005045553,
+      "adaptiveHigh": 99.99999999999997,
+      "initialPlanFound": 250
+    },
+    {
+      "family": "underpass",
+      "n": 250,
+      "baselineSuccess": 250,
+      "adaptiveSuccess": 250,
+      "baselinePercent": 100.0,
+      "adaptivePercent": 100.0,
+      "increasePercentagePoints": 0.0,
+      "baselineLow": 98.48667005045553,
+      "baselineHigh": 99.99999999999997,
+      "adaptiveLow": 98.48667005045553,
+      "adaptiveHigh": 99.99999999999997,
+      "initialPlanFound": 250
+    },
+    {
+      "family": "window",
+      "n": 250,
+      "baselineSuccess": 55,
+      "adaptiveSuccess": 250,
+      "baselinePercent": 22.0,
+      "adaptivePercent": 100.0,
+      "increasePercentagePoints": 78.0,
+      "baselineLow": 17.310192411547416,
+      "baselineHigh": 27.53727236019748,
+      "adaptiveLow": 98.48667005045553,
+      "adaptiveHigh": 99.99999999999997,
+      "initialPlanFound": 250
+    },
+    {
+      "family": "staggered_windows",
+      "n": 250,
+      "baselineSuccess": 9,
+      "adaptiveSuccess": 250,
+      "baselinePercent": 3.6,
+      "adaptivePercent": 100.0,
+      "increasePercentagePoints": 96.4,
+      "baselineLow": 1.9053279530003278,
+      "baselineHigh": 6.699042240176928,
+      "adaptiveLow": 98.48667005045553,
+      "adaptiveHigh": 99.99999999999997,
+      "initialPlanFound": 250
+    }
+  ],
+  "oldFailureCohort": {
+    "n": 436,
+    "success": 436,
+    "percent": 100.0
+  },
+  "adaptiveInitialPlanningSuccess": 1000,
+  "layerDistribution": {
+    "5": 564,
+    "6": 109,
+    "7": 144,
+    "8": 92,
+    "11": 14,
+    "13": 8,
+    "9": 44,
+    "10": 20,
+    "12": 5
+  },
+  "insertionTrials": 436,
+  "budgetRejectedTrials": 4,
+  "minObstacleClearance": 1.6247383716023,
+  "minPairDistance": 2.21389491550767,
+  "maxInitialLayerCount": 13,
+  "maxPeakLayerCount": 13,
+  "medianInitialPlanSeconds": 3.31323715,
+  "sourceFilesVerified": 36
+}

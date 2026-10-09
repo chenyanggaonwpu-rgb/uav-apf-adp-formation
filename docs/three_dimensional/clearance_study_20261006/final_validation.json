@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "records": 8422,
+  "outcomes": {
+    "success": 7230,
+    "planning_failed": 1003,
+    "safety_unresolved": 63,
+    "timeout": 126
+  },
+  "localReportLinksChecked": true,
+  "mainFigures": 8,
+  "figureSourceCSVs": 8,
+  "videoFramesDecoded": 3,
+  "replayHistoryFieldsCompared": 20,
+  "replayMaxDifference": 0,
+  "numericalGitDiffSinceExecutionTag": []
+}

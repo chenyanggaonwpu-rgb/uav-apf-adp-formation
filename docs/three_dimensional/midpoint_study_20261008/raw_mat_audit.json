@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "records": 1000,
+  "uniqueSeeds": 1000,
+  "success": 1000,
+  "failure": 0,
+  "sourceFiles": 36,
+  "allOriginalMapHashesPassed": true,
+  "allOriginalBaselinesUnchanged": true,
+  "independentVertexAndSuccessHoldChecksPassed": true,
+  "wallSeconds": 18.8973294
+}

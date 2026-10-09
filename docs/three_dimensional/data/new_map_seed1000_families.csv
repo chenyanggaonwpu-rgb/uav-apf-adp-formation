@@ -1,0 +1,5 @@
+﻿family,label,scheduled,success,failure,successPercent,wilson95LowerPercent,wilson95UpperPercent,missedWindowSeeds
+mixed,混合三维障碍,250,250,0,100.0,98.48667005045553,99.99999999999997,0
+underpass,顶棚下穿,250,250,0,100.0,98.48667005045553,99.99999999999997,0
+window,单窗口墙,250,55,195,22.0,17.310192411547416,27.53727236019748,195
+staggered_windows,交错双窗口墙,250,9,241,3.6,1.9053279530003278,6.699042240176928,241

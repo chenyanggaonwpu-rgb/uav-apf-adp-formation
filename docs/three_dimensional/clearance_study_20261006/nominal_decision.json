@@ -1,0 +1,21 @@
+{
+  "configs": [
+    {
+      "configId": "f005",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 4.4,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f012",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 3.4,
+      "planZ": 2.0,
+      "refZ": 2.0
+    }
+  ],
+  "reason": "Two separated refined candidates; existing 1000 maps only"
+}

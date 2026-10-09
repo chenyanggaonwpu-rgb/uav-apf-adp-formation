@@ -1,0 +1,11 @@
+MIDPOINT_PROGRESS worker=4 completed=25/250 success=25 seed=775 reason=success elapsed=239.9s
+MIDPOINT_PROGRESS worker=4 completed=50/250 success=50 seed=800 reason=success elapsed=470.9s
+MIDPOINT_PROGRESS worker=4 completed=75/250 success=75 seed=825 reason=success elapsed=702.7s
+MIDPOINT_PROGRESS worker=4 completed=100/250 success=100 seed=850 reason=success elapsed=938.1s
+MIDPOINT_PROGRESS worker=4 completed=125/250 success=125 seed=875 reason=success elapsed=1183.8s
+MIDPOINT_PROGRESS worker=4 completed=150/250 success=150 seed=900 reason=success elapsed=1395.5s
+MIDPOINT_PROGRESS worker=4 completed=175/250 success=175 seed=925 reason=success elapsed=1641.2s
+MIDPOINT_PROGRESS worker=4 completed=200/250 success=200 seed=950 reason=success elapsed=1867.6s
+MIDPOINT_PROGRESS worker=4 completed=225/250 success=225 seed=975 reason=success elapsed=2099.4s
+MIDPOINT_PROGRESS worker=4 completed=250/250 success=250 seed=1000 reason=success elapsed=2338.8s
+MIDPOINT_WORKER_COMPLETE worker=4 count=250 success=250 wall=2338.9s

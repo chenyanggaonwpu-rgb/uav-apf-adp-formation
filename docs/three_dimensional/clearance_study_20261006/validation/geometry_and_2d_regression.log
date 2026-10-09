@@ -1,0 +1,18 @@
+DIRECTIONAL_CLEARANCE_TESTS_PASSED
+3-D environment tests passed: roof, window, fixed-layer gap and closed-solid checks.
+3-D tests passed. Empty-map completion 30.15 s; overpass 2 waypoints.
+Running 11 UAV project tests...
+  PASS test_parameter_validation
+  PASS test_variable_formation_size
+  PASS test_apf_inside_obstacle
+  PASS test_continuous_collision_detection
+  PASS test_overlap_resolution
+  PASS test_success_hold_reset
+  PASS test_adp_update_is_finite
+  PASS test_short_simulation
+  PASS test_disabled_actor
+  PASS test_grid_route_avoids_obstacle
+  PASS test_early_braking
+All tests passed.
+BATCH_SMOKE reason=success wall=5.14 initialPlan=0.17 p99=9.7349ms
+BATCH_GEOMETRY_REPLAY_PASSED

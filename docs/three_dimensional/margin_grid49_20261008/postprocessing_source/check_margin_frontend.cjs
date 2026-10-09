@@ -1,0 +1,20 @@
+// Structural and event-handler checks only: this does not certify browser rendering.
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),crypto=require('node:crypto');
+const study=path.resolve(process.argv[2]),htmlPath=path.join(study,'margin_success_surface.html'),html=fs.readFileSync(htmlPath,'utf8');
+const script=html.match(/<script>\s*([\s\S]*?)<\/script>/)[1];const elements={};
+for(const [,id] of html.matchAll(/\bid="([^"]+)"/g))elements[id]={textContent:'',innerHTML:'',attributes:{},setAttribute(k,v){this.attributes[k]=v}};
+const context=new Proxy({},{get:(o,k)=>o[k]??(()=>{}),set:(o,k,v)=>(o[k]=v,true)});
+Object.assign(elements.surface,{clientWidth:1000,clientHeight:620,getContext(){return context},getBoundingClientRect(){return {left:0,top:0}},setPointerCapture(){}});
+const sandbox={document:{getElementById(id){if(!elements[id])throw Error('Unknown DOM id '+id);return elements[id]}},window:{devicePixelRatio:1},ResizeObserver:class{constructor(f){this.f=f}observe(){this.f()}}};
+vm.createContext(sandbox);vm.runInContext(script,sandbox,{timeout:10000});
+function assert(v,msg){if(!v)throw Error(msg)}const value=s=>vm.runInContext(s,sandbox);
+assert(elements.count.textContent==='80 / 200','Baseline denominator');assert(elements.rate.textContent==='40.00%','Baseline rate');
+elements.peak.onclick();assert(elements.count.textContent==='121 / 200','Peak count');assert(elements.margins.textContent==='1.2 / 4.0 m','Peak coordinates');assert(elements.rate.textContent==='60.50%','Peak rate');
+elements.safe.onclick();assert(elements.count.textContent==='121 / 157','Conditional denominator');assert(elements.rate.textContent==='77.07%','Conditional rate');
+elements.all.onclick();elements.baseline.onclick();const hit=value('hits.find(h=>h.d===peak)');elements.surface.onpointermove({clientX:hit.p[0],clientY:hit.p[1]});assert(elements.count.textContent==='121 / 200','Hover exact point');
+const az=value('az');elements.surface.onpointerdown({clientX:300,clientY:300,pointerId:1});elements.surface.onpointermove({clientX:360,clientY:330});elements.surface.onpointerup();assert(value('az')!==az,'Drag rotation handler');
+const zoom=value('zoom');elements.surface.onwheel({deltaY:-120,preventDefault(){}});assert(value('zoom')>zoom,'Wheel zoom handler');elements.reset.onclick();assert(value('zoom')===1,'Reset zoom handler');
+assert(value('hits.length')===49,'49 measured surface points');assert((elements.rows.innerHTML.match(/<tr>/g)||[]).length===49,'49 data table rows');
+assert(value('data.every(d=>d.success+d.initialUnsafe+d.planningFailed+d.timeout+d.safetyUnresolved+d.replanFailed+d.collision+d.boundaryViolation+d.invalidState===200)'), 'Complete failure denominators');
+const out=path.join(study,'validation/viewer_qa');fs.mkdirSync(out,{recursive:true});fs.writeFileSync(path.join(out,'structural_qa.json'),JSON.stringify({passed:true,testEnvironment:'Node VM with DOM and Canvas stubs; actual browser rendering is not verified',sourceSha256:crypto.createHash('sha256').update(html).digest('hex'),samplePoints:49,denominators:[200,157],baselinePercent:40,peakCoordinates:[1.2,4],peakCount:121,buttonHandlersPassed:true,hoverHandlerPassed:true,rotationHandlerPassed:true,zoomHandlerPassed:true,tableRows:49,allOutcomesSumTo200:true,actualBrowserCheckPassed:false,browserBlock:'CUA initialization failed writing kernel assets (os error 3). Two headless Microsoft Edge launches exited before a page opened; crashpad named-pipe errors were reported.'},null,2));
+process.stdout.write('MARGIN_FRONTEND_STRUCTURE_AND_EVENT_CHECKS_PASSED; BROWSER_RENDER_UNVERIFIED\n');

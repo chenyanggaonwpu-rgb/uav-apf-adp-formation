@@ -1,0 +1,31 @@
+{
+  "config": {
+    "configId": "f005",
+    "enabled": 1,
+    "pathXY": 5.6,
+    "refXY": 4.4,
+    "planZ": 2.0,
+    "refZ": 2.0
+  },
+  "scores": [
+    [
+      0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -2.0,
+      "f012"
+    ],
+    [
+      0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -2.0,
+      "f005"
+    ]
+  ],
+  "rule": "Fewest observed collisions/invalid/error cases, then robustness rate, nominal rate, worst family, larger Z margin",
+  "selectedLocal": "2026-10-06 22:39:43",
+  "holdoutInspected": false
+}

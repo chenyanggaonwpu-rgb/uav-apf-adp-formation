@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "records": 200,
+  "allCopiesMatchPriorAuditedSha256": true,
+  "sourceSnapshotIncluded": true,
+  "note": "Reference records are retained outside the 9800-task denominator. Their r.history can be compared with baseline canonical results after removing cycleMs."
+}

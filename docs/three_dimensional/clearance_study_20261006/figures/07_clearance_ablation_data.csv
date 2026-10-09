@@ -1,0 +1,7 @@
+configId,n,success,successPercent,pathXY,refXY,planZ,refZ,enabled
+baseline,40,25,62.5,4.2,4,4.2,4,0
+plan_vertical_only,40,40,100,4.2,4,2,4,1
+both_vertical,40,40,100,4.2,4,2,2,1
+reference_vertical_only,40,25,62.5,4.2,4,4.2,2,1
+f005,40,40,100,5.6,4.4,2,2,1
+horizontal_only,40,25,62.5,5.6,4.4,4.2,4,1

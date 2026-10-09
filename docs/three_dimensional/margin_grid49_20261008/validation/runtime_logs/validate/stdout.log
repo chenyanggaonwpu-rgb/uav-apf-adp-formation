@@ -1,0 +1,3 @@
+MARGIN_CACHE_VALIDATED seed=2001 path=0.80 ref=0.80 reason=timeout
+MARGIN_CACHE_VALIDATED seed=2002 path=4.20 ref=4.00 reason=success
+MARGIN_CACHE_VALIDATED seed=2003 path=5.60 ref=4.40 reason=planning_failed

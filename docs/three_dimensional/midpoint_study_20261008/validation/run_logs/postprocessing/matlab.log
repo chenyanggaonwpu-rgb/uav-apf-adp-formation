@@ -1,0 +1,4 @@
+[警告: MATLAB 已通过改用 OpenGL 软件禁用了某些高级的图形渲染功能。欲了解有关详细信息，请点击<a href="matlab:opengl('problems')">此处</a>。] 
+MIDPOINT_FIGURES_COMPLETE count=4
+MIDPOINT_TIMING_SUMMARY records=1000 cycles=640935 above_dt=6
+MIDPOINT_MEDIA_DECODED seed=4 width=1920 height=1080 duration=13.250 fps=12.000 frames=3

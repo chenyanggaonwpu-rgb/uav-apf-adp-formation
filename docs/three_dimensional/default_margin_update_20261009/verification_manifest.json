@@ -1,0 +1,34 @@
+{
+  "baselineCommit": "23db08df418c44c0bc81e048d781f2882543a667",
+  "baselineTag": "baseline-default-margin-20261009",
+  "completionTag": "default-margin-v2.3.2-20261009",
+  "branch": "config/default-margin-20261009",
+  "version": "2.3.2",
+  "files": [
+    {
+      "file": "config/default_params3d.m",
+      "sha256": "7c36cec697fda9e23952950b98a1e7e7502f044c7d4e3b242f96748168fc65db",
+      "bytes": 1306
+    },
+    {
+      "file": "VERSION",
+      "sha256": "06422ec926e5945ba64744f935f3bf0b2c29c8b3a1fbb0fef56e01082a0b3af5",
+      "bytes": 7
+    },
+    {
+      "file": "results/default_margin_v2.3.2_20261009/simulation_result.mat",
+      "sha256": "f23168d2e7a29a1f4c7225a4766a939ca74295becbe1577e08ae1c32907cb49e",
+      "bytes": 472275
+    },
+    {
+      "file": "results/default_margin_v2.3.2_20261009/validation_receipt.json",
+      "sha256": "7297f0ca42f7b93b23c6f74687b1c96241529f16d94f8aa82eaf23c64383b463",
+      "bytes": 645
+    },
+    {
+      "file": ".runtime/default_margin_v2.3.2_20261009/verify_default_margin3d.m",
+      "sha256": "031c609ede80097f4bbe3154118915b4caaef216bc24c24cffec3b6ab0a2db0b",
+      "bytes": 2323
+    }
+  ]
+}

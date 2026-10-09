@@ -1,0 +1,9 @@
+{
+  "noTrialsYet": true,
+  "maps": 200,
+  "tasks": 9800,
+  "sourceFiles": 38,
+  "inputFiles": 207,
+  "manifestSha256": "98cc0de0d4f1070b01b65afbfe4c650091b35edb005deac088c8b42ab88cb79b",
+  "sourceCommit": "7bc3bb0439074f315f3ff944fa93fcfe5be5ef79"
+}

@@ -1,0 +1,8 @@
+{
+  "counts": {
+    "success": 80,
+    "planning_failed_endpoint_margin": 77,
+    "initial_formation_unsafe": 43
+  },
+  "interpretation": "Endpoint-margin categories use independent preflight geometry, not a proof of global infeasibility."
+}

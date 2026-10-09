@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "records": 9800,
+  "baselineExactReplays": 200,
+  "allFrozenMapsUnchanged": true,
+  "allSourceFilesUnchanged": true,
+  "allParametersAndCsvPassed": true,
+  "independentVertexGeometryAndSuccessHoldPassed": true
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "records": 2000,
+  "success": 1955,
+  "allFrozenInputsUnchanged": true,
+  "allProposalSeedsAndGeometryReproduced": true,
+  "allParametersAndCsvPassed": true,
+  "independentWitnessGeometryChecked": true,
+  "successHoldChecked": true
+}

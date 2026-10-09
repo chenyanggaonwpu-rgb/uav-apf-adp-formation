@@ -1,0 +1,56 @@
+MARGIN_GRID_PROGRESS worker=4 completed=7/539 success=7 seed=2149 path=0.80 wall=147.9s
+MARGIN_GRID_PROGRESS worker=4 completed=14/539 success=14 seed=2149 path=1.20 wall=289.8s
+MARGIN_GRID_PROGRESS worker=4 completed=21/539 success=21 seed=2149 path=1.80 wall=440.4s
+MARGIN_GRID_PROGRESS worker=4 completed=28/539 success=21 seed=2149 path=2.50 wall=480.2s
+MARGIN_GRID_PROGRESS worker=4 completed=35/539 success=21 seed=2149 path=3.50 wall=515.5s
+MARGIN_GRID_PROGRESS worker=4 completed=42/539 success=21 seed=2149 path=4.20 wall=554.6s
+MARGIN_GRID_PROGRESS worker=4 completed=49/539 success=21 seed=2149 path=5.60 wall=575.9s
+MARGIN_GRID_PROGRESS worker=4 completed=56/539 success=21 seed=2143 path=0.80 wall=622.9s
+MARGIN_GRID_PROGRESS worker=4 completed=63/539 success=21 seed=2143 path=1.20 wall=657.3s
+MARGIN_GRID_PROGRESS worker=4 completed=70/539 success=21 seed=2143 path=1.80 wall=697.8s
+MARGIN_GRID_PROGRESS worker=4 completed=77/539 success=21 seed=2143 path=2.50 wall=733.3s
+MARGIN_GRID_PROGRESS worker=4 completed=84/539 success=21 seed=2143 path=3.50 wall=768.9s
+MARGIN_GRID_PROGRESS worker=4 completed=91/539 success=21 seed=2143 path=4.20 wall=797.3s
+MARGIN_GRID_PROGRESS worker=4 completed=98/539 success=21 seed=2143 path=5.60 wall=818.9s
+MARGIN_GRID_PROGRESS worker=4 completed=105/539 success=26 seed=2137 path=0.80 wall=931.7s
+MARGIN_GRID_PROGRESS worker=4 completed=112/539 success=31 seed=2137 path=1.20 wall=1039.7s
+MARGIN_GRID_PROGRESS worker=4 completed=119/539 success=31 seed=2137 path=1.80 wall=1043.8s
+MARGIN_GRID_PROGRESS worker=4 completed=126/539 success=31 seed=2137 path=2.50 wall=1048.3s
+MARGIN_GRID_PROGRESS worker=4 completed=133/539 success=31 seed=2137 path=3.50 wall=1053.1s
+MARGIN_GRID_PROGRESS worker=4 completed=140/539 success=31 seed=2137 path=4.20 wall=1059.0s
+MARGIN_GRID_PROGRESS worker=4 completed=147/539 success=31 seed=2137 path=5.60 wall=1063.6s
+MARGIN_GRID_PROGRESS worker=4 completed=154/539 success=38 seed=2125 path=0.80 wall=1167.9s
+MARGIN_GRID_PROGRESS worker=4 completed=161/539 success=45 seed=2125 path=1.20 wall=1274.4s
+MARGIN_GRID_PROGRESS worker=4 completed=168/539 success=52 seed=2125 path=1.80 wall=1401.7s
+MARGIN_GRID_PROGRESS worker=4 completed=175/539 success=58 seed=2125 path=2.50 wall=1508.6s
+MARGIN_GRID_PROGRESS worker=4 completed=182/539 success=65 seed=2125 path=3.50 wall=1619.1s
+MARGIN_GRID_PROGRESS worker=4 completed=189/539 success=72 seed=2125 path=4.20 wall=1732.7s
+MARGIN_GRID_PROGRESS worker=4 completed=196/539 success=79 seed=2125 path=5.60 wall=1842.8s
+MARGIN_GRID_PROGRESS worker=4 completed=203/539 success=83 seed=2113 path=0.80 wall=2175.6s
+MARGIN_GRID_PROGRESS worker=4 completed=210/539 success=87 seed=2113 path=1.20 wall=2516.0s
+MARGIN_GRID_PROGRESS worker=4 completed=217/539 success=91 seed=2113 path=1.80 wall=2858.6s
+MARGIN_GRID_PROGRESS worker=4 completed=224/539 success=95 seed=2113 path=2.50 wall=3241.3s
+MARGIN_GRID_PROGRESS worker=4 completed=231/539 success=99 seed=2113 path=3.50 wall=3642.1s
+MARGIN_GRID_PROGRESS worker=4 completed=238/539 success=103 seed=2113 path=4.20 wall=4000.7s
+MARGIN_GRID_PROGRESS worker=4 completed=245/539 success=103 seed=2113 path=5.60 wall=4019.7s
+MARGIN_GRID_PROGRESS worker=4 completed=252/539 success=110 seed=2107 path=0.80 wall=4207.0s
+MARGIN_GRID_PROGRESS worker=4 completed=259/539 success=117 seed=2107 path=1.20 wall=4366.5s
+MARGIN_GRID_PROGRESS worker=4 completed=266/539 success=124 seed=2107 path=1.80 wall=4503.2s
+MARGIN_GRID_PROGRESS worker=4 completed=273/539 success=124 seed=2107 path=2.50 wall=4532.4s
+MARGIN_GRID_PROGRESS worker=4 completed=280/539 success=124 seed=2107 path=3.50 wall=4559.7s
+MARGIN_GRID_PROGRESS worker=4 completed=287/539 success=124 seed=2107 path=4.20 wall=4583.6s
+MARGIN_GRID_PROGRESS worker=4 completed=294/539 success=124 seed=2107 path=5.60 wall=4597.8s
+MARGIN_GRID_PROGRESS worker=4 completed=301/539 success=129 seed=2095 path=0.80 wall=4955.6s
+MARGIN_GRID_PROGRESS worker=4 completed=308/539 success=134 seed=2095 path=1.20 wall=5320.3s
+MARGIN_GRID_PROGRESS worker=4 completed=315/539 success=139 seed=2095 path=1.80 wall=5680.7s
+MARGIN_GRID_PROGRESS worker=4 completed=322/539 success=144 seed=2095 path=2.50 wall=6028.0s
+MARGIN_GRID_PROGRESS worker=4 completed=329/539 success=144 seed=2095 path=3.50 wall=6056.1s
+MARGIN_GRID_PROGRESS worker=4 completed=336/539 success=144 seed=2095 path=4.20 wall=6078.4s
+MARGIN_GRID_PROGRESS worker=4 completed=343/539 success=144 seed=2095 path=5.60 wall=6093.2s
+MARGIN_GRID_PROGRESS worker=4 completed=350/539 success=151 seed=2089 path=0.80 wall=6209.6s
+MARGIN_GRID_PROGRESS worker=4 completed=357/539 success=158 seed=2089 path=1.20 wall=6319.4s
+MARGIN_GRID_PROGRESS worker=4 completed=364/539 success=165 seed=2089 path=1.80 wall=6426.3s
+AUX_SKIP_ALREADY_STARTED seed=2083
+AUX_SKIP_ALREADY_STARTED seed=2077
+AUX_SKIP_ALREADY_STARTED seed=2071
+MARGIN_GRID_WORKER_COMPLETE worker=4 records=364 success=165 wall=6426.4s

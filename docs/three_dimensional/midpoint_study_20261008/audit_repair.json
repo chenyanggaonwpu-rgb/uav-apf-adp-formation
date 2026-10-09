@@ -1,0 +1,14 @@
+{
+  "reason": "MATLAB local interval variable lower shadowed built-in lowercase hash conversion.",
+  "repairFile": "validation/postprocessing_repair01/audit_midpoint_sweep_repair01_3d.m",
+  "repairSha256": "1a4b9e7e8fd792422ecc722bb7a1dce927e5ccd4954d256c06dddbb74d1814ce",
+  "originalAuditorSha256": "c7612d1d2ad8fdfa23fec34251934e52426459172afee2272f2f0dd1dc65712b",
+  "changes": [
+    "Rename interval endpoints to gateLower/gateUpper",
+    "Use a distinct repair function name"
+  ],
+  "numericSourceSnapshotModified": false,
+  "rawSimulationRecordsModified": false,
+  "auditChecksRemoved": 0,
+  "repairExactlyMatchesDeclaredChanges": true
+}

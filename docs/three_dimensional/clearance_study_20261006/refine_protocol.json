@@ -1,0 +1,237 @@
+{
+  "stage": "refine",
+  "scheduled": 880,
+  "jobCsvSha256": "9807874ffa180992e06db61fa44fde17e8e6abca5f60700b8f31c6d3791cda8d",
+  "createdLocal": "2026-10-06 21:09:39",
+  "configs": [
+    {
+      "configId": "baseline",
+      "enabled": 0,
+      "pathXY": 4.2,
+      "refXY": 4.0,
+      "planZ": 4.2,
+      "refZ": 4.0
+    },
+    {
+      "configId": "f016",
+      "enabled": 1,
+      "pathXY": 3.7,
+      "refXY": 4.0,
+      "planZ": 1.5,
+      "refZ": 1.5
+    },
+    {
+      "configId": "f020",
+      "enabled": 1,
+      "pathXY": 4.2,
+      "refXY": 4.0,
+      "planZ": 1.25,
+      "refZ": 1.25
+    },
+    {
+      "configId": "f018",
+      "enabled": 1,
+      "pathXY": 4.2,
+      "refXY": 3.6,
+      "planZ": 1.5,
+      "refZ": 1.5
+    },
+    {
+      "configId": "f015",
+      "enabled": 1,
+      "pathXY": 4.2,
+      "refXY": 4.0,
+      "planZ": 1.5,
+      "refZ": 1.5
+    },
+    {
+      "configId": "f019",
+      "enabled": 1,
+      "pathXY": 4.2,
+      "refXY": 4.4,
+      "planZ": 1.5,
+      "refZ": 1.5
+    },
+    {
+      "configId": "f021",
+      "enabled": 1,
+      "pathXY": 4.2,
+      "refXY": 4.0,
+      "planZ": 1.75,
+      "refZ": 1.75
+    },
+    {
+      "configId": "f017",
+      "enabled": 1,
+      "pathXY": 4.7,
+      "refXY": 4.0,
+      "planZ": 1.5,
+      "refZ": 1.5
+    },
+    {
+      "configId": "f009",
+      "enabled": 1,
+      "pathXY": 5.1,
+      "refXY": 3.0,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f002",
+      "enabled": 1,
+      "pathXY": 5.1,
+      "refXY": 4.0,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f013",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 3.0,
+      "planZ": 1.75,
+      "refZ": 1.75
+    },
+    {
+      "configId": "f006",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 4.0,
+      "planZ": 1.75,
+      "refZ": 1.75
+    },
+    {
+      "configId": "f011",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 2.6,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f008",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 3.0,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f012",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 3.4,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f004",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 3.6,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f001",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 4.0,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f005",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 4.4,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f014",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 3.0,
+      "planZ": 2.25,
+      "refZ": 2.25
+    },
+    {
+      "configId": "f007",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 4.0,
+      "planZ": 2.25,
+      "refZ": 2.25
+    },
+    {
+      "configId": "f010",
+      "enabled": 1,
+      "pathXY": 6,
+      "refXY": 3.0,
+      "planZ": 2.0,
+      "refZ": 2.0
+    },
+    {
+      "configId": "f003",
+      "enabled": 1,
+      "pathXY": 6,
+      "refXY": 4.0,
+      "planZ": 2.0,
+      "refZ": 2.0
+    }
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "conditions": [
+    [
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "policies": [
+    "fixed5"
+  ]
+}

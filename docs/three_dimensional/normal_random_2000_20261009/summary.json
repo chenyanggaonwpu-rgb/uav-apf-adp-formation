@@ -1,0 +1,211 @@
+{
+  "algorithmVersion": "2.3.3",
+  "sourceCommit": "57d735e903ebc85485e79c8066e0f7a420eb1bf8",
+  "n": 2000,
+  "seedRange": [
+    10001,
+    12000
+  ],
+  "cohorts": [
+    {
+      "cohort": "all_predeclared_seeds",
+      "n": 2000,
+      "success": 1955,
+      "percent": 97.75,
+      "wilson95": [
+        0.9700270953304039,
+        0.9831421245159996
+      ],
+      "outcomes": {
+        "success": 1955,
+        "safety_unresolved": 34,
+        "timeout": 10,
+        "replan_failed": 1
+      }
+    },
+    {
+      "cohort": "accepted_normal_maps",
+      "n": 2000,
+      "success": 1955,
+      "percent": 97.75,
+      "wilson95": [
+        0.9700270953304039,
+        0.9831421245159996
+      ],
+      "outcomes": {
+        "success": 1955,
+        "safety_unresolved": 34,
+        "timeout": 10,
+        "replan_failed": 1
+      }
+    }
+  ],
+  "outcomes": {
+    "success": 1955,
+    "safety_unresolved": 34,
+    "timeout": 10,
+    "replan_failed": 1
+  },
+  "generation": {
+    "requested": 2000,
+    "accepted": 2000,
+    "failed": 0,
+    "rawProposals": 7293,
+    "rejectedProposals": 5293,
+    "proposalAcceptancePercent": 27.42355683532154,
+    "rejectionReasons": {
+      "terminal_geometry": 3143,
+      "initial_geometry": 1876,
+      "arrival_not_certified": 74,
+      "departure_not_certified": 200
+    },
+    "attempts": {
+      "n": 2000,
+      "min": 1.0,
+      "max": 25.0,
+      "mean": 3.6465,
+      "median": 3.0,
+      "p95": 10.0,
+      "p99": 14.0
+    },
+    "seconds": {
+      "n": 2000,
+      "min": 0.002986,
+      "max": 72.632919,
+      "mean": 0.75658791315,
+      "median": 0.60172825,
+      "p95": 1.8642082,
+      "p99": 3.5640391
+    }
+  },
+  "acceptedMapDistribution": {
+    "obstacleCount": {
+      "n": 2000,
+      "min": 1.0,
+      "max": 40.0,
+      "mean": 10.7805,
+      "median": 8.0,
+      "p95": 30.0,
+      "p99": 38.0
+    },
+    "estimatedUnionVolumeFraction": {
+      "n": 2000,
+      "min": 0.0,
+      "max": 0.1935,
+      "mean": 0.0402988125,
+      "median": 0.02964583333333335,
+      "p95": 0.114125,
+      "p99": 0.157083333333333
+    },
+    "nominalVolumeFraction": {
+      "n": 2000,
+      "min": 2.48709449717188e-05,
+      "max": 0.227173462138573,
+      "mean": 0.0424866690325027,
+      "median": 0.02972030949247445,
+      "p95": 0.123323236878019,
+      "p99": 0.176776284809001
+    }
+  },
+  "successfulFlight": {
+    "simulatedSeconds": {
+      "n": 1955,
+      "min": 30.0,
+      "max": 113.7,
+      "mean": 35.27383631713555,
+      "median": 32.9,
+      "p95": 48.0,
+      "p99": 65.95
+    },
+    "pathMetres": {
+      "n": 1955,
+      "min": 79.734695093292,
+      "max": 148.467319666403,
+      "mean": 85.62423473772536,
+      "median": 82.7660314696054,
+      "p95": 103.16301865848,
+      "p99": 125.337545893351
+    },
+    "leaderVerticalTravelMetres": {
+      "n": 1955,
+      "min": 0.0,
+      "max": 62.723949725423,
+      "mean": 4.879563646482442,
+      "median": 0.803971054179476,
+      "p95": 20.4894445803418,
+      "p99": 35.3732275547783
+    }
+  },
+  "initialPlanFound": 2000,
+  "adaptiveAttempted": 0,
+  "addedHeightTrials": 0,
+  "maxPeakLayerCount": 5,
+  "countBins": [
+    {
+      "cohort": "1-10",
+      "n": 1206,
+      "success": 1204,
+      "percent": 99.83416252072969,
+      "wilson95": [
+        0.9939735103423404,
+        0.9995450959481587
+      ],
+      "outcomes": {
+        "success": 1204,
+        "timeout": 1,
+        "safety_unresolved": 1
+      }
+    },
+    {
+      "cohort": "11-20",
+      "n": 487,
+      "success": 472,
+      "percent": 96.91991786447639,
+      "wilson95": [
+        0.9498072040105862,
+        0.9812469923851254
+      ],
+      "outcomes": {
+        "success": 472,
+        "safety_unresolved": 12,
+        "timeout": 3
+      }
+    },
+    {
+      "cohort": "21-30",
+      "n": 214,
+      "success": 201,
+      "percent": 93.92523364485982,
+      "wilson95": [
+        0.8988543780061814,
+        0.9641585719518123
+      ],
+      "outcomes": {
+        "success": 201,
+        "timeout": 4,
+        "safety_unresolved": 8,
+        "replan_failed": 1
+      }
+    },
+    {
+      "cohort": "31-40",
+      "n": 93,
+      "success": 78,
+      "percent": 83.87096774193549,
+      "wilson95": [
+        0.7507986045848927,
+        0.8997492162265126
+      ],
+      "outcomes": {
+        "success": 78,
+        "safety_unresolved": 13,
+        "timeout": 2
+      }
+    }
+  ],
+  "audited": true,
+  "allFrozenInputsUnchanged": true,
+  "sourceFiles": 47,
+  "confidenceIntervalRule": "95% Wilson interval for independent requested seeds; no interval for adaptive raw-proposal acceptance.",
+  "modelScope": "Noise-free five point-mass UAVs, initially airborne at 10 m and stationary; not a physical ground-takeoff or energy test."
+}

@@ -1,0 +1,67 @@
+{
+  "originalOwnerGroups": 6,
+  "auxiliaryProcesses": 2,
+  "maxConcurrentProcesses": 8,
+  "sourceCommit": "63d8328d7147d1c81f686aa2e7862b604096d45d",
+  "groups": [
+    [
+      2199,
+      2197,
+      2195,
+      2192,
+      2188,
+      2184,
+      2182,
+      2180,
+      2177,
+      2175,
+      2169,
+      2167,
+      2165,
+      2162,
+      2160,
+      2158,
+      2155,
+      2153,
+      2151
+    ],
+    [
+      2198,
+      2196,
+      2193,
+      2191,
+      2185,
+      2183,
+      2181,
+      2179,
+      2176,
+      2174,
+      2168,
+      2166,
+      2163,
+      2161,
+      2159,
+      2156,
+      2154,
+      2152,
+      2150
+    ]
+  ],
+  "addedAfterStart": true,
+  "reason": "Use spare RAM/CPU on future maps; no changes to numerical functions or parameter grid.",
+  "publishingRule": "Complete 49-task map checkpoints only; Windows no-replace rename; original owners audit canonical results.",
+  "sourceFiles": [
+    {
+      "file": "aux_runtime_source/margin_grid49_aux.py",
+      "sha256": "232d5e97b3741b50bb5f2e36c2aefb2fc0350f7158020dbe52b0f4b530bc672f"
+    },
+    {
+      "file": "aux_runtime_source/run_margin_grid49_aux3d.m",
+      "sha256": "112744e694f8d3546586efc03532d7cb720af05b1934730654e09bc054dd9176"
+    },
+    {
+      "file": "aux_runtime_source/scheduling_only.diff",
+      "sha256": "8286bea2296eba49ad22898be58ec04dbe27344b406d30001cfb7d17d157dd7d"
+    }
+  ]
+}

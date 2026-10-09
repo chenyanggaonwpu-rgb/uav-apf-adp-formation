@@ -1,0 +1,26 @@
+[
+  {
+    "seed": 2001,
+    "rule": "smallest_success",
+    "reason": "success",
+    "obstacles": 7,
+    "path": "examples/seed_002001",
+    "mp4": true,
+    "videoWidth": 1920,
+    "videoHeight": 1080,
+    "videoFps": 12.000004800001919,
+    "videoDuration": 13.58325
+  },
+  {
+    "seed": 2003,
+    "rule": "smallest_planning_failure",
+    "reason": "planning_failed",
+    "obstacles": 20,
+    "path": "examples/seed_002003",
+    "mp4": false,
+    "videoWidth": null,
+    "videoHeight": null,
+    "videoFps": null,
+    "videoDuration": null
+  }
+]

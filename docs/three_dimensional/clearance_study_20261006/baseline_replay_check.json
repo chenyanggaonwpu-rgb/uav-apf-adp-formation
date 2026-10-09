@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "records": 8,
+  "maxAbsoluteDifferences": {
+    "time": 0,
+    "path": 0,
+    "formationRms": 0,
+    "minObstacleClearance": 0,
+    "minPairDistance": 0,
+    "verticalTravel": 0,
+    "finalLeaderError": 0,
+    "finalFormationError": 0,
+    "finalMaxSpeed": 0
+  },
+  "tolerance": 1e-08,
+  "rule": "Exact same original map seed and legacy mode, stochastic repeat zero; no timing equality claim"
+}

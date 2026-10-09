@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "records": 200,
+  "uniqueSeeds": 200,
+  "success": 80,
+  "overallPercent": 40.0,
+  "localReportLinksChecked": 18,
+  "countBinTotalsPassed": true,
+  "reportHeadlineAndConditionalRatePassed": true
+}

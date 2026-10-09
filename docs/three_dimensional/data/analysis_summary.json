@@ -1,0 +1,389 @@
+{
+  "trial_count": 489,
+  "unique_trial_ids": 489,
+  "outcomes": {
+    "success": 489
+  },
+  "groups": {
+    "A": {
+      "tasks": 156,
+      "outcomes": {
+        "success": 156
+      },
+      "fixed_tasks": 6,
+      "fixed_successes": 6,
+      "random_tasks": 150,
+      "random_successes": 150,
+      "random_wilson95": [
+        0.9750297556319235,
+        1.0
+      ],
+      "successful_mean_time_s": 33.32788461538461,
+      "successful_mean_path_m": 84.21570999225888,
+      "successful_mean_path_coefficient": 1.0606815440090565,
+      "successful_mean_formation_rms_m": 3.5428720019377504,
+      "mean_trial_cycle_mean_ms": 4.36528371476396,
+      "max_trial_cycle_p99_ms": 27.841491,
+      "max_recorded_cycle_ms": 69.4433,
+      "min_obstacle_clearance_m": 1.81542361966768,
+      "min_pair_distance_m": 2.5021710809443,
+      "safety_triggers": 0
+    },
+    "B": {
+      "tasks": 156,
+      "outcomes": {
+        "success": 156
+      },
+      "fixed_tasks": 6,
+      "fixed_successes": 6,
+      "random_tasks": 150,
+      "random_successes": 150,
+      "random_wilson95": [
+        0.9750297556319235,
+        1.0
+      ],
+      "successful_mean_time_s": 33.322435897435895,
+      "successful_mean_path_m": 84.21208509867124,
+      "successful_mean_path_coefficient": 1.0606358891338823,
+      "successful_mean_formation_rms_m": 3.541799443586011,
+      "mean_trial_cycle_mean_ms": 5.896686242859786,
+      "max_trial_cycle_p99_ms": 31.4691779999999,
+      "max_recorded_cycle_ms": 79.9676,
+      "min_obstacle_clearance_m": 1.81789253741058,
+      "min_pair_distance_m": 2.50252606423884,
+      "safety_triggers": 0
+    },
+    "C": {
+      "tasks": 156,
+      "outcomes": {
+        "success": 156
+      },
+      "fixed_tasks": 6,
+      "fixed_successes": 6,
+      "random_tasks": 150,
+      "random_successes": 150,
+      "random_wilson95": [
+        0.9750297556319235,
+        1.0
+      ],
+      "successful_mean_time_s": 33.322435897435895,
+      "successful_mean_path_m": 84.21208509867124,
+      "successful_mean_path_coefficient": 1.0606358891338823,
+      "successful_mean_formation_rms_m": 3.541799443586011,
+      "mean_trial_cycle_mean_ms": 6.5382983419784395,
+      "max_trial_cycle_p99_ms": 39.802673,
+      "max_recorded_cycle_ms": 84.3206,
+      "min_obstacle_clearance_m": 1.81789253741058,
+      "min_pair_distance_m": 2.50252606423884,
+      "safety_triggers": 0
+    }
+  },
+  "paired": {
+    "B_minus_A": {
+      "common_success_maps": 156,
+      "mean_time_difference": -0.005448717948717958,
+      "bootstrap95_mean_time_difference": [
+        -0.016346153846153875,
+        0.0006410256410256046
+      ],
+      "mean_path_difference": -0.003624893587643786,
+      "bootstrap95_mean_path_difference": [
+        -0.005087734952762291,
+        -0.00229518751897123
+      ],
+      "mean_formationRms_difference": -0.0010725583517392522,
+      "bootstrap95_mean_formationRms_difference": [
+        -0.0017476749887951558,
+        -0.0001343893194761427
+      ],
+      "mean_cycleMeanMs_difference": 1.5314025280958266,
+      "bootstrap95_mean_cycleMeanMs_difference": [
+        1.4682671881196943,
+        1.6028292217139188
+      ]
+    },
+    "C_minus_B": {
+      "common_success_maps": 156,
+      "mean_time_difference": 0.0,
+      "bootstrap95_mean_time_difference": [
+        0.0,
+        0.0
+      ],
+      "mean_path_difference": 0.0,
+      "bootstrap95_mean_path_difference": [
+        0.0,
+        0.0
+      ],
+      "mean_formationRms_difference": 0.0,
+      "bootstrap95_mean_formationRms_difference": [
+        0.0,
+        0.0
+      ],
+      "mean_cycleMeanMs_difference": 0.6416120991186529,
+      "bootstrap95_mean_cycleMeanMs_difference": [
+        0.5824844923305637,
+        0.7101561581775245
+      ]
+    }
+  },
+  "timing": {
+    "total_recorded_cycles": 325774,
+    "cycles_over_50_ms": 34,
+    "fraction_over_50_ms": 0.00010436683099326527,
+    "trials_with_over_50_ms": [
+      "A_S1_sphere",
+      "B_random_011",
+      "C_random_032",
+      "B_random_033",
+      "C_random_033",
+      "B_random_034",
+      "C_random_034",
+      "C_random_038",
+      "noise_S3_overpass_020",
+      "noise_S3_overpass_050"
+    ],
+    "max_trial_p99_ms": 65.69965,
+    "max_recorded_cycle_ms": 106.765,
+    "median_initial_plan_s": 1.6968775,
+    "max_initial_plan_s": 3.2758947,
+    "total_replan_events": 3,
+    "max_replan_s": 0.010048,
+    "total_terminal_plan_events": 1956,
+    "max_terminal_plan_s": 0.0041239
+  },
+  "perturbation": [
+    {
+      "trial": "noise_S1_sphere_000",
+      "reason": "success",
+      "time_s": 32.45,
+      "path_m": 83.0216545564143,
+      "path_coefficient": 1.0456426330571633,
+      "formation_rms_m": 2.73654444348729,
+      "min_obstacle_m": 2.28517623011644,
+      "min_pair_m": 3.57706002354839,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S1_sphere_020",
+      "reason": "success",
+      "time_s": 32.45,
+      "path_m": 82.9778678984777,
+      "path_coefficient": 1.0450911480675877,
+      "formation_rms_m": 2.8470644357039,
+      "min_obstacle_m": 2.29346155534037,
+      "min_pair_m": 3.6021906508948,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S1_sphere_050",
+      "reason": "success",
+      "time_s": 32.6,
+      "path_m": 83.0587451319293,
+      "path_coefficient": 1.0461097821070147,
+      "formation_rms_m": 3.29744695694827,
+      "min_obstacle_m": 2.34947246872738,
+      "min_pair_m": 3.74076686368274,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S1_sphere_100",
+      "reason": "success",
+      "time_s": 32.45,
+      "path_m": 83.1135554349308,
+      "path_coefficient": 1.046800107900392,
+      "formation_rms_m": 3.3054599138212,
+      "min_obstacle_m": 2.56480497437701,
+      "min_pair_m": 3.69130739713732,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "disturbance_S1_sphere_050",
+      "reason": "success",
+      "time_s": 32.45,
+      "path_m": 83.0236353841037,
+      "path_coefficient": 1.0456675812214928,
+      "formation_rms_m": 2.73988045608862,
+      "min_obstacle_m": 2.28474537395322,
+      "min_pair_m": 3.57966793272281,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "disturbance_S1_sphere_100",
+      "reason": "success",
+      "time_s": 32.45,
+      "path_m": 82.9951875048339,
+      "path_coefficient": 1.0453092853582808,
+      "formation_rms_m": 2.74361682699434,
+      "min_obstacle_m": 2.28401205316385,
+      "min_pair_m": 3.58271203509149,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "disturbance_S1_sphere_200",
+      "reason": "success",
+      "time_s": 32.45,
+      "path_m": 82.9995769016922,
+      "path_coefficient": 1.045364569013045,
+      "formation_rms_m": 2.75105697255459,
+      "min_obstacle_m": 2.28259674967598,
+      "min_pair_m": 3.58915933510793,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S3_overpass_000",
+      "reason": "success",
+      "time_s": 31.15,
+      "path_m": 82.7111513602687,
+      "path_coefficient": 1.0417319017988538,
+      "formation_rms_m": 0.915985582038509,
+      "min_obstacle_m": 4.7898459528844,
+      "min_pair_m": 3.67960567508748,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S3_overpass_020",
+      "reason": "success",
+      "time_s": 31.2,
+      "path_m": 82.7372530587999,
+      "path_coefficient": 1.0420606479425587,
+      "formation_rms_m": 1.17552855869938,
+      "min_obstacle_m": 4.77828136544901,
+      "min_pair_m": 3.7467771460043,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S3_overpass_050",
+      "reason": "success",
+      "time_s": 31.15,
+      "path_m": 82.8494156062165,
+      "path_coefficient": 1.0434733148189024,
+      "formation_rms_m": 1.94348306669714,
+      "min_obstacle_m": 4.7609958232346,
+      "min_pair_m": 3.84389245221553,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S3_overpass_100",
+      "reason": "success",
+      "time_s": 32.1,
+      "path_m": 83.0016713180573,
+      "path_coefficient": 1.0453909478060772,
+      "formation_rms_m": 2.13369711825147,
+      "min_obstacle_m": 4.76202476187544,
+      "min_pair_m": 3.83157683890006,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "disturbance_S3_overpass_050",
+      "reason": "success",
+      "time_s": 31.2,
+      "path_m": 82.7190915080432,
+      "path_coefficient": 1.0418319065153359,
+      "formation_rms_m": 0.915571150090969,
+      "min_obstacle_m": 4.78736976602941,
+      "min_pair_m": 3.67811695898375,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "disturbance_S3_overpass_100",
+      "reason": "success",
+      "time_s": 31.2,
+      "path_m": 82.7195739209398,
+      "path_coefficient": 1.0418379824179917,
+      "formation_rms_m": 0.916018774675026,
+      "min_obstacle_m": 4.78459082095471,
+      "min_pair_m": 3.67669320801054,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "disturbance_S3_overpass_200",
+      "reason": "success",
+      "time_s": 31.2,
+      "path_m": 82.7202087251715,
+      "path_coefficient": 1.0418459776617852,
+      "formation_rms_m": 0.920417359043641,
+      "min_obstacle_m": 4.7788377194487,
+      "min_pair_m": 3.67639766908106,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S6_terminal_000",
+      "reason": "success",
+      "time_s": 35.15,
+      "path_m": 86.6587368149446,
+      "path_coefficient": 1.0914510223234948,
+      "formation_rms_m": 2.88732712368742,
+      "min_obstacle_m": 2.39089975080012,
+      "min_pair_m": 2.59983265838048,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S6_terminal_020",
+      "reason": "success",
+      "time_s": 35.1,
+      "path_m": 86.6926904318348,
+      "path_coefficient": 1.0918786619502472,
+      "formation_rms_m": 2.95454237553085,
+      "min_obstacle_m": 2.40277046173127,
+      "min_pair_m": 2.61849970672635,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S6_terminal_050",
+      "reason": "success",
+      "time_s": 34.8,
+      "path_m": 86.6570959302971,
+      "path_coefficient": 1.091430355679924,
+      "formation_rms_m": 3.36951188888793,
+      "min_obstacle_m": 2.45885132460499,
+      "min_pair_m": 2.74451575671503,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "noise_S6_terminal_100",
+      "reason": "success",
+      "time_s": 35.95,
+      "path_m": 86.7461027320006,
+      "path_coefficient": 1.0925513801522804,
+      "formation_rms_m": 3.49469747372259,
+      "min_obstacle_m": 2.59281101450511,
+      "min_pair_m": 2.90285337047141,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "disturbance_S6_terminal_050",
+      "reason": "success",
+      "time_s": 35.15,
+      "path_m": 86.7774302046471,
+      "path_coefficient": 1.0929459439701197,
+      "formation_rms_m": 2.89229482271071,
+      "min_obstacle_m": 2.39097393918634,
+      "min_pair_m": 2.62662437028388,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "disturbance_S6_terminal_100",
+      "reason": "success",
+      "time_s": 35.15,
+      "path_m": 86.7750907014931,
+      "path_coefficient": 1.0929164783535759,
+      "formation_rms_m": 2.89380604862933,
+      "min_obstacle_m": 2.39047790210201,
+      "min_pair_m": 2.62277732488506,
+      "safety_triggers": 0.0
+    },
+    {
+      "trial": "disturbance_S6_terminal_200",
+      "reason": "success",
+      "time_s": 35.15,
+      "path_m": 86.7733771029773,
+      "path_coefficient": 1.0928948958920646,
+      "formation_rms_m": 2.90632427324383,
+      "min_obstacle_m": 2.38664973581089,
+      "min_pair_m": 2.61583275616533,
+      "safety_triggers": 0.0
+    }
+  ],
+  "bootstrap_seed": 20261003,
+  "bootstrap_repetitions": 4000
+}

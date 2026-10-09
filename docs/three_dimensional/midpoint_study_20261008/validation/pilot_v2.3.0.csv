@@ -1,0 +1,17 @@
+seed,baselineSuccess,baselineReason,fixedRegressionExact,newSuccess,newReason,layers,addedHeights
+1,1,success,1,1,success,5,
+2,1,success,1,1,success,5,
+3,1,success,1,1,success,5,
+4,0,planning_failed,1,1,success,6,18.7362387121
+5,1,success,1,1,success,5,
+6,1,success,1,1,success,5,
+7,0,planning_failed,1,1,success,7,11.610466315;25.4168930018
+8,0,planning_failed,1,1,success,6,17.9874352223
+9,1,success,1,1,success,5,
+10,1,success,1,1,success,5,
+11,0,planning_failed,1,1,success,7,12.442157511;4.55830615997
+12,0,planning_failed,1,1,success,8,16.9203975721;12.233302739;25.4835377828
+13,1,success,1,1,success,5,
+14,1,success,1,1,success,5,
+15,0,planning_failed,1,1,success,6,17.7905415781
+16,0,planning_failed,1,1,success,6,12.7863286332

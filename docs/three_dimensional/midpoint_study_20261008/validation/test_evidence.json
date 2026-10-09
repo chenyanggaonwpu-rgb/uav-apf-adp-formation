@@ -1,0 +1,15 @@
+{
+  "historicalPilotVersion": "2.3.0",
+  "historicalPilotCount": 16,
+  "coverageRepairVersion": "2.3.1",
+  "coverageRepairPlanningOnlySeeds": [
+    68,
+    284,
+    531,
+    563,
+    796
+  ],
+  "finalReplayVersion": "2.3.1",
+  "includedInFinalDenominator": false,
+  "notes": "Pilot evidence and coverage tests are separate from the complete frozen 1000-map replay."
+}

@@ -1,0 +1,363 @@
+{
+  "version": "2.3.3",
+  "sourceCommit": "57d735e903ebc85485e79c8066e0f7a420eb1bf8",
+  "seeds": [
+    10001,
+    12000
+  ],
+  "records": 2000,
+  "deadlineMs": 50,
+  "scope": "Six concurrent single-compute-thread MATLAB processes; five UAVs in one cycle; initial plan excluded.",
+  "quantileMethod": "P90/P95/P99/P99.9 nearest rank over all pooled steps; median uses MATLAB median.",
+  "cycles": {
+    "n": 1.423679E+6,
+    "min": 0.9221,
+    "mean": 11.673276055697952,
+    "median": 9.7365,
+    "p90": 21.5888,
+    "p95": 26.3641,
+    "p99": 40.0828,
+    "p999": 62.756699999999995,
+    "max": 12552.77,
+    "over50": 5478,
+    "over50Percent": 0.38477774835479067
+  },
+  "excludingTerminalPlanningStep": {
+    "n": 1.421724E+6,
+    "min": 0.9221,
+    "mean": 11.612443980547559,
+    "median": 9.7331999999999983,
+    "p90": 21.586000000000002,
+    "p95": 26.3624,
+    "p99": 40.0814,
+    "p999": 62.6718,
+    "max": 3167.9937,
+    "over50": 5461,
+    "over50Percent": 0.384111121427225
+  },
+  "terminalPlanningSteps": {
+    "n": 1955,
+    "min": 1.5815,
+    "mean": 55.911854680306888,
+    "median": 11.5516,
+    "p90": 23.085,
+    "p95": 26.9181,
+    "p99": 40.9655,
+    "p999": 12331.2472,
+    "max": 12552.77,
+    "over50": 17,
+    "over50Percent": 0.86956521739130432
+  },
+  "initialPlanningMs": {
+    "n": 2000,
+    "min": 0.1273,
+    "mean": 2455.9245702499993,
+    "median": 371.2345,
+    "p90": 7874.276,
+    "p95": 9984.4468000000015,
+    "p99": 13498.308500000001,
+    "p999": 15723.9342,
+    "max": 17273.1587,
+    "over50": 1039,
+    "over50Percent": 51.95
+  },
+  "terminalPlanningCallsMs": {
+    "n": 7820,
+    "min": 0.061,
+    "mean": 11.415327710997445,
+    "median": 0.58029999999999993,
+    "p90": 1.1457,
+    "p95": 1.4114,
+    "p99": 2.8679,
+    "p999": 5254.4513000000006,
+    "max": 12523.7656,
+    "over50": 14,
+    "over50Percent": 0.17902813299232737
+  },
+  "replanningCallsMs": {
+    "n": 993,
+    "min": 0.18000000000000002,
+    "mean": 58.029212386706945,
+    "median": 18.915000000000003,
+    "p90": 133.6769,
+    "p95": 192.6918,
+    "p99": 582.9843,
+    "p999": 3157.6915,
+    "max": 3157.6915,
+    "over50": 317,
+    "over50Percent": 31.923464249748239
+  },
+  "flightsWithAnyOver50": 327,
+  "flightsWithoutAnyOver50": 1673,
+  "flightOver50Percent": 16.35,
+  "terminalPlanningStepOver50": 17,
+  "nonTerminalStepOver50": 5461,
+  "flightsWithReplanning": 584,
+  "extractionWallSeconds": 16.858383,
+  "histogram": [
+    {
+      "rangeMs": "0-5",
+      "steps": 271691,
+      "percent": 19.083726036557398
+    },
+    {
+      "rangeMs": "5-10",
+      "steps": 461180,
+      "percent": 32.393538150102657
+    },
+    {
+      "rangeMs": "10-20",
+      "steps": 511739,
+      "percent": 35.944830260192077
+    },
+    {
+      "rangeMs": "20-30",
+      "steps": 134923,
+      "percent": 9.4770661083010985
+    },
+    {
+      "rangeMs": "30-40",
+      "steps": 29783,
+      "percent": 2.091974384675197
+    },
+    {
+      "rangeMs": "40-50",
+      "steps": 8885,
+      "percent": 0.6240873118167789
+    },
+    {
+      "rangeMs": "50-100",
+      "steps": 5201,
+      "percent": 0.36532111522330524
+    },
+    {
+      "rangeMs": "100-500",
+      "steps": 234,
+      "percent": 0.016436289360171781
+    },
+    {
+      "rangeMs": "500-1000",
+      "steps": 30,
+      "percent": 0.0021072165846374078
+    },
+    {
+      "rangeMs": "1000-5000",
+      "steps": 5,
+      "percent": 0.00035120276410623461
+    },
+    {
+      "rangeMs": "5000-10000",
+      "steps": 5,
+      "percent": 0.00035120276410623461
+    },
+    {
+      "rangeMs": ">10000",
+      "steps": 3,
+      "percent": 0.00021072165846374078
+    }
+  ],
+  "top20SlowSteps": [
+    {
+      "seed": 10104,
+      "step": 588,
+      "simTime": 29.400000000000002,
+      "ms": 12552.77,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 24,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 11058,
+      "step": 848,
+      "simTime": 42.4,
+      "ms": 12331.2472,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 17,
+      "safetyIterations": 5
+    },
+    {
+      "seed": 11194,
+      "step": 726,
+      "simTime": 36.3,
+      "ms": 11442.4595,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 34,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 11840,
+      "step": 692,
+      "simTime": 34.6,
+      "ms": 9194.0939,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 25,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 11435,
+      "step": 789,
+      "simTime": 39.45,
+      "ms": 7793.5094,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 21,
+      "safetyIterations": 5
+    },
+    {
+      "seed": 11139,
+      "step": 648,
+      "simTime": 32.4,
+      "ms": 5554.4905,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 16,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 11341,
+      "step": 587,
+      "simTime": 29.35,
+      "ms": 5273.5371000000005,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 10,
+      "safetyIterations": 5
+    },
+    {
+      "seed": 11005,
+      "step": 598,
+      "simTime": 29.900000000000002,
+      "ms": 5181.9042,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 15,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 10217,
+      "step": 672,
+      "simTime": 33.6,
+      "ms": 4986.7410999999993,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 10,
+      "safetyIterations": 5
+    },
+    {
+      "seed": 10733,
+      "step": 662,
+      "simTime": 33.1,
+      "ms": 3660.8169,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 9,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 10780,
+      "step": 587,
+      "simTime": 29.35,
+      "ms": 3321.0982,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 10,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 11897,
+      "step": 724,
+      "simTime": 36.199999999999996,
+      "ms": 3167.9937,
+      "terminalPlanningStep": 0,
+      "obstacleCount": 8,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 11473,
+      "step": 655,
+      "simTime": 32.75,
+      "ms": 2902.535,
+      "terminalPlanningStep": 1,
+      "obstacleCount": 6,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 10067,
+      "step": 1439,
+      "simTime": 71.95,
+      "ms": 730.13550000000009,
+      "terminalPlanningStep": 0,
+      "obstacleCount": 38,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 10067,
+      "step": 619,
+      "simTime": 30.950000000000003,
+      "ms": 641.1142,
+      "terminalPlanningStep": 0,
+      "obstacleCount": 38,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 10067,
+      "step": 2341,
+      "simTime": 117.05,
+      "ms": 640.13010000000008,
+      "terminalPlanningStep": 0,
+      "obstacleCount": 38,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 10067,
+      "step": 373,
+      "simTime": 18.650000000000002,
+      "ms": 629.9053,
+      "terminalPlanningStep": 0,
+      "obstacleCount": 38,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 10067,
+      "step": 209,
+      "simTime": 10.450000000000001,
+      "ms": 627.5337,
+      "terminalPlanningStep": 0,
+      "obstacleCount": 38,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 10067,
+      "step": 537,
+      "simTime": 26.85,
+      "ms": 624.1168,
+      "terminalPlanningStep": 0,
+      "obstacleCount": 38,
+      "safetyIterations": 1
+    },
+    {
+      "seed": 10067,
+      "step": 1111,
+      "simTime": 55.55,
+      "ms": 616.2882,
+      "terminalPlanningStep": 0,
+      "obstacleCount": 38,
+      "safetyIterations": 1
+    }
+  ],
+  "top5Initial": [
+    {
+      "seed": 10481,
+      "initialPlanMs": 17273.1587
+    },
+    {
+      "seed": 11604,
+      "initialPlanMs": 16569.051600000003
+    },
+    {
+      "seed": 10968,
+      "initialPlanMs": 15723.9342
+    },
+    {
+      "seed": 11870,
+      "initialPlanMs": 15715.9573
+    },
+    {
+      "seed": 11398,
+      "initialPlanMs": 15160.4003
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "all_maps_frozen_before_trials",
+  "maps": 200,
+  "seeds": [
+    2001,
+    2200
+  ],
+  "sourceFiles": 38,
+  "inputFiles": 205,
+  "freezeManifestSha256": "1f0d9c254979b916012811573bfb8732185c394219d1b8f63b04404e4b60fcb4",
+  "noTrialsYet": true
+}

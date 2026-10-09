@@ -1,0 +1,17 @@
+
+# Preserve the exact bytes of archived experiment evidence and its SHA-256 records.
+docs/three_dimensional/midpoint_study_20261008/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/three_dimensional/midpoint_study_20261008/**/*.log -diff
+
+docs/three_dimensional/unstructured_random200_20261008/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/three_dimensional/unstructured_random200_20261008/**/*.log -diff
+
+docs/three_dimensional/margin_grid49_20261008/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/three_dimensional/margin_grid49_20261008/**/*.log -diff
+docs/three_dimensional/default_margin_update_20261009/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+docs/three_dimensional/normal_random_2000_20261009/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+docs/three_dimensional/normal_scene_constraints_20261009/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+docs/three_dimensional/step_timing_20261009/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

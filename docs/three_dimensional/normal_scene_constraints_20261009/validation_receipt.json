@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "version": "2.3.3",
+  "focused": {
+    "passed": true,
+    "acceptedMaps": 12,
+    "seedRange": [
+      3001,
+      3012
+    ],
+    "proposals": 81,
+    "rejectedMaps": 69,
+    "sampleGenerationAcceptancePercent": 14.814814814814815,
+    "flightSuccessRate": "Not measured by geometry tests."
+  },
+  "historicalRawGeneratorPassed": true,
+  "historicalMapHashesMatched": 200,
+  "publicMainEntryPassed": true,
+  "regressionSuites": [
+    "test_3d",
+    "test_environment3d",
+    "test_adaptive_height3d",
+    "test_directional_clearance3d"
+  ],
+  "smokeFlights": [
+    {
+      "seed": 3001,
+      "success": true,
+      "reason": "success",
+      "planStatus": "direct",
+      "time": 30.1,
+      "obstacleCount": 5
+    },
+    {
+      "seed": 3002,
+      "success": true,
+      "reason": "success",
+      "planStatus": "direct",
+      "time": 32.15,
+      "obstacleCount": 12
+    },
+    {
+      "seed": 3003,
+      "success": true,
+      "reason": "success",
+      "planStatus": "path",
+      "time": 38.3,
+      "obstacleCount": 22
+    }
+  ],
+  "smokeFlightRule": "Fixed fresh seeds 3001:3003; all failures retained; too small for a rate claim.",
+  "generatedBeforeFlight": true,
+  "outputsRoot": "F:/UAV project/UAV_APF_ADP_Formation/results/normal_scene_v2.3.3_20261009_validation_final"
+}

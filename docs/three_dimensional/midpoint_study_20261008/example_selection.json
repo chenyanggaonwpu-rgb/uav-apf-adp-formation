@@ -1,0 +1,15 @@
+{
+  "seed": 4,
+  "rule": "Smallest rescued seed in the two-window family; selected after all outcomes recorded.",
+  "sourceMat": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\adaptive_midpoint3d_v2.3.1_20261008_154420_015\\workers\\worker_01\\trials\\adaptive_000004.mat",
+  "layers": [
+    5,
+    10,
+    15,
+    18.736238712109412,
+    20,
+    25
+  ],
+  "addedHeights": 18.736238712109412,
+  "success": true
+}

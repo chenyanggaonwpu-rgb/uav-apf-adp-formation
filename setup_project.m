@@ -4,7 +4,8 @@ function cleanup = setup_project()
 
     projectRoot = fileparts(mfilename('fullpath'));
     oldPath = path;
-    addpath(fullfile(projectRoot, 'src'), fullfile(projectRoot, 'config'), ...
+    addpath(fullfile(projectRoot, 'src'), fullfile(projectRoot, 'src3d'), ...
+        fullfile(projectRoot, 'config'), ...
         fullfile(projectRoot, 'tests'));
     cleanup = onCleanup(@() path(oldPath));
 end

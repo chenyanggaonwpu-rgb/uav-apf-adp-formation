@@ -1,0 +1,8 @@
+{
+  "figures": 4,
+  "measuredPointsPerSurface": 49,
+  "numericAxisSpacing": true,
+  "interpolation": "Flat-faced connections between measured grid points; no spline or fitted model.",
+  "primaryDenominator": 200,
+  "fixedInitialSafeDenominator": 157
+}

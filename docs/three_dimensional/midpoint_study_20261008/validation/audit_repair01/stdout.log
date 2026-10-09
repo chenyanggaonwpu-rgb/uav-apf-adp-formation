@@ -1,0 +1,5 @@
+MIDPOINT_AUDIT worker=1 checked=250
+MIDPOINT_AUDIT worker=2 checked=500
+MIDPOINT_AUDIT worker=3 checked=750
+MIDPOINT_AUDIT worker=4 checked=1000
+MIDPOINT_AUDIT_PASSED records=1000 success=1000

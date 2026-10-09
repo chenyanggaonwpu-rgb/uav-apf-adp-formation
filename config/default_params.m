@@ -17,7 +17,7 @@ function params = default_params()
     params.workspace      = [0 0; 80 80]; % 二维工作空间，左下角和右上角坐标
     params.start          = [10; 10];     % 长机起点坐标
     params.target         = [70; 62];     % 任务目标点坐标
-    params.seed           = 25;      % 随机场景种子，保留当前设置
+    params.seed           = 5;      % 随机场景种子，保留当前设置
     params.animate        = true;   % 仿真结束后是否播放动态动画
 
     % 编队几何参数：长机在最前面，僚机在后面组成 V 形

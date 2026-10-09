@@ -1,0 +1,15 @@
+{
+  "records": 1000,
+  "measuredCycles": 640935,
+  "cyclesAboveDt": 6,
+  "cycleDeadlineMs": 50,
+  "initialPlanMedianSeconds": 3.31323715,
+  "initialPlanP95Seconds": 8.9108004,
+  "initialPlanMaxSeconds": 14.4522454,
+  "perFlightP99MedianMs": 12.30615,
+  "maxCycleMs": 233.0994,
+  "maxReplanSeconds": 0.0208478,
+  "maxTerminalPlanSeconds": 0.0098562,
+  "quantileRule": "Nearest rank for each run; median of per-flight P99 reported separately.",
+  "timingScope": "Recorded during four concurrent single-compute-thread MATLAB processes; not an isolated or hard real-time benchmark."
+}

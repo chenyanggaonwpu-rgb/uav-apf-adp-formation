@@ -1,0 +1,7 @@
+{
+  "reason": "Prevent heatmap footer/tick overlap; add the observed replan-failure counts and grid maximum marker.",
+  "numericalDataChanged": false,
+  "sourceFile": "plot_margin_grid49_reviewed3d.m",
+  "sourceSha256": "cdcbd45e74ba1b43fbc7a6ea67c23c3d9483fcc929711fa08aaebf14abc418e1",
+  "originalExportsRetained": "validation/first_export"
+}

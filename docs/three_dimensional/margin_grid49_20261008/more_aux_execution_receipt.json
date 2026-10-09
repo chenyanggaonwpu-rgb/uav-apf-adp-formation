@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "exitCodes": [
+    0,
+    0
+  ],
+  "publishedMaps": 44,
+  "wallSeconds": 8995.11,
+  "originalSourcesAndInputsUnchanged": true,
+  "maxConcurrentProcesses": 10
+}

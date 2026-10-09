@@ -1,0 +1,18 @@
+{
+  "stages": [
+    "screen",
+    "refine",
+    "nominal",
+    "robust",
+    "select",
+    "holdout",
+    "boundary",
+    "geometry",
+    "ablation",
+    "timing"
+  ],
+  "wallSeconds": 12694.64,
+  "startStage": "refine",
+  "workers": 4,
+  "completedLocal": "2026-10-07 00:09:49"
+}

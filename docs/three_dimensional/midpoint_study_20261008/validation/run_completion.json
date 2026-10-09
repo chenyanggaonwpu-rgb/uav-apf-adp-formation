@@ -1,0 +1,43 @@
+{
+  "records": 1000,
+  "processExitCodes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "workers": [
+    {
+      "worker": 1,
+      "status": "complete",
+      "scheduled": 250,
+      "completed": 250,
+      "success": 250,
+      "wallSeconds": 2320.0717524
+    },
+    {
+      "worker": 2,
+      "status": "complete",
+      "scheduled": 250,
+      "completed": 250,
+      "success": 250,
+      "wallSeconds": 2363.0381061
+    },
+    {
+      "worker": 3,
+      "status": "complete",
+      "scheduled": 250,
+      "completed": 250,
+      "success": 250,
+      "wallSeconds": 2363.44909
+    },
+    {
+      "worker": 4,
+      "status": "complete",
+      "scheduled": 250,
+      "completed": 250,
+      "success": 250,
+      "wallSeconds": 2338.8364563
+    }
+  ]
+}

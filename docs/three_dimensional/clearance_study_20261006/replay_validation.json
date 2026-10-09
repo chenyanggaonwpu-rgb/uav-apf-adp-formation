@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "seed": 1004,
+  "sourceMat": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\clearance_boundary3d_v2.2.0_20261006_203154_442\\stages\\holdout\\worker_04\\trials\\holdout_f005_s001004_n0_a0_r0_fixed5.mat",
+  "replayFolder": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\clearance_replay3d_v2.2.0_20261007_002217_765",
+  "fieldsCompared": [
+    {
+      "field": "t",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "state",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "reference",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "waypoint",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "formationError",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "obstacleClearance",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "pairDistance",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "baseNorm",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "adpNorm",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "safetyNorm",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "commandNorm",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "actualAccelNorm",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "safetyIterations",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "safetyTriggered",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "predictedSafe",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "tangentDegenerate",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "referenceBlocked",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "holdAlpha",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "noise",
+      "maxAbsoluteDifference": 0
+    },
+    {
+      "field": "disturbance",
+      "maxAbsoluteDifference": 0
+    }
+  ],
+  "excludedTimingField": "cycleMs",
+  "videoDurationSeconds": 13.4165833,
+  "videoFrameRate": 12.000004800001919,
+  "videoWidth": 1920,
+  "videoHeight": 1080
+}

@@ -1,0 +1,50 @@
+{
+  "maxConcurrentProcesses": 10,
+  "auxiliaryIndices": [
+    3,
+    4
+  ],
+  "ownerFocus": [
+    3,
+    5
+  ],
+  "groups": [
+    [
+      2147,
+      2141,
+      2135,
+      2129,
+      2123,
+      2117,
+      2111,
+      2099,
+      2093,
+      2087,
+      2075
+    ],
+    [
+      2149,
+      2143,
+      2137,
+      2125,
+      2113,
+      2107,
+      2095,
+      2089,
+      2083,
+      2077,
+      2071
+    ]
+  ],
+  "freeGiBAtLaunch": 5.692451477050781,
+  "sourceCommit": "ebc3553bea3204d5825147c559659e0ad9c7b27b",
+  "matlabRunner": "aux_runtime_source/run_margin_grid49_aux3d.m",
+  "numericalCoreUnchanged": true,
+  "publishingRule": "Original auxiliary publisher first, exclusive handoff after its completion receipt.",
+  "sourceFiles": [
+    {
+      "file": "more_aux_runtime_source/margin_grid49_more_aux.py",
+      "sha256": "8dc3bb4553157c27f75b890ef0ceebcdbcbe23ccb70baadb2234088d33e0580c"
+    }
+  ]
+}

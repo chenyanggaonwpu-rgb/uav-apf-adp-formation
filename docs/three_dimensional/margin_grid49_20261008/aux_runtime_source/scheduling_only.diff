@@ -1,0 +1,54 @@
+--- frozen_runner
++++ auxiliary_runner
+@@ -1,20 +1,30 @@
+-function run_margin_grid49_3d(studyDir,workerIndex)
++function run_margin_grid49_aux3d(studyDir,workerIndex,seedList)
+ % RUN_MARGIN_GRID49_3D Complete 49 paired flights on every frozen map.
+     snap=fullfile(studyDir,'source_snapshot');
+     addpath(fullfile(snap,'config'),fullfile(snap,'src3d'),fullfile(snap,'experiments3d'));
+     assert(startsWith(which('run_simulation3d'),snap));
+     protocol=jsondecode(fileread(fullfile(studyDir,'protocol.json')));
+     manifest=readtable(fullfile(studyDir,'map_manifest.csv'),'TextType','string');
+-    selected=manifest(mod(manifest.seed-2001,protocol.nWorkers)+1==workerIndex,:);
+-    directory=fullfile(studyDir,'workers',sprintf('worker_%02d',workerIndex));
+-    trialDir=fullfile(directory,'trials');planDir=fullfile(directory,'initial_plans');
++    selected=sortrows(manifest(ismember(manifest.seed,seedList),:),'seed','descend');
++    directory=fullfile(studyDir,'auxiliary_runs',sprintf('aux_%02d',workerIndex));
++    trialDir=fullfile(directory,'pending_results');planDir=fullfile(directory,'initial_plans');
+     if ~isfolder(trialDir),mkdir(trialDir);end
+     if ~isfolder(planDir),mkdir(planDir);end
+     rows=struct([]);timer=tic;total=height(selected)*49;write_status('running');
+     for index=1:height(selected)
+-        m=selected(index,:);frozen=load(fullfile(studyDir,char(m.mapFile)));
++        m=selected(index,:);
++        owner=mod(m.seed-2001,protocol.nWorkers)+1;
++        ownerTrials=fullfile(studyDir,'workers',sprintf('worker_%02d',owner),'trials');
++        if ~isempty(dir(fullfile(ownerTrials,sprintf('*_s%06d.mat',m.seed))))
++            fprintf('AUX_SKIP_ALREADY_STARTED seed=%d\n',m.seed);continue;
++        end
++        mapAborted=false;
++        frozen=load(fullfile(studyDir,char(m.mapFile)));
+         scene=frozen.scene;mapHash=frozen.mapHash;
+         for a=1:numel(protocol.pathValues)
++            if ~isempty(dir(fullfile(ownerTrials,sprintf('*_s%06d.mat',m.seed))))
++                mapAborted=true;break;
++            end
+             jobs=struct([]);
+             for b=1:numel(protocol.referenceValues)
+                 cid=sprintf('p%02d_r%02d',a,b);
+@@ -81,8 +91,14 @@
+             fprintf('MARGIN_GRID_PROGRESS worker=%d completed=%d/%d success=%d seed=%d path=%.2f wall=%.1fs\n', ...
+                 workerIndex,numel(rows),total,nnz([rows.success]),m.seed,protocol.pathValues(a),toc(timer));
+         end
++        if ~mapAborted
++            ready=struct('seed',m.seed,'owner',owner,'auxiliary',workerIndex,'completeTasks',49);
++            readyFile=fullfile(directory,sprintf('ready_%06d.json',m.seed));
++            fid=fopen([readyFile '.tmp'],'w','n','UTF-8');fprintf(fid,'%s',jsonencode(ready));fclose(fid);
++            movefile([readyFile '.tmp'],readyFile,'f');
++        end
+     end
+-    write_status('auditing');audit_margin_grid49_worker3d(studyDir,workerIndex);
++
+     write_status('complete');
+     fprintf('MARGIN_GRID_WORKER_COMPLETE worker=%d records=%d success=%d wall=%.1fs\n', ...
+         workerIndex,numel(rows),nnz([rows.success]),toc(timer));

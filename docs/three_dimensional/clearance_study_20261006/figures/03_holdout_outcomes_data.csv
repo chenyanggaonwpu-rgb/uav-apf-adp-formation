@@ -1,0 +1,5 @@
+configId,reason,n,count,percent
+baseline,planning_failed,1000,419,41.9
+f005,planning_failed,1000,0,0
+baseline,success,1000,581,58.1
+f005,success,1000,1000,100

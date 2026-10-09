@@ -1,0 +1,171 @@
+{
+  "n": 200,
+  "seeds": [
+    2001,
+    2200
+  ],
+  "algorithmVersion": "2.3.1",
+  "cohorts": [
+    {
+      "cohort": "all_200",
+      "n": 200,
+      "success": 80,
+      "percent": 40.0,
+      "wilson95": [
+        0.33460578566807336,
+        0.46916327960737997
+      ],
+      "initialPlans": 80,
+      "outcomes": {
+        "success": 80,
+        "planning_failed": 77,
+        "invalid_scene": 43
+      }
+    },
+    {
+      "cohort": "initial_formation_hard_safe",
+      "n": 157,
+      "success": 80,
+      "percent": 50.955414012738856,
+      "wilson95": [
+        0.4320682692895529,
+        0.5865836381352884
+      ],
+      "initialPlans": 80,
+      "outcomes": {
+        "success": 80,
+        "planning_failed": 77
+      }
+    },
+    {
+      "cohort": "initial_safe_and_leader_endpoints_4p2m",
+      "n": 80,
+      "success": 80,
+      "percent": 100.0,
+      "wilson95": [
+        0.9541818704644728,
+        0.9999999999999999
+      ],
+      "initialPlans": 80,
+      "outcomes": {
+        "success": 80
+      }
+    },
+    {
+      "cohort": "flight_started",
+      "n": 80,
+      "success": 80,
+      "percent": 100.0,
+      "wilson95": [
+        0.9541818704644728,
+        0.9999999999999999
+      ],
+      "initialPlans": 80,
+      "outcomes": {
+        "success": 80
+      }
+    }
+  ],
+  "outcomes": {
+    "success": 80,
+    "planning_failed": 77,
+    "invalid_scene": 43
+  },
+  "overallSuccess": 80,
+  "overallPercent": 40.0,
+  "wilson95": [
+    0.33460578566807336,
+    0.46916327960737997
+  ],
+  "obstacleTotal": 4053,
+  "types": {
+    "sphere": 1269,
+    "box": 1432,
+    "cylinder": 1352
+  },
+  "observedCount": {
+    "min": 1.0,
+    "max": 40.0,
+    "mean": 20.265
+  },
+  "nominalVolumeFraction": {
+    "min": 0.000110203605626198,
+    "max": 0.204813535664052,
+    "mean": 0.08867958673622459,
+    "interpretation": "Sum of individual volumes / workspace volume; overlaps are double-counted, not union occupancy."
+  },
+  "initialPlanFound": 80,
+  "adaptiveAttempted": 77,
+  "insertionTrials": 76,
+  "maxInitialLayers": 13,
+  "maxPeakLayers": 13,
+  "budgetRejectedTrials": 22,
+  "audited": true,
+  "sourceFiles": 38,
+  "countBins": [
+    {
+      "cohort": "1-10",
+      "n": 57,
+      "success": 47,
+      "percent": 82.45614035087719,
+      "wilson95": [
+        0.7063264717030607,
+        0.9018114776029004
+      ],
+      "initialPlans": 47,
+      "outcomes": {
+        "success": 47,
+        "planning_failed": 8,
+        "invalid_scene": 2
+      }
+    },
+    {
+      "cohort": "11-20",
+      "n": 41,
+      "success": 14,
+      "percent": 34.146341463414636,
+      "wilson95": [
+        0.21558808257384846,
+        0.49450163480170306
+      ],
+      "initialPlans": 14,
+      "outcomes": {
+        "planning_failed": 19,
+        "success": 14,
+        "invalid_scene": 8
+      }
+    },
+    {
+      "cohort": "21-30",
+      "n": 46,
+      "success": 11,
+      "percent": 23.91304347826087,
+      "wilson95": [
+        0.13912177777277826,
+        0.3793513855762203
+      ],
+      "initialPlans": 11,
+      "outcomes": {
+        "success": 11,
+        "planning_failed": 27,
+        "invalid_scene": 8
+      }
+    },
+    {
+      "cohort": "31-40",
+      "n": 56,
+      "success": 8,
+      "percent": 14.285714285714286,
+      "wilson95": [
+        0.07420788536920624,
+        0.25735921228705333
+      ],
+      "initialPlans": 8,
+      "outcomes": {
+        "invalid_scene": 25,
+        "planning_failed": 23,
+        "success": 8
+      }
+    }
+  ]
+}

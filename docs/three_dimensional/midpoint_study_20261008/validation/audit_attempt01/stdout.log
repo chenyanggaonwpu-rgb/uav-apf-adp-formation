@@ -1,0 +1,6 @@
+{函数或变量 'lower' 无法识别。
+
+出错 audit_midpoint_sweep3d (第 29 行)
+            actualHash=lower(reshape(dec2hex(typecast(md.digest(),'uint8'),2)',1,[]));
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

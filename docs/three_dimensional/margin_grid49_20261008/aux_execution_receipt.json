@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "exitCodes": [
+    0,
+    0
+  ],
+  "publishedMaps": 44,
+  "wallSeconds": 10752.0,
+  "originalSourcesAndInputsUnchanged": true,
+  "note": "Original-owner raw audits determine canonical validity; pending duplicates are retained outside the denominator."
+}

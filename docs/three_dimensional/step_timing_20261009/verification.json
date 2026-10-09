@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "records": 2000,
+  "cycleCount": 1423679,
+  "over50Count": 5478,
+  "currentTimingSourceEqualsFrozen": true,
+  "peakSeed": 10104,
+  "peakStep": 588,
+  "peakTerminalPlanSumMs": 12528.3063
+}

@@ -1,0 +1,8 @@
+{
+  "screenCenters": [
+    "c200",
+    "c199",
+    "c160"
+  ],
+  "reason": "Three separated coarse regions, with axial neighbours; no holdout inspection"
+}

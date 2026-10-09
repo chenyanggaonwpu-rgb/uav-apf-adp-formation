@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "version": "2.3.2",
+  "pathClearance": 1.2,
+  "desiredClear": 4,
+  "directionalEnabled": false,
+  "planningZ": 1.2,
+  "referenceZ": 4,
+  "scene": "S8_window",
+  "seed": 5,
+  "success": true,
+  "reason": "success",
+  "simulationTime": 30.650000000000002,
+  "minObstacleClearance": 4.2103666847991965,
+  "minPairDistance": 3.6671911555253192,
+  "maxSpeed": 3.0000000000000009,
+  "tests": [
+    "test_3d",
+    "test_environment3d",
+    "test_adaptive_height3d",
+    "test_directional_clearance3d"
+  ],
+  "scope": "One current-default S8 mission and four existing regression suites; no new random-seed success-rate estimate."
+}

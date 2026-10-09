@@ -1,0 +1,10 @@
+ADAPTIVE_HEIGHT_TESTS_PASSED: gap=13 m, covered, sealed, two-window, cache, budget and all solids.
+3-D environment tests passed: roof, window, fixed-layer gap and closed-solid checks.
+DIRECTIONAL_CLEARANCE_TESTS_PASSED
+3-D tests passed. Empty-map completion 30.15 s; overpass 2 waypoints.
+{错误使用 struct2table (第 97 行)
+输入结构体为标量，但其字段的行数不同。如果您想创建一个包含一行的表，请将 'AsArray' 设置为 true。
+
+出错 validate_midpoint_pilot3d (第 30 行)
+        writetable(struct2table(records),fullfile(outputDir,'pilot.csv'));
+} 

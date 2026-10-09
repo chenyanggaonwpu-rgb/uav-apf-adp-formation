@@ -1,0 +1,6 @@
+{
+  "sha256": "fefb43c4369db188dff152af408723ce5e75e29b48875bf32389f44523d2af8c",
+  "createdLocal": "2026-10-06 22:39:43",
+  "holdoutResultsExist": false,
+  "rule": "No candidate change after freeze"
+}

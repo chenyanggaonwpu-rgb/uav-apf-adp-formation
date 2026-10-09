@@ -1,0 +1,16 @@
+{
+  "seed": 1004,
+  "success": true,
+  "reason": "success",
+  "configId": "f005",
+  "sourceCommit": "da6b2db6b6c6c3dcd339b8e8e9f99934c2d04b3d",
+  "mapHash": "8f729cd84c9f2258f941d0dd11779eca2a8b800121930914213d9d215b2fc549",
+  "mapFile": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\clearance_boundary3d_v2.2.0_20261006_203154_442\\maps\\seed_001004.mat",
+  "sourceSnapshot": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\clearance_boundary3d_v2.2.0_20261006_203154_442\\source_snapshot",
+  "pathXY": 5.6,
+  "refXY": 4.4,
+  "planZ": 2,
+  "refZ": 2,
+  "outputDir": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\clearance_replay3d_v2.2.0_20261007_002217_765",
+  "requestedVideo": true
+}

@@ -1,0 +1,44 @@
+{
+  "experiment": "margin_grid49",
+  "algorithmVersion": "2.3.1",
+  "sourceCommit": "7bc3bb0439074f315f3ff944fa93fcfe5be5ef79",
+  "baseStudy": "F:/UAV project/UAV_APF_ADP_Formation/results/unstructured_random3d_v2.3.1_20261008_172031_791",
+  "baseCommit": "f7787800e48b25c7e129203f8aead7b1ab6a1dba",
+  "pathValues": [
+    0.8,
+    1.2,
+    1.8,
+    2.5,
+    3.5,
+    4.2,
+    5.6
+  ],
+  "referenceValues": [
+    0.8,
+    1.2,
+    1.8,
+    2.5,
+    3.5,
+    4.0,
+    4.4
+  ],
+  "nMaps": 200,
+  "seeds": [
+    2001,
+    2200
+  ],
+  "nConfigurations": 49,
+  "scheduledTasks": 9800,
+  "nWorkers": 6,
+  "initialHardSafeMaps": 157,
+  "mapRule": "Byte-identical copies of all 200 frozen maps; no regeneration, filtering or replacement.",
+  "parameterRule": "Only pathClearance and desiredClear vary; isotropic mode; directional fields mirror those values but remain disabled.",
+  "heightRule": "Unchanged 2.3.1 adaptive midpoint policy; base five layers; at most eight additions.",
+  "stochasticRule": "Noise and disturbance remain zero; each trial resets ADP weights and RNG.",
+  "cacheRule": "Prepare initial graph once for each map/planning margin, before any flight; never reuse a final flight cache.",
+  "timingRule": "Concurrent single-compute-thread MATLAB processes and shared initial graphs; these timings are not isolated planning or hard-real-time benchmarks.",
+  "metricRule": "Success means the complete original flight/hold criterion; primary denominator 200 and fixed initial-safe denominator 157.",
+  "plotRule": "Show all 49 measured points at their physical numeric coordinates; linear facets only, no fitted smooth surface; intermediate parameters untested.",
+  "selectionRule": "Exploratory grid maximum and all ties; no claim of continuous optimum or independent validation.",
+  "createdLocal": "2026-10-08T18:31:29"
+}

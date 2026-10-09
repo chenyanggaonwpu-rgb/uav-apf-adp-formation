@@ -1,0 +1,49 @@
+{
+  "stage": "timing",
+  "scheduled": 24,
+  "jobCsvSha256": "0315f87b4608f76fea5e09d3212dacbfafec625370656712c2741fa1a9710ec3",
+  "createdLocal": "2026-10-07 00:06:07",
+  "configs": [
+    {
+      "configId": "baseline",
+      "enabled": 0,
+      "pathXY": 4.2,
+      "refXY": 4.0,
+      "planZ": 4.2,
+      "refZ": 4.0
+    },
+    {
+      "configId": "f005",
+      "enabled": 1,
+      "pathXY": 5.6,
+      "refXY": 4.4,
+      "planZ": 2.0,
+      "refZ": 2.0
+    }
+  ],
+  "seeds": [
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+  ],
+  "conditions": [
+    [
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "policies": [
+    "fixed5"
+  ]
+}
