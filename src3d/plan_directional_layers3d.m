@@ -1,9 +1,10 @@
-function [waypoints,info,cache] = plan_directional_layers3d(startPoint,goalPoint,obstacles,p,clearance,startJoinClearance,cache)
+function [waypoints,info,cache] = plan_directional_layers3d(startPoint,goalPoint,obstacles,p,clearance,startJoinClearance,cache,buildOnly)
 % PLAN_DIRECTIONAL_LAYERS3D Finite grids with XY/Z ellipsoidal margins.
 % Every graph edge, start/goal connector and simplified segment is checked.
     if nargin<5, clearance=p.pathClearance; end
     if nargin<6, startJoinClearance=clearance; end
     if nargin<7, cache=[]; end
+    if nargin<8, buildOnly=false; end
     verticalWeight=0;
     if isfield(p,'verticalCostWeight'), verticalWeight=p.verticalCostWeight; end
     validateattributes(verticalWeight,{'numeric'},{'scalar','finite','nonnegative'});
@@ -20,6 +21,7 @@ function [waypoints,info,cache] = plan_directional_layers3d(startPoint,goalPoint
         'ascent',nan,'descent',nan,'verticalTravel',nan,'pathCost',nan, ...
         'rawGraphCost',nan);
     lo=p.workspace(1,:)'; hi=p.workspace(2,:)';
+    if ~buildOnly
     if any(startPoint<lo+joins) || ...
             any(startPoint>hi-joins) || ...
             any(goalPoint<lo+margins) || any(goalPoint>hi-margins)
@@ -32,6 +34,7 @@ function [waypoints,info,cache] = plan_directional_layers3d(startPoint,goalPoint
             numel(lo(2):p.pathGridResolution:hi(2))*numel(p.heightLayers);
         info=add_route_metrics(info,[startPoint,waypoints],p);
         return;
+    end
     end
     if isempty(cache)
     buildClock=tic;
@@ -84,7 +87,6 @@ function [waypoints,info,cache] = plan_directional_layers3d(startPoint,goalPoint
     end
     info.edges=numel(src);
     info.buildSeconds=toc(buildClock);
-    if isempty(src), return; end
     map=graph(src,dst,weights,numel(xx));
     cache=struct('map',map,'coords',coords,'blocked',blockedFlat, ...
         'capacity',info.capacity,'availableNodes',info.availableNodes, ...
@@ -108,6 +110,7 @@ function [waypoints,info,cache] = plan_directional_layers3d(startPoint,goalPoint
         info.availableNodes=cache.availableNodes;
         info.edges=cache.edges;
     end
+    if buildOnly || cache.edges==0, return; end
     startNode=nearest_visible(startPoint,coords,blockedFlat,obstacles,joins);
     goalNode=nearest_visible(goalPoint,coords,blockedFlat,obstacles,margins);
     if startNode==0 || goalNode==0

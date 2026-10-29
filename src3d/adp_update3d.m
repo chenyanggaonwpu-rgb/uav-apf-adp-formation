@@ -1,5 +1,11 @@
-function p=adp_update3d(oldState,newState,base,adpControl,oldRefs,newRefs,obstacles,p)
+function [p,info]=adp_update3d(oldState,newState,base,adpControl,oldRefs,newRefs,obstacles,p,context)
 % ADP_UPDATE3D Shared 6-feature critic and 3-axis actor, reset per map.
+    info=struct('skipped',false,'predictionGain',0,'fitError',0);
+    if isfield(p.adp,'mode') && ismember(p.adp.mode,{'tracking_value_v1','tracking_value_v2','tracking_value_v3','tracking_value_v4'})
+        if nargin<9,error('UAV3D:ADPContext','Tracking ADP requires the executed control context.');end
+        [p,info]=adp_tracking_update3d(oldState,newState,base,adpControl,obstacles,p,context);
+        return;
+    end
     if ~p.adp.enable, return; end
     adp=p.adp;
     criticDelta=zeros(6,1);actorDelta=zeros(3,6);

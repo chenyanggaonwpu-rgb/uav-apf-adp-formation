@@ -1,0 +1,6 @@
+function info=rtadp_worker_status(resident)
+    data=resident.Value;
+    info=struct('weightsUnchanged',isequaln(data.weights,data.actor.Learnables), ...
+        'details',data.details,'warmupMilliseconds',data.warmupMilliseconds, ...
+        'criticLoaded',false,'trainingPerformed',false);
+end

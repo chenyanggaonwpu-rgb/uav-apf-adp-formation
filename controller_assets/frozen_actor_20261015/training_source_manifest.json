@@ -1,0 +1,410 @@
+{
+  "module": [
+    {
+      "path": "Adp3dEpisodeManager.m",
+      "sha256": "2d44e7969e239abfa400bc0f599f4ed97b2c92522c685cd57782df8295159749"
+    },
+    {
+      "path": "adp3d_actor_action.m",
+      "sha256": "d80516c17b62194244a184faef43bd5d9e875d624e3e831e6ebc79689cb3e495"
+    },
+    {
+      "path": "adp3d_agent_weights.m",
+      "sha256": "5d2b51a1a32e9892bf10d73eae73151836f3cea89f003093bc86cbb67a639a5d"
+    },
+    {
+      "path": "adp3d_braking_plan.m",
+      "sha256": "41d6c0ef11b73562bd4a4b5dfdb3465e3e5a8edf56ca1700177e64e19df8e459"
+    },
+    {
+      "path": "adp3d_build_agent.m",
+      "sha256": "eae3cdafd49e6cbcabe06cb345a729c557327e5ba2cb77ce55288b1cd3897374"
+    },
+    {
+      "path": "adp3d_case_catalog.m",
+      "sha256": "d3b00abc9825a7fcc43f8e62a8b92fd94c49ef6d42507b2630921ea9da530d75"
+    },
+    {
+      "path": "adp3d_certify_segment.m",
+      "sha256": "f3d8fe62ab33d70d909f8b7fb5ac328e4c70786de1fd4778300d5a473977525b"
+    },
+    {
+      "path": "adp3d_config.m",
+      "sha256": "c30427d960fbcb3e8bdcce786da14f65bcb9e0ad56465ff7137ee256f3c45e3a"
+    },
+    {
+      "path": "adp3d_create_env.m",
+      "sha256": "7545bc847a1edcfd30938ddb8c7024b5ad504557765eda72a35871a886fad5e5"
+    },
+    {
+      "path": "adp3d_create_networks.m",
+      "sha256": "507b83e3320e2c15fccb0786130d59af4035ba3e6cb80e56e05d9b10e2f95d65"
+    },
+    {
+      "path": "adp3d_decode_action.m",
+      "sha256": "febef059e9a3b0e4909795caa86a901b2cf3a027b1a37a9fb8e30bebc3ef7df1"
+    },
+    {
+      "path": "adp3d_evaluate.m",
+      "sha256": "1a59f464ecc11a02316c96a0baaa49d38730b0ed184d8f49d3d72ca29f1de584"
+    },
+    {
+      "path": "adp3d_export_actor.m",
+      "sha256": "3c4d0e403351a0ad552051c74a7fab071c421e4f705f0cccb57820e2775c24b5"
+    },
+    {
+      "path": "adp3d_leader_command.m",
+      "sha256": "ba4f92ff0639627f5ba5c12c4474e562ab466f846a4762bf46547b0c86e811bf"
+    },
+    {
+      "path": "adp3d_make_case.m",
+      "sha256": "132cd4e6458298667bda4c3a92f356d2dddbd6d6512aad5399f262066e741c89"
+    },
+    {
+      "path": "adp3d_observation.m",
+      "sha256": "af8bd7d23ede6182e902245f4bc67b29058dfb67d55cbb9a9162ef00caa938b7"
+    },
+    {
+      "path": "adp3d_project_demo.m",
+      "sha256": "96ff6fd3ca12f82d2a2a908c3adf2c735729db2ea5db4f1d60980cdf7ee22d29"
+    },
+    {
+      "path": "adp3d_safe_step.m",
+      "sha256": "40aafa155095aa35d3c02574d8d04d46d18d158b3661c6e77696e291915671f5"
+    },
+    {
+      "path": "adp3d_scan26.m",
+      "sha256": "fb08b79f9c5fa48409f71d3eb3e35a1e37cbd83d5ee160ca8977348d0c59b647"
+    },
+    {
+      "path": "adp3d_setup.m",
+      "sha256": "34291bc671299ff924bd42cea5cd5457a3dd12c1d9d4a2d5b26629ba1e309c77"
+    },
+    {
+      "path": "adp3d_source_manifest.m",
+      "sha256": "d101fccbcccbf18a1caf753ea0cee105a83d45e51afcfcde0b1c296ee281b08b"
+    },
+    {
+      "path": "adp3d_train.m",
+      "sha256": "ac3ed40e77c849903f4cf496c59d929695f1da11f3ca8831afa8f5b246bd460b"
+    }
+  ],
+  "project": [
+    {
+      "path": "config/clearance_candidate_params3d.m",
+      "sha256": "49f40bc175c3668a409a59d88a3cea9f2b8df5a133651b5bff00523c00672cca"
+    },
+    {
+      "path": "config/default_normal_scene_options3d.m",
+      "sha256": "74729511ed4d9eb62123510467f4c90240448fe7d59e0b133880040f1b0d8208"
+    },
+    {
+      "path": "config/default_params.m",
+      "sha256": "f792fb423f6828e37427c3353a20bfeaf0b5be77140c085298afd534f3a37b6a"
+    },
+    {
+      "path": "config/default_params3d.m",
+      "sha256": "f4d727ac7e4f2796006ebe13e267e95c99c88f99fc8fbb4d80f10629b884e3ef"
+    },
+    {
+      "path": "main.m",
+      "sha256": "ee713a46253bb6ec316429ed76ff16b906fc36b8a6bb833d545c61a9ec0e1b47"
+    },
+    {
+      "path": "main3d.m",
+      "sha256": "fe011b7286e9c6ea48b3fbc87ee9928963f9d344f0e9a8c642e75c587713bef5"
+    },
+    {
+      "path": "run_batch.m",
+      "sha256": "dd5b96e18b31ff47be0c6534b7ff82a3fe7f4d3e273e96f26d2b55af62d1e0bd"
+    },
+    {
+      "path": "run_obstacle_sweep.m",
+      "sha256": "32b97f0727b4aaa0c112f45d656eaa564d200ad11f93a2254ba8d9e76dc45a96"
+    },
+    {
+      "path": "setup_project.m",
+      "sha256": "25e45a752068f088b0763ec9abe2af1951b72423201cf94cc6b77b3832f0c37a"
+    },
+    {
+      "path": "src/adp_actor.m",
+      "sha256": "3df48cbde617e0d495456db41a8d3e58501b1d8eb07adb54c478bb2c815b9bae"
+    },
+    {
+      "path": "src/adp_critic.m",
+      "sha256": "397320bb4d4c572871db786b1a2434ec26fb6670d982e1c8b3310445d8e59125"
+    },
+    {
+      "path": "src/adp_features.m",
+      "sha256": "37bc765db5335d0d70e9eccb06183b3f84bc5967b81c1f7d2418eb07723dbed0"
+    },
+    {
+      "path": "src/adp_update.m",
+      "sha256": "fe1c3e2e5f02cdb7aad281b69a1b2cce85da7aea75f54334f62ae9f3fff1c742"
+    },
+    {
+      "path": "src/animate_demo.m",
+      "sha256": "1bc70dd21442f425dbe235150c8b8d222c45d65f17b8152c8d83dd61f86d2f11"
+    },
+    {
+      "path": "src/apf_attractive_force.m",
+      "sha256": "7fe9afe6d87850673deaa44fba4702dbe6be236094758141f704ffb7e3a8f147"
+    },
+    {
+      "path": "src/apf_repulsive_force.m",
+      "sha256": "1bb364b62dd6b4054f20076d16b007fa39272a3d7ac488f78acbed312469483b"
+    },
+    {
+      "path": "src/apply_boundary.m",
+      "sha256": "f80f970d6c0393d14f872a8beae2eb5ccf5ddea57a93d94ebae2dfb7dd4b1786"
+    },
+    {
+      "path": "src/check_collisions.m",
+      "sha256": "c4cc6aff597a6ebe069c0129d81b5e1757a1469fcc98c72a6fd0ad5a0abc6847"
+    },
+    {
+      "path": "src/create_run_output_dir.m",
+      "sha256": "0860c084a97ad7ffbc5261deec5c409b9d077d78d3e6f774dc5a7430582e551e"
+    },
+    {
+      "path": "src/follower_control.m",
+      "sha256": "363cbe238603b7b36fad40e98dac8bb2f36e5e836ae338228f69df699105488b"
+    },
+    {
+      "path": "src/formation_desired_positions.m",
+      "sha256": "ab3247af90bdc120cc89ed5062a0cb9b39b1391a1bdff7f4849b18582d2b10bd"
+    },
+    {
+      "path": "src/generate_obstacles.m",
+      "sha256": "c3bdaad4545e9bb000efb11648e90c7a9f05420c7ff1f95a7f191c5d55774dc2"
+    },
+    {
+      "path": "src/init_formation.m",
+      "sha256": "c6910be24324177fdbf0fdb4946a9a0391ab68101b3ac0cf30b5d9aedb8a78b6"
+    },
+    {
+      "path": "src/inter_uav_repulsion.m",
+      "sha256": "c1a02efa848b052a2cdf7be78d6f0bd6e788cedb34b47e9ea7df09a1fe41897d"
+    },
+    {
+      "path": "src/leader_control.m",
+      "sha256": "952b57c5cb37d015f945cce5d9743214feb839d8cf6ec9522b53350f00f34bdf"
+    },
+    {
+      "path": "src/motion_update.m",
+      "sha256": "53d1615210e3b5cc8e3327a8e052431eabe06153844a39a2215b0f12e7d4e9a8"
+    },
+    {
+      "path": "src/plan_grid_path.m",
+      "sha256": "33ebdc6157c37e91ac58db6f4c49df662acdf8626fd07fd84bd9d87f0f45ec82"
+    },
+    {
+      "path": "src/play_flight_animation.m",
+      "sha256": "07c1a65fa4b83b1d9e0fa4bc77baa0d4b3d0adb06ad27763f5086d30d92b025f"
+    },
+    {
+      "path": "src/plot_metrics.m",
+      "sha256": "79b344276e734461fefb719ef004397ef5a13f33e94f3c09f13760496d1f322d"
+    },
+    {
+      "path": "src/plot_scene.m",
+      "sha256": "935bd5785c35bd7ead84f3f9c41d3d8bd32a58da77e6712c3d764ec6d73557a6"
+    },
+    {
+      "path": "src/plot_trajectory.m",
+      "sha256": "790b2697fcd69546277b465e246d86a38d5cc1432f3af7afbdd80484176b1fcb"
+    },
+    {
+      "path": "src/resolve_collisions.m",
+      "sha256": "4820ee22e021224de406e4311db5df69544dbb0fd33cb2c2d8c1e90d70115a37"
+    },
+    {
+      "path": "src/run_simulation.m",
+      "sha256": "14c8388075a5a4f112c4385896137159b2b63bebb7f99c03e8ab581107a4760d"
+    },
+    {
+      "path": "src/update_success_hold.m",
+      "sha256": "fc24708e4f0a5626d936a1e8d6464c7ec4c62fe930b867cfbba7fe06a97e8a2e"
+    },
+    {
+      "path": "src/validate_params.m",
+      "sha256": "538a9c84e304b9cfaea385206c406550b748853888360d1d796022cf88507df9"
+    },
+    {
+      "path": "src3d/adaptive_height_layers3d.m",
+      "sha256": "9019e462e9fef3e327c627fc55fbd921e154445ba9340de5bcbe800513c8efe2"
+    },
+    {
+      "path": "src3d/adp_features3d.m",
+      "sha256": "519d09de0bdbb61bb0e015bf254655a9196b613e222447612ac8b3367b8c4604"
+    },
+    {
+      "path": "src3d/adp_project_actor3d.m",
+      "sha256": "eb38b3b02476353ca4056ad3a857d3d895335a3f6d2a5a978bd19796cdb2ed0c"
+    },
+    {
+      "path": "src3d/adp_residual_limit3d.m",
+      "sha256": "9136ffa8f1b8d6f4d074bc8a5219f1bd24e9b8a3048e2d2a332fa9fd9d4a1758"
+    },
+    {
+      "path": "src3d/adp_tracking_features3d.m",
+      "sha256": "27bc0af0bb00ea8e35d7061300e93388e689bcd66e7053558071564fd626e946"
+    },
+    {
+      "path": "src3d/adp_tracking_update3d.m",
+      "sha256": "ca570a89cf9036902e4b67e578400d661ba1640973667ba6751ceea28ca96d30"
+    },
+    {
+      "path": "src3d/adp_update3d.m",
+      "sha256": "6dcd144f4e6e107162e65f02bc78ad48e3229fc43ecbae0f7fe1948c0d6eef2e"
+    },
+    {
+      "path": "src3d/apf_repulsion3d.m",
+      "sha256": "1cb0a27698526da57e9264b2fd8cd83f120c36eaf4bc719013677c70a1c430cc"
+    },
+    {
+      "path": "src3d/available_height_intervals3d.m",
+      "sha256": "a19971660850c7e216520acf5d063422a858af52ac77f2b45c7963629ad55ede"
+    },
+    {
+      "path": "src3d/certify_formation_segment3d.m",
+      "sha256": "526c085b8c877d1d1c1154b1eaf4da0b79a12c08ca94367795f74c58da180ddc"
+    },
+    {
+      "path": "src3d/check_normal_scene3d.m",
+      "sha256": "0dab313f1a4acb3c5fc899cf7c42feddc2d75f84cb0d2acb9f32f2a1fd4c0f1d"
+    },
+    {
+      "path": "src3d/check_swept3d.m",
+      "sha256": "59d2cbd97d1b315de783b04fc6f0650c2bfdac059fd9d983351345df0ee01a24"
+    },
+    {
+      "path": "src3d/control3d.m",
+      "sha256": "c1913b888b30b4798733dc1c33ffd97b788328eaab87b5151b3e89999a4aa6fb"
+    },
+    {
+      "path": "src3d/directional_clearance3d.m",
+      "sha256": "7140bab9f529a9f617f696a7d640daa6294c26a6ba711b4627bceac842cff637"
+    },
+    {
+      "path": "src3d/directional_segments_free3d.m",
+      "sha256": "3230dfe526f10af881e4338ee3993ea6aed0520cf0fa1967661e85f2677ae1e6"
+    },
+    {
+      "path": "src3d/draw_obstacles3d.m",
+      "sha256": "fe1a62d98f96328dc6791202c94d4d282440810f78bbfdba671cec8255d3f175"
+    },
+    {
+      "path": "src3d/formation_reference3d.m",
+      "sha256": "01cdd9a40749630fe40a4220ac9a6927c13ed188649c0b7fa573fd7d7c305b37"
+    },
+    {
+      "path": "src3d/formation_witness3d.m",
+      "sha256": "92cc94fea17ad46d160b78278cf5f84569c49cf8a899b670ee7b9edef0850968"
+    },
+    {
+      "path": "src3d/init_formation3d.m",
+      "sha256": "8a9f4bdaa7d2e19010e4d13748d077725904b483062cf23d33875139e19b406f"
+    },
+    {
+      "path": "src3d/limit_vector3d.m",
+      "sha256": "d6ad404b1f1c842346167caa6a7f382898a79c21413900cdb63970cc818a8298"
+    },
+    {
+      "path": "src3d/motion_step3d.m",
+      "sha256": "7dc557e9cd6b8c8aed82b064ad748a625728a8d6cd3631ff40fa31d465a82c10"
+    },
+    {
+      "path": "src3d/normal_scene3d.m",
+      "sha256": "b718f3940b882a242ac6ef7a5300ec1b087aa473454fb5554f1d147730292cbc"
+    },
+    {
+      "path": "src3d/obstacle3d.m",
+      "sha256": "b892e34244bf616374b2380abdeb60fdbc1c46294302147a439ec22628004cde"
+    },
+    {
+      "path": "src3d/obstacle_distance3d.m",
+      "sha256": "1391c8fab3c7d0c828fa0329459100b5a31484152656a4cf28000c20397d0d3f"
+    },
+    {
+      "path": "src3d/plan_directional_layers3d.m",
+      "sha256": "df26cb2d7188f81f6f758797756377f979a9577f7b8d06e4f4a68b5c33cd9f41"
+    },
+    {
+      "path": "src3d/plan_fixed_layers3d.m",
+      "sha256": "7cf90c0b2e09fb5fb8ecbe4983c2ba80e01f29fa7652b7737c285f5689ec740a"
+    },
+    {
+      "path": "src3d/plan_layers3d.m",
+      "sha256": "cbf77c2c49d8a4f19a63588ef3dbcc4b396b0b5bf8208e6491f8df1e7d9c331b"
+    },
+    {
+      "path": "src3d/planner_segments_free3d.m",
+      "sha256": "bee4df9e2e356f9a0a8d374a644d9862c630255415933a6b35cfc6c68db72a71"
+    },
+    {
+      "path": "src3d/planning_graph_signature3d.m",
+      "sha256": "c7b78235cb5fce29e7e4cbbfcc8d20597cef6835cc64d12409a222950d4e88e9"
+    },
+    {
+      "path": "src3d/plot_result3d.m",
+      "sha256": "acde6091ea0b3f7040aa22518d023fac986421270520d1926e6f83a1afb102ff"
+    },
+    {
+      "path": "src3d/point_clearance_batch3d.m",
+      "sha256": "fc18f36876d1110add98718ab9e3d93ecbd7f2f1cb6b3087326c6ad9516590c6"
+    },
+    {
+      "path": "src3d/prepare_planning_graphs3d.m",
+      "sha256": "b06de401acd6f66955649f396344b626cea40565f21f98f5177fe534c299fb7e"
+    },
+    {
+      "path": "src3d/random_solids3d.m",
+      "sha256": "1c24ca10462262765e620fc95105ef4df3ae275bb9347a4088625c51d082bf4f"
+    },
+    {
+      "path": "src3d/reference_footprints3d.m",
+      "sha256": "493809cb5e27f75986db7dabb056359efa4d67021472a3bba14b07b11922ff9d"
+    },
+    {
+      "path": "src3d/render_3d_animation.m",
+      "sha256": "ea106912a39e169bebfcd1616d0e034fa8163b9ba8fbaf77faaf8453448f7023"
+    },
+    {
+      "path": "src3d/resolve_safety3d.m",
+      "sha256": "bee97c5acbfa820fa4d7c8981e1e10d48044e358444b15bdf22077c4afe14b2d"
+    },
+    {
+      "path": "src3d/route_cost3d.m",
+      "sha256": "d27d8810e7025c2444487a348af57c03675d3920630fda1be01435cdea1df397"
+    },
+    {
+      "path": "src3d/run_simulation3d.m",
+      "sha256": "d58f969ff4310f5eaed12c7b1b99cfbd9cec2757e1d95f22e0607b61f70878c5"
+    },
+    {
+      "path": "src3d/save_scene_generation3d.m",
+      "sha256": "5dbad9d6254dec89564950e4b78383a076f6ec2a13d7590a3f3e0e7e9c419c12"
+    },
+    {
+      "path": "src3d/scenario3d.m",
+      "sha256": "d11572e5f517516d657751452065a1f69894fb83e6a3aa583309a5305e3341e4"
+    },
+    {
+      "path": "src3d/segment_clearance3d.m",
+      "sha256": "eb66ef72227a5d0eedb86a221e78980873280bd6b3c5a0a633706e30de17334d"
+    },
+    {
+      "path": "src3d/segment_directional_clearance3d.m",
+      "sha256": "28411256e31c46577f286946e25d31d5c29ab8bc84db0b3349f987a3c7d17d94"
+    },
+    {
+      "path": "src3d/validate_normal_scene_options3d.m",
+      "sha256": "9e9a0aaa27d6e36ae1cdce00635f2af196877c3b965c9f9d89520d1c3ee9f5b9"
+    },
+    {
+      "path": "src3d/validate_params3d.m",
+      "sha256": "8fd824246ab4efab34f96bcc12e146dc8e7d167fc50ecbdcc298de6d98c83a99"
+    }
+  ]
+}

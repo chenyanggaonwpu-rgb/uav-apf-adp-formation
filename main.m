@@ -1,13 +1,15 @@
 function result = main(params)
-% MAIN 程序入口：运行一次完整仿真并输出结果
+% MAIN Default known-map five-UAV controller with the shared frozen Actor.
+% Unknown-map development remains available through main_unknown3d().
+    if nargin < 1
+        result=main3d();
+        return;
+    end
     projectRoot = fileparts(mfilename('fullpath')); % 获取本项目根目录
     oldPath = path;
     pathCleanup = onCleanup(@() path(oldPath));
     addpath(fullfile(projectRoot, 'src'), fullfile(projectRoot, 'src3d'), ...
             fullfile(projectRoot, 'config'));       % 把源码目录和配置目录加入 MATLAB 搜索路径
-    if nargin < 1
-        params = default_params3d();
-    end
     if numel(params.start) == 3
         result = main3d(params);
         return;

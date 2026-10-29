@@ -1,12 +1,13 @@
-function [waypoints,info,cache] = plan_fixed_layers3d(startPoint,goalPoint,obstacles,p,clearance,startJoinClearance,cache)
+function [waypoints,info,cache] = plan_fixed_layers3d(startPoint,goalPoint,obstacles,p,clearance,startJoinClearance,cache,buildOnly)
 % PLAN_FIXED_LAYERS3D Finite horizontal 8-neighbor grids plus vertical-only links.
 % Every graph edge, start/goal connector and simplified segment is checked.
     if nargin<5, clearance=p.pathClearance; end
     if nargin<6, startJoinClearance=clearance; end
     if nargin<7, cache=[]; end
+    if nargin<8, buildOnly=false; end
     if isfield(p,'directionalClearance') && p.directionalClearance.enable
         [waypoints,info,cache]=plan_directional_layers3d(startPoint,goalPoint, ...
-            obstacles,p,clearance,startJoinClearance,cache);
+            obstacles,p,clearance,startJoinClearance,cache,buildOnly);
         return;
     end
     verticalWeight=0;
@@ -21,18 +22,20 @@ function [waypoints,info,cache] = plan_fixed_layers3d(startPoint,goalPoint,obsta
         'ascent',nan,'descent',nan,'verticalTravel',nan,'pathCost',nan, ...
         'rawGraphCost',nan);
     lo=p.workspace(1,:)'; hi=p.workspace(2,:)';
+    if ~buildOnly
     if any(startPoint<lo+startJoinClearance) || ...
             any(startPoint>hi-startJoinClearance) || ...
             any(goalPoint<lo+clearance) || any(goalPoint>hi-clearance)
         info.status='connector_out_of_bounds'; return;
     end
-    if segment_clearance3d(startPoint,goalPoint,obstacles)>=clearance
+    if planner_segments_free3d(startPoint,goalPoint,obstacles,clearance)
         waypoints=goalPoint;
         info.status='direct';
         info.capacity=numel(lo(1):p.pathGridResolution:hi(1))* ...
             numel(lo(2):p.pathGridResolution:hi(2))*numel(p.heightLayers);
         info=add_route_metrics(info,[startPoint,waypoints],p);
         return;
+    end
     end
     if isempty(cache)
     buildClock=tic;
@@ -98,10 +101,8 @@ function [waypoints,info,cache] = plan_fixed_layers3d(startPoint,goalPoint,obsta
         end
         risky=find(min(clearFlat(a),clearFlat(b))<clearance+lengths/2);
         keep=true(numel(a),1);
-        for q=1:numel(risky)
-            h=risky(q);
-            keep(h)=segment_clearance3d(coords(:,a(h)),coords(:,b(h)),obstacles)>=clearance-1e-9;
-        end
+        keep(risky)=planner_segments_free3d(coords(:,a(risky)),coords(:,b(risky)), ...
+            obstacles,clearance-1e-9);
         src=[src;a(keep)]; %#ok<AGROW>
         dst=[dst;b(keep)]; %#ok<AGROW>
         dz=abs(coords(3,b(keep))-coords(3,a(keep)))';
@@ -109,7 +110,6 @@ function [waypoints,info,cache] = plan_fixed_layers3d(startPoint,goalPoint,obsta
     end
     info.edges=numel(src);
     info.buildSeconds=toc(buildClock);
-    if isempty(src), return; end
     map=graph(src,dst,weights,numel(xx));
     cache=struct('map',map,'coords',coords,'blocked',blockedFlat, ...
         'capacity',info.capacity,'availableNodes',info.availableNodes, ...
@@ -133,6 +133,7 @@ function [waypoints,info,cache] = plan_fixed_layers3d(startPoint,goalPoint,obsta
         info.availableNodes=cache.availableNodes;
         info.edges=cache.edges;
     end
+    if buildOnly || cache.edges==0, return; end
     startNode=nearest_visible(startPoint,coords,blockedFlat,obstacles,startJoinClearance);
     goalNode=nearest_visible(goalPoint,coords,blockedFlat,obstacles,clearance);
     if startNode==0 || goalNode==0
@@ -149,16 +150,20 @@ function [waypoints,info,cache] = plan_fixed_layers3d(startPoint,goalPoint,obsta
     while keep(end)<size(raw,2)
         first=keep(end);
         next=first+1;
+        required=clearance;
+        if first==1, required=startJoinClearance; end
+        eligible=zeros(1,0);
         for j=size(raw,2):-1:first+1
-            required=clearance;
-            if first==1, required=startJoinClearance; end
             delta=raw(:,j)-raw(:,first);
             shortcutCost=norm(delta)+verticalWeight*abs(delta(3));
-            if shortcutCost<=cumulativeCost(j)-cumulativeCost(first)+1e-9 && ...
-                    segment_clearance3d(raw(:,first),raw(:,j),obstacles)>=required-1e-9
-                next=j; break;
+            if shortcutCost<=cumulativeCost(j)-cumulativeCost(first)+1e-9
+                eligible(end+1)=j; %#ok<AGROW>
             end
         end
+        visible=planner_segments_free3d(repmat(raw(:,first),1,numel(eligible)), ...
+            raw(:,eligible),obstacles,required-1e-9);
+        chosen=find(visible,1);
+        if ~isempty(chosen),next=eligible(chosen);end
         keep(end+1)=next; %#ok<AGROW>
     end
     waypoints=raw(:,keep(2:end));
@@ -177,10 +182,9 @@ function id=nearest_visible(point,coords,blocked,obstacles,clearance)
     distance=sum((coords(:,candidate)-point).^2,1);
     [~,order]=sort(distance);
     id=0;
-    for i=1:min(200,numel(order))
-        c=candidate(order(i));
-        if segment_clearance3d(point,coords(:,c),obstacles)>=clearance-1e-9
-            id=c; return;
-        end
-    end
+    selected=candidate(order(1:min(200,numel(order))));
+    visible=planner_segments_free3d(repmat(point,1,numel(selected)), ...
+        coords(:,selected),obstacles,clearance-1e-9);
+    first=find(visible,1);
+    if ~isempty(first),id=selected(first);end
 end

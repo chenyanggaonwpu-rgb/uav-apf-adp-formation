@@ -1,6 +1,9 @@
 function p = validate_params3d(p)
 % VALIDATE_PARAMS3D Reject configurations that cannot represent the 3-D model.
     if ~isfield(p,'verticalCostWeight'), p.verticalCostWeight=0; end
+    if ~isfield(p,'planning'),p.planning=struct('prebuildGraphs',true);end
+    if ~isfield(p.planning,'prebuildGraphs'),p.planning.prebuildGraphs=true;end
+    validateattributes(p.planning.prebuildGraphs,{'logical','numeric'},{'scalar','binary'});
     if ~isfield(p,'adaptiveHeight')
         p.adaptiveHeight=struct('enable',false,'maxAddedLayers',8,'intervalTolerance',1e-7);
     end
@@ -58,6 +61,43 @@ function p = validate_params3d(p)
     if ~isequal(size(p.adp.wC),[6 1]) || ~isequal(size(p.adp.wA),[3 6]) || ...
             any(~isfinite(p.adp.wC)) || any(~isfinite(p.adp.wA),'all')
         error('UAV3D:InvalidParameter','3-D ADP requires wC=6x1 and wA=3x6.');
+    end
+    if isfield(p.adp,'mode')
+        if ~ismember(p.adp.mode,{'legacy6','tracking_value_v1','tracking_value_v2','tracking_value_v3','tracking_value_v4'})
+            error('UAV3D:InvalidParameter','Unknown ADP mode.');
+        end
+        if ismember(p.adp.mode,{'tracking_value_v1','tracking_value_v2','tracking_value_v3','tracking_value_v4'})
+            positiveAdp={'gain','uMax','eps','qCtrl','lrA','lrC','maxWeightNorm', ...
+                'actorFeatureFloor','criticFeatureFloor'};
+            for j=1:numel(positiveAdp)
+                value=p.adp.(positiveAdp{j});
+                validateattributes(value,{'numeric'},{'scalar','finite','positive'});
+            end
+            validateattributes(p.adp.gamma,{'numeric'},{'scalar','finite','>',0,'<',1});
+            validateattributes(p.adp.lrA,{'numeric'},{'<=',1});
+            validateattributes(p.adp.lrC,{'numeric'},{'<=',1});
+            validateattributes([p.adp.qForm,p.adp.qVelocity,p.adp.qRisk], ...
+                {'numeric'},{'vector','finite','nonnegative'});
+            if ismember(p.adp.mode,{'tracking_value_v2','tracking_value_v3','tracking_value_v4'})
+                validateattributes(p.adp.residualBaseFraction,{'numeric'}, ...
+                    {'scalar','finite','>',0,'<',1});
+            end
+            if strcmp(p.adp.mode,'tracking_value_v4')
+                validateattributes(p.adp.controlLeader,{'logical'},{'scalar'});
+            end
+            if ismember(p.adp.mode,{'tracking_value_v3','tracking_value_v4'})
+                for columns={1:3,4:6}
+                    block=p.adp.wA(:,columns{1});
+                    if norm(block-block','fro')>1e-8 || min(eig(.5*(block+block')))<-1e-10
+                        error('UAV3D:InvalidParameter','Constrained Actor blocks must be symmetric PSD.');
+                    end
+                end
+            end
+            if any(p.adp.wC(4:6)<0) || ...
+                    min(eig([p.adp.wC(1),p.adp.wC(3);p.adp.wC(3),p.adp.wC(2)]))<-1e-10
+                error('UAV3D:InvalidParameter','Tracking value must be PSD with nonnegative risk weights.');
+            end
+        end
     end
     if p.nUAV~=5 || p.leaderIdx~=1 || ~ismember(p.safety.maxIterations,1:5)
         error('UAV3D:InvalidParameter','This baseline requires five UAVs and at most five safety passes.');

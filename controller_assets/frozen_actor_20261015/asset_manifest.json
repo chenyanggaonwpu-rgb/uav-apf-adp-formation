@@ -1,0 +1,8 @@
+{
+  "controllerID": "2.3.4-unified-actor-20261029",
+  "modelSha256": "51535c86771cd8e7dd189d7080f43010edbbbe8e0995ad6065391ae2f03e5740",
+  "configurationSha256": "ccea37150c0c12a09cb393fcf0000e214c7930101610d23382917993a155157a",
+  "weightsSha256": "c5ddce06bfbf10e44e54ac0c69f251b6ce7b0701adcc6a789d6a4ac46a535c8c",
+  "parameterCount": 6467,
+  "trainingFiles": 101
+}

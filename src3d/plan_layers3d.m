@@ -4,6 +4,23 @@ function [waypoints,info,cache]=plan_layers3d(startPoint,goalPoint,obstacles,p,c
     if nargin<5, clearance=p.pathClearance; end
     if nargin<6, startJoinClearance=clearance; end
     if nargin<7, cache=[]; end
+    prepared=[];
+    if isstruct(cache) && isfield(cache,'preparedGraphs')
+        prepared=cache;
+        if ~isequaln(prepared.signature,planning_graph_signature3d(obstacles,p,clearance))
+            error('UAV3D:PlannerCache','Prepared graph configuration or map changed.');
+        end
+        enabledNow=isfield(p,'adaptiveHeight') && p.adaptiveHeight.enable;
+        if prepared.adaptiveEnabled~=enabledNow || ...
+                (enabledNow && (~isequal(prepared.adaptiveOptions,p.adaptiveHeight) || ...
+                ~isequal(prepared.selectionStart,p.start) || ~isequal(prepared.selectionTarget,p.target)))
+            error('UAV3D:PlannerCache','Prepared adaptive policy changed.');
+        end
+        cache=prepared.baseCache;
+        if prepared.activeAdaptive
+            cache=prepared.adaptiveCache;cache.heightSelection=prepared.heightSelection;
+        end
+    end
     enabled=isfield(p,'adaptiveHeight') && p.adaptiveHeight.enable;
     base=reshape(p.heightLayers,1,[]);
     selection=struct('enable',enabled,'attempted',false,'baseLayers',base, ...
@@ -34,12 +51,18 @@ function [waypoints,info,cache]=plan_layers3d(startPoint,goalPoint,obstacles,p,c
         selection.fixedStatus=info.status;
         if enabled && isempty(waypoints) && ~strcmp(info.status,'connector_out_of_bounds')
             firstBuild=info.buildSeconds; firstSearch=info.searchSeconds;
-            selection=adaptive_height_layers3d(p,obstacles,clearance);
+            if isempty(prepared)
+                selection=adaptive_height_layers3d(p,obstacles,clearance);
+            else
+                selection=prepared.adaptiveSelection;
+            end
             selection.fixedStatus=info.status;
             if ~isempty(selection.addedHeights)
                 local=p; local.heightLayers=selection.layers;
+                adaptiveCache=[];
+                if ~isempty(prepared),adaptiveCache=prepared.adaptiveCache;end
                 [waypoints,info,cache]=plan_fixed_layers3d(startPoint,goalPoint,obstacles, ...
-                    local,clearance,startJoinClearance,[]);
+                    local,clearance,startJoinClearance,adaptiveCache);
                 info.buildSeconds=info.buildSeconds+firstBuild;
                 info.searchSeconds=info.searchSeconds+firstSearch;
             end
@@ -48,4 +71,9 @@ function [waypoints,info,cache]=plan_layers3d(startPoint,goalPoint,obstacles,p,c
     info.heightSelection=selection;
     info.heightLayers=selection.layers; info.addedHeightLayers=selection.addedHeights;
     if ~isempty(cache), cache.heightSelection=selection; end
+    if ~isempty(prepared)
+        prepared.activeAdaptive=~isempty(selection.addedHeights);
+        prepared.heightSelection=selection;
+        cache=prepared;
+    end
 end
