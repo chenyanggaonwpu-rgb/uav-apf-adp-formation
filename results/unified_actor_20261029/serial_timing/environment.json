@@ -1,0 +1,43 @@
+{
+  "matlab": "24.1.0.2537033 (R2024a)",
+  "computer": "PCWIN64",
+  "singleComputationalThread": true,
+  "concurrentCampaignStopped": true,
+  "warmFlightsExcluded": true,
+  "inferenceWarmupMs": [
+    1059.0591,
+    43.572199999999995,
+    35.390100000000004,
+    17.1703,
+    73.9523,
+    9.8013000000000012,
+    1.3011,
+    0.89669999999999994,
+    1.1358,
+    0.9043,
+    0.8111,
+    0.9673,
+    0.8753,
+    0.915,
+    0.82629999999999992
+  ],
+  "diskAndPlotsInCycle": false,
+  "synchronousEventPlanningInCycle": true,
+  "model": {
+    "controllerID": "2.3.4-unified-actor-20261029",
+    "modelFile": "F:\\UAV project\\UAV_APF_ADP_Formation\\controller_assets\\frozen_actor_20261015\\actor_candidate.mat",
+    "modelSha256": "51535c86771cd8e7dd189d7080f43010edbbbe8e0995ad6065391ae2f03e5740",
+    "weightsSha256": "c5ddce06bfbf10e44e54ac0c69f251b6ce7b0701adcc6a789d6a4ac46a535c8c",
+    "parameterCount": 6467,
+    "trainingBindingVerified": true,
+    "inferenceInterfaceVerified": true,
+    "cpuOnly": true,
+    "actorLoaded": true,
+    "criticLoaded": false,
+    "agentLoaded": false,
+    "trainingPerformed": false,
+    "legacyADPCalls": 0,
+    "loadSeconds": 0.3263526,
+    "runtimeSourceSha256": "debaaedd476be43ecd81eda0675389b3eef73203d9b212f5f471904961782e93"
+  }
+}

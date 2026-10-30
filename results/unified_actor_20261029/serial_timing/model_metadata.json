@@ -1,0 +1,15 @@
+{
+  "interfaceVersion": "adp3d-window-v1",
+  "observationSize": 32,
+  "actionSize": 3,
+  "scanRange": 12,
+  "maxOffset": 8,
+  "decisionPeriod": 0.2,
+  "completedTrainingEpisodes": 2000,
+  "policyValidated": false,
+  "mode": "train",
+  "formalTraining": true,
+  "observationDefinition": "[goalError/goalScale; velocity/vmax; scan26/range]",
+  "actionDefinition": "world-frame xyz offset, projected to unit ball, then scaled",
+  "requiresExternalSafetyGuard": true
+}

@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "trials": 3840,
+  "steps": 2428183,
+  "independentAudits": 3840,
+  "allAuditsPassed": true,
+  "executionErrors": 0,
+  "controllerIDs": [
+    "2.3.4-unified-actor-20261029"
+  ],
+  "modelHashes": [
+    "51535c86771cd8e7dd189d7080f43010edbbbe8e0995ad6065391ae2f03e5740"
+  ],
+  "weightHashes": [
+    "c5ddce06bfbf10e44e54ac0c69f251b6ce7b0701adcc6a789d6a4ac46a535c8c"
+  ],
+  "runtimeHashes": [
+    "debaaedd476be43ecd81eda0675389b3eef73203d9b212f5f471904961782e93"
+  ],
+  "legacyADPCalls": 0,
+  "trainingPerformed": false,
+  "recoveryTrials": 1344,
+  "recovered": 480,
+  "executionErrorAttempts": 1,
+  "retriedTasks": 1,
+  "finalTaskExecutionErrors": 0,
+  "completedAttemptRecords": 3841,
+  "workerProcessErrors": 1,
+  "executionAccounting": "3840 final task records plus one archived computational-error attempt; interrupted in-flight starts are not counted as completed attempts.",
+  "interruptedRun": "Original six-worker execution was interrupted after 1975 saved final records; later execution resumed without replacing completed records."
+}

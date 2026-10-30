@@ -1,0 +1,22 @@
+{
+  "processFailureEvents": 1,
+  "resumedWorkers": [
+    4
+  ],
+  "originalExitCodes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0
+  },
+  "complete": true,
+  "archive": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\attempts\\worker_failures\\worker04_progress_io"
+}

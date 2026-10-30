@@ -1,0 +1,246 @@
+{
+  "passed": true,
+  "reviewMethod": "All final rendered pages inspected visually at 130 dpi; document text, OMML equations, table borders and figure captions also checked by audit_reports.py.",
+  "rendering": "PDF exported from actual DOCX OOXML using bundled reportlab renderer; page rasters generated using Poppler. This is not a native Microsoft Word layout certification.",
+  "findings": "No clipped text, overlapping content, missing glyphs or detached source-only pages in the final render.",
+  "reports": [
+    {
+      "file": "无人机编队项目整体报告_学生版",
+      "pages": 19,
+      "docxSha256": "344a0dc180c81f4a51adee5b59f15a8907d5818282ac1dec31ac73eb4ad22080",
+      "pdfSha256": "a006622254eb6cba209799fdf5132dc9b30f503977b8e312458e8350e5f297ff",
+      "pageReviews": [
+        {
+          "page": 1,
+          "sha256": "7ceba802db98c3f132e84cdc2b3e6d5a9c8d3d646afe6b34ef576d45aaaaf09e",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 2,
+          "sha256": "e13a3e0a0aff3f66b83638f5ad69376bb634a1071002877158128c8955e0e3bd",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 3,
+          "sha256": "c2af4f0061033481f3e790469a24b1aa3a1ab369e4f99f662373cc716cbe2459",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 4,
+          "sha256": "2bd644d4a7a27b4be381f96f9cf4332787ed2b25bf1bf65085b231b998de870b",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 5,
+          "sha256": "205f12a06ae2f392e378b4d105558b001cc4b11e19bceea5c5d44de5b78cea87",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 6,
+          "sha256": "5e166ec6707d2566ca5cdf6c43c143d00817d27dfa998b8e05f0f30dfbdab2af",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 7,
+          "sha256": "3354ea684b0f91291dd746159b7f7d4faeb7c1c42ac89c6e5c459eab96bf929f",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 8,
+          "sha256": "cdf80b54e629d04867e9f75567f76bddba2543bf2cb4157690e6094315fdfa12",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 9,
+          "sha256": "6c4f9768bcf05cd1314e93e548bb656532cccb41edcc46568765af0db8963862",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 10,
+          "sha256": "58e511ff0a6f80958a03d6f35e1190a9cdfc9a1d4d635fd0ea8cfad9a156cf73",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 11,
+          "sha256": "743608d09a4dd608fe1c614b84f48f8160fbe4418b306dc4e5e77ad1037b3ad3",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 12,
+          "sha256": "07c3cdb972d2ec13c8f1b0577d5cdc4b8bd84cf1494cf57b43da4a29ea9fc2c3",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 13,
+          "sha256": "228e55e2937f18305e73df33d242ad121dadf4a08f38164b4a2d16b643981b4e",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 14,
+          "sha256": "65be654307b3227bcf7ce217522255287cc61b8f7e0aac2da61de6499fc511f6",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 15,
+          "sha256": "d2503d403accca50616782474fdc27d7213d8f35a91cd6a8df9022c3ea86a3be",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 16,
+          "sha256": "86f6ccfa632e21480513b230113daee99b5561509f11a9ddfd03ae1fd91754ac",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 17,
+          "sha256": "5c51704f3587218909fc55a91c9c2813656f2509d85fee39edcac95e62f641c5",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 18,
+          "sha256": "07380193685d4bebe8688f1ed23f07add826f7feec5940303ccc09f0fade991f",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 19,
+          "sha256": "3d6794b92ba87d751d599e1eec1d1fe98c464fa1fe256f3129ebe9e549bab629",
+          "status": "clean",
+          "visuallyInspected": true
+        }
+      ]
+    },
+    {
+      "file": "无人机编队项目技术报告_教师版",
+      "pages": 18,
+      "docxSha256": "dd825805f90a7f12607f400becd448ca1878e529f75bc0f1ed86ddc54c778c74",
+      "pdfSha256": "d5495e35ae6812d4ca953697292916097f55ed489456a77b893471e31cebb772",
+      "pageReviews": [
+        {
+          "page": 1,
+          "sha256": "194a78dd6c9f85d1e776324cb76463bd24699782d37cdbb99cd9fb08acb1afb8",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 2,
+          "sha256": "0c67c861cc9ce30f7ccc03c55627607850baee00450f33035782987f565291bd",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 3,
+          "sha256": "bbf141f536897caaac8528673566599767a5c84af20ca89d48c97f3a1e2ee3c5",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 4,
+          "sha256": "f77cad68c0c2e88df00c1ca0170fd9f73581cd39fb3d062dab2fd1757b61a4ad",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 5,
+          "sha256": "bddabd38bcad52425152610879581a577cc974276a66da8db177ee62b73ea70e",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 6,
+          "sha256": "4608b657e0058c9dd0656966f5d2f4a445218ae84cd19f24cd8a6fce0a40e886",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 7,
+          "sha256": "18c8415bcc385903ab9cfd07dc81711333e9d9bb7eeecc0ee8e41ea942e4db8f",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 8,
+          "sha256": "eff617329130a488d00738c2b1e42ac71b380c9829f89afb988646b983ade203",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 9,
+          "sha256": "0452832d843695b39fb03dbda06a75bd3dd6485e0b282da91f1d5de15d6e16fb",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 10,
+          "sha256": "2133a12ae1983c43b005c16ab844788915e0df53a3477d3ff1a29d2591318c0d",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 11,
+          "sha256": "ec96818f61ee7b52f47374b1c2f897478bab94a1fab34fe565234d70a9495357",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 12,
+          "sha256": "60784398f95c9513a4f0ca88010254e58553748b72e7e3993b43410539222caf",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 13,
+          "sha256": "048411f62db781d22fd857b01fb723184b08b12794593b907930741e2657fb8d",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 14,
+          "sha256": "cb7bae1bfce6231d461649d373271b229b09718887da69f919ec756d62047790",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 15,
+          "sha256": "b09ace87e00b9efde6da3cbda8bde08e921c247a07decf0db4fb843adc90dbf4",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 16,
+          "sha256": "05198de11931ab77943459d7fa06ba131c074e7ceaea4779b55a2f915d0d6c4e",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 17,
+          "sha256": "d99ce953cb304b38d365419d6f4ef2719a461f11ac1f520136091b6e8e1fd337",
+          "status": "clean",
+          "visuallyInspected": true
+        },
+        {
+          "page": 18,
+          "sha256": "7954c032fec61453ab1b6ca2fb24075f539e4ecfa1c3f6bb04a0ea645dbf82fa",
+          "status": "clean",
+          "visuallyInspected": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "file": "无人机编队项目整体报告_学生版",
+      "pages": 19,
+      "equations": 8,
+      "figures": 6,
+      "tables": 8,
+      "allWordTextPresentInPDF": true,
+      "nativeOMMLEquivalent": true,
+      "docxSha256": "344a0dc180c81f4a51adee5b59f15a8907d5818282ac1dec31ac73eb4ad22080",
+      "pdfSha256": "a006622254eb6cba209799fdf5132dc9b30f503977b8e312458e8350e5f297ff"
+    },
+    {
+      "file": "无人机编队项目技术报告_教师版",
+      "pages": 18,
+      "equations": 11,
+      "figures": 6,
+      "tables": 9,
+      "allWordTextPresentInPDF": true,
+      "nativeOMMLEquivalent": true,
+      "docxSha256": "dd825805f90a7f12607f400becd448ca1878e529f75bc0f1ed86ddc54c778c74",
+      "pdfSha256": "d5495e35ae6812d4ca953697292916097f55ed489456a77b893471e31cebb772"
+    }
+  ],
+  "trials": 3840,
+  "physicsSteps": 2428183,
+  "independentAudits": 3840,
+  "dynamicGeometryAudits": 200,
+  "originalExecutionErrorsPreserved": 1,
+  "visualInspection": "See visual_qa.json for the complete page-by-page review"
+}

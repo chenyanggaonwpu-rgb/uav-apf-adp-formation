@@ -14,5 +14,18 @@ function output=run_all_unified(output,shard,shards)
     if ~isfile(fullfile(output,'catalogue.mat'))
         copyfile(fullfile(fileparts(mfilename('fullpath')),'catalogue.mat'),fullfile(output,'catalogue.mat'));
     end
-    ua_worker(output,shard,shards);
+    for attempt=1:5
+        try
+            ua_worker(output,shard,shards);return;
+        catch exception
+            names={exception.stack.name};ioFailure=any(strcmp(names,'ua_worker>writejson'));
+            if ~ioFailure || attempt==5,rethrow(exception);end
+            % Windows readers may temporarily hold a progress file. Preserve
+            % the error and resume; already saved trial records are skipped.
+            file=fullfile(output,sprintf('worker_%02d_io_attempt_%02d.txt',shard,attempt));
+            fid=fopen(file,'w','n','UTF-8');fprintf(fid,'%s',getReport(exception,'extended','hyperlinks','off'));fclose(fid);
+            warning('UA:ProgressIOResume','Progress output failed; resuming saved tasks: %s',exception.message);
+            pause(.5);
+        end
+    end
 end

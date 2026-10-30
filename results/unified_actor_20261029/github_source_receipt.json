@@ -1,0 +1,35 @@
+{
+  "sourceCommit": "396a88d2eee17c76ab3552845581912eab9fd8ff",
+  "tree": "870a8e9c8944380c415266c3adc8be3ab9bc0e8a",
+  "branch": "main",
+  "verifiedHead": "396a88d2eee17c76ab3552845581912eab9fd8ff",
+  "remoteFiles": [
+    {
+      "path": "controller_assets/frozen_actor_20261015/actor_candidate.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7da5a25c1daf1891b1639d229ca9d12330602769",
+      "size": 34360,
+      "url": "https://api.github.com/repos/chenyanggaonwpu-rgb/uav-apf-adp-formation/git/blobs/7da5a25c1daf1891b1639d229ca9d12330602769"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/catalogue.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92cd129e0404fb5e38ba12af7700d41c0ce50472",
+      "size": 4350914,
+      "url": "https://api.github.com/repos/chenyanggaonwpu-rgb/uav-apf-adp-formation/git/blobs/92cd129e0404fb5e38ba12af7700d41c0ce50472"
+    },
+    {
+      "path": "src3d/run_simulation3d.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93b5dac8c75abefb97870b987328eda909217b58",
+      "size": 1500,
+      "url": "https://api.github.com/repos/chenyanggaonwpu-rgb/uav-apf-adp-formation/git/blobs/93b5dac8c75abefb97870b987328eda909217b58"
+    }
+  ],
+  "modelSha256": "51535c86771cd8e7dd189d7080f43010edbbbe8e0995ad6065391ae2f03e5740",
+  "runtimeSha256": "debaaedd476be43ecd81eda0675389b3eef73203d9b212f5f471904961782e93",
+  "repository": "https://github.com/chenyanggaonwpu-rgb/uav-apf-adp-formation"
+}

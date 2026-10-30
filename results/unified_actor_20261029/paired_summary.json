@@ -1,0 +1,302 @@
+[
+  {
+    "campaign": "repair",
+    "routePolicy": null,
+    "first": "none_S0",
+    "second": "actor_S0",
+    "trials": 154,
+    "firstSuccesses": 145,
+    "secondSuccesses": 145,
+    "rescued": 0,
+    "regressions": 0,
+    "commonSuccesses": 145,
+    "difference": {
+      "flightSeconds": 0.0,
+      "pathLength": 0.0,
+      "formationRms": 0.0,
+      "minObstacleDistance": 0.0,
+      "minPairDistance": 0.0,
+      "wallSeconds": 0.03460220896551731
+    }
+  },
+  {
+    "campaign": "repair",
+    "routePolicy": null,
+    "first": "none_S1",
+    "second": "actor_S1",
+    "trials": 154,
+    "firstSuccesses": 153,
+    "secondSuccesses": 154,
+    "rescued": 1,
+    "regressions": 0,
+    "commonSuccesses": 153,
+    "difference": {
+      "flightSeconds": 0.0,
+      "pathLength": 0.0,
+      "formationRms": 0.0,
+      "minObstacleDistance": 0.0,
+      "minPairDistance": 0.0,
+      "wallSeconds": 0.14040948758169933
+    }
+  },
+  {
+    "campaign": "repair",
+    "routePolicy": null,
+    "first": "actor_S0",
+    "second": "actor_S1",
+    "trials": 154,
+    "firstSuccesses": 145,
+    "secondSuccesses": 154,
+    "rescued": 9,
+    "regressions": 0,
+    "commonSuccesses": 145,
+    "difference": {
+      "flightSeconds": 0.006896551724137931,
+      "pathLength": -0.0010427241713958423,
+      "formationRms": 0.0016847861415196402,
+      "minObstacleDistance": 0.00599097637586422,
+      "minPairDistance": -0.006807178601701826,
+      "wallSeconds": 3.882809136551724
+    }
+  },
+  {
+    "campaign": "dynamic",
+    "routePolicy": null,
+    "first": "none_S0",
+    "second": "actor_S0",
+    "trials": 50,
+    "firstSuccesses": 35,
+    "secondSuccesses": 38,
+    "rescued": 3,
+    "regressions": 0,
+    "commonSuccesses": 35,
+    "difference": {
+      "flightSeconds": -3.964285714285715,
+      "pathLength": 0.059264620814649255,
+      "formationRms": 0.07266152227687192,
+      "minObstacleDistance": 0.0,
+      "minPairDistance": 0.05538785370483252,
+      "wallSeconds": -0.1298106657142857
+    }
+  },
+  {
+    "campaign": "dynamic",
+    "routePolicy": null,
+    "first": "none_S1",
+    "second": "actor_S1",
+    "trials": 50,
+    "firstSuccesses": 49,
+    "secondSuccesses": 50,
+    "rescued": 1,
+    "regressions": 0,
+    "commonSuccesses": 49,
+    "difference": {
+      "flightSeconds": -4.007142857142857,
+      "pathLength": -0.141594435115996,
+      "formationRms": 0.17366209133660437,
+      "minObstacleDistance": 0.0,
+      "minPairDistance": 0.012581757304808172,
+      "wallSeconds": -0.43830750204081637
+    }
+  },
+  {
+    "campaign": "dynamic",
+    "routePolicy": null,
+    "first": "actor_S0",
+    "second": "actor_S1",
+    "trials": 50,
+    "firstSuccesses": 38,
+    "secondSuccesses": 50,
+    "rescued": 12,
+    "regressions": 0,
+    "commonSuccesses": 38,
+    "difference": {
+      "flightSeconds": 0.023684210526315752,
+      "pathLength": -0.001510506569588107,
+      "formationRms": -0.003080917855277076,
+      "minObstacleDistance": 0.01034850164592854,
+      "minPairDistance": 0.02943745087369248,
+      "wallSeconds": 2.8996471052631576
+    }
+  },
+  {
+    "campaign": "robust",
+    "routePolicy": null,
+    "first": "none_S0",
+    "second": "actor_S0",
+    "trials": 456,
+    "firstSuccesses": 456,
+    "secondSuccesses": 456,
+    "rescued": 0,
+    "regressions": 0,
+    "commonSuccesses": 456,
+    "difference": {
+      "flightSeconds": 0.0,
+      "pathLength": 0.0,
+      "formationRms": 0.0,
+      "minObstacleDistance": 0.0,
+      "minPairDistance": 0.0,
+      "wallSeconds": 0.0051404951754385995
+    }
+  },
+  {
+    "campaign": "robust",
+    "routePolicy": null,
+    "first": "none_S1",
+    "second": "actor_S1",
+    "trials": 456,
+    "firstSuccesses": 456,
+    "secondSuccesses": 456,
+    "rescued": 0,
+    "regressions": 0,
+    "commonSuccesses": 456,
+    "difference": {
+      "flightSeconds": 0.0,
+      "pathLength": 0.0,
+      "formationRms": 0.0,
+      "minObstacleDistance": 0.0,
+      "minPairDistance": 0.0,
+      "wallSeconds": -0.20116152171052631
+    }
+  },
+  {
+    "campaign": "robust",
+    "routePolicy": null,
+    "first": "actor_S0",
+    "second": "actor_S1",
+    "trials": 456,
+    "firstSuccesses": 456,
+    "secondSuccesses": 456,
+    "rescued": 0,
+    "regressions": 0,
+    "commonSuccesses": 456,
+    "difference": {
+      "flightSeconds": -0.007894736842105267,
+      "pathLength": -0.010847208138306641,
+      "formationRms": -0.0008539137555153564,
+      "minObstacleDistance": 0.0005559421668618473,
+      "minPairDistance": 0.00041597893042339486,
+      "wallSeconds": 2.9886817164473682
+    }
+  },
+  {
+    "campaign": "integration",
+    "routePolicy": null,
+    "first": "none_S1",
+    "second": "actor_S1",
+    "trials": 128,
+    "firstSuccesses": 83,
+    "secondSuccesses": 123,
+    "rescued": 40,
+    "regressions": 0,
+    "commonSuccesses": 83,
+    "difference": {
+      "flightSeconds": 0.0,
+      "pathLength": 0.0,
+      "formationRms": 0.0,
+      "minObstacleDistance": 0.0,
+      "minPairDistance": 0.0,
+      "wallSeconds": 5.519900774698796
+    }
+  },
+  {
+    "campaign": "single",
+    "routePolicy": null,
+    "first": "none_S1",
+    "second": "actor_S1",
+    "trials": 40,
+    "firstSuccesses": 24,
+    "secondSuccesses": 40,
+    "rescued": 16,
+    "regressions": 0,
+    "commonSuccesses": 24,
+    "difference": {
+      "flightSeconds": 0.0,
+      "pathLength": 0.0,
+      "formationRms": 0,
+      "minObstacleDistance": 0.0,
+      "minPairDistance": null,
+      "wallSeconds": -0.5845212875
+    }
+  },
+  {
+    "campaign": "factorial",
+    "routePolicy": "global",
+    "first": "none_S1",
+    "second": "actor_S1",
+    "trials": 144,
+    "firstSuccesses": 135,
+    "secondSuccesses": 135,
+    "rescued": 0,
+    "regressions": 0,
+    "commonSuccesses": 135,
+    "difference": {
+      "flightSeconds": 0.0,
+      "pathLength": 0.0,
+      "formationRms": 0.0,
+      "minObstacleDistance": 0.0,
+      "minPairDistance": 0.0,
+      "wallSeconds": 0.3898942029629629
+    }
+  },
+  {
+    "campaign": "factorial",
+    "routePolicy": "global",
+    "first": "rule_S1",
+    "second": "actor_S1",
+    "trials": 144,
+    "firstSuccesses": 135,
+    "secondSuccesses": 135,
+    "rescued": 0,
+    "regressions": 0,
+    "commonSuccesses": 135,
+    "difference": {
+      "flightSeconds": 0.0,
+      "pathLength": 0.0,
+      "formationRms": 0.0,
+      "minObstacleDistance": 0.0,
+      "minPairDistance": 0.0,
+      "wallSeconds": 0.3219269659259259
+    }
+  },
+  {
+    "campaign": "factorial",
+    "routePolicy": "local_apf",
+    "first": "none_S1",
+    "second": "actor_S1",
+    "trials": 144,
+    "firstSuccesses": 71,
+    "secondSuccesses": 122,
+    "rescued": 51,
+    "regressions": 0,
+    "commonSuccesses": 71,
+    "difference": {
+      "flightSeconds": -0.15774647887323948,
+      "pathLength": 0.06793766216279036,
+      "formationRms": 0.000203317210546897,
+      "minObstacleDistance": -0.0008273696552067593,
+      "minPairDistance": 0.008678946079374463,
+      "wallSeconds": -0.3287485887323943
+    }
+  },
+  {
+    "campaign": "factorial",
+    "routePolicy": "local_apf",
+    "first": "rule_S1",
+    "second": "actor_S1",
+    "trials": 144,
+    "firstSuccesses": 124,
+    "secondSuccesses": 122,
+    "rescued": 5,
+    "regressions": 7,
+    "commonSuccesses": 117,
+    "difference": {
+      "flightSeconds": -0.2585470085470088,
+      "pathLength": 1.6689481227695422,
+      "formationRms": 1.0537557351186777,
+      "minObstacleDistance": -0.07570485471172769,
+      "minPairDistance": -0.08639834569266036,
+      "wallSeconds": 0.6838167666666667
+    }
+  }
+]

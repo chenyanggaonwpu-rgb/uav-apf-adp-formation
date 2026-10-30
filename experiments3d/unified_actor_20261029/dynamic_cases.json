@@ -1,0 +1,1983 @@
+[
+  {
+    "id": "C001",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct exact; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      40,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "none",
+    "offset": 0
+  },
+  {
+    "id": "C002",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct exact; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      40,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "none",
+    "offset": 0
+  },
+  {
+    "id": "C003",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_-1e-07; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      39.9999999,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": -1E-7
+  },
+  {
+    "id": "C004",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_-1e-07; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      39.9999999,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": -1E-7
+  },
+  {
+    "id": "C005",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_+1e-07; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      40.0000001,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": 1E-7
+  },
+  {
+    "id": "C006",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_+1e-07; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      40.0000001,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": 1E-7
+  },
+  {
+    "id": "C007",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_-1e-07; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      40,
+      14.9999999
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": -1E-7
+  },
+  {
+    "id": "C008",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_-1e-07; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      40,
+      14.9999999
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": -1E-7
+  },
+  {
+    "id": "C009",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_+1e-07; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      40,
+      15.0000001
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 1E-7
+  },
+  {
+    "id": "C010",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_+1e-07; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      40,
+      15.0000001
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 1E-7
+  },
+  {
+    "id": "C011",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_-1e-04; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      39.9999,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": -0.0001
+  },
+  {
+    "id": "C012",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_-1e-04; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      39.9999,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": -0.0001
+  },
+  {
+    "id": "C013",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_+1e-04; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      40.0001,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": 0.0001
+  },
+  {
+    "id": "C014",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_+1e-04; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      40.0001,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": 0.0001
+  },
+  {
+    "id": "C015",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_-1e-04; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      40,
+      14.9999
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": -0.0001
+  },
+  {
+    "id": "C016",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_-1e-04; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      40,
+      14.9999
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": -0.0001
+  },
+  {
+    "id": "C017",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_+1e-04; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      40,
+      15.0001
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 0.0001
+  },
+  {
+    "id": "C018",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_+1e-04; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      40,
+      15.0001
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 0.0001
+  },
+  {
+    "id": "C019",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_-2e-01; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      39.75,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": -0.25
+  },
+  {
+    "id": "C020",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_-2e-01; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      39.75,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": -0.25
+  },
+  {
+    "id": "C021",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_+2e-01; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      40.25,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": 0.25
+  },
+  {
+    "id": "C022",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct y_+2e-01; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      40.25,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": 0.25
+  },
+  {
+    "id": "C023",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_-2e-01; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      40,
+      14.75
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": -0.25
+  },
+  {
+    "id": "C024",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_-2e-01; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      40,
+      14.75
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": -0.25
+  },
+  {
+    "id": "C025",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_+2e-01; initial speed 0.0 m/s",
+    "start": [
+      33.4,
+      40,
+      15.25
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 0.25
+  },
+  {
+    "id": "C026",
+    "suite": "direct_pressure",
+    "family": "sphere",
+    "description": "Sphere direct z_+2e-01; initial speed 3.0 m/s",
+    "start": [
+      33.4,
+      40,
+      15.25
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 0.25
+  },
+  {
+    "id": "C027",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder rim horizontal at z=15.7 m",
+    "start": [
+      32.4,
+      40,
+      15.7
+    ],
+    "target": [
+      65,
+      40,
+      15.7
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": -0.30000000000000071
+  },
+  {
+    "id": "C028",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder rim horizontal at z=16.0 m",
+    "start": [
+      32.4,
+      40,
+      16
+    ],
+    "target": [
+      65,
+      40,
+      16
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 0
+  },
+  {
+    "id": "C029",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder rim horizontal at z=16.3 m",
+    "start": [
+      32.4,
+      40,
+      16.3
+    ],
+    "target": [
+      65,
+      40,
+      16.3
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 0.30000000000000071
+  },
+  {
+    "id": "C030",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder rim horizontal at z=16.7 m",
+    "start": [
+      32.4,
+      40,
+      16.7
+    ],
+    "target": [
+      65,
+      40,
+      16.7
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 0.69999999999999929
+  },
+  {
+    "id": "C031",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder rim horizontal at z=17.2 m",
+    "start": [
+      32.4,
+      40,
+      17.2
+    ],
+    "target": [
+      65,
+      40,
+      17.2
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 1.1999999999999993
+  },
+  {
+    "id": "C032",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder rim horizontal at z=18.0 m",
+    "start": [
+      32.4,
+      40,
+      18
+    ],
+    "target": [
+      65,
+      40,
+      18
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 2
+  },
+  {
+    "id": "C033",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder oblique approach sign=-1 speed=1.5",
+    "start": [
+      32.4,
+      40,
+      18.5
+    ],
+    "target": [
+      65,
+      40,
+      15.5
+    ],
+    "velocity": [
+      1.4367394278317269,
+      0,
+      -0.43102182834951808
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "slope",
+    "offset": -1
+  },
+  {
+    "id": "C034",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder oblique approach sign=-1 speed=3.0",
+    "start": [
+      32.4,
+      40,
+      18.5
+    ],
+    "target": [
+      65,
+      40,
+      15.5
+    ],
+    "velocity": [
+      2.8734788556634538,
+      0,
+      -0.86204365669903615
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "slope",
+    "offset": -1
+  },
+  {
+    "id": "C035",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder oblique approach sign=+1 speed=1.5",
+    "start": [
+      32.4,
+      40,
+      15.5
+    ],
+    "target": [
+      65,
+      40,
+      18.5
+    ],
+    "velocity": [
+      1.4367394278317269,
+      0,
+      0.43102182834951808
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "slope",
+    "offset": 1
+  },
+  {
+    "id": "C036",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder oblique approach sign=+1 speed=3.0",
+    "start": [
+      32.4,
+      40,
+      15.5
+    ],
+    "target": [
+      65,
+      40,
+      18.5
+    ],
+    "velocity": [
+      2.8734788556634538,
+      0,
+      0.86204365669903615
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "slope",
+    "offset": 1
+  },
+  {
+    "id": "C037",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder side rim skim sign=-1, radial gap 0.7 m",
+    "start": [
+      32.4,
+      34.3,
+      16.2
+    ],
+    "target": [
+      65,
+      34.3,
+      16.2
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": -5.7
+  },
+  {
+    "id": "C038",
+    "suite": "direct_pressure",
+    "family": "cylinder",
+    "description": "Cylinder side rim skim sign=+1, radial gap 0.7 m",
+    "start": [
+      32.4,
+      45.7,
+      16.2
+    ],
+    "target": [
+      65,
+      45.7,
+      16.2
+    ],
+    "velocity": [
+      3,
+      0,
+      0
+    ],
+    "forceDirectRoute": true,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": 5.7
+  },
+  {
+    "id": "C039",
+    "suite": "normal_planned",
+    "family": "sphere",
+    "description": "Normal planned sphere offset [0 0 0]",
+    "start": [
+      20,
+      40,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "none",
+    "offset": 0
+  },
+  {
+    "id": "C040",
+    "suite": "normal_planned",
+    "family": "sphere",
+    "description": "Normal planned sphere offset [0 -0.25 0]",
+    "start": [
+      20,
+      39.75,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": -0.25
+  },
+  {
+    "id": "C041",
+    "suite": "normal_planned",
+    "family": "sphere",
+    "description": "Normal planned sphere offset [0 0.25 0]",
+    "start": [
+      20,
+      40.25,
+      15
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "y",
+    "offset": 0.25
+  },
+  {
+    "id": "C042",
+    "suite": "normal_planned",
+    "family": "sphere",
+    "description": "Normal planned sphere offset [0 0 -0.25]",
+    "start": [
+      20,
+      40,
+      14.75
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": -0.25
+  },
+  {
+    "id": "C043",
+    "suite": "normal_planned",
+    "family": "sphere",
+    "description": "Normal planned sphere offset [0 0 0.25]",
+    "start": [
+      20,
+      40,
+      15.25
+    ],
+    "target": [
+      65,
+      40,
+      15
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "sphere",
+      "center": [
+        40,
+        40,
+        15
+      ],
+      "r": 4,
+      "zmin": null,
+      "zmax": null,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 0.25
+  },
+  {
+    "id": "C044",
+    "suite": "normal_planned",
+    "family": "cylinder",
+    "description": "Normal planned cylinder z=15.7",
+    "start": [
+      20,
+      40,
+      15.7
+    ],
+    "target": [
+      65,
+      40,
+      15.7
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": -0.30000000000000071
+  },
+  {
+    "id": "C045",
+    "suite": "normal_planned",
+    "family": "cylinder",
+    "description": "Normal planned cylinder z=16.0",
+    "start": [
+      20,
+      40,
+      16
+    ],
+    "target": [
+      65,
+      40,
+      16
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 0
+  },
+  {
+    "id": "C046",
+    "suite": "normal_planned",
+    "family": "cylinder",
+    "description": "Normal planned cylinder z=16.7",
+    "start": [
+      20,
+      40,
+      16.7
+    ],
+    "target": [
+      65,
+      40,
+      16.7
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 0.69999999999999929
+  },
+  {
+    "id": "C047",
+    "suite": "normal_planned",
+    "family": "cylinder",
+    "description": "Normal planned cylinder z=17.2",
+    "start": [
+      20,
+      40,
+      17.2
+    ],
+    "target": [
+      65,
+      40,
+      17.2
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 1.1999999999999993
+  },
+  {
+    "id": "C048",
+    "suite": "normal_planned",
+    "family": "cylinder",
+    "description": "Normal planned cylinder z=18.0",
+    "start": [
+      20,
+      40,
+      18
+    ],
+    "target": [
+      65,
+      40,
+      18
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "z",
+    "offset": 2
+  },
+  {
+    "id": "C049",
+    "suite": "normal_planned",
+    "family": "cylinder",
+    "description": "Normal planned cylinder oblique sign=-1",
+    "start": [
+      20,
+      40,
+      18.5
+    ],
+    "target": [
+      65,
+      40,
+      15.5
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "slope",
+    "offset": -1
+  },
+  {
+    "id": "C050",
+    "suite": "normal_planned",
+    "family": "cylinder",
+    "description": "Normal planned cylinder oblique sign=+1",
+    "start": [
+      20,
+      40,
+      15.5
+    ],
+    "target": [
+      65,
+      40,
+      18.5
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "forceDirectRoute": false,
+    "obstacle": {
+      "type": "cylinder",
+      "center": [
+        40,
+        40
+      ],
+      "r": 5,
+      "zmin": 0,
+      "zmax": 16,
+      "halfSize": [
+        null,
+        null,
+        null
+      ]
+    },
+    "offsetAxis": "slope",
+    "offset": 1
+  }
+]

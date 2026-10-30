@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "dynamic_C001_B_actor_S0",
+    "obstacleMaximumError": 0.0,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 74
+  },
+  {
+    "id": "dynamic_C001_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 803
+  },
+  {
+    "id": "dynamic_C001_B_none_S0",
+    "obstacleMaximumError": 0.0,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 74
+  },
+  {
+    "id": "dynamic_C001_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 885
+  },
+  {
+    "id": "dynamic_C002_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 670
+  },
+  {
+    "id": "dynamic_C002_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 670
+  },
+  {
+    "id": "dynamic_C002_B_none_S0",
+    "obstacleMaximumError": 8.881784197001252e-16,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 2400
+  },
+  {
+    "id": "dynamic_C002_B_none_S1",
+    "obstacleMaximumError": 8.881784197001252e-16,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 2400
+  },
+  {
+    "id": "dynamic_C003_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 475
+  },
+  {
+    "id": "dynamic_C003_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 498
+  },
+  {
+    "id": "dynamic_C003_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 475
+  },
+  {
+    "id": "dynamic_C003_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 498
+  },
+  {
+    "id": "dynamic_C004_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 670
+  },
+  {
+    "id": "dynamic_C004_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 670
+  },
+  {
+    "id": "dynamic_C004_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 856
+  },
+  {
+    "id": "dynamic_C004_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 870
+  },
+  {
+    "id": "dynamic_C005_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 475
+  },
+  {
+    "id": "dynamic_C005_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 498
+  },
+  {
+    "id": "dynamic_C005_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 475
+  },
+  {
+    "id": "dynamic_C005_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 498
+  },
+  {
+    "id": "dynamic_C006_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 670
+  },
+  {
+    "id": "dynamic_C006_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 670
+  },
+  {
+    "id": "dynamic_C006_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 856
+  },
+  {
+    "id": "dynamic_C006_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 870
+  },
+  {
+    "id": "dynamic_C007_B_actor_S0",
+    "obstacleMaximumError": 8.881784197001252e-16,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 76
+  },
+  {
+    "id": "dynamic_C007_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 421
+  },
+  {
+    "id": "dynamic_C007_B_none_S0",
+    "obstacleMaximumError": 8.881784197001252e-16,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 76
+  },
+  {
+    "id": "dynamic_C007_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 421
+  },
+  {
+    "id": "dynamic_C008_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 670
+  },
+  {
+    "id": "dynamic_C008_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 670
+  },
+  {
+    "id": "dynamic_C008_B_none_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 850
+  },
+  {
+    "id": "dynamic_C008_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 1183
+  },
+  {
+    "id": "dynamic_C009_B_actor_S0",
+    "obstacleMaximumError": 8.881784197001252e-16,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 76
+  },
+  {
+    "id": "dynamic_C009_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 421
+  },
+  {
+    "id": "dynamic_C009_B_none_S0",
+    "obstacleMaximumError": 8.881784197001252e-16,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 76
+  },
+  {
+    "id": "dynamic_C009_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 421
+  },
+  {
+    "id": "dynamic_C010_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 670
+  },
+  {
+    "id": "dynamic_C010_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 670
+  },
+  {
+    "id": "dynamic_C010_B_none_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 850
+  },
+  {
+    "id": "dynamic_C010_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 1183
+  },
+  {
+    "id": "dynamic_C011_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 440
+  },
+  {
+    "id": "dynamic_C011_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 440
+  },
+  {
+    "id": "dynamic_C011_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 440
+  },
+  {
+    "id": "dynamic_C011_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 440
+  },
+  {
+    "id": "dynamic_C012_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 579
+  },
+  {
+    "id": "dynamic_C012_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 579
+  },
+  {
+    "id": "dynamic_C012_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 579
+  },
+  {
+    "id": "dynamic_C012_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 579
+  },
+  {
+    "id": "dynamic_C013_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 440
+  },
+  {
+    "id": "dynamic_C013_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 440
+  },
+  {
+    "id": "dynamic_C013_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 440
+  },
+  {
+    "id": "dynamic_C013_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 440
+  },
+  {
+    "id": "dynamic_C014_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 579
+  },
+  {
+    "id": "dynamic_C014_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 579
+  },
+  {
+    "id": "dynamic_C014_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 579
+  },
+  {
+    "id": "dynamic_C014_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 579
+  },
+  {
+    "id": "dynamic_C015_B_actor_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 90
+  },
+  {
+    "id": "dynamic_C015_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 388
+  },
+  {
+    "id": "dynamic_C015_B_none_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 90
+  },
+  {
+    "id": "dynamic_C015_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 388
+  },
+  {
+    "id": "dynamic_C016_B_actor_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 187
+  },
+  {
+    "id": "dynamic_C016_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 601
+  },
+  {
+    "id": "dynamic_C016_B_none_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 187
+  },
+  {
+    "id": "dynamic_C016_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 601
+  },
+  {
+    "id": "dynamic_C017_B_actor_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 90
+  },
+  {
+    "id": "dynamic_C017_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 388
+  },
+  {
+    "id": "dynamic_C017_B_none_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 90
+  },
+  {
+    "id": "dynamic_C017_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 388
+  },
+  {
+    "id": "dynamic_C018_B_actor_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 187
+  },
+  {
+    "id": "dynamic_C018_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 601
+  },
+  {
+    "id": "dynamic_C018_B_none_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 187
+  },
+  {
+    "id": "dynamic_C018_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 601
+  },
+  {
+    "id": "dynamic_C019_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 439
+  },
+  {
+    "id": "dynamic_C019_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 425
+  },
+  {
+    "id": "dynamic_C019_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 439
+  },
+  {
+    "id": "dynamic_C019_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 425
+  },
+  {
+    "id": "dynamic_C020_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 560
+  },
+  {
+    "id": "dynamic_C020_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 560
+  },
+  {
+    "id": "dynamic_C020_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 560
+  },
+  {
+    "id": "dynamic_C020_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 560
+  },
+  {
+    "id": "dynamic_C021_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 439
+  },
+  {
+    "id": "dynamic_C021_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 425
+  },
+  {
+    "id": "dynamic_C021_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 439
+  },
+  {
+    "id": "dynamic_C021_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 425
+  },
+  {
+    "id": "dynamic_C022_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 560
+  },
+  {
+    "id": "dynamic_C022_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 560
+  },
+  {
+    "id": "dynamic_C022_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 560
+  },
+  {
+    "id": "dynamic_C022_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 560
+  },
+  {
+    "id": "dynamic_C023_B_actor_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 91
+  },
+  {
+    "id": "dynamic_C023_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 385
+  },
+  {
+    "id": "dynamic_C023_B_none_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 91
+  },
+  {
+    "id": "dynamic_C023_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 385
+  },
+  {
+    "id": "dynamic_C024_B_actor_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 221
+  },
+  {
+    "id": "dynamic_C024_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 524
+  },
+  {
+    "id": "dynamic_C024_B_none_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 221
+  },
+  {
+    "id": "dynamic_C024_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 524
+  },
+  {
+    "id": "dynamic_C025_B_actor_S0",
+    "obstacleMaximumError": 8.881784197001252e-16,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 91
+  },
+  {
+    "id": "dynamic_C025_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 385
+  },
+  {
+    "id": "dynamic_C025_B_none_S0",
+    "obstacleMaximumError": 8.881784197001252e-16,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 91
+  },
+  {
+    "id": "dynamic_C025_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 385
+  },
+  {
+    "id": "dynamic_C026_B_actor_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 221
+  },
+  {
+    "id": "dynamic_C026_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 524
+  },
+  {
+    "id": "dynamic_C026_B_none_S0",
+    "obstacleMaximumError": 1.7763568394002505e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 221
+  },
+  {
+    "id": "dynamic_C026_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 524
+  },
+  {
+    "id": "dynamic_C027_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 745
+  },
+  {
+    "id": "dynamic_C027_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 745
+  },
+  {
+    "id": "dynamic_C027_B_none_S0",
+    "obstacleMaximumError": 9.57456336436735e-13,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 1937
+  },
+  {
+    "id": "dynamic_C027_B_none_S1",
+    "obstacleMaximumError": 9.57456336436735e-13,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 1945
+  },
+  {
+    "id": "dynamic_C028_B_actor_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 726
+  },
+  {
+    "id": "dynamic_C028_B_actor_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 726
+  },
+  {
+    "id": "dynamic_C028_B_none_S0",
+    "obstacleMaximumError": 9.57456336436735e-13,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 1937
+  },
+  {
+    "id": "dynamic_C028_B_none_S1",
+    "obstacleMaximumError": 9.57456336436735e-13,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 1945
+  },
+  {
+    "id": "dynamic_C029_B_actor_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 339
+  },
+  {
+    "id": "dynamic_C029_B_actor_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 339
+  },
+  {
+    "id": "dynamic_C029_B_none_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 339
+  },
+  {
+    "id": "dynamic_C029_B_none_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 339
+  },
+  {
+    "id": "dynamic_C030_B_actor_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 315
+  },
+  {
+    "id": "dynamic_C030_B_actor_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 315
+  },
+  {
+    "id": "dynamic_C030_B_none_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 315
+  },
+  {
+    "id": "dynamic_C030_B_none_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 315
+  },
+  {
+    "id": "dynamic_C031_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 305
+  },
+  {
+    "id": "dynamic_C031_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 305
+  },
+  {
+    "id": "dynamic_C031_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 305
+  },
+  {
+    "id": "dynamic_C031_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 305
+  },
+  {
+    "id": "dynamic_C032_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 297
+  },
+  {
+    "id": "dynamic_C032_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 297
+  },
+  {
+    "id": "dynamic_C032_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 297
+  },
+  {
+    "id": "dynamic_C032_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 297
+  },
+  {
+    "id": "dynamic_C033_B_actor_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 316
+  },
+  {
+    "id": "dynamic_C033_B_actor_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 316
+  },
+  {
+    "id": "dynamic_C033_B_none_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 316
+  },
+  {
+    "id": "dynamic_C033_B_none_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 316
+  },
+  {
+    "id": "dynamic_C034_B_actor_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 302
+  },
+  {
+    "id": "dynamic_C034_B_actor_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 302
+  },
+  {
+    "id": "dynamic_C034_B_none_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 302
+  },
+  {
+    "id": "dynamic_C034_B_none_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 302
+  },
+  {
+    "id": "dynamic_C035_B_actor_S0",
+    "obstacleMaximumError": 2.220446049250313e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 276
+  },
+  {
+    "id": "dynamic_C035_B_actor_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 607
+  },
+  {
+    "id": "dynamic_C035_B_none_S0",
+    "obstacleMaximumError": 2.220446049250313e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 276
+  },
+  {
+    "id": "dynamic_C035_B_none_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 607
+  },
+  {
+    "id": "dynamic_C036_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 345
+  },
+  {
+    "id": "dynamic_C036_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 345
+  },
+  {
+    "id": "dynamic_C036_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 345
+  },
+  {
+    "id": "dynamic_C036_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 345
+  },
+  {
+    "id": "dynamic_C037_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 340
+  },
+  {
+    "id": "dynamic_C037_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 340
+  },
+  {
+    "id": "dynamic_C037_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 340
+  },
+  {
+    "id": "dynamic_C037_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 340
+  },
+  {
+    "id": "dynamic_C038_B_actor_S0",
+    "obstacleMaximumError": 4.440892098500626e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 340
+  },
+  {
+    "id": "dynamic_C038_B_actor_S1",
+    "obstacleMaximumError": 4.440892098500626e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 340
+  },
+  {
+    "id": "dynamic_C038_B_none_S0",
+    "obstacleMaximumError": 4.440892098500626e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 340
+  },
+  {
+    "id": "dynamic_C038_B_none_S1",
+    "obstacleMaximumError": 4.440892098500626e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 340
+  },
+  {
+    "id": "dynamic_C039_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 528
+  },
+  {
+    "id": "dynamic_C039_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 528
+  },
+  {
+    "id": "dynamic_C039_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 528
+  },
+  {
+    "id": "dynamic_C039_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 528
+  },
+  {
+    "id": "dynamic_C040_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 528
+  },
+  {
+    "id": "dynamic_C040_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 528
+  },
+  {
+    "id": "dynamic_C040_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 528
+  },
+  {
+    "id": "dynamic_C040_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 528
+  },
+  {
+    "id": "dynamic_C041_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 534
+  },
+  {
+    "id": "dynamic_C041_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 534
+  },
+  {
+    "id": "dynamic_C041_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 534
+  },
+  {
+    "id": "dynamic_C041_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 534
+  },
+  {
+    "id": "dynamic_C042_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 535
+  },
+  {
+    "id": "dynamic_C042_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 535
+  },
+  {
+    "id": "dynamic_C042_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 535
+  },
+  {
+    "id": "dynamic_C042_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 535
+  },
+  {
+    "id": "dynamic_C043_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 535
+  },
+  {
+    "id": "dynamic_C043_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 535
+  },
+  {
+    "id": "dynamic_C043_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 535
+  },
+  {
+    "id": "dynamic_C043_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 535
+  },
+  {
+    "id": "dynamic_C044_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 527
+  },
+  {
+    "id": "dynamic_C044_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 527
+  },
+  {
+    "id": "dynamic_C044_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 527
+  },
+  {
+    "id": "dynamic_C044_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 527
+  },
+  {
+    "id": "dynamic_C045_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 530
+  },
+  {
+    "id": "dynamic_C045_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 530
+  },
+  {
+    "id": "dynamic_C045_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 530
+  },
+  {
+    "id": "dynamic_C045_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 530
+  },
+  {
+    "id": "dynamic_C046_B_actor_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 530
+  },
+  {
+    "id": "dynamic_C046_B_actor_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 530
+  },
+  {
+    "id": "dynamic_C046_B_none_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 530
+  },
+  {
+    "id": "dynamic_C046_B_none_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 8.881784197001252e-16,
+    "passed": true,
+    "steps": 530
+  },
+  {
+    "id": "dynamic_C047_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 401
+  },
+  {
+    "id": "dynamic_C047_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 401
+  },
+  {
+    "id": "dynamic_C047_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 401
+  },
+  {
+    "id": "dynamic_C047_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 401
+  },
+  {
+    "id": "dynamic_C048_B_actor_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 390
+  },
+  {
+    "id": "dynamic_C048_B_actor_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 390
+  },
+  {
+    "id": "dynamic_C048_B_none_S0",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 390
+  },
+  {
+    "id": "dynamic_C048_B_none_S1",
+    "obstacleMaximumError": 5.329070518200751e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 390
+  },
+  {
+    "id": "dynamic_C049_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 386
+  },
+  {
+    "id": "dynamic_C049_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 386
+  },
+  {
+    "id": "dynamic_C049_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 386
+  },
+  {
+    "id": "dynamic_C049_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 386
+  },
+  {
+    "id": "dynamic_C050_B_actor_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 405
+  },
+  {
+    "id": "dynamic_C050_B_actor_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 405
+  },
+  {
+    "id": "dynamic_C050_B_none_S0",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 405
+  },
+  {
+    "id": "dynamic_C050_B_none_S1",
+    "obstacleMaximumError": 3.552713678800501e-15,
+    "pairMaximumError": 4.440892098500626e-16,
+    "passed": true,
+    "steps": 405
+  }
+]

@@ -1,0 +1,2659 @@
+{
+  "version": "2.3.4-unified-actor-20261029",
+  "scope": "All listed files; this manifest excludes itself.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "kind": "text",
+      "size": 8096,
+      "sha256": "92a15972797fc0144ed0a597e7df1d9aa391bbe19b111fb916ec0a3fd6687a38",
+      "gitSha": "37b17ec2b390ccdf04e9901b507c231888fa9f54"
+    },
+    {
+      "path": ".gitignore",
+      "kind": "text",
+      "size": 218,
+      "sha256": "2c0d5e3ba5df6f858fd879c3ce2f71bf2ecd85b632da7278d32810afd566eab3",
+      "gitSha": "a25f2b9630f326e4e036f4b8c2978c4a59f0fae8"
+    },
+    {
+      "path": "README.md",
+      "kind": "text",
+      "size": 1499,
+      "sha256": "fd394b0c3e4d9db18a04155a96eb7f338a30b2239b84bd5ec3bb090f71a5ef20",
+      "gitSha": "aafe644541608334baaab7a2962ff0ea7e4dc9fd"
+    },
+    {
+      "path": "VERSION",
+      "kind": "text",
+      "size": 30,
+      "sha256": "9d5418fadd421da4198665cbe5f60da4ddee20585f58b62243640055405000a3",
+      "gitSha": "bddfda0fadca9e59fc909968fb9daf1e7435d19c"
+    },
+    {
+      "path": "config/clearance_candidate_params3d.m",
+      "kind": "text",
+      "size": 1684,
+      "sha256": "49f40bc175c3668a409a59d88a3cea9f2b8df5a133651b5bff00523c00672cca",
+      "gitSha": "211425c7564ad8bd861309c1fea79ed4a2140dc5"
+    },
+    {
+      "path": "config/default_normal_scene_options3d.m",
+      "kind": "text",
+      "size": 754,
+      "sha256": "74729511ed4d9eb62123510467f4c90240448fe7d59e0b133880040f1b0d8208",
+      "gitSha": "34df5f20831b21564f0fe7b5367d98f7cb79ac09"
+    },
+    {
+      "path": "config/default_params.m",
+      "kind": "text",
+      "size": 7273,
+      "sha256": "f792fb423f6828e37427c3353a20bfeaf0b5be77140c085298afd534f3a37b6a",
+      "gitSha": "fd79cec9ff9d42eefbe9a4eb1c140f8ab07b5f18"
+    },
+    {
+      "path": "config/default_params3d.m",
+      "kind": "text",
+      "size": 1903,
+      "sha256": "014a8a5ec6e3590c6729983156407fd01570d520ca206327614aaf3142ecf227",
+      "gitSha": "7b90e1f7b686c6100600b859687090effe359b6a"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/actor_candidate.mat",
+      "kind": "binary",
+      "size": 34360,
+      "sha256": "51535c86771cd8e7dd189d7080f43010edbbbe8e0995ad6065391ae2f03e5740",
+      "gitSha": "7da5a25c1daf1891b1639d229ca9d12330602769"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/asset_manifest.json",
+      "kind": "text",
+      "size": 374,
+      "sha256": "f821f905d68aaf38bab24b179336268afae1d436fd978754ad150fc235671c5a",
+      "gitSha": "121c885ec2228bc5721c3df0570db518acb573cf"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/configuration.mat",
+      "kind": "binary",
+      "size": 160515,
+      "sha256": "ccea37150c0c12a09cb393fcf0000e214c7930101610d23382917993a155157a",
+      "gitSha": "f7509c2bbf0e77c8837d2698228b5111b54934d1"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/Adp3dEpisodeManager.m",
+      "kind": "text",
+      "size": 6381,
+      "sha256": "2d44e7969e239abfa400bc0f599f4ed97b2c92522c685cd57782df8295159749",
+      "gitSha": "74b8b1ee08e9c1ac58955e4a74959265b6bcb982"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_actor_action.m",
+      "kind": "text",
+      "size": 369,
+      "sha256": "d80516c17b62194244a184faef43bd5d9e875d624e3e831e6ebc79689cb3e495",
+      "gitSha": "c382fb25b0feb903f177d003e66dcd2823a4f231"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_agent_weights.m",
+      "kind": "text",
+      "size": 527,
+      "sha256": "5d2b51a1a32e9892bf10d73eae73151836f3cea89f003093bc86cbb67a639a5d",
+      "gitSha": "2e13b41a743e4d4b17e6c76126f6aa3aa51d58a5"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_braking_plan.m",
+      "kind": "text",
+      "size": 798,
+      "sha256": "41d6c0ef11b73562bd4a4b5dfdb3465e3e5a8edf56ca1700177e64e19df8e459",
+      "gitSha": "c0241cfbb11112e2c0808d4b9c632053efa7cd12"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_build_agent.m",
+      "kind": "text",
+      "size": 2371,
+      "sha256": "eae3cdafd49e6cbcabe06cb345a729c557327e5ba2cb77ce55288b1cd3897374",
+      "gitSha": "0f0a3bb1e8a885c42a2da3209a984b064532b106"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_case_catalog.m",
+      "kind": "text",
+      "size": 307,
+      "sha256": "d3b00abc9825a7fcc43f8e62a8b92fd94c49ef6d42507b2630921ea9da530d75",
+      "gitSha": "55c0256d1cb7ef6b09b708bd4349b10acf1ad690"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_certify_segment.m",
+      "kind": "text",
+      "size": 1289,
+      "sha256": "f3d8fe62ab33d70d909f8b7fb5ac328e4c70786de1fd4778300d5a473977525b",
+      "gitSha": "b15ba269efc720088697a38d1b6bb13e8633f960"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_config.m",
+      "kind": "text",
+      "size": 2582,
+      "sha256": "c30427d960fbcb3e8bdcce786da14f65bcb9e0ad56465ff7137ee256f3c45e3a",
+      "gitSha": "1ac533545a18e03e5122cda30cf5997300068ee7"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_create_env.m",
+      "kind": "text",
+      "size": 696,
+      "sha256": "7545bc847a1edcfd30938ddb8c7024b5ad504557765eda72a35871a886fad5e5",
+      "gitSha": "31071a2cccc757abe3a7ac8037336da329e67181"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_create_networks.m",
+      "kind": "text",
+      "size": 1643,
+      "sha256": "507b83e3320e2c15fccb0786130d59af4035ba3e6cb80e56e05d9b10e2f95d65",
+      "gitSha": "8ecd0c3a6b32964b1e903ca8ddc2d5b492ca3cad"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_decode_action.m",
+      "kind": "text",
+      "size": 1097,
+      "sha256": "febef059e9a3b0e4909795caa86a901b2cf3a027b1a37a9fb8e30bebc3ef7df1",
+      "gitSha": "de744f5746a73a1622b032fb101e10b8b28d5363"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_evaluate.m",
+      "kind": "text",
+      "size": 3956,
+      "sha256": "1a59f464ecc11a02316c96a0baaa49d38730b0ed184d8f49d3d72ca29f1de584",
+      "gitSha": "052da166462a965500f466e1f5ed0477fe77b177"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_export_actor.m",
+      "kind": "text",
+      "size": 923,
+      "sha256": "3c4d0e403351a0ad552051c74a7fab071c421e4f705f0cccb57820e2775c24b5",
+      "gitSha": "79cc2be11b319b264a914c032af72987c1512924"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_leader_command.m",
+      "kind": "text",
+      "size": 1459,
+      "sha256": "ba4f92ff0639627f5ba5c12c4474e562ab466f846a4762bf46547b0c86e811bf",
+      "gitSha": "05311cdf89d7423452867a6866923eb358516fcb"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_make_case.m",
+      "kind": "text",
+      "size": 2989,
+      "sha256": "132cd4e6458298667bda4c3a92f356d2dddbd6d6512aad5399f262066e741c89",
+      "gitSha": "ffd0383ada3d727b6d5a925a59a4e5b227751f1e"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_observation.m",
+      "kind": "text",
+      "size": 1015,
+      "sha256": "af8bd7d23ede6182e902245f4bc67b29058dfb67d55cbb9a9162ef00caa938b7",
+      "gitSha": "8404349d015c1cc3f0e64d472d939d48e55f8e63"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_project_demo.m",
+      "kind": "text",
+      "size": 11596,
+      "sha256": "96ff6fd3ca12f82d2a2a908c3adf2c735729db2ea5db4f1d60980cdf7ee22d29",
+      "gitSha": "cfaacdc8308ac8741eb66b30fd8085c6d099b83c"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_safe_step.m",
+      "kind": "text",
+      "size": 1914,
+      "sha256": "40aafa155095aa35d3c02574d8d04d46d18d158b3661c6e77696e291915671f5",
+      "gitSha": "755362174813d6ca3c93ebf389c8955900579996"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_scan26.m",
+      "kind": "text",
+      "size": 6086,
+      "sha256": "fb08b79f9c5fa48409f71d3eb3e35a1e37cbd83d5ee160ca8977348d0c59b647",
+      "gitSha": "ee2fac1084b717575d2992dc77a0617b54f45249"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_setup.m",
+      "kind": "text",
+      "size": 981,
+      "sha256": "34291bc671299ff924bd42cea5cd5457a3dd12c1d9d4a2d5b26629ba1e309c77",
+      "gitSha": "66db7ae95bce252939b8e25e1b017e4fcbdde829"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_source_manifest.m",
+      "kind": "text",
+      "size": 1136,
+      "sha256": "d101fccbcccbf18a1caf753ea0cee105a83d45e51afcfcde0b1c296ee281b08b",
+      "gitSha": "53cd6070aaa7d68b98a71f05cd2efcbced02f4e6"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/module/adp3d_train.m",
+      "kind": "text",
+      "size": 7282,
+      "sha256": "ac3ed40e77c849903f4cf496c59d929695f1da11f3ca8831afa8f5b246bd460b",
+      "gitSha": "999242399eb9ff6a1ae5b6090d5ea605b572be00"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/config/clearance_candidate_params3d.m",
+      "kind": "text",
+      "size": 1684,
+      "sha256": "49f40bc175c3668a409a59d88a3cea9f2b8df5a133651b5bff00523c00672cca",
+      "gitSha": "211425c7564ad8bd861309c1fea79ed4a2140dc5"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/config/default_normal_scene_options3d.m",
+      "kind": "text",
+      "size": 754,
+      "sha256": "74729511ed4d9eb62123510467f4c90240448fe7d59e0b133880040f1b0d8208",
+      "gitSha": "34df5f20831b21564f0fe7b5367d98f7cb79ac09"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/config/default_params.m",
+      "kind": "text",
+      "size": 7273,
+      "sha256": "f792fb423f6828e37427c3353a20bfeaf0b5be77140c085298afd534f3a37b6a",
+      "gitSha": "fd79cec9ff9d42eefbe9a4eb1c140f8ab07b5f18"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/config/default_params3d.m",
+      "kind": "text",
+      "size": 1706,
+      "sha256": "f4d727ac7e4f2796006ebe13e267e95c99c88f99fc8fbb4d80f10629b884e3ef",
+      "gitSha": "7555af2be065f2fcede778cb9a85a57173e9f458"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/main.m",
+      "kind": "text",
+      "size": 2096,
+      "sha256": "ee713a46253bb6ec316429ed76ff16b906fc36b8a6bb833d545c61a9ec0e1b47",
+      "gitSha": "9c5bdef54ba7a04a5c504925d246c2df743d4773"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/main3d.m",
+      "kind": "text",
+      "size": 1202,
+      "sha256": "fe011b7286e9c6ea48b3fbc87ee9928963f9d344f0e9a8c642e75c587713bef5",
+      "gitSha": "1fc56c337f3a4b400705fb89b8668a847e274bd7"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/run_batch.m",
+      "kind": "text",
+      "size": 4249,
+      "sha256": "dd5b96e18b31ff47be0c6534b7ff82a3fe7f4d3e273e96f26d2b55af62d1e0bd",
+      "gitSha": "1319c699151721cd18e1652f750357b484d148c3"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/run_obstacle_sweep.m",
+      "kind": "text",
+      "size": 12014,
+      "sha256": "32b97f0727b4aaa0c112f45d656eaa564d200ad11f93a2254ba8d9e76dc45a96",
+      "gitSha": "19b7b33da82d079a99b73eb72bdce5f851d233ac"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/setup_project.m",
+      "kind": "text",
+      "size": 466,
+      "sha256": "25e45a752068f088b0763ec9abe2af1951b72423201cf94cc6b77b3832f0c37a",
+      "gitSha": "de09b0c878a410b264261d15ad1e98ec90d8330d"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/adp_actor.m",
+      "kind": "text",
+      "size": 465,
+      "sha256": "3df48cbde617e0d495456db41a8d3e58501b1d8eb07adb54c478bb2c815b9bae",
+      "gitSha": "b5024a8f3671df6d7a24a42bb95d9efaf0e87881"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/adp_critic.m",
+      "kind": "text",
+      "size": 250,
+      "sha256": "397320bb4d4c572871db786b1a2434ec26fb6670d982e1c8b3310445d8e59125",
+      "gitSha": "493318d82bbb4539da8ad5559f30f930a4a56c8e"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/adp_features.m",
+      "kind": "text",
+      "size": 1907,
+      "sha256": "37bc765db5335d0d70e9eccb06183b3f84bc5967b81c1f7d2418eb07723dbed0",
+      "gitSha": "6039f83407f475747f41941f0bf37db863aaecc7"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/adp_update.m",
+      "kind": "text",
+      "size": 4208,
+      "sha256": "fe1c3e2e5f02cdb7aad281b69a1b2cce85da7aea75f54334f62ae9f3fff1c742",
+      "gitSha": "e7bc221d0cb92a7cb069376ff67a2a13dcc796e0"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/animate_demo.m",
+      "kind": "text",
+      "size": 407,
+      "sha256": "1bc70dd21442f425dbe235150c8b8d222c45d65f17b8152c8d83dd61f86d2f11",
+      "gitSha": "595a9b64b803ca5140a0cc2147ae0fbe7bdc58a3"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/apf_attractive_force.m",
+      "kind": "text",
+      "size": 1024,
+      "sha256": "7fe9afe6d87850673deaa44fba4702dbe6be236094758141f704ffb7e3a8f147",
+      "gitSha": "64a39cb0e5d140ff143a24993c8a7d0a03f3dded"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/apf_repulsive_force.m",
+      "kind": "text",
+      "size": 2583,
+      "sha256": "1bb364b62dd6b4054f20076d16b007fa39272a3d7ac488f78acbed312469483b",
+      "gitSha": "8387e0e71c443cd74e03111f64b4ecf0f9f5d9b7"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/apply_boundary.m",
+      "kind": "text",
+      "size": 1528,
+      "sha256": "f80f970d6c0393d14f872a8beae2eb5ccf5ddea57a93d94ebae2dfb7dd4b1786",
+      "gitSha": "2de40e2c3c2036d3ffed2e453f519b06fe3fbe8e"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/check_collisions.m",
+      "kind": "text",
+      "size": 1436,
+      "sha256": "c4cc6aff597a6ebe069c0129d81b5e1757a1469fcc98c72a6fd0ad5a0abc6847",
+      "gitSha": "38cebddfbce5133fd7b9512221ce2feae6be83a4"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/create_run_output_dir.m",
+      "kind": "text",
+      "size": 1063,
+      "sha256": "0860c084a97ad7ffbc5261deec5c409b9d077d78d3e6f774dc5a7430582e551e",
+      "gitSha": "fd02e5db6c4d9a3347f6ff6666d7b08e56ea6323"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/follower_control.m",
+      "kind": "text",
+      "size": 1517,
+      "sha256": "363cbe238603b7b36fad40e98dac8bb2f36e5e836ae338228f69df699105488b",
+      "gitSha": "a3ebf7c25cb9dc428288c7bb9a366431c34bc993"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/formation_desired_positions.m",
+      "kind": "text",
+      "size": 7558,
+      "sha256": "ab3247af90bdc120cc89ed5062a0cb9b39b1391a1bdff7f4849b18582d2b10bd",
+      "gitSha": "0364472de0ee46a1a544b0ac389a2bb7bc6f64b5"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/generate_obstacles.m",
+      "kind": "text",
+      "size": 5564,
+      "sha256": "c3bdaad4545e9bb000efb11648e90c7a9f05420c7ff1f95a7f191c5d55774dc2",
+      "gitSha": "527126f1e2afa3c2ef31b2514703853c6d875ceb"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/init_formation.m",
+      "kind": "text",
+      "size": 2102,
+      "sha256": "c6910be24324177fdbf0fdb4946a9a0391ab68101b3ac0cf30b5d9aedb8a78b6",
+      "gitSha": "40a5668970ea56e4bb0eee6062f4c9c52c204caa"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/inter_uav_repulsion.m",
+      "kind": "text",
+      "size": 1702,
+      "sha256": "c1a02efa848b052a2cdf7be78d6f0bd6e788cedb34b47e9ea7df09a1fe41897d",
+      "gitSha": "201fd9b6a7ad32bb9ea3cf2ae40c56011196bfc2"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/leader_control.m",
+      "kind": "text",
+      "size": 1354,
+      "sha256": "952b57c5cb37d015f945cce5d9743214feb839d8cf6ec9522b53350f00f34bdf",
+      "gitSha": "ec2a6b6175d7944cf9ff85bc7c16c2a2c0067b9e"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/motion_update.m",
+      "kind": "text",
+      "size": 875,
+      "sha256": "53d1615210e3b5cc8e3327a8e052431eabe06153844a39a2215b0f12e7d4e9a8",
+      "gitSha": "f5c25b21ac89d8edb821dc4d9a6b56ab1a02a353"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/plan_grid_path.m",
+      "kind": "text",
+      "size": 4259,
+      "sha256": "33ebdc6157c37e91ac58db6f4c49df662acdf8626fd07fd84bd9d87f0f45ec82",
+      "gitSha": "bb1ead0bc4cc34f9608ca62ecdc2cf9a9fe1c556"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/play_flight_animation.m",
+      "kind": "text",
+      "size": 6417,
+      "sha256": "07c1a65fa4b83b1d9e0fa4bc77baa0d4b3d0adb06ad27763f5086d30d92b025f",
+      "gitSha": "f84a6da5b85a10a6bf444c594a147999beaeebdd"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/plot_metrics.m",
+      "kind": "text",
+      "size": 2320,
+      "sha256": "79b344276e734461fefb719ef004397ef5a13f33e94f3c09f13760496d1f322d",
+      "gitSha": "2777eb6651f193e4b2ddc1950de7b5d20cce8480"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/plot_scene.m",
+      "kind": "text",
+      "size": 3274,
+      "sha256": "935bd5785c35bd7ead84f3f9c41d3d8bd32a58da77e6712c3d764ec6d73557a6",
+      "gitSha": "4237a0a11415c9cdd9202f1d60763f6cebcaac21"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/plot_trajectory.m",
+      "kind": "text",
+      "size": 1031,
+      "sha256": "790b2697fcd69546277b465e246d86a38d5cc1432f3af7afbdd80484176b1fcb",
+      "gitSha": "fef14fdef9ada1c0a44225420506810c2ae71cfd"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/resolve_collisions.m",
+      "kind": "text",
+      "size": 6484,
+      "sha256": "4820ee22e021224de406e4311db5df69544dbb0fd33cb2c2d8c1e90d70115a37",
+      "gitSha": "a4840d7f29df793bd40e5a5370afabfe4fe5770d"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/run_simulation.m",
+      "kind": "text",
+      "size": 26802,
+      "sha256": "14c8388075a5a4f112c4385896137159b2b63bebb7f99c03e8ab581107a4760d",
+      "gitSha": "5b658a758b65c9399a8bc7e2cb295632c1308816"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/update_success_hold.m",
+      "kind": "text",
+      "size": 250,
+      "sha256": "fc24708e4f0a5626d936a1e8d6464c7ec4c62fe930b867cfbba7fe06a97e8a2e",
+      "gitSha": "90f21a450d032b73a4d3a2c9d4446661e471a462"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src/validate_params.m",
+      "kind": "text",
+      "size": 9184,
+      "sha256": "538a9c84e304b9cfaea385206c406550b748853888360d1d796022cf88507df9",
+      "gitSha": "a5f05c74380a0050032087be3c7356680d92cbfb"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/adaptive_height_layers3d.m",
+      "kind": "text",
+      "size": 4306,
+      "sha256": "9019e462e9fef3e327c627fc55fbd921e154445ba9340de5bcbe800513c8efe2",
+      "gitSha": "d9650f37b00b1ac45cf25ea349a14b9d1372ca10"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/adp_features3d.m",
+      "kind": "text",
+      "size": 790,
+      "sha256": "519d09de0bdbb61bb0e015bf254655a9196b613e222447612ac8b3367b8c4604",
+      "gitSha": "dc29d87ca040f4a953748951565985c00a34a6b8"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/adp_project_actor3d.m",
+      "kind": "text",
+      "size": 411,
+      "sha256": "eb38b3b02476353ca4056ad3a857d3d895335a3f6d2a5a978bd19796cdb2ed0c",
+      "gitSha": "6cac44d1e3914d659c10a2585612db4e6eedb43d"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/adp_residual_limit3d.m",
+      "kind": "text",
+      "size": 514,
+      "sha256": "9136ffa8f1b8d6f4d074bc8a5219f1bd24e9b8a3048e2d2a332fa9fd9d4a1758",
+      "gitSha": "57966ed2b86531268a3a7d529c168f6e34fd658c"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/adp_tracking_features3d.m",
+      "kind": "text",
+      "size": 1259,
+      "sha256": "27bc0af0bb00ea8e35d7061300e93388e689bcd66e7053558071564fd626e946",
+      "gitSha": "45c1331d50e750be3d78851b0f5729f29826d041"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/adp_tracking_update3d.m",
+      "kind": "text",
+      "size": 4459,
+      "sha256": "ca570a89cf9036902e4b67e578400d661ba1640973667ba6751ceea28ca96d30",
+      "gitSha": "75960bde692a423cea6ccc2e0a69e9eeb6649aef"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/adp_update3d.m",
+      "kind": "text",
+      "size": 2333,
+      "sha256": "6dcd144f4e6e107162e65f02bc78ad48e3229fc43ecbae0f7fe1948c0d6eef2e",
+      "gitSha": "fbd67a4b87d6c0cabf8d163123cb0258daf75f78"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/apf_repulsion3d.m",
+      "kind": "text",
+      "size": 1125,
+      "sha256": "1cb0a27698526da57e9264b2fd8cd83f120c36eaf4bc719013677c70a1c430cc",
+      "gitSha": "7005afbecacd7797ae41cce46341375149320f47"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/available_height_intervals3d.m",
+      "kind": "text",
+      "size": 2851,
+      "sha256": "a19971660850c7e216520acf5d063422a858af52ac77f2b45c7963629ad55ede",
+      "gitSha": "bea5bbcdcb7fb2f129920432ed04d28d068cdaf8"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/certify_formation_segment3d.m",
+      "kind": "text",
+      "size": 1578,
+      "sha256": "526c085b8c877d1d1c1154b1eaf4da0b79a12c08ca94367795f74c58da180ddc",
+      "gitSha": "0a19db60b027b6d865ecba98463a2c3c254eabe5"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/check_normal_scene3d.m",
+      "kind": "text",
+      "size": 3499,
+      "sha256": "0dab313f1a4acb3c5fc899cf7c42feddc2d75f84cb0d2acb9f32f2a1fd4c0f1d",
+      "gitSha": "84679454ee0425c86e8558755077174f35956653"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/check_swept3d.m",
+      "kind": "text",
+      "size": 833,
+      "sha256": "59d2cbd97d1b315de783b04fc6f0650c2bfdac059fd9d983351345df0ee01a24",
+      "gitSha": "e0b88ddeb8f86a1babc6a555808bce132b93c222"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/control3d.m",
+      "kind": "text",
+      "size": 3304,
+      "sha256": "c1913b888b30b4798733dc1c33ffd97b788328eaab87b5151b3e89999a4aa6fb",
+      "gitSha": "329b4e12a90d4ce2074a063331f0b01e42b3e488"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/directional_clearance3d.m",
+      "kind": "text",
+      "size": 3501,
+      "sha256": "7140bab9f529a9f617f696a7d640daa6294c26a6ba711b4627bceac842cff637",
+      "gitSha": "a0501b0a684cc834bfa30bbf68e91e2e2a2ee87b"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/directional_segments_free3d.m",
+      "kind": "text",
+      "size": 2131,
+      "sha256": "3230dfe526f10af881e4338ee3993ea6aed0520cf0fa1967661e85f2677ae1e6",
+      "gitSha": "88baa32b48d8601bdcc08a01c3d895642dce91d3"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/draw_obstacles3d.m",
+      "kind": "text",
+      "size": 2755,
+      "sha256": "fe1a62d98f96328dc6791202c94d4d282440810f78bbfdba671cec8255d3f175",
+      "gitSha": "e5ebb2edf930263cf501cd969db1571a81e358fc"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/formation_reference3d.m",
+      "kind": "text",
+      "size": 7988,
+      "sha256": "01cdd9a40749630fe40a4220ac9a6927c13ed188649c0b7fa573fd7d7c305b37",
+      "gitSha": "24c9c59b81e4c57337a5fdb6f58adffcfb55f605"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/formation_witness3d.m",
+      "kind": "text",
+      "size": 5659,
+      "sha256": "92cc94fea17ad46d160b78278cf5f84569c49cf8a899b670ee7b9edef0850968",
+      "gitSha": "73886d6a85574b6bd7368d60d1baf8871434363b"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/init_formation3d.m",
+      "kind": "text",
+      "size": 893,
+      "sha256": "8a9f4bdaa7d2e19010e4d13748d077725904b483062cf23d33875139e19b406f",
+      "gitSha": "147f7ff82dc3c90a536c8b294ffde93ecd0acc2b"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/limit_vector3d.m",
+      "kind": "text",
+      "size": 263,
+      "sha256": "d6ad404b1f1c842346167caa6a7f382898a79c21413900cdb63970cc818a8298",
+      "gitSha": "1b08dca6ecee57bff2cf18947df626cdb4c3aaba"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/motion_step3d.m",
+      "kind": "text",
+      "size": 418,
+      "sha256": "7dc557e9cd6b8c8aed82b064ad748a625728a8d6cd3631ff40fa31d465a82c10",
+      "gitSha": "183de6a4e759cc3c9019087a02377e95a6213e0d"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/normal_scene3d.m",
+      "kind": "text",
+      "size": 3015,
+      "sha256": "b718f3940b882a242ac6ef7a5300ec1b087aa473454fb5554f1d147730292cbc",
+      "gitSha": "f9ee61a4015e4e476d03c49edf58d9643abb0dda"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/obstacle3d.m",
+      "kind": "text",
+      "size": 1525,
+      "sha256": "b892e34244bf616374b2380abdeb60fdbc1c46294302147a439ec22628004cde",
+      "gitSha": "ce95e0f1f9f2568e046d8980382d19da0c71c6dd"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/obstacle_distance3d.m",
+      "kind": "text",
+      "size": 1695,
+      "sha256": "1391c8fab3c7d0c828fa0329459100b5a31484152656a4cf28000c20397d0d3f",
+      "gitSha": "08048bdaffc46f9a7408a5281719e48976d4fbed"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/plan_directional_layers3d.m",
+      "kind": "text",
+      "size": 7539,
+      "sha256": "df26cb2d7188f81f6f758797756377f979a9577f7b8d06e4f4a68b5c33cd9f41",
+      "gitSha": "1d9a1df84cb8dbd9b6a06de21009506c2fa83093"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/plan_fixed_layers3d.m",
+      "kind": "text",
+      "size": 8635,
+      "sha256": "7cf90c0b2e09fb5fb8ecbe4983c2ba80e01f29fa7652b7737c285f5689ec740a",
+      "gitSha": "9ad93224e7d5e89fffbf9673b804b419749822d6"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/plan_layers3d.m",
+      "kind": "text",
+      "size": 4347,
+      "sha256": "cbf77c2c49d8a4f19a63588ef3dbcc4b396b0b5bf8208e6491f8df1e7d9c331b",
+      "gitSha": "cfc15a1b85ec226b5795c1ebbd9c46c0847fb6e1"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/planner_segments_free3d.m",
+      "kind": "text",
+      "size": 4628,
+      "sha256": "bee4df9e2e356f9a0a8d374a644d9862c630255415933a6b35cfc6c68db72a71",
+      "gitSha": "45764ca2386d453dac9095fa9b95dd5b0bcc4c1f"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/planning_graph_signature3d.m",
+      "kind": "text",
+      "size": 898,
+      "sha256": "c7b78235cb5fce29e7e4cbbfcc8d20597cef6835cc64d12409a222950d4e88e9",
+      "gitSha": "e2019e2a9a6d3e1f71a381e10a61a73ab1e26389"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/plot_result3d.m",
+      "kind": "text",
+      "size": 3528,
+      "sha256": "acde6091ea0b3f7040aa22518d023fac986421270520d1926e6f83a1afb102ff",
+      "gitSha": "0e969de7b7bf9bccfcd7d1ada02b72b1ae781424"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/point_clearance_batch3d.m",
+      "kind": "text",
+      "size": 805,
+      "sha256": "fc18f36876d1110add98718ab9e3d93ecbd7f2f1cb6b3087326c6ad9516590c6",
+      "gitSha": "4a953551d46500d385878768b8dcba106ae01cd1"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/prepare_planning_graphs3d.m",
+      "kind": "text",
+      "size": 2711,
+      "sha256": "b06de401acd6f66955649f396344b626cea40565f21f98f5177fe534c299fb7e",
+      "gitSha": "2d5711a239e38c3adf0e91a1b9a12a852cb8f7b1"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/random_solids3d.m",
+      "kind": "text",
+      "size": 2275,
+      "sha256": "1c24ca10462262765e620fc95105ef4df3ae275bb9347a4088625c51d082bf4f",
+      "gitSha": "ca51633dd5ae30db43318c9f4f59cdcf482cb191"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/reference_footprints3d.m",
+      "kind": "text",
+      "size": 1727,
+      "sha256": "493809cb5e27f75986db7dabb056359efa4d67021472a3bba14b07b11922ff9d",
+      "gitSha": "3d502fa61e79de99403fc7b24f5592060ca894fb"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/render_3d_animation.m",
+      "kind": "text",
+      "size": 5295,
+      "sha256": "ea106912a39e169bebfcd1616d0e034fa8163b9ba8fbaf77faaf8453448f7023",
+      "gitSha": "6aa695535a93118dfa38fd2e9d4109cbd5b42ea2"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/resolve_safety3d.m",
+      "kind": "text",
+      "size": 3415,
+      "sha256": "bee97c5acbfa820fa4d7c8981e1e10d48044e358444b15bdf22077c4afe14b2d",
+      "gitSha": "8fc1003aed619584120f330d6a384925b6e9e590"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/route_cost3d.m",
+      "kind": "text",
+      "size": 490,
+      "sha256": "d27d8810e7025c2444487a348af57c03675d3920630fda1be01435cdea1df397",
+      "gitSha": "5385dd49aa2c25d23fa4058a00d76b3631dfbd2f"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/run_simulation3d.m",
+      "kind": "text",
+      "size": 14925,
+      "sha256": "d58f969ff4310f5eaed12c7b1b99cfbd9cec2757e1d95f22e0607b61f70878c5",
+      "gitSha": "244d325d0f1eb98334445a54b4237db6acc105b1"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/save_scene_generation3d.m",
+      "kind": "text",
+      "size": 2248,
+      "sha256": "5dbad9d6254dec89564950e4b78383a076f6ec2a13d7590a3f3e0e7e9c419c12",
+      "gitSha": "0886ad584790fe099b184b044c3b67da8b3613a2"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/scenario3d.m",
+      "kind": "text",
+      "size": 7731,
+      "sha256": "d11572e5f517516d657751452065a1f69894fb83e6a3aa583309a5305e3341e4",
+      "gitSha": "3f105472d6aa4fd1447f28af8a47d0f15eaef0b7"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/segment_clearance3d.m",
+      "kind": "text",
+      "size": 1165,
+      "sha256": "eb66ef72227a5d0eedb86a221e78980873280bd6b3c5a0a633706e30de17334d",
+      "gitSha": "393c370ab0988c11c9b928311d7a3d010643b3b6"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/segment_directional_clearance3d.m",
+      "kind": "text",
+      "size": 875,
+      "sha256": "28411256e31c46577f286946e25d31d5c29ab8bc84db0b3349f987a3c7d17d94",
+      "gitSha": "5e13ef91dfdb9497d808561bfbaa4308b2b143fb"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/validate_normal_scene_options3d.m",
+      "kind": "text",
+      "size": 2843,
+      "sha256": "9e9a0aaa27d6e36ae1cdce00635f2af196877c3b965c9f9d89520d1c3ee9f5b9",
+      "gitSha": "ab0b8d6d996e4763c4fe93faaf2cf7aee133426a"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_reference/project/src3d/validate_params3d.m",
+      "kind": "text",
+      "size": 6351,
+      "sha256": "8fd824246ab4efab34f96bcc12e146dc8e7d167fc50ecbdcc298de6d98c83a99",
+      "gitSha": "9366e8ad6bb58e04866d72c3985d1306c6a97c9e"
+    },
+    {
+      "path": "controller_assets/frozen_actor_20261015/training_source_manifest.json",
+      "kind": "text",
+      "size": 14305,
+      "sha256": "9cdcc7d9f93c3764fac8d77c958eb0fe65f8c8b092cc90f97bd5228b8142c6af",
+      "gitSha": "de62dd625d16c6877d756163ea11acbfba247b81"
+    },
+    {
+      "path": "cpu_realtime_adp3d/RTFrozenActorCache.m",
+      "kind": "text",
+      "size": 611,
+      "sha256": "16d21748444e355118a7496070a32afcd4f4381ee667f2f0b54b286a985efdfc",
+      "gitSha": "dc2f28bf165a66b958a918ed7867a5e27cb015c3"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_atomic_publish.m",
+      "kind": "text",
+      "size": 485,
+      "sha256": "619ac4140155523f0e95230452b9fe8ff2d62f91d4b4653690fed710e71a8e58",
+      "gitSha": "6f299c6872f234d429adac1849ba6c89a33b20ae"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_benchmark.m",
+      "kind": "text",
+      "size": 4337,
+      "sha256": "42831258cf524783949b91325201cd685c532a2ca28598af208cc5d79e3be3a5",
+      "gitSha": "f5f611b024f03e80a9075854e879325d9215460d"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_blackout_faults.m",
+      "kind": "text",
+      "size": 3610,
+      "sha256": "a4ee152ce7fedc33656e3bbe7fb54c6d2c2daa59f654db0a5e1da6cfc1a44a86",
+      "gitSha": "dce8af203ab99cc091b86afaa18469bef26d438e"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_bridge_checks.m",
+      "kind": "text",
+      "size": 1249,
+      "sha256": "8d730598e11a592d2cc477c1f0662e0ca34fd0c170951a79ca31ec1a6b6d8ada",
+      "gitSha": "d8ba7af6bf11289b1cea7a7113f8cfc43e0f7a8f"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_ipc_fetch.m",
+      "kind": "text",
+      "size": 201,
+      "sha256": "624ade644077c44ad42f9ec5a6ca8fb5b0a8c5c361b67a7669d561ae4ed835bc",
+      "gitSha": "4a2a36f17fbb4dadee248315c8f8221ed99d778d"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_ipc_nextstem.m",
+      "kind": "text",
+      "size": 273,
+      "sha256": "ee386f819a9ae76b30f760eee4a39f3b172161d84eafbba8a0d84813893cd440",
+      "gitSha": "8580a76c7bd1acad5642ef3c910b9f4eb51bfdc0"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_ipc_submit.m",
+      "kind": "text",
+      "size": 612,
+      "sha256": "f93b9a8af3dbbe90cedbc19bff77a38e9fa7703e6f0c339a1c6527f9c07886a9",
+      "gitSha": "38b82587e462d1360748332986823e20a8bf9b04"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_ipc_submit_actor.m",
+      "kind": "text",
+      "size": 486,
+      "sha256": "796cc920bd3b617c63c5b25f5364fe07935af26a1369def1e09136ebf64d37ba",
+      "gitSha": "b663b182f79fc5c3a9ca5def102b0df93e1baebe"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_ipc_wait.m",
+      "kind": "text",
+      "size": 311,
+      "sha256": "ade5ff8a60b994172a48ee28f402bf75ec477c57a2a4fe068e1690ca17cbe1a5",
+      "gitSha": "32fcb81bc127aa179c558490ce0ab53f241bcc7b"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_ipc_worker.m",
+      "kind": "text",
+      "size": 2236,
+      "sha256": "098178805c93b08aceeaef81704c68ebb44b17a273699d421aceec64b95196ea",
+      "gitSha": "5d9d58a6405f927f9ea7bf5ea3d375c77df8651c"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_load_actor.m",
+      "kind": "text",
+      "size": 299,
+      "sha256": "02e7f8412bae899d9472585cc90c8a870b8a141569587c4a3bf5a8ab8a7564a8",
+      "gitSha": "5d86bd9de67b8f83bc3fe21c9aa1e99276ec1589"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_paced_flight.m",
+      "kind": "text",
+      "size": 13147,
+      "sha256": "a4d2a85d954386349537e995ae154a4dc1c725b3b03b2617f131937aa81b980f",
+      "gitSha": "9c47314cb9949d2115ccd0422884179a29f8af7b"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_protocol.m",
+      "kind": "text",
+      "size": 1849,
+      "sha256": "9834e66fdef3f7debcf6aa3dd5e3eed423f31d7e938dd8becc1699f6fd4d3916",
+      "gitSha": "6e031a8e56da7194f788a465028d756cc14d09af"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_run.m",
+      "kind": "text",
+      "size": 6189,
+      "sha256": "ec192ddf03608019247de74f2ea763c3c5731f756571945d8e7ec2e8ee66ddee",
+      "gitSha": "bbb09baa6c023f8028ca0ee96555735753aa7f42"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_wait_release.m",
+      "kind": "text",
+      "size": 310,
+      "sha256": "41a92b54b4028fa6f2c35aab1aff061edd7c3b3f08f7d884b5047e89399fe8e3",
+      "gitSha": "e9eb8b9400584ca6397c56334aca98925f8c4c72"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_worker_decide.m",
+      "kind": "text",
+      "size": 605,
+      "sha256": "757ec56879accd9000f66e6670a806e8f9a2530cc4be6742c0fbfa2c29598df7",
+      "gitSha": "0575f90ddf873740f4953f41f12d9977256dd424"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_worker_init.m",
+      "kind": "text",
+      "size": 641,
+      "sha256": "c9ac46249d03e7b7d0e1720e63418949de025dd9d80cdd20ed9f937bd4ad41b8",
+      "gitSha": "3bccdd5ad85fa7fb74046f2948caaccf866f2e07"
+    },
+    {
+      "path": "cpu_realtime_adp3d/rtadp_worker_status.m",
+      "kind": "text",
+      "size": 296,
+      "sha256": "ff57fd523e9646ba205bc535b70574854b649add49338c99919739070738ba37",
+      "gitSha": "c8ed0a42c25b41fda9d0bf592e0d6f8db82aaa1a"
+    },
+    {
+      "path": "docs/CURRENT_STATUS.md",
+      "kind": "text",
+      "size": 1499,
+      "sha256": "fd394b0c3e4d9db18a04155a96eb7f338a30b2239b84bd5ec3bb090f71a5ef20",
+      "gitSha": "aafe644541608334baaab7a2962ff0ea7e4dc9fd"
+    },
+    {
+      "path": "docs/KNOWN_MAP_UNIFIED_ACTOR.md",
+      "kind": "text",
+      "size": 4862,
+      "sha256": "0c60346a8e6bdecc8b3568138be942b857387e98c313d8b68fb97d3f49631c24",
+      "gitSha": "b90dc870b73ea97464ca34922e5b34093b4d1bca"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/README.md",
+      "kind": "text",
+      "size": 1644,
+      "sha256": "19b84c1aea541d7b568611f80094296cb4158ed1ab47828322c60afb403c6fd6",
+      "gitSha": "65aff9b2a3d8c1c6dd5c1db32fcfe2ae1d6fd3f0"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/analysis_protocol.json",
+      "kind": "text",
+      "size": 2014,
+      "sha256": "7dea5d2287b72632731a573ed6dfa2deacf6b27463639490d559350e6a06e7e0",
+      "gitSha": "c2ae0efd39d7172662df1206478a8f4581476f74"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/analyze_campaign.py",
+      "kind": "text",
+      "size": 11628,
+      "sha256": "83a73abb890b1616b8baf56a7d0b7173f0f731245af6501229f145d211962f1f",
+      "gitSha": "0cfb5bdc147be750f576fc3dc2fe191c5881d63a"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/catalogue.csv",
+      "kind": "text",
+      "size": 55490,
+      "sha256": "6451896b0caed5eaee385bfa89bce0f3b089d547b59e139f11837e2c694a8bd7",
+      "gitSha": "d39fd094e64040c523d0cff8523f3cc5ead51aaf"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/catalogue.mat",
+      "kind": "binary",
+      "size": 4350914,
+      "sha256": "6c4598cdd185057719419f9550f3ca99f7f6ac57d07325659c009a635578c1d4",
+      "gitSha": "92cd129e0404fb5e38ba12af7700d41c0ce50472"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/dynamic_cases.json",
+      "kind": "text",
+      "size": 30676,
+      "sha256": "88444a85847fdf96da261b6dc11b376c0c5f0fb85711d53a2cdf6a885241b739",
+      "gitSha": "e7d7cac1406fb0edc9411b18a5af3ee811f9b6a6"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/export_traces.py",
+      "kind": "text",
+      "size": 8432,
+      "sha256": "8c723f0209b26b924cb0ba076dced6001f4450144b74055c5bad37f57c7c2693",
+      "gitSha": "520982e38b3b58c53fa7937d12f4ed5632e7ba5d"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/measure_serial_unified.m",
+      "kind": "text",
+      "size": 5299,
+      "sha256": "e40032fb96cb0800ab2e84c5c8ce48096893fefb0dec495206c1934670e0032f",
+      "gitSha": "9561b626da6c0b0ea8e66b0d4afcbe5bc368045e"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/pilot_receipt.json",
+      "kind": "text",
+      "size": 925,
+      "sha256": "8a7fdf91faff8c9082ac8876ce647c9f9ec5e4c1c1f611ec0686a14eaa867758",
+      "gitSha": "30571c37e13b42e6a1887690475983e1d1275d94"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/protocol.json",
+      "kind": "text",
+      "size": 5997,
+      "sha256": "a8441f0da78e3a07b4c1ab12041e01dce0a99ee7fd79546f9d8e33e4e92fc279",
+      "gitSha": "dc635d3512eec071be7256f38aff9ab766bb73b7"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/read_mat5.py",
+      "kind": "text",
+      "size": 2761,
+      "sha256": "8f72d477eb9f14ca0e176dfc4c5ee33c468220c881f050a1796885324e35c1f0",
+      "gitSha": "74853b88dd2b2c8e93fdf30cbfa31c2a6101f95a"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/run_all_unified.m",
+      "kind": "text",
+      "size": 1794,
+      "sha256": "4cda5175adfc4bdb1290bba4a9492b7f6eedf04117e49374426ac096517fc5c9",
+      "gitSha": "fd707a4cde1c4ad830108c7040450cbaf98915ed"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/runtime_manifest.json",
+      "kind": "text",
+      "size": 23632,
+      "sha256": "4e767afa1536c6af7a347fd0f23ac436f82abb54a5b5bc8b99979ecf9c136206",
+      "gitSha": "15d3d5d5fb696428689d11a281890cc3168a243a"
+    },
+    {
+      "path": "experiments3d/unified_actor_20261029/summarize_for_reports.py",
+      "kind": "text",
+      "size": 10351,
+      "sha256": "a270adca6d8fc53818b0391e062ef8e628038e5f8336d55ddbcc8fe62c469bd2",
+      "gitSha": "f941c8471462a54d3b26f2668f83e87636ff3f38"
+    },
+    {
+      "path": "five_uav_actor3d/f5_audit.m",
+      "kind": "text",
+      "size": 1980,
+      "sha256": "b3c29254423caebc735a05cf599a6d9f5b75b909abeed3719eb268aea3c297a3",
+      "gitSha": "75be41490fe39450a04d90820eb430c7054bb8cd"
+    },
+    {
+      "path": "five_uav_actor3d/f5_braking_plan.m",
+      "kind": "text",
+      "size": 1517,
+      "sha256": "18efacd81b15e23e953ca0aadebf8fc8a5c903c278636ad4eef0f0e2a08a1c50",
+      "gitSha": "d684a77cf21e5b2ed057c20f778f88582d2a3c21"
+    },
+    {
+      "path": "five_uav_actor3d/f5_cases.m",
+      "kind": "text",
+      "size": 2248,
+      "sha256": "74c3b961b70dae3dd5a6fd4438ee3a126897ad61abd3612513b7259218a18eb0",
+      "gitSha": "a8ad43d7a88c5025fea362210e580db8665c0e5f"
+    },
+    {
+      "path": "five_uav_actor3d/f5_certify.m",
+      "kind": "text",
+      "size": 694,
+      "sha256": "89d25504b1d801112adffb26609683914793f9bb1ec272cf002a15037d22b791",
+      "gitSha": "013682ec9f1fd7033918422cf8d14872fef88807"
+    },
+    {
+      "path": "five_uav_actor3d/f5_checks.m",
+      "kind": "text",
+      "size": 1783,
+      "sha256": "05b8edf8157f3d4c7865d67d77aaaf6151726e3f84793d0192cab80bae0f18ce",
+      "gitSha": "4fafab86a7b1fdb9b836eeb4eee479d4a4b53462"
+    },
+    {
+      "path": "five_uav_actor3d/f5_control.m",
+      "kind": "text",
+      "size": 1612,
+      "sha256": "348f03365ba4ac95ecdb1d4613d46dfcddd59ea9017ed9a2ced0471a2459653e",
+      "gitSha": "25e6bd16823b7225002c593ffabf338312061462"
+    },
+    {
+      "path": "five_uav_actor3d/f5_run.m",
+      "kind": "text",
+      "size": 9547,
+      "sha256": "c408748cb6a7114088cc35322eb38596523a966df21ce1297874b3b3f61eac7c",
+      "gitSha": "d6c867c9e9d401d577aaf9c7d282568fa37776fb"
+    },
+    {
+      "path": "five_uav_actor3d/f5_safe_step.m",
+      "kind": "text",
+      "size": 1741,
+      "sha256": "8fb23a318d44afbd8b18b78763094655bd9a6912e077279b6b94e53d602d91cc",
+      "gitSha": "900e2a12585dc0644c9deeee0db0d47b93157f6b"
+    },
+    {
+      "path": "five_uav_actor3d/f5_simulate.m",
+      "kind": "text",
+      "size": 17885,
+      "sha256": "331472641292d6e610c06b8ffa0a62df74b680b04b6e57b26ae91d3dc1b1779b",
+      "gitSha": "2a7987c9a783c172c601c4f95e8ac9d039232756"
+    },
+    {
+      "path": "five_uav_actor3d/f5_static_cert.m",
+      "kind": "text",
+      "size": 729,
+      "sha256": "48647f5d567dcaeb31d0f24a3451681ba8105031900d6d210213b2c505d639e3",
+      "gitSha": "d9e1e1a0aa17d75a298458a6c8f5db94831bd752"
+    },
+    {
+      "path": "five_uav_comparison3d/fc_cases.m",
+      "kind": "text",
+      "size": 3994,
+      "sha256": "9fb3b42c10fae4c19fbd80a029c6a22ef508ca33ef4d206a73ec07bcb2061741",
+      "gitSha": "cc3e3d066b4ce015805da2297984a9dd000e94aa"
+    },
+    {
+      "path": "five_uav_comparison3d/fc_checks.m",
+      "kind": "text",
+      "size": 2113,
+      "sha256": "1299a814f5b5f81d8a597251864589102a1bf85f4e4486bc8d8e90e49b05220a",
+      "gitSha": "1938b468cc1dd43c9bf3976139ae6f49de31ab70"
+    },
+    {
+      "path": "five_uav_comparison3d/fc_decide.m",
+      "kind": "text",
+      "size": 5487,
+      "sha256": "fce15da942d8dcad96001897daa1e8b50549c5bf5ff5c72c162b75c699e91aae",
+      "gitSha": "d8036ff4d1acbea5aa05bece0896b0a6dbfd8bf0"
+    },
+    {
+      "path": "five_uav_comparison3d/fc_prepare.m",
+      "kind": "text",
+      "size": 3438,
+      "sha256": "43e728e1116c753674b0678fcc0666c1b39ace2e31ff96cbaebb01c3e4642820",
+      "gitSha": "e1bbc7ed9bac8adf0adf664c934edc6ff5395a15"
+    },
+    {
+      "path": "five_uav_comparison3d/fc_rule_action.m",
+      "kind": "text",
+      "size": 1330,
+      "sha256": "82b5f4d39f56dbf8b5fb69de26f68ebfc067db1d94e2c97382e0f42f7670903a",
+      "gitSha": "5aeeaf7cc265c241b2b346c60bd69d450536d626"
+    },
+    {
+      "path": "five_uav_comparison3d/fc_run.m",
+      "kind": "text",
+      "size": 5109,
+      "sha256": "8c972da59b8165990e3cc0603bc5b22fe93fb6d5b057c5fce4388cc025a0c6e0",
+      "gitSha": "1558eca9f90f586caa13236a71a88ecbe684edfc"
+    },
+    {
+      "path": "five_uav_comparison3d/fc_simulate.m",
+      "kind": "text",
+      "size": 18115,
+      "sha256": "9a2307d0ebeb30b1bdcbfecd3a7b18c74da0553b9c381e1306319de152b744c8",
+      "gitSha": "752a70e725788bdc178b96ec00b3c8e79036e2f0"
+    },
+    {
+      "path": "five_uav_comparison3d/fc_summarize.m",
+      "kind": "text",
+      "size": 3164,
+      "sha256": "656391269c5bb56a360c96a81d7498737014632b05a1b845460dd5474f5ce30e",
+      "gitSha": "dfcc18ffcb06c24f195d33e73d1c16b7fc4bd221"
+    },
+    {
+      "path": "five_uav_comparison3d/fc_writejson.m",
+      "kind": "text",
+      "size": 182,
+      "sha256": "59868cdc6dab427ad8d52bb22218f8c85dfee3106392904ce0b1b45eee59f8b3",
+      "gitSha": "3509cb21964545bb5b948c0cfc2f7d6ef0d3de6c"
+    },
+    {
+      "path": "main.m",
+      "kind": "text",
+      "size": 2218,
+      "sha256": "424136236b16aa19a7b62ce0bcd68a35a71fcd4f14c31ca12167e92deceac132",
+      "gitSha": "750eeef01b8657098e0cee0a490855e68f9fed7d"
+    },
+    {
+      "path": "main3d.m",
+      "kind": "text",
+      "size": 1202,
+      "sha256": "fe011b7286e9c6ea48b3fbc87ee9928963f9d344f0e9a8c642e75c587713bef5",
+      "gitSha": "1fc56c337f3a4b400705fb89b8668a847e274bd7"
+    },
+    {
+      "path": "main_unknown3d.m",
+      "kind": "text",
+      "size": 3436,
+      "sha256": "f0871372f48cf55f8a67eafe7c6f7d1e845214cdad185571800f329b5a0ae943",
+      "gitSha": "75dd8e5e94e85ef2a0c7144ad4a5260af3f10349"
+    },
+    {
+      "path": "neural_adp3d/Adp3dEpisodeManager.m",
+      "kind": "text",
+      "size": 6381,
+      "sha256": "2d44e7969e239abfa400bc0f599f4ed97b2c92522c685cd57782df8295159749",
+      "gitSha": "74b8b1ee08e9c1ac58955e4a74959265b6bcb982"
+    },
+    {
+      "path": "neural_adp3d/adp3d_actor_action.m",
+      "kind": "text",
+      "size": 369,
+      "sha256": "d80516c17b62194244a184faef43bd5d9e875d624e3e831e6ebc79689cb3e495",
+      "gitSha": "c382fb25b0feb903f177d003e66dcd2823a4f231"
+    },
+    {
+      "path": "neural_adp3d/adp3d_agent_weights.m",
+      "kind": "text",
+      "size": 527,
+      "sha256": "5d2b51a1a32e9892bf10d73eae73151836f3cea89f003093bc86cbb67a639a5d",
+      "gitSha": "2e13b41a743e4d4b17e6c76126f6aa3aa51d58a5"
+    },
+    {
+      "path": "neural_adp3d/adp3d_braking_plan.m",
+      "kind": "text",
+      "size": 798,
+      "sha256": "41d6c0ef11b73562bd4a4b5dfdb3465e3e5a8edf56ca1700177e64e19df8e459",
+      "gitSha": "c0241cfbb11112e2c0808d4b9c632053efa7cd12"
+    },
+    {
+      "path": "neural_adp3d/adp3d_build_agent.m",
+      "kind": "text",
+      "size": 2371,
+      "sha256": "eae3cdafd49e6cbcabe06cb345a729c557327e5ba2cb77ce55288b1cd3897374",
+      "gitSha": "0f0a3bb1e8a885c42a2da3209a984b064532b106"
+    },
+    {
+      "path": "neural_adp3d/adp3d_case_catalog.m",
+      "kind": "text",
+      "size": 307,
+      "sha256": "d3b00abc9825a7fcc43f8e62a8b92fd94c49ef6d42507b2630921ea9da530d75",
+      "gitSha": "55c0256d1cb7ef6b09b708bd4349b10acf1ad690"
+    },
+    {
+      "path": "neural_adp3d/adp3d_certify_segment.m",
+      "kind": "text",
+      "size": 1289,
+      "sha256": "f3d8fe62ab33d70d909f8b7fb5ac328e4c70786de1fd4778300d5a473977525b",
+      "gitSha": "b15ba269efc720088697a38d1b6bb13e8633f960"
+    },
+    {
+      "path": "neural_adp3d/adp3d_config.m",
+      "kind": "text",
+      "size": 2582,
+      "sha256": "c30427d960fbcb3e8bdcce786da14f65bcb9e0ad56465ff7137ee256f3c45e3a",
+      "gitSha": "1ac533545a18e03e5122cda30cf5997300068ee7"
+    },
+    {
+      "path": "neural_adp3d/adp3d_create_env.m",
+      "kind": "text",
+      "size": 696,
+      "sha256": "7545bc847a1edcfd30938ddb8c7024b5ad504557765eda72a35871a886fad5e5",
+      "gitSha": "31071a2cccc757abe3a7ac8037336da329e67181"
+    },
+    {
+      "path": "neural_adp3d/adp3d_create_networks.m",
+      "kind": "text",
+      "size": 1643,
+      "sha256": "507b83e3320e2c15fccb0786130d59af4035ba3e6cb80e56e05d9b10e2f95d65",
+      "gitSha": "8ecd0c3a6b32964b1e903ca8ddc2d5b492ca3cad"
+    },
+    {
+      "path": "neural_adp3d/adp3d_decode_action.m",
+      "kind": "text",
+      "size": 1097,
+      "sha256": "febef059e9a3b0e4909795caa86a901b2cf3a027b1a37a9fb8e30bebc3ef7df1",
+      "gitSha": "de744f5746a73a1622b032fb101e10b8b28d5363"
+    },
+    {
+      "path": "neural_adp3d/adp3d_evaluate.m",
+      "kind": "text",
+      "size": 3956,
+      "sha256": "1a59f464ecc11a02316c96a0baaa49d38730b0ed184d8f49d3d72ca29f1de584",
+      "gitSha": "052da166462a965500f466e1f5ed0477fe77b177"
+    },
+    {
+      "path": "neural_adp3d/adp3d_export_actor.m",
+      "kind": "text",
+      "size": 923,
+      "sha256": "3c4d0e403351a0ad552051c74a7fab071c421e4f705f0cccb57820e2775c24b5",
+      "gitSha": "79cc2be11b319b264a914c032af72987c1512924"
+    },
+    {
+      "path": "neural_adp3d/adp3d_leader_command.m",
+      "kind": "text",
+      "size": 1459,
+      "sha256": "ba4f92ff0639627f5ba5c12c4474e562ab466f846a4762bf46547b0c86e811bf",
+      "gitSha": "05311cdf89d7423452867a6866923eb358516fcb"
+    },
+    {
+      "path": "neural_adp3d/adp3d_make_case.m",
+      "kind": "text",
+      "size": 2989,
+      "sha256": "132cd4e6458298667bda4c3a92f356d2dddbd6d6512aad5399f262066e741c89",
+      "gitSha": "ffd0383ada3d727b6d5a925a59a4e5b227751f1e"
+    },
+    {
+      "path": "neural_adp3d/adp3d_observation.m",
+      "kind": "text",
+      "size": 1015,
+      "sha256": "af8bd7d23ede6182e902245f4bc67b29058dfb67d55cbb9a9162ef00caa938b7",
+      "gitSha": "8404349d015c1cc3f0e64d472d939d48e55f8e63"
+    },
+    {
+      "path": "neural_adp3d/adp3d_project_demo.m",
+      "kind": "text",
+      "size": 11596,
+      "sha256": "96ff6fd3ca12f82d2a2a908c3adf2c735729db2ea5db4f1d60980cdf7ee22d29",
+      "gitSha": "cfaacdc8308ac8741eb66b30fd8085c6d099b83c"
+    },
+    {
+      "path": "neural_adp3d/adp3d_safe_step.m",
+      "kind": "text",
+      "size": 1914,
+      "sha256": "40aafa155095aa35d3c02574d8d04d46d18d158b3661c6e77696e291915671f5",
+      "gitSha": "755362174813d6ca3c93ebf389c8955900579996"
+    },
+    {
+      "path": "neural_adp3d/adp3d_scan26.m",
+      "kind": "text",
+      "size": 6086,
+      "sha256": "fb08b79f9c5fa48409f71d3eb3e35a1e37cbd83d5ee160ca8977348d0c59b647",
+      "gitSha": "ee2fac1084b717575d2992dc77a0617b54f45249"
+    },
+    {
+      "path": "neural_adp3d/adp3d_setup.m",
+      "kind": "text",
+      "size": 981,
+      "sha256": "34291bc671299ff924bd42cea5cd5457a3dd12c1d9d4a2d5b26629ba1e309c77",
+      "gitSha": "66db7ae95bce252939b8e25e1b017e4fcbdde829"
+    },
+    {
+      "path": "neural_adp3d/adp3d_source_manifest.m",
+      "kind": "text",
+      "size": 1136,
+      "sha256": "d101fccbcccbf18a1caf753ea0cee105a83d45e51afcfcde0b1c296ee281b08b",
+      "gitSha": "53cd6070aaa7d68b98a71f05cd2efcbced02f4e6"
+    },
+    {
+      "path": "neural_adp3d/adp3d_train.m",
+      "kind": "text",
+      "size": 7282,
+      "sha256": "ac3ed40e77c849903f4cf496c59d929695f1da11f3ca8831afa8f5b246bd460b",
+      "gitSha": "999242399eb9ff6a1ae5b6090d5ea605b572be00"
+    },
+    {
+      "path": "neural_adp_supervisor/apf_adp_cases.m",
+      "kind": "text",
+      "size": 4374,
+      "sha256": "665c228331248cbe3315270b0fed47c6560d8b4de0d81c604440fa5bdbfb3f2a",
+      "gitSha": "38e2529eaeee1232926dd28d772127d9e00f8bf2"
+    },
+    {
+      "path": "neural_adp_supervisor/apf_adp_checks.m",
+      "kind": "text",
+      "size": 3778,
+      "sha256": "84bafc78df497504b8d90247d6f1e44fbd095d1d9ec35c0794362bb3afd35100",
+      "gitSha": "6ad9896ffbab36a2648ceebbc5d7e17194abc949"
+    },
+    {
+      "path": "neural_adp_supervisor/apf_adp_config.m",
+      "kind": "text",
+      "size": 966,
+      "sha256": "2d3ef0279a643197a1a82c8310b4b3953c82f344e822a60344a6108ddabe7e35",
+      "gitSha": "a2379197f13b011a519e32bf6f6d789e2b73aded"
+    },
+    {
+      "path": "neural_adp_supervisor/apf_adp_decide.m",
+      "kind": "text",
+      "size": 4758,
+      "sha256": "6f0a5473ca63748fc2a010e34b0560f936208392c58ae21be3c00de5ec6f336a",
+      "gitSha": "756eb98f900f0e1bd6b2e2aebcdc0547849f2868"
+    },
+    {
+      "path": "neural_adp_supervisor/apf_adp_demo.m",
+      "kind": "text",
+      "size": 1368,
+      "sha256": "3a1ce598e15f71c56fb8c4c9631da2068ea5a516a5117bb35321da33098f9414",
+      "gitSha": "47f8a9d38d5a444157bb35e4117a12567d329c7d"
+    },
+    {
+      "path": "neural_adp_supervisor/apf_adp_init.m",
+      "kind": "text",
+      "size": 411,
+      "sha256": "ed9f6d98b02c60e607bb87239f0d398fb7edc399d8a4f9a7bb8f44831b572de1",
+      "gitSha": "64911a51cdd1edf8873b6ca00956defa7fb55d2a"
+    },
+    {
+      "path": "neural_adp_supervisor/apf_adp_plot.m",
+      "kind": "text",
+      "size": 4244,
+      "sha256": "49bcdfe101d608714f513194df5f422420b6dd1dfb17aa76f5330074db0fb834",
+      "gitSha": "79a08bcf13103c689d71f38382b2376304c08fee"
+    },
+    {
+      "path": "neural_adp_supervisor/apf_adp_rollout.m",
+      "kind": "text",
+      "size": 6159,
+      "sha256": "4c7d27671fea560c61c8f7c43e17dec14e6695ca976d49b3afd4622610bb0e15",
+      "gitSha": "db843110432cbafbd962e0090c068bbbae3f39ab"
+    },
+    {
+      "path": "neural_adp_supervisor/apf_adp_validate.m",
+      "kind": "text",
+      "size": 8647,
+      "sha256": "6a0cd57ff6ca6177bef009faebb789f0f9c1a4b8a84a412e0b49ccb909c1e38b",
+      "gitSha": "1464ce182e86ff92939294b7185df18febeca467"
+    },
+    {
+      "path": "results/unified_actor_20261029/attempts/execution_errors/integration_normal_61027_B_actor_S1/attempt_01.json",
+      "kind": "text",
+      "size": 1573,
+      "sha256": "d38709c7ba62972f4decb786424563aca7b961cce7a3d869668ad448281594c7",
+      "gitSha": "fa64babb6d8a109b366c4532ccfd14d083a96c5b"
+    },
+    {
+      "path": "results/unified_actor_20261029/attempts/execution_errors/integration_normal_61027_B_actor_S1/error.txt",
+      "kind": "text",
+      "size": 496,
+      "sha256": "86425cc2157184b850622c9c7d040f49a60b3cb7b99253f62d22b37206f6e4d9",
+      "gitSha": "96d62c05295a6d8b92ea678511270c31c9af83a9"
+    },
+    {
+      "path": "results/unified_actor_20261029/attempts/worker_failures/worker04_progress_io/campaign_exit_initial.json",
+      "kind": "text",
+      "size": 315,
+      "sha256": "c61a0b13d7f49275463171b10ce46fc177a13e80094a77afb8d52e6623aedf6c",
+      "gitSha": "60afa29758c01dd49e7618287d7e4128d593a8b6"
+    },
+    {
+      "path": "results/unified_actor_20261029/attempts/worker_failures/worker04_progress_io/exit.json",
+      "kind": "text",
+      "size": 37,
+      "sha256": "6641fba134f4b2971103ade86922ba51dc7ab72651b1200698b2a49ef835d5e6",
+      "gitSha": "58a2d986d44cfe704497d130f99a8ec7af21bbfe"
+    },
+    {
+      "path": "results/unified_actor_20261029/attempts/worker_failures/worker04_progress_io/matlab.log",
+      "kind": "text",
+      "size": 21252,
+      "sha256": "429f5b7cc2ff4aa3aa005e7c349c9aa167eabd0af96fa3eb145615675b6f8d1e",
+      "gitSha": "437065b70a7c8cdfb78094a509523083581af505"
+    },
+    {
+      "path": "results/unified_actor_20261029/catalogue.csv",
+      "kind": "text",
+      "size": 55490,
+      "sha256": "6451896b0caed5eaee385bfa89bce0f3b089d547b59e139f11837e2c694a8bd7",
+      "gitSha": "d39fd094e64040c523d0cff8523f3cc5ead51aaf"
+    },
+    {
+      "path": "results/unified_actor_20261029/completion.json",
+      "kind": "text",
+      "size": 1097,
+      "sha256": "7d7f89b008fa29e683420e93fd3d3696a53201113ebfa43a1ad9a3a3332211ec",
+      "gitSha": "19816e510d9a664352ecf6c90b70df813cfdc142"
+    },
+    {
+      "path": "results/unified_actor_20261029/data_dictionary.md",
+      "kind": "text",
+      "size": 3831,
+      "sha256": "89191fb32a6c7bb804772ef007cdd68f9699a60b497b666f9cb1f3ed3ee930b9",
+      "gitSha": "2e2768660261f7a3e55fdda520dfb9baa49916d9"
+    },
+    {
+      "path": "results/unified_actor_20261029/dynamic_geometry_audit.json",
+      "kind": "text",
+      "size": 37473,
+      "sha256": "81af810795d4ce24905a2d0a487a7ead6768fb9a2a08839d5dec0053bc6292d0",
+      "gitSha": "df575a878e0106e0e731c897a1b3d19506a335aa"
+    },
+    {
+      "path": "results/unified_actor_20261029/dynamic_phenomena.json",
+      "kind": "text",
+      "size": 126769,
+      "sha256": "428f95b3290aef3b50bee7be88cade8430c3d06551dc6ba29d87363218843ecb",
+      "gitSha": "b2518f2c1c905a3eb49e0efd87b7886261fb320a"
+    },
+    {
+      "path": "results/unified_actor_20261029/execution_retry_registry.json",
+      "kind": "text",
+      "size": 1078,
+      "sha256": "51571ef15ec246ee3780cdc4f79f3a103d1133bdeec33e38bc4da6db29632ee1",
+      "gitSha": "fc162bff449e483fad24ec524af3df38c59d5cea"
+    },
+    {
+      "path": "results/unified_actor_20261029/flight/integration_window_63001_B_actor_S1.mat",
+      "kind": "binary",
+      "size": 770926,
+      "sha256": "c49e28d292a1cee94f042092dffc61187d067fda24f729b7562d7f24eba21dee",
+      "gitSha": "0b6bfe0761a92eed74954283e0d3a63226f09095"
+    },
+    {
+      "path": "results/unified_actor_20261029/flight/repair_repair_010033_B_actor_S0.mat",
+      "kind": "binary",
+      "size": 321469,
+      "sha256": "4af05df5943cd62e51a8659e7e9ec9528c40e2b111259a2c4bc2a58981405b0b",
+      "gitSha": "127aba998f5209ae92816823b7dab1fb3e93edf9"
+    },
+    {
+      "path": "results/unified_actor_20261029/flight/repair_repair_010033_B_actor_S1.mat",
+      "kind": "binary",
+      "size": 748089,
+      "sha256": "f25ab177a4ff6cb9c715a92f3216e7c0f80488ca2e15dd7e2df36a3237e1cdb7",
+      "gitSha": "302a93ad3f1e201a332e1cc1e50d187ac3855f99"
+    },
+    {
+      "path": "results/unified_actor_20261029/flight/robust_M01_N100_n01_actor_S1.mat",
+      "kind": "binary",
+      "size": 559497,
+      "sha256": "c5f0f53b3e073319f36f90423596ea267df4fb7fa2c18846bc2b1d49ba92e12e",
+      "gitSha": "f53a2fc5203c5da8ceff49b80f596d344233953d"
+    },
+    {
+      "path": "results/unified_actor_20261029/github_source_receipt.json",
+      "kind": "text",
+      "size": 1486,
+      "sha256": "a07219a38038c17325f946182a4296236bfa5d359b60a472a00aef8538f36eb4",
+      "gitSha": "7e6db01ef13c6f486ea4d73fe3ed35385b2337f9"
+    },
+    {
+      "path": "results/unified_actor_20261029/hardware.json",
+      "kind": "text",
+      "size": 229,
+      "sha256": "7026c641db9937b7ebbb312d2db090f03702efb5df8999e429b626750c69f6bd",
+      "gitSha": "1f6c3ae9a058a8d4b6c371eea6ccce8236614019"
+    },
+    {
+      "path": "results/unified_actor_20261029/independent_audit.csv",
+      "kind": "text",
+      "size": 695022,
+      "sha256": "10156a9f227c953bb9cf2e6c21bae3c81c0d857104283b978bfc758506d9611a",
+      "gitSha": "92c5f8415213a3a6176ff310058f18991a6d1e61"
+    },
+    {
+      "path": "results/unified_actor_20261029/independent_audits_3840.zip",
+      "kind": "binary",
+      "size": 1832777,
+      "sha256": "b664bdda66eaaeb81522972812abd44532e884a43358316aba419001a78c17ce",
+      "gitSha": "0cae5c69919e97f216ecb38e4e0a746ba8ed3f1f"
+    },
+    {
+      "path": "results/unified_actor_20261029/paired_records.csv",
+      "kind": "text",
+      "size": 202554,
+      "sha256": "d8ab365bfb13177f54e5e2077e5ae5141076e359ad556ae0a6df97fe68987e5e",
+      "gitSha": "4b3526949139b01286fc9ce755ab4f2d8575a788"
+    },
+    {
+      "path": "results/unified_actor_20261029/paired_summary.json",
+      "kind": "text",
+      "size": 7823,
+      "sha256": "0fdddb51c34efc6acddc7e0789c1ed4819b18d2240775247d7a55c634fe659c8",
+      "gitSha": "e9456ac62193b23a5dfc9b6e6e142e36ecb5c325"
+    },
+    {
+      "path": "results/unified_actor_20261029/pilot_receipt.json",
+      "kind": "text",
+      "size": 925,
+      "sha256": "8a7fdf91faff8c9082ac8876ce647c9f9ec5e4c1c1f611ec0686a14eaa867758",
+      "gitSha": "30571c37e13b42e6a1887690475983e1d1275d94"
+    },
+    {
+      "path": "results/unified_actor_20261029/protocol.json",
+      "kind": "text",
+      "size": 5997,
+      "sha256": "a8441f0da78e3a07b4c1ab12041e01dce0a99ee7fd79546f9d8e33e4e92fc279",
+      "gitSha": "dc635d3512eec071be7256f38aff9ab766bb73b7"
+    },
+    {
+      "path": "results/unified_actor_20261029/records_3840.zip",
+      "kind": "binary",
+      "size": 3859484,
+      "sha256": "5021f8c7b548b46c7d364025d77124e42baad24b2511d4e87fcca9a9dfb34984",
+      "gitSha": "7b6099b968bb3567ef9aa527ac6efd1fbd625f74"
+    },
+    {
+      "path": "results/unified_actor_20261029/recovery.csv",
+      "kind": "text",
+      "size": 169412,
+      "sha256": "9f6995b67a574c4ec175b55b8b6881ac2d43dc5eeab3e06a8dac1c90adcd53a1",
+      "gitSha": "427bb4525351460b32f7fc302dc456675ccc6fd3"
+    },
+    {
+      "path": "results/unified_actor_20261029/report_facts.json",
+      "kind": "text",
+      "size": 1895482,
+      "sha256": "c3c26cd23715c384de8cf94959ff40e891df247e24a1cf6cf8195f28277d0784",
+      "gitSha": "bfa43d9ee546c88c5359eaf30cd6d0f0e9b0d8cf"
+    },
+    {
+      "path": "results/unified_actor_20261029/runtime_manifest.json",
+      "kind": "text",
+      "size": 23632,
+      "sha256": "4e767afa1536c6af7a347fd0f23ac436f82abb54a5b5bc8b99979ecf9c136206",
+      "gitSha": "15d3d5d5fb696428689d11a281890cc3168a243a"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/S0_empty_r1_cycle_ms.csv",
+      "kind": "text",
+      "size": 4753,
+      "sha256": "27f4921031365585a4b49f7f8f3f866dac04178e70aef9ef00617ac637666ff8",
+      "gitSha": "89efbb29e4ab0ae524ba6a35523232edbf61fa43"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/S0_empty_r2_cycle_ms.csv",
+      "kind": "text",
+      "size": 4765,
+      "sha256": "244a32aa767c9bb22cc8e9346bd0842b5d41f70341088509c763eb227d18f58f",
+      "gitSha": "5c66b1350fbff31f53698a1b47f008038c4070f6"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/S0_empty_r3_cycle_ms.csv",
+      "kind": "text",
+      "size": 4768,
+      "sha256": "808a229e0bc59a9ababda8a7b156d3a27683b9e69fdea4b917c0b7e17ddf5978",
+      "gitSha": "5cbfc6098f266b4179e53561e665fc83fc134b38"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/S1_sphere_r1_cycle_ms.csv",
+      "kind": "text",
+      "size": 5973,
+      "sha256": "1d9202d4e846121877b6798f06fddf42f983bd6d560f4758206f81e0286c532d",
+      "gitSha": "1c2dbd7feb52ce944292a0a4a23c1d232a53270e"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/S1_sphere_r2_cycle_ms.csv",
+      "kind": "text",
+      "size": 5966,
+      "sha256": "4f580237ad72f463a4b443fe25425de896e91c849d8bdeaace6e8dbec402c3ef",
+      "gitSha": "6003924ad7fdc5dfb3cd852bf9f162becd8e2772"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/S1_sphere_r3_cycle_ms.csv",
+      "kind": "text",
+      "size": 5993,
+      "sha256": "39cab8d30d7473923dd6cd086f82c27a08ed10d9b6446c35c8c630a79d1e608d",
+      "gitSha": "0e4b79b1cce7e53cba67fef4d3a406084855a54d"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/S8_window_r1_cycle_ms.csv",
+      "kind": "text",
+      "size": 4847,
+      "sha256": "b4350c3b130dc2bc088b3d33a17dff0934c36692c498b4dd3bc3e1490e2cf412",
+      "gitSha": "9d58b10af379ba9a48bb948f8348cb48ce1148dd"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/S8_window_r2_cycle_ms.csv",
+      "kind": "text",
+      "size": 5108,
+      "sha256": "20b43ce5420fb5ed38e7b2aa7cea85f0fee3de9f881dd5ba27a1689df1798e4e",
+      "gitSha": "350f31e0bf1ab29239bd300253cc49bd7886129e"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/S8_window_r3_cycle_ms.csv",
+      "kind": "text",
+      "size": 5222,
+      "sha256": "1bdc5eb984d8dac36fe559582fe5e596fc8f339576e06980b1391f4f72db4837",
+      "gitSha": "ddf6b7def74ef30814390dedf40693314abbe83f"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/case_geometry.json",
+      "kind": "text",
+      "size": 1652209,
+      "sha256": "26d3fd0a93fcf8f11462b20896730ce5cae8a424754353a2220fa3cc6c82ae69",
+      "gitSha": "f2b285466b5b6eaf2fba72c569fd83fa4b251859"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/environment.json",
+      "kind": "text",
+      "size": 1274,
+      "sha256": "1631755f545554dc16f06fb732ed98cc4cfd8235925147531394661633b1b310",
+      "gitSha": "83d8b64aaf771c8729f7768badf8f040e9332b59"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/legacy_2d_obs0_r1_cycle_ms.csv",
+      "kind": "text",
+      "size": 4761,
+      "sha256": "27eea1330187ea5a585e3043083c7a5fcb1d6077a46e23ed886fe6fb927c4c4c",
+      "gitSha": "8beb2ee503bbc86910a4f4a263a7deba0f7a0eec"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/legacy_2d_obs0_r2_cycle_ms.csv",
+      "kind": "text",
+      "size": 4757,
+      "sha256": "6f235a40efb5abf20a3060c4401e6b4622feda0be574a846ffef4cab072c26e6",
+      "gitSha": "f2ae1747a6e5b935f9ed42c4354f6e80fa055939"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/legacy_2d_obs0_r3_cycle_ms.csv",
+      "kind": "text",
+      "size": 4777,
+      "sha256": "e0763f56333ef206d52b44ab734ddfa91090aac03d0b8b211222c4d02561ee2b",
+      "gitSha": "e2d1833149dbebd64f4721ade8a23127f4561247"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/legacy_2d_obs15_r1_cycle_ms.csv",
+      "kind": "text",
+      "size": 5659,
+      "sha256": "65219984e9364aca8a97eb6def4a38e382bd82b00de83c6a61e5cf03083f1329",
+      "gitSha": "5d4bb5eb8f98cd6fb9e5476f49de213d4a3f8352"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/legacy_2d_obs15_r2_cycle_ms.csv",
+      "kind": "text",
+      "size": 5617,
+      "sha256": "2d67cfe48ef0b56e9f0ba2e7c641964dc0f8ed75c2c7a963671def8df0b9c447",
+      "gitSha": "4110ea3975fc4b1d75577b66604a45804d1eba2f"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/legacy_2d_obs15_r3_cycle_ms.csv",
+      "kind": "text",
+      "size": 5664,
+      "sha256": "3263ec3e7f04273074a401da164e9dd944550b0704534599f752d447dcf30a46",
+      "gitSha": "854e4c9f7657eee3caf960dde2976d8253a0cb57"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/model_metadata.json",
+      "kind": "text",
+      "size": 464,
+      "sha256": "5fb02050dc316ca5b44eea77290f3a26fbc9974d3e689f9b1b09ede1cb963f3b",
+      "gitSha": "7e45d8a7f35831408dbfd87328ff7320a07074c4"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/normal_61036_r1_cycle_ms.csv",
+      "kind": "text",
+      "size": 6601,
+      "sha256": "27c14ddefe1122b8f41604f10795b3a7a5e7a246ad22d413f3e924d163c24701",
+      "gitSha": "813ae89506ba7b8834af69571e7cbe790b7983fc"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/normal_61036_r2_cycle_ms.csv",
+      "kind": "text",
+      "size": 6588,
+      "sha256": "b970be2f6469d313d8a58bc1c2492ac6575b1826a7c0f7dc27ab8de6e1ec84b8",
+      "gitSha": "eca82ab072d4ebaf21cfc33fe2594b809af7f0eb"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/normal_61036_r3_cycle_ms.csv",
+      "kind": "text",
+      "size": 6561,
+      "sha256": "37410df1da16ff7aee3ba4c6ea145c59cdb32dd9b8a25da32682ea981b7cc66e",
+      "gitSha": "00f55c9b1e604794621cb7f42b51c5290b04055f"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/serial_timing.csv",
+      "kind": "text",
+      "size": 2976,
+      "sha256": "c1f531737a391f47b0bf4d7935bb4aba4373effffdad5199c7f4b2584a34fded",
+      "gitSha": "9a3859e9606100349db5a70eb890e8d29c005d8a"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/window_63001_r1_cycle_ms.csv",
+      "kind": "text",
+      "size": 7062,
+      "sha256": "60910327279bd163887aa57e52632d8c384d74f87c1a57792233d42429127309",
+      "gitSha": "3659de71cd3b60be152e02007555ffc345c774b8"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/window_63001_r2_cycle_ms.csv",
+      "kind": "text",
+      "size": 7194,
+      "sha256": "bc860524fa314036445ad77b18ed12ad3df1747127c4ed67852090146e5d5c82",
+      "gitSha": "75e387125e038dcad3e05a6467b773620fca7809"
+    },
+    {
+      "path": "results/unified_actor_20261029/serial_timing/window_63001_r3_cycle_ms.csv",
+      "kind": "text",
+      "size": 7232,
+      "sha256": "d3fb3405c383073184df447a7b5559ff2435778baf5428841b3eebcf5a84bed0",
+      "gitSha": "63a0f8f0c6e7d3dfd760478f271dcfbd37d8f3f3"
+    },
+    {
+      "path": "results/unified_actor_20261029/summary.json",
+      "kind": "text",
+      "size": 17833,
+      "sha256": "6f70b5080c58edb5df2047f016c0c0032476f5c2df29321820b06c53dfe9cfd4",
+      "gitSha": "b3f14e993dd9e8d062ab870e1bfa867e2e8af522"
+    },
+    {
+      "path": "results/unified_actor_20261029/trace_index.json",
+      "kind": "text",
+      "size": 41911,
+      "sha256": "10a8ad299325f348505f789744fe159a2cd7b11356d21d3d4befb9e51a40188d",
+      "gitSha": "77bf0873a02e198ebebec78a7ac3181722e29dbb"
+    },
+    {
+      "path": "results/unified_actor_20261029/trials.csv",
+      "kind": "text",
+      "size": 2734364,
+      "sha256": "7bb7a92455ec0788a04a6d2cbf57c1b0857b7f66e8c874726f1d2deacc45ab9d",
+      "gitSha": "f4712437a2b4169b286d72a8b2e95293bafa48ee"
+    },
+    {
+      "path": "results/unified_actor_20261029/worker_resume_registry.json",
+      "kind": "text",
+      "size": 418,
+      "sha256": "6287f246efc839e9913f3a7d020384f090c5290ce08511ca13bef4690347a05e",
+      "gitSha": "9ba0e2474d0e4fca70cf48296bd74e9674c9cc9b"
+    },
+    {
+      "path": "results/unified_actor_20261029/动态现象与依据.md",
+      "kind": "text",
+      "size": 5711,
+      "sha256": "a03cd0081326a0f35e50e513910d0305e81f92e0d18f5b863f8060572d8b310f",
+      "gitSha": "e4cc53c21dffb8d8ee09e71e339c16867221dc73"
+    },
+    {
+      "path": "results/unified_actor_20261029/安全层同图对照分析.md",
+      "kind": "text",
+      "size": 3163,
+      "sha256": "7e6bdaa682fa245b8b58551b66e8e878220243ba6fd3db3afd985c9686958c8d",
+      "gitSha": "bc69f80f16e32e30ffc25602a116ba7fb61cb5f7"
+    },
+    {
+      "path": "run_batch.m",
+      "kind": "text",
+      "size": 4249,
+      "sha256": "dd5b96e18b31ff47be0c6534b7ff82a3fe7f4d3e273e96f26d2b55af62d1e0bd",
+      "gitSha": "1319c699151721cd18e1652f750357b484d148c3"
+    },
+    {
+      "path": "run_obstacle_sweep.m",
+      "kind": "text",
+      "size": 12014,
+      "sha256": "32b97f0727b4aaa0c112f45d656eaa564d200ad11f93a2254ba8d9e76dc45a96",
+      "gitSha": "19b7b33da82d079a99b73eb72bdce5f851d233ac"
+    },
+    {
+      "path": "setup_project.m",
+      "kind": "text",
+      "size": 466,
+      "sha256": "25e45a752068f088b0763ec9abe2af1951b72423201cf94cc6b77b3832f0c37a",
+      "gitSha": "de09b0c878a410b264261d15ad1e98ec90d8330d"
+    },
+    {
+      "path": "src/adp_actor.m",
+      "kind": "text",
+      "size": 465,
+      "sha256": "3df48cbde617e0d495456db41a8d3e58501b1d8eb07adb54c478bb2c815b9bae",
+      "gitSha": "b5024a8f3671df6d7a24a42bb95d9efaf0e87881"
+    },
+    {
+      "path": "src/adp_critic.m",
+      "kind": "text",
+      "size": 250,
+      "sha256": "397320bb4d4c572871db786b1a2434ec26fb6670d982e1c8b3310445d8e59125",
+      "gitSha": "493318d82bbb4539da8ad5559f30f930a4a56c8e"
+    },
+    {
+      "path": "src/adp_features.m",
+      "kind": "text",
+      "size": 1907,
+      "sha256": "37bc765db5335d0d70e9eccb06183b3f84bc5967b81c1f7d2418eb07723dbed0",
+      "gitSha": "6039f83407f475747f41941f0bf37db863aaecc7"
+    },
+    {
+      "path": "src/adp_update.m",
+      "kind": "text",
+      "size": 4208,
+      "sha256": "fe1c3e2e5f02cdb7aad281b69a1b2cce85da7aea75f54334f62ae9f3fff1c742",
+      "gitSha": "e7bc221d0cb92a7cb069376ff67a2a13dcc796e0"
+    },
+    {
+      "path": "src/animate_demo.m",
+      "kind": "text",
+      "size": 407,
+      "sha256": "1bc70dd21442f425dbe235150c8b8d222c45d65f17b8152c8d83dd61f86d2f11",
+      "gitSha": "595a9b64b803ca5140a0cc2147ae0fbe7bdc58a3"
+    },
+    {
+      "path": "src/apf_attractive_force.m",
+      "kind": "text",
+      "size": 1024,
+      "sha256": "7fe9afe6d87850673deaa44fba4702dbe6be236094758141f704ffb7e3a8f147",
+      "gitSha": "64a39cb0e5d140ff143a24993c8a7d0a03f3dded"
+    },
+    {
+      "path": "src/apf_repulsive_force.m",
+      "kind": "text",
+      "size": 2583,
+      "sha256": "1bb364b62dd6b4054f20076d16b007fa39272a3d7ac488f78acbed312469483b",
+      "gitSha": "8387e0e71c443cd74e03111f64b4ecf0f9f5d9b7"
+    },
+    {
+      "path": "src/apply_boundary.m",
+      "kind": "text",
+      "size": 1528,
+      "sha256": "f80f970d6c0393d14f872a8beae2eb5ccf5ddea57a93d94ebae2dfb7dd4b1786",
+      "gitSha": "2de40e2c3c2036d3ffed2e453f519b06fe3fbe8e"
+    },
+    {
+      "path": "src/check_collisions.m",
+      "kind": "text",
+      "size": 1436,
+      "sha256": "c4cc6aff597a6ebe069c0129d81b5e1757a1469fcc98c72a6fd0ad5a0abc6847",
+      "gitSha": "38cebddfbce5133fd7b9512221ce2feae6be83a4"
+    },
+    {
+      "path": "src/create_run_output_dir.m",
+      "kind": "text",
+      "size": 1063,
+      "sha256": "0860c084a97ad7ffbc5261deec5c409b9d077d78d3e6f774dc5a7430582e551e",
+      "gitSha": "fd02e5db6c4d9a3347f6ff6666d7b08e56ea6323"
+    },
+    {
+      "path": "src/follower_control.m",
+      "kind": "text",
+      "size": 1517,
+      "sha256": "363cbe238603b7b36fad40e98dac8bb2f36e5e836ae338228f69df699105488b",
+      "gitSha": "a3ebf7c25cb9dc428288c7bb9a366431c34bc993"
+    },
+    {
+      "path": "src/formation_desired_positions.m",
+      "kind": "text",
+      "size": 7558,
+      "sha256": "ab3247af90bdc120cc89ed5062a0cb9b39b1391a1bdff7f4849b18582d2b10bd",
+      "gitSha": "0364472de0ee46a1a544b0ac389a2bb7bc6f64b5"
+    },
+    {
+      "path": "src/generate_obstacles.m",
+      "kind": "text",
+      "size": 5564,
+      "sha256": "c3bdaad4545e9bb000efb11648e90c7a9f05420c7ff1f95a7f191c5d55774dc2",
+      "gitSha": "527126f1e2afa3c2ef31b2514703853c6d875ceb"
+    },
+    {
+      "path": "src/init_formation.m",
+      "kind": "text",
+      "size": 2102,
+      "sha256": "c6910be24324177fdbf0fdb4946a9a0391ab68101b3ac0cf30b5d9aedb8a78b6",
+      "gitSha": "40a5668970ea56e4bb0eee6062f4c9c52c204caa"
+    },
+    {
+      "path": "src/inter_uav_repulsion.m",
+      "kind": "text",
+      "size": 1702,
+      "sha256": "c1a02efa848b052a2cdf7be78d6f0bd6e788cedb34b47e9ea7df09a1fe41897d",
+      "gitSha": "201fd9b6a7ad32bb9ea3cf2ae40c56011196bfc2"
+    },
+    {
+      "path": "src/leader_control.m",
+      "kind": "text",
+      "size": 1354,
+      "sha256": "952b57c5cb37d015f945cce5d9743214feb839d8cf6ec9522b53350f00f34bdf",
+      "gitSha": "ec2a6b6175d7944cf9ff85bc7c16c2a2c0067b9e"
+    },
+    {
+      "path": "src/motion_update.m",
+      "kind": "text",
+      "size": 875,
+      "sha256": "53d1615210e3b5cc8e3327a8e052431eabe06153844a39a2215b0f12e7d4e9a8",
+      "gitSha": "f5c25b21ac89d8edb821dc4d9a6b56ab1a02a353"
+    },
+    {
+      "path": "src/plan_grid_path.m",
+      "kind": "text",
+      "size": 4259,
+      "sha256": "33ebdc6157c37e91ac58db6f4c49df662acdf8626fd07fd84bd9d87f0f45ec82",
+      "gitSha": "bb1ead0bc4cc34f9608ca62ecdc2cf9a9fe1c556"
+    },
+    {
+      "path": "src/play_flight_animation.m",
+      "kind": "text",
+      "size": 6417,
+      "sha256": "07c1a65fa4b83b1d9e0fa4bc77baa0d4b3d0adb06ad27763f5086d30d92b025f",
+      "gitSha": "f84a6da5b85a10a6bf444c594a147999beaeebdd"
+    },
+    {
+      "path": "src/plot_metrics.m",
+      "kind": "text",
+      "size": 2320,
+      "sha256": "79b344276e734461fefb719ef004397ef5a13f33e94f3c09f13760496d1f322d",
+      "gitSha": "2777eb6651f193e4b2ddc1950de7b5d20cce8480"
+    },
+    {
+      "path": "src/plot_scene.m",
+      "kind": "text",
+      "size": 3274,
+      "sha256": "935bd5785c35bd7ead84f3f9c41d3d8bd32a58da77e6712c3d764ec6d73557a6",
+      "gitSha": "4237a0a11415c9cdd9202f1d60763f6cebcaac21"
+    },
+    {
+      "path": "src/plot_trajectory.m",
+      "kind": "text",
+      "size": 1031,
+      "sha256": "790b2697fcd69546277b465e246d86a38d5cc1432f3af7afbdd80484176b1fcb",
+      "gitSha": "fef14fdef9ada1c0a44225420506810c2ae71cfd"
+    },
+    {
+      "path": "src/resolve_collisions.m",
+      "kind": "text",
+      "size": 6484,
+      "sha256": "4820ee22e021224de406e4311db5df69544dbb0fd33cb2c2d8c1e90d70115a37",
+      "gitSha": "a4840d7f29df793bd40e5a5370afabfe4fe5770d"
+    },
+    {
+      "path": "src/run_simulation.m",
+      "kind": "text",
+      "size": 26802,
+      "sha256": "14c8388075a5a4f112c4385896137159b2b63bebb7f99c03e8ab581107a4760d",
+      "gitSha": "5b658a758b65c9399a8bc7e2cb295632c1308816"
+    },
+    {
+      "path": "src/update_success_hold.m",
+      "kind": "text",
+      "size": 250,
+      "sha256": "fc24708e4f0a5626d936a1e8d6464c7ec4c62fe930b867cfbba7fe06a97e8a2e",
+      "gitSha": "90f21a450d032b73a4d3a2c9d4446661e471a462"
+    },
+    {
+      "path": "src/validate_params.m",
+      "kind": "text",
+      "size": 9184,
+      "sha256": "538a9c84e304b9cfaea385206c406550b748853888360d1d796022cf88507df9",
+      "gitSha": "a5f05c74380a0050032087be3c7356680d92cbfb"
+    },
+    {
+      "path": "src3d/adaptive_height_layers3d.m",
+      "kind": "text",
+      "size": 4306,
+      "sha256": "9019e462e9fef3e327c627fc55fbd921e154445ba9340de5bcbe800513c8efe2",
+      "gitSha": "d9650f37b00b1ac45cf25ea349a14b9d1372ca10"
+    },
+    {
+      "path": "src3d/adp_features3d.m",
+      "kind": "text",
+      "size": 790,
+      "sha256": "519d09de0bdbb61bb0e015bf254655a9196b613e222447612ac8b3367b8c4604",
+      "gitSha": "dc29d87ca040f4a953748951565985c00a34a6b8"
+    },
+    {
+      "path": "src3d/adp_project_actor3d.m",
+      "kind": "text",
+      "size": 411,
+      "sha256": "eb38b3b02476353ca4056ad3a857d3d895335a3f6d2a5a978bd19796cdb2ed0c",
+      "gitSha": "6cac44d1e3914d659c10a2585612db4e6eedb43d"
+    },
+    {
+      "path": "src3d/adp_residual_limit3d.m",
+      "kind": "text",
+      "size": 514,
+      "sha256": "9136ffa8f1b8d6f4d074bc8a5219f1bd24e9b8a3048e2d2a332fa9fd9d4a1758",
+      "gitSha": "57966ed2b86531268a3a7d529c168f6e34fd658c"
+    },
+    {
+      "path": "src3d/adp_tracking_features3d.m",
+      "kind": "text",
+      "size": 1259,
+      "sha256": "27bc0af0bb00ea8e35d7061300e93388e689bcd66e7053558071564fd626e946",
+      "gitSha": "45c1331d50e750be3d78851b0f5729f29826d041"
+    },
+    {
+      "path": "src3d/adp_tracking_update3d.m",
+      "kind": "text",
+      "size": 4459,
+      "sha256": "ca570a89cf9036902e4b67e578400d661ba1640973667ba6751ceea28ca96d30",
+      "gitSha": "75960bde692a423cea6ccc2e0a69e9eeb6649aef"
+    },
+    {
+      "path": "src3d/adp_update3d.m",
+      "kind": "text",
+      "size": 2333,
+      "sha256": "6dcd144f4e6e107162e65f02bc78ad48e3229fc43ecbae0f7fe1948c0d6eef2e",
+      "gitSha": "fbd67a4b87d6c0cabf8d163123cb0258daf75f78"
+    },
+    {
+      "path": "src3d/apf_repulsion3d.m",
+      "kind": "text",
+      "size": 1125,
+      "sha256": "1cb0a27698526da57e9264b2fd8cd83f120c36eaf4bc719013677c70a1c430cc",
+      "gitSha": "7005afbecacd7797ae41cce46341375149320f47"
+    },
+    {
+      "path": "src3d/available_height_intervals3d.m",
+      "kind": "text",
+      "size": 2851,
+      "sha256": "a19971660850c7e216520acf5d063422a858af52ac77f2b45c7963629ad55ede",
+      "gitSha": "bea5bbcdcb7fb2f129920432ed04d28d068cdaf8"
+    },
+    {
+      "path": "src3d/certify_formation_segment3d.m",
+      "kind": "text",
+      "size": 1578,
+      "sha256": "526c085b8c877d1d1c1154b1eaf4da0b79a12c08ca94367795f74c58da180ddc",
+      "gitSha": "0a19db60b027b6d865ecba98463a2c3c254eabe5"
+    },
+    {
+      "path": "src3d/check_normal_scene3d.m",
+      "kind": "text",
+      "size": 3499,
+      "sha256": "0dab313f1a4acb3c5fc899cf7c42feddc2d75f84cb0d2acb9f32f2a1fd4c0f1d",
+      "gitSha": "84679454ee0425c86e8558755077174f35956653"
+    },
+    {
+      "path": "src3d/check_swept3d.m",
+      "kind": "text",
+      "size": 833,
+      "sha256": "59d2cbd97d1b315de783b04fc6f0650c2bfdac059fd9d983351345df0ee01a24",
+      "gitSha": "e0b88ddeb8f86a1babc6a555808bce132b93c222"
+    },
+    {
+      "path": "src3d/control3d.m",
+      "kind": "text",
+      "size": 3304,
+      "sha256": "c1913b888b30b4798733dc1c33ffd97b788328eaab87b5151b3e89999a4aa6fb",
+      "gitSha": "329b4e12a90d4ce2074a063331f0b01e42b3e488"
+    },
+    {
+      "path": "src3d/directional_clearance3d.m",
+      "kind": "text",
+      "size": 3501,
+      "sha256": "7140bab9f529a9f617f696a7d640daa6294c26a6ba711b4627bceac842cff637",
+      "gitSha": "a0501b0a684cc834bfa30bbf68e91e2e2a2ee87b"
+    },
+    {
+      "path": "src3d/directional_segments_free3d.m",
+      "kind": "text",
+      "size": 2131,
+      "sha256": "3230dfe526f10af881e4338ee3993ea6aed0520cf0fa1967661e85f2677ae1e6",
+      "gitSha": "88baa32b48d8601bdcc08a01c3d895642dce91d3"
+    },
+    {
+      "path": "src3d/draw_obstacles3d.m",
+      "kind": "text",
+      "size": 2755,
+      "sha256": "fe1a62d98f96328dc6791202c94d4d282440810f78bbfdba671cec8255d3f175",
+      "gitSha": "e5ebb2edf930263cf501cd969db1571a81e358fc"
+    },
+    {
+      "path": "src3d/formation_reference3d.m",
+      "kind": "text",
+      "size": 7988,
+      "sha256": "01cdd9a40749630fe40a4220ac9a6927c13ed188649c0b7fa573fd7d7c305b37",
+      "gitSha": "24c9c59b81e4c57337a5fdb6f58adffcfb55f605"
+    },
+    {
+      "path": "src3d/formation_witness3d.m",
+      "kind": "text",
+      "size": 5659,
+      "sha256": "92cc94fea17ad46d160b78278cf5f84569c49cf8a899b670ee7b9edef0850968",
+      "gitSha": "73886d6a85574b6bd7368d60d1baf8871434363b"
+    },
+    {
+      "path": "src3d/init_formation3d.m",
+      "kind": "text",
+      "size": 893,
+      "sha256": "8a9f4bdaa7d2e19010e4d13748d077725904b483062cf23d33875139e19b406f",
+      "gitSha": "147f7ff82dc3c90a536c8b294ffde93ecd0acc2b"
+    },
+    {
+      "path": "src3d/limit_vector3d.m",
+      "kind": "text",
+      "size": 263,
+      "sha256": "d6ad404b1f1c842346167caa6a7f382898a79c21413900cdb63970cc818a8298",
+      "gitSha": "1b08dca6ecee57bff2cf18947df626cdb4c3aaba"
+    },
+    {
+      "path": "src3d/motion_step3d.m",
+      "kind": "text",
+      "size": 418,
+      "sha256": "7dc557e9cd6b8c8aed82b064ad748a625728a8d6cd3631ff40fa31d465a82c10",
+      "gitSha": "183de6a4e759cc3c9019087a02377e95a6213e0d"
+    },
+    {
+      "path": "src3d/normal_scene3d.m",
+      "kind": "text",
+      "size": 3015,
+      "sha256": "b718f3940b882a242ac6ef7a5300ec1b087aa473454fb5554f1d147730292cbc",
+      "gitSha": "f9ee61a4015e4e476d03c49edf58d9643abb0dda"
+    },
+    {
+      "path": "src3d/obstacle3d.m",
+      "kind": "text",
+      "size": 1525,
+      "sha256": "b892e34244bf616374b2380abdeb60fdbc1c46294302147a439ec22628004cde",
+      "gitSha": "ce95e0f1f9f2568e046d8980382d19da0c71c6dd"
+    },
+    {
+      "path": "src3d/obstacle_distance3d.m",
+      "kind": "text",
+      "size": 1695,
+      "sha256": "1391c8fab3c7d0c828fa0329459100b5a31484152656a4cf28000c20397d0d3f",
+      "gitSha": "08048bdaffc46f9a7408a5281719e48976d4fbed"
+    },
+    {
+      "path": "src3d/plan_directional_layers3d.m",
+      "kind": "text",
+      "size": 7539,
+      "sha256": "df26cb2d7188f81f6f758797756377f979a9577f7b8d06e4f4a68b5c33cd9f41",
+      "gitSha": "1d9a1df84cb8dbd9b6a06de21009506c2fa83093"
+    },
+    {
+      "path": "src3d/plan_fixed_layers3d.m",
+      "kind": "text",
+      "size": 8635,
+      "sha256": "7cf90c0b2e09fb5fb8ecbe4983c2ba80e01f29fa7652b7737c285f5689ec740a",
+      "gitSha": "9ad93224e7d5e89fffbf9673b804b419749822d6"
+    },
+    {
+      "path": "src3d/plan_layers3d.m",
+      "kind": "text",
+      "size": 4347,
+      "sha256": "cbf77c2c49d8a4f19a63588ef3dbcc4b396b0b5bf8208e6491f8df1e7d9c331b",
+      "gitSha": "cfc15a1b85ec226b5795c1ebbd9c46c0847fb6e1"
+    },
+    {
+      "path": "src3d/planner_segments_free3d.m",
+      "kind": "text",
+      "size": 4628,
+      "sha256": "bee4df9e2e356f9a0a8d374a644d9862c630255415933a6b35cfc6c68db72a71",
+      "gitSha": "45764ca2386d453dac9095fa9b95dd5b0bcc4c1f"
+    },
+    {
+      "path": "src3d/planning_graph_signature3d.m",
+      "kind": "text",
+      "size": 898,
+      "sha256": "c7b78235cb5fce29e7e4cbbfcc8d20597cef6835cc64d12409a222950d4e88e9",
+      "gitSha": "e2019e2a9a6d3e1f71a381e10a61a73ab1e26389"
+    },
+    {
+      "path": "src3d/plot_result3d.m",
+      "kind": "text",
+      "size": 3528,
+      "sha256": "acde6091ea0b3f7040aa22518d023fac986421270520d1926e6f83a1afb102ff",
+      "gitSha": "0e969de7b7bf9bccfcd7d1ada02b72b1ae781424"
+    },
+    {
+      "path": "src3d/point_clearance_batch3d.m",
+      "kind": "text",
+      "size": 805,
+      "sha256": "fc18f36876d1110add98718ab9e3d93ecbd7f2f1cb6b3087326c6ad9516590c6",
+      "gitSha": "4a953551d46500d385878768b8dcba106ae01cd1"
+    },
+    {
+      "path": "src3d/prepare_planning_graphs3d.m",
+      "kind": "text",
+      "size": 2711,
+      "sha256": "b06de401acd6f66955649f396344b626cea40565f21f98f5177fe534c299fb7e",
+      "gitSha": "2d5711a239e38c3adf0e91a1b9a12a852cb8f7b1"
+    },
+    {
+      "path": "src3d/random_solids3d.m",
+      "kind": "text",
+      "size": 2275,
+      "sha256": "1c24ca10462262765e620fc95105ef4df3ae275bb9347a4088625c51d082bf4f",
+      "gitSha": "ca51633dd5ae30db43318c9f4f59cdcf482cb191"
+    },
+    {
+      "path": "src3d/reference_footprints3d.m",
+      "kind": "text",
+      "size": 1727,
+      "sha256": "493809cb5e27f75986db7dabb056359efa4d67021472a3bba14b07b11922ff9d",
+      "gitSha": "3d502fa61e79de99403fc7b24f5592060ca894fb"
+    },
+    {
+      "path": "src3d/render_3d_animation.m",
+      "kind": "text",
+      "size": 5295,
+      "sha256": "ea106912a39e169bebfcd1616d0e034fa8163b9ba8fbaf77faaf8453448f7023",
+      "gitSha": "6aa695535a93118dfa38fd2e9d4109cbd5b42ea2"
+    },
+    {
+      "path": "src3d/resolve_safety3d.m",
+      "kind": "text",
+      "size": 3415,
+      "sha256": "bee97c5acbfa820fa4d7c8981e1e10d48044e358444b15bdf22077c4afe14b2d",
+      "gitSha": "8fc1003aed619584120f330d6a384925b6e9e590"
+    },
+    {
+      "path": "src3d/route_cost3d.m",
+      "kind": "text",
+      "size": 490,
+      "sha256": "d27d8810e7025c2444487a348af57c03675d3920630fda1be01435cdea1df397",
+      "gitSha": "5385dd49aa2c25d23fa4058a00d76b3631dfbd2f"
+    },
+    {
+      "path": "src3d/run_legacy_residual_simulation3d.m",
+      "kind": "text",
+      "size": 14422,
+      "sha256": "4ae217dd3b36b89050144febb1ce8769ed157341d8be6bd3ab232cff49422bb0",
+      "gitSha": "683a0c2a94bbc44394196cad883027841b7a6e97"
+    },
+    {
+      "path": "src3d/run_simulation3d.m",
+      "kind": "text",
+      "size": 1500,
+      "sha256": "ce9d79e6024f39b88d1dff34a898498ee9f0883a9dc4401634f309827bd8acc5",
+      "gitSha": "93b5dac8c75abefb97870b987328eda909217b58"
+    },
+    {
+      "path": "src3d/save_scene_generation3d.m",
+      "kind": "text",
+      "size": 2248,
+      "sha256": "5dbad9d6254dec89564950e4b78383a076f6ec2a13d7590a3f3e0e7e9c419c12",
+      "gitSha": "0886ad584790fe099b184b044c3b67da8b3613a2"
+    },
+    {
+      "path": "src3d/scenario3d.m",
+      "kind": "text",
+      "size": 7731,
+      "sha256": "d11572e5f517516d657751452065a1f69894fb83e6a3aa583309a5305e3341e4",
+      "gitSha": "3f105472d6aa4fd1447f28af8a47d0f15eaef0b7"
+    },
+    {
+      "path": "src3d/segment_clearance3d.m",
+      "kind": "text",
+      "size": 1165,
+      "sha256": "eb66ef72227a5d0eedb86a221e78980873280bd6b3c5a0a633706e30de17334d",
+      "gitSha": "393c370ab0988c11c9b928311d7a3d010643b3b6"
+    },
+    {
+      "path": "src3d/segment_directional_clearance3d.m",
+      "kind": "text",
+      "size": 875,
+      "sha256": "28411256e31c46577f286946e25d31d5c29ab8bc84db0b3349f987a3c7d17d94",
+      "gitSha": "5e13ef91dfdb9497d808561bfbaa4308b2b143fb"
+    },
+    {
+      "path": "src3d/validate_normal_scene_options3d.m",
+      "kind": "text",
+      "size": 2843,
+      "sha256": "9e9a0aaa27d6e36ae1cdce00635f2af196877c3b965c9f9d89520d1c3ee9f5b9",
+      "gitSha": "ab0b8d6d996e4763c4fe93faaf2cf7aee133426a"
+    },
+    {
+      "path": "src3d/validate_params3d.m",
+      "kind": "text",
+      "size": 6351,
+      "sha256": "8fd824246ab4efab34f96bcc12e146dc8e7d167fc50ecbdcc298de6d98c83a99",
+      "gitSha": "9366e8ad6bb58e04866d72c3985d1306c6a97c9e"
+    },
+    {
+      "path": "unified_actor3d/ua_audit.m",
+      "kind": "text",
+      "size": 1530,
+      "sha256": "64378b99b23a5e92bd81812de2d564381d4863c98316f1d3c9ad0352d94edd7e",
+      "gitSha": "3102c1547051c675e794f2c95f3df3f508660263"
+    },
+    {
+      "path": "unified_actor3d/ua_load_actor.m",
+      "kind": "text",
+      "size": 2698,
+      "sha256": "d3bc251ae3d955226bdf1dd2cf291963bfd54b0c801b0b6ca7e71b42e71d3b25",
+      "gitSha": "4db8b5ec4fc51f6f16572125d86fe85c48eedcd6"
+    },
+    {
+      "path": "unified_actor3d/ua_pilot.m",
+      "kind": "text",
+      "size": 2774,
+      "sha256": "5cba19b1cd2d5ca9e8e7f9eb1c2b0e22ed1102e7966b4f06f88864ebc4672041",
+      "gitSha": "25f9ebc4f4874e29291a3dad9c6469af9dcc7bea"
+    },
+    {
+      "path": "unified_actor3d/ua_prepare_campaign.m",
+      "kind": "text",
+      "size": 8534,
+      "sha256": "26248a5794e0b73f1185460ee80da230ff10f0a004d238f1185da9349ab1b9b8",
+      "gitSha": "334daeb30ebb2d4e507e3183bab51b6e3f14c968"
+    },
+    {
+      "path": "unified_actor3d/ua_runtime_manifest.m",
+      "kind": "text",
+      "size": 1010,
+      "sha256": "f3d8cd7e6df69c21c43b9bbfcbee4dd7758028041761bcc9a9573a3c6486bec5",
+      "gitSha": "1c0fef7fa74e1a68f661b03cb956919c3572a343"
+    },
+    {
+      "path": "unified_actor3d/ua_select_command.m",
+      "kind": "text",
+      "size": 1352,
+      "sha256": "85115435f30065dd6bef0884ba4ce114e4a778b6b0e1a1d84f4ea201f39794f2",
+      "gitSha": "53a3cb850034d4850db03af0eb29268455a2363b"
+    },
+    {
+      "path": "unified_actor3d/ua_setup.m",
+      "kind": "text",
+      "size": 387,
+      "sha256": "435586c0288d61cb5abb20c503250f50e99028d048bbc097bc10d51285a186ea",
+      "gitSha": "409124306f5c6a051b85d239b23776c9e3991461"
+    },
+    {
+      "path": "unified_actor3d/ua_sha256.m",
+      "kind": "text",
+      "size": 336,
+      "sha256": "7020e4e993b84b23c19347da5b6b0e9a90c542fcd7f53a4971ea38d3bbc034ee",
+      "gitSha": "e87cd9f403f36ffe72b88ba12def1b0a709d4457"
+    },
+    {
+      "path": "unified_actor3d/ua_simulate.m",
+      "kind": "text",
+      "size": 19706,
+      "sha256": "8b4b0b8e86b6d813d472429624de113e990c203bfb2d57a1a1c52be7fcffd67c",
+      "gitSha": "65e71ef0486c9342c28f030c63ca8405070a93e5"
+    },
+    {
+      "path": "unified_actor3d/ua_worker.m",
+      "kind": "text",
+      "size": 8103,
+      "sha256": "4e59b549df7702425859a06a07ee63529e866bdf560a1b6192ecba655b29079d",
+      "gitSha": "938992dd99ae247c1f1226202853ec717c3bafe8"
+    },
+    {
+      "path": "交付文件/统一Actor全量重验_20261029/README.md",
+      "kind": "text",
+      "size": 1116,
+      "sha256": "16f48d03e5864e3fe556057a9e72a16833e5bec4d7f091eaf43d4223dc156c2e",
+      "gitSha": "afcfaf1bcd9fa60d7b67944f79a8eeaab99498a9"
+    },
+    {
+      "path": "交付文件/统一Actor全量重验_20261029/修订记录与任务书反馈.md",
+      "kind": "text",
+      "size": 3835,
+      "sha256": "33ecdbae2bed70b4b73313ac46adabd679ae92fb1715875d5d975db17e0a7412",
+      "gitSha": "f94368d6486f205bac1b817ed5ce3dd6f17f4999"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/audit_reports.py",
+      "kind": "text",
+      "size": 4195,
+      "sha256": "8de0b734b874397e8691def559923997342ec626f7fe2118b776cad261e5fe38",
+      "gitSha": "490b651348862cbb0fbee69602316073dbc80c89"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/build_reports.py",
+      "kind": "text",
+      "size": 82170,
+      "sha256": "498a9b9c25f434f5a4d6eba5f576ee283de378980cdb3a84500ebf165fecdd9d",
+      "gitSha": "39126f7e81d20b1c28016211bd6c451c8befd687"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/evidence_index.json",
+      "kind": "text",
+      "size": 2995,
+      "sha256": "ef05054b6bcf3eaa3fe3414d93dd157fccdbb14f258bee29c6e32fe92d9d0fcf",
+      "gitSha": "70c9d101058d39fc2a37f61693af6373a57b4c3d"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figure_source_records.json",
+      "kind": "text",
+      "size": 98,
+      "sha256": "ff492de46472e64624642d7401510e3e9ad50204ad52da77ff2b844bc3dd6a91",
+      "gitSha": "396f9f3bb7ce49b0d5ea04523d87fbf050acfc00"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/Actor脱困时序.pdf",
+      "kind": "binary",
+      "size": 58365,
+      "sha256": "938233e13e3e27312e52fab4154c7d840ac3e4ba16045c89794393a6db31d145",
+      "gitSha": "46f63b16f7845381322a2efc64b9c545fac75ff5"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/Actor脱困时序.png",
+      "kind": "binary",
+      "size": 150005,
+      "sha256": "95d820fdde8e74f0551bc02429a6505643c70d3cd38f2c8051be1b6af65fe29c",
+      "gitSha": "e69ac86b12658c9318ec7649c421716b75258939"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/六组合结果.pdf",
+      "kind": "binary",
+      "size": 14698,
+      "sha256": "425b1983bfb3a9234e2b4192cc3d45bde8dc67f28260f10c9a2be4162e007541",
+      "gitSha": "92279a1eec453b488d2146032cd8d9432dcd9407"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/六组合结果.png",
+      "kind": "binary",
+      "size": 62176,
+      "sha256": "c855ac749391643c48f7368ebd525a86f1001c0df7814b146d6e3948ab5ccf9c",
+      "gitSha": "b6ce06ff35c9a8943417599dcef8ed3921c78a0d"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/同图结果.pdf",
+      "kind": "binary",
+      "size": 12720,
+      "sha256": "7d0c35e6dae820fbde0976c2d80df540f93270857a7df99bcb8ed6f1d6cabb79",
+      "gitSha": "a9d06bb0d91374bc855711655674a3c3ae72dde7"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/同图结果.png",
+      "kind": "binary",
+      "size": 51474,
+      "sha256": "569856a2d2e8b948f57b109c795f1aad0d52a516265c28bdce3b00ba1a1d890c",
+      "gitSha": "eaa0b1f3fdbd9a1eb3d02a1928636b036da3a166"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/噪声控制与轨迹.pdf",
+      "kind": "binary",
+      "size": 30600,
+      "sha256": "9e633808d296a7574e66364e79ee5ed7c944244e033a41542d2de7bcc4c57e49",
+      "gitSha": "89bea83d6633803136f029064ebb7ea68ed126a5"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/噪声控制与轨迹.png",
+      "kind": "binary",
+      "size": 115266,
+      "sha256": "e9856a1a8ccc0678cc6f530695e11cd0e1b14a930094e23296af25c39cf9fdb8",
+      "gitSha": "1fc61f5ed843a87ac6593e4c652dce2419ad1876"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/噪声等级.pdf",
+      "kind": "binary",
+      "size": 11399,
+      "sha256": "abbafff6c0662c017d80d6ee9a7daa6124f826d29f3e04c040e73cd505ba1969",
+      "gitSha": "48824a87b4c1c193c25ca704f4ca54b4431915e5"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/噪声等级.png",
+      "kind": "binary",
+      "size": 33895,
+      "sha256": "fbb187d39e9271957af2c2bddacd1ea1cf73e28731f007b2c13c69e5345ac1e4",
+      "gitSha": "a104344ff72f25b98dd11928f9e4599240b3a745"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/安全层同图轨迹.pdf",
+      "kind": "binary",
+      "size": 29322,
+      "sha256": "8a300b716b470a7c06c37024edfb4e274ad2aa40ca3a8c558b606627e7498ba4",
+      "gitSha": "f9ce3e9340bb5bae4024cf52da272476dbda0ec5"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/安全层同图轨迹.png",
+      "kind": "binary",
+      "size": 84557,
+      "sha256": "4b0a37fb9ae4ef9175104049dd91cde6af79fb9af64bc332755b7524039e9c41",
+      "gitSha": "0a21d221eb0e077444f97f9aab8e1b34f1da9e44"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/控制信息流.pdf",
+      "kind": "binary",
+      "size": 24775,
+      "sha256": "73c7815af6662dbb3f275dc9009b28cb1f52ac674da87b484645e7e43a57e236",
+      "gitSha": "5ab6395ab100dcdc446bdac8953986541bddc4a1"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/控制信息流.png",
+      "kind": "binary",
+      "size": 129128,
+      "sha256": "8ffba90d2fa82d2ffcaf4a79d201dff38418ced441a94483bf4f43508a4e8588",
+      "gitSha": "84ab49ed601b211006c264e65c6da59d4d5f2008"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/figures/控制信息流_可编辑.svg",
+      "kind": "text",
+      "size": 1869,
+      "sha256": "9014e168c879d9fbc09f390621f66108bf45e45a03cb4fcea849529f785c6757",
+      "gitSha": "c2f5139b7253fd01b0263d4042f43b112ac9c1d7"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/layout_base.py",
+      "kind": "text",
+      "size": 32511,
+      "sha256": "4021cd74aea2b7c5ad1d77e02640235af73001b80eeb807279bdcf97b7dae285",
+      "gitSha": "156fa1a0b6b36eebfc540da89042402077cf3115"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/render_docx_reportlab.py",
+      "kind": "text",
+      "size": 15374,
+      "sha256": "f1648bd2e5b6ff9a6b2905fb9715c69b8e6d4b1a7c5a91b45570d4b60199f304",
+      "gitSha": "d461a21def7e0058533f1675fdc52846e6a52572"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/render_reports.py",
+      "kind": "text",
+      "size": 2118,
+      "sha256": "2dceb95a407806f4beb1eb4543cc2975970244f0fe46c0e394f413ba85d3c6e6",
+      "gitSha": "24e1dabe34ad3022926fc0047d925de67b94b5a2"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/safety_figure_records.json",
+      "kind": "text",
+      "size": 110,
+      "sha256": "713193b99dbba10230ecd6a65d51154f4f463b37a269dd6fc7e865bdb957d828",
+      "gitSha": "499e1e98f9a79d4de2b8e333c054500a046ff77d"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/visual_qa.json",
+      "kind": "text",
+      "size": 8597,
+      "sha256": "4f30fa568c97cf528d900b63f3d22d4fc8700073a7392f9220329c61607a7ec7",
+      "gitSha": "843ac3b2be9248695460599a7a985e7052a9ee59"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/交付复核.json",
+      "kind": "text",
+      "size": 1106,
+      "sha256": "a2fc9bf0df4c609eb10d7e025dc98ed75d6c2025c3028c47b34d2482790d9720",
+      "gitSha": "fb615372a5771511b5d1f0361552974e7b256498"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/交付说明.md",
+      "kind": "text",
+      "size": 998,
+      "sha256": "b79d32fdd612c6604ed497b8d8a9b61aa28953cf0e546b6eed7caff6a42dd334",
+      "gitSha": "e20c864a9ab373dca9eac88458c0fcf1563adc9c"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/复算指标.json",
+      "kind": "text",
+      "size": 28850,
+      "sha256": "2fb554b6b8d4726282ce231cf8797ddd2149325312a4be7a1ea086d6ae4f542c",
+      "gitSha": "9e901673507f485f5ed4c251fd1dcd50e5ecdaba"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/学生版_正文.md",
+      "kind": "text",
+      "size": 34732,
+      "sha256": "88ceb2b9bcfdabaf354f768b3dc74da1a71be26abb7cbf239c542d699c9a9dda",
+      "gitSha": "db12e5a9a493107c1f487a4d8dbcd760ec40fad8"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/教师版_正文.md",
+      "kind": "text",
+      "size": 29590,
+      "sha256": "36e074cd6ba68c97c9a73efc8f22246265a18b5992bd142a6b8904499da129d1",
+      "gitSha": "a436daaed22ba2d866a146772e3c067eb8766c4a"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/文件指纹.csv",
+      "kind": "text",
+      "size": 1868,
+      "sha256": "f577375202ef4e7cb00797edf6dd2184d641f77c0fdeb2494f1501e6ec591155",
+      "gitSha": "445e01f4ba6cce19ebf67e90d9959ed3dc24d3dc"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/无人机编队项目技术报告_教师版.docx",
+      "kind": "binary",
+      "size": 582924,
+      "sha256": "dd825805f90a7f12607f400becd448ca1878e529f75bc0f1ed86ddc54c778c74",
+      "gitSha": "7733f3bb5f72707ac28971ab2fa1b0cdc8ec5e9f"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/无人机编队项目技术报告_教师版.pdf",
+      "kind": "binary",
+      "size": 910188,
+      "sha256": "d5495e35ae6812d4ca953697292916097f55ed489456a77b893471e31cebb772",
+      "gitSha": "9399413babc20a90550a32c3b6e6484e17813e28"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/无人机编队项目整体报告_学生版.docx",
+      "kind": "binary",
+      "size": 600295,
+      "sha256": "344a0dc180c81f4a51adee5b59f15a8907d5818282ac1dec31ac73eb4ad22080",
+      "gitSha": "067cd23d7ba0095fe54cde7eb077c8586b1ab60c"
+    },
+    {
+      "path": "交付文件/项目整体报告_20261029/无人机编队项目整体报告_学生版.pdf",
+      "kind": "binary",
+      "size": 945269,
+      "sha256": "a006622254eb6cba209799fdf5132dc9b30f503977b8e312458e8350e5f297ff",
+      "gitSha": "302a875fea57f82cc72ae91c0370ff8e4339866a"
+    }
+  ]
+}

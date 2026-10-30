@@ -1,0 +1,12 @@
+{
+  "declared_on": "2026-10-29",
+  "numerical_audit": "Independently reconstruct all saved true position and velocity updates including command norm clipping, external acceleration and velocity norm clipping; tolerance 1e-10.",
+  "safety_evaluation": "Every executed step is included. Obstacle violation uses the actual per-trial obsSafe, pair violation uses uavSafe, and obstacle surface contact is additionally reported at distance <=0.",
+  "stall": "Consecutive true leader speed below 0.08 m/s while leader goal distance exceeds holdTriggerDist. Report maximum duration; 3 seconds is a persistent stall, excluding the designed terminal formation wait.",
+  "repeated_lateral_sway": "For each vehicle, lateral axis is perpendicular to initial horizontal target direction. At least 4 lateral-velocity sign changes above 0.15 m/s in a 5-second window, with lateral position range at least 0.30 m. Report detection windows and retain plots; ordinary one-pass detours are not automatically marked sway.",
+  "control_chatter": "Report command component sign changes above 0.2 m/s2 independently of trajectory sway.",
+  "overload": "Report maximum command and actual external-acceleration-inclusive magnitude and the ratio to 9.80665 m/s2. The second-order point-mass model does not calculate attitude or structural load.",
+  "gust_recovery": "Compare true states to the same map, method, safety switch and position-noise stream without gust. Maximum all-vehicle position difference <=0.5 m and velocity difference <=0.25 m/s continuously for 1 s, confirmed within 5 s after pulse end. An incomplete or failed comparison is not a successful recovery.",
+  "timing": "Use fresh serial measurements for final latency conclusions. Concurrent campaign cycle values are raw diagnostics and remain archived.",
+  "statistics": "Separate campaigns and geometry populations. Report all outcomes; paired cost comparisons use only maps successful under both treatments. Deterministic reruns are not independent new geometries."
+}

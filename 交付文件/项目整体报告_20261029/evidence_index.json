@@ -1,0 +1,82 @@
+[
+  {
+    "id": "E01",
+    "label": "统一控制器与源码说明",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\docs\\KNOWN_MAP_UNIFIED_ACTOR.md"
+  },
+  {
+    "id": "E02",
+    "label": "唯一冻结模型与训练绑定",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\controller_assets\\frozen_actor_20261015\\asset_manifest.json"
+  },
+  {
+    "id": "E03",
+    "label": "全量实验方案与参数",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\protocol.json"
+  },
+  {
+    "id": "E04",
+    "label": "3840次逐任务结果",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\trials.csv"
+  },
+  {
+    "id": "E05",
+    "label": "Python独立动力学复核",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\independent_audit.csv"
+  },
+  {
+    "id": "E06",
+    "label": "同图共同成功配对统计",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\paired_summary.json"
+  },
+  {
+    "id": "E07",
+    "label": "外扰恢复记录",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\recovery.csv"
+  },
+  {
+    "id": "E08",
+    "label": "五机串行完整周期耗时",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\serial_timing\\serial_timing.csv"
+  },
+  {
+    "id": "E09",
+    "label": "原始飞行记录与全状态轨迹",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\flight"
+  },
+  {
+    "id": "E10",
+    "label": "源码与模型指纹及完成记录",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\completion.json"
+  },
+  {
+    "id": "E11",
+    "label": "模型文件与默认入口GitHub同步记录",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\github_source_receipt.json"
+  },
+  {
+    "id": "E12",
+    "label": "现象判据与独立分析源码",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\experiments3d\\unified_actor_20261029\\analysis_protocol.json"
+  },
+  {
+    "id": "E13",
+    "label": "动态现象及独立几何复核",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\动态现象与依据.md"
+  },
+  {
+    "id": "E14",
+    "label": "计算异常与同输入串行重试记录",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\execution_retry_registry.json"
+  },
+  {
+    "id": "E15",
+    "label": "逐步CSV轨迹与记录索引",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\trace_index.json"
+  },
+  {
+    "id": "E16",
+    "label": "安全层同图结局和代价分析",
+    "path": "F:\\UAV project\\UAV_APF_ADP_Formation\\results\\unified_actor_20261029\\安全层同图对照分析.md"
+  }
+]
