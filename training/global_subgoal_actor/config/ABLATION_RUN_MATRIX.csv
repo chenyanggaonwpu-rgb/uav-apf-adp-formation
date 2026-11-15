@@ -1,0 +1,25 @@
+﻿run,variant,seed,joint_step_budget,max_gradient_steps,change,implementation_status
+F_s20261110,F,20261110,10000000,200000,完整方案,baseline supplied
+F_s20261111,F,20261111,10000000,200000,完整方案,baseline supplied
+F_s20261112,F,20261112,10000000,200000,完整方案,baseline supplied
+A1_s20261110,A1,20261110,10000000,200000,全局障碍1280维置零，Actor与Critic及MATLAB同步,recipient implements and validates per task book
+A1_s20261111,A1,20261111,10000000,200000,全局障碍1280维置零，Actor与Critic及MATLAB同步,recipient implements and validates per task book
+A1_s20261112,A1,20261112,10000000,200000,全局障碍1280维置零，Actor与Critic及MATLAB同步,recipient implements and validates per task book
+A2_s20261110,A2,20261110,10000000,200000,前15局部帧置零，保留当前帧，双端同步,recipient implements and validates per task book
+A2_s20261111,A2,20261111,10000000,200000,前15局部帧置零，保留当前帧，双端同步,recipient implements and validates per task book
+A2_s20261112,A2,20261112,10000000,200000,前15局部帧置零，保留当前帧，双端同步,recipient implements and validates per task book
+A3_s20261110,A3,20261110,10000000,200000,移除最终目标距离场势能项,recipient implements and validates per task book
+A3_s20261111,A3,20261111,10000000,200000,移除最终目标距离场势能项,recipient implements and validates per task book
+A3_s20261112,A3,20261112,10000000,200000,移除最终目标距离场势能项,recipient implements and validates per task book
+A4_s20261110,A4,20261110,10000000,200000,仅将距离场三线性插值改为最近邻,recipient implements and validates per task book
+A4_s20261111,A4,20261111,10000000,200000,仅将距离场三线性插值改为最近邻,recipient implements and validates per task book
+A4_s20261112,A4,20261112,10000000,200000,仅将距离场三线性插值改为最近邻,recipient implements and validates per task book
+A5_s20261110,A5,20261110,10000000,200000,仅重访系数2改为0,recipient implements and validates per task book
+A5_s20261111,A5,20261111,10000000,200000,仅重访系数2改为0,recipient implements and validates per task book
+A5_s20261112,A5,20261112,10000000,200000,仅重访系数2改为0,recipient implements and validates per task book
+A6_s20261110,A6,20261110,10000000,200000,仅近安全边界软成本改为0,recipient implements and validates per task book
+A6_s20261111,A6,20261111,10000000,200000,仅近安全边界软成本改为0,recipient implements and validates per task book
+A6_s20261112,A6,20261112,10000000,200000,仅近安全边界软成本改为0,recipient implements and validates per task book
+A7_s20261110,A7,20261110,10000000,200000,仅停止新几何补充，使用预锁定TRAIN池,recipient implements and validates per task book
+A7_s20261111,A7,20261111,10000000,200000,仅停止新几何补充，使用预锁定TRAIN池,recipient implements and validates per task book
+A7_s20261112,A7,20261112,10000000,200000,仅停止新几何补充，使用预锁定TRAIN池,recipient implements and validates per task book

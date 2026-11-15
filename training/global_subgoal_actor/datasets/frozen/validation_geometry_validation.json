@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "maps": 256,
+  "geometry_unchanged": true,
+  "source_receipt_sha256": "8fa29c787e4dd52fe966f3ba60816dc0adb391044cde0d99aa6ca6d8a45b6aa4",
+  "scope": "Reuse geometry/initial-braking/continuous-witness certificate only; no old controller outcomes reused."
+}

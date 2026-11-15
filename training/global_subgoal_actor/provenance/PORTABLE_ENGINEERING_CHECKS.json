@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "scope": "Portable constructor, first real TRAIN inference, ingestion, physical budget accounting, idempotence and checkpoint serialization. No long training or GPU test.",
+  "fresh_random_constructor_passed": true,
+  "relative_dataset_and_pool_paths_passed": true,
+  "no_expired_wallclock_cutoff": true,
+  "native_train_inference_transitions": 107,
+  "actual_joint_steps_accounted_once": 2400,
+  "native_physics_audit": {
+    "passed": true,
+    "steps": 2400,
+    "physics_max_error": 0.0,
+    "measurement_max_error": 0.0,
+    "pair_distance_max_error": 8.881784197001252e-16,
+    "swept_obstacle_distance_max_error": 2.6645352591003757e-15,
+    "safety_result_independently_reconstructed": true,
+    "bounded_held_random_acceleration_verified": true,
+    "wind_intervals_verified": true
+  },
+  "long_training_started": false,
+  "rl_updates_in_native_inference_check": 0,
+  "model_checkpoint_actor_tensor_max_error": {
+    "retained149": 0.0,
+    "candidate158": 0.0
+  },
+  "source_worker_sha256": "21d8d493dba4c40f1182d2a70866bc323ce8a9e9d06899ef245c0cfe249c541c",
+  "test512_evaluated": false,
+  "cuda_tested": false,
+  "matlab_r2026a_tested": false
+}

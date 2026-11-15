@@ -1,0 +1,44 @@
+{
+  "release_tag": "schema6-training-handoff-20261115",
+  "file": "schema6_checkpoints_149_158.zip",
+  "bytes": 493308035,
+  "sha256": "f226103b1f440e4cf5b2a5bab9457d057edd035f04cdaf99e8720635053a9bdb",
+  "download_url": "https://github.com/chenyanggaonwpu-rgb/uav-apf-adp-formation/releases/download/schema6-training-handoff-20261115/schema6_checkpoints_149_158.zip",
+  "contains": [
+    "retained149 full checkpoint",
+    "candidate158 full checkpoint",
+    "all required Replay episodes",
+    "original campaign6 source/config and evaluation evidence"
+  ],
+  "episode_files": 1932,
+  "checkpoint_metadata": {
+    "retained149": {
+      "checkpoint_sha256": "567d08f062d5074625725d8ade96eef6b68e5eb796acec7f78d9fc8aab660430",
+      "checkpoint_file": "retained149/checkpoint.pt",
+      "source_sha256": "4e430eda5b7b4e31332eef40c7ea7881adce2992ee0197a41d747e21a2cdb3bc",
+      "source_config_sha256": "11e3e1c47c7ce7c47a05cf4826ba8485dfbe14ff2819ae0f3b46ead266a8124d",
+      "flights": 18397,
+      "actor_updates": 20230,
+      "gradient_steps_executed": 314466,
+      "actor_file": "retained149/actor.mat",
+      "actor_sha256": "b2c051cacb795849dcfe223e85230f2657a9e17ab201809b33f974bef16c674a",
+      "retained": true,
+      "evaluation_result_file": "retained149/results_original.json",
+      "selection_file": "retained149/selection_original.json"
+    },
+    "candidate158": {
+      "checkpoint_sha256": "7105a6434579c7a770c555a96f076cfbbdc9abfb22aa9686d9b1634cd0da9eb0",
+      "checkpoint_file": "candidate158/checkpoint.pt",
+      "source_sha256": "4e430eda5b7b4e31332eef40c7ea7881adce2992ee0197a41d747e21a2cdb3bc",
+      "source_config_sha256": "11e3e1c47c7ce7c47a05cf4826ba8485dfbe14ff2819ae0f3b46ead266a8124d",
+      "flights": 19165,
+      "actor_updates": 23113,
+      "gradient_steps_executed": 331582,
+      "actor_file": "candidate158/actor.mat",
+      "actor_sha256": "03250c8af41c41935a274e26cccfe852c8d799eabb4b4bb8b3eda909dbe34d9d",
+      "retained": false,
+      "evaluation_result_file": "candidate158/results_original.json",
+      "selection_file": "candidate158/selection_original.json"
+    }
+  }
+}

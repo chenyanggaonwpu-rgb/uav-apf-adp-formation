@@ -1,0 +1,104 @@
+{
+  "splits": {
+    "validation": {
+      "maps": 256,
+      "json_sha256": "884e8cbbc64f685055fb437b36e1c9b1c724ade62e2b3b3cf44c826a2ce52475",
+      "canonical_digest": "cf6c07a823eef07eb4ecc370f42035426f5c13463d7c1416f9e58570787f5c8c",
+      "family_counts": {
+        "single_window": 16,
+        "double_window": 16,
+        "multi_window": 16,
+        "u_trap": 16,
+        "c_trap": 16,
+        "nested_u": 16,
+        "bamboo": 16,
+        "dense_mixed": 16,
+        "narrow_corridor": 16,
+        "staggered_wall": 16,
+        "slalom": 16,
+        "maze": 16,
+        "dead_end": 16,
+        "fork_trap": 16,
+        "height_chicane": 16,
+        "mixed": 16
+      }
+    },
+    "micro": {
+      "maps": 32,
+      "json_sha256": "f1167b54999fa67537902f24db1cfc2a99687052ede5f8e5cf5d60fa916d7f04",
+      "canonical_digest": "d8dedfbfb4cf6aea24091ce542f58569f3049cbb9f0beb201290dffcde3d98d5",
+      "family_counts": {
+        "single_window": 2,
+        "double_window": 2,
+        "multi_window": 2,
+        "u_trap": 2,
+        "c_trap": 2,
+        "nested_u": 2,
+        "bamboo": 2,
+        "dense_mixed": 2,
+        "narrow_corridor": 2,
+        "staggered_wall": 2,
+        "slalom": 2,
+        "maze": 2,
+        "dead_end": 2,
+        "fork_trap": 2,
+        "height_chicane": 2,
+        "mixed": 2
+      }
+    },
+    "test": {
+      "maps": 512,
+      "json_sha256": "c13afd220a87e208369219cb2a4d94b36e4a3b2f13a609868b902c120f3597a9",
+      "canonical_digest": "34ce25f22201878833a0f8aa36429074acb1156e721a1db1e0bbd34c5847f556",
+      "family_counts": {
+        "single_window": 32,
+        "double_window": 32,
+        "multi_window": 32,
+        "u_trap": 32,
+        "c_trap": 32,
+        "nested_u": 32,
+        "bamboo": 32,
+        "dense_mixed": 32,
+        "narrow_corridor": 32,
+        "staggered_wall": 32,
+        "slalom": 32,
+        "maze": 32,
+        "dead_end": 32,
+        "fork_trap": 32,
+        "height_chicane": 32,
+        "mixed": 32
+      }
+    }
+  },
+  "families": [
+    "single_window",
+    "double_window",
+    "multi_window",
+    "u_trap",
+    "c_trap",
+    "nested_u",
+    "bamboo",
+    "dense_mixed",
+    "narrow_corridor",
+    "staggered_wall",
+    "slalom",
+    "maze",
+    "dead_end",
+    "fork_trap",
+    "height_chicane",
+    "mixed"
+  ],
+  "validation_test_geometry_disjoint": true,
+  "micro_is_validation_subset": true,
+  "test_provider": "author",
+  "test_generation_by_recipient_allowed": false,
+  "test_model_panel_lock_required": true,
+  "source_binding": {
+    "folder": "F:\\UAGP1\\datasets\\3c341a1bf245",
+    "validation_digest": "cf6c07a823eef07eb4ecc370f42035426f5c13463d7c1416f9e58570787f5c8c",
+    "test_digest": "34ce25f22201878833a0f8aa36429074acb1156e721a1db1e0bbd34c5847f556",
+    "micro_digest": "d8dedfbfb4cf6aea24091ce542f58569f3049cbb9f0beb201290dffcde3d98d5",
+    "reserved_before_gradient_updates": true
+  },
+  "formal_test_results_found": false
+}

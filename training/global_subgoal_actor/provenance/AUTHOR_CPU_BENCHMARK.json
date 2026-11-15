@@ -1,0 +1,9 @@
+{
+  "scope": "Recent 200 author native training flights; excludes optimizer, validation and idle time. Not an RTX4060 benchmark.",
+  "flights": 200,
+  "joint_steps": 312074,
+  "native_worker_seconds": 2405.3689422,
+  "joint_steps_per_worker_second": 129.74059593310068,
+  "estimated_native_worker_hours_per_10m_joint_steps": 21.41024370822305,
+  "resource_formula": "native_seconds=B/(measured_steps_per_worker_second*concurrent_workers), then add learner/validation/I/O and measure actual overlap. No cloud resources have been ordered."
+}

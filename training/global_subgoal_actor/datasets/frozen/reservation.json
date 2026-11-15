@@ -1,0 +1,39 @@
+{
+  "prepared_at": "2026-11-10 22:43:13",
+  "recipe_sha256": "3c341a1bf24554446eae05b54e146c0cc13264b4ac6daf2ca8314fe00f204717",
+  "protocol": "global_subgoal_v1",
+  "validation_maps": 256,
+  "test_maps": 512,
+  "validation_digest": "cf6c07a823eef07eb4ecc370f42035426f5c13463d7c1416f9e58570787f5c8c",
+  "test_digest": "34ce25f22201878833a0f8aa36429074acb1156e721a1db1e0bbd34c5847f556",
+  "micro_digest": "d8dedfbfb4cf6aea24091ce542f58569f3049cbb9f0beb201290dffcde3d98d5",
+  "source_reservation_sha256": "fee1abb68425cbaeffa9b696afd2eb48d3dcfdf18676c51959b1df74827ec4dd",
+  "geometry_disjoint": true,
+  "weather_and_geometry_preserved": true,
+  "all_arms_same_context": true,
+  "stale_waypoint_fault": false,
+  "test_used_for_selection": false,
+  "teacher_used": false,
+  "bamboo_route_carving": false,
+  "families": [
+    "single_window",
+    "double_window",
+    "multi_window",
+    "u_trap",
+    "c_trap",
+    "nested_u",
+    "bamboo",
+    "dense_mixed",
+    "narrow_corridor",
+    "staggered_wall",
+    "slalom",
+    "maze",
+    "dead_end",
+    "fork_trap",
+    "height_chicane",
+    "mixed"
+  ],
+  "context_counts": {
+    "global_planning": 768
+  }
+}

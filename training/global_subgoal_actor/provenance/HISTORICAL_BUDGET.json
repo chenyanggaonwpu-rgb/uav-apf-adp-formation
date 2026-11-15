@@ -1,0 +1,54 @@
+{
+  "unique_training_flights": 19497,
+  "joint_physics_steps": 33928676,
+  "individual_uav_steps": 169643380,
+  "dt_seconds": 0.05,
+  "simulated_joint_seconds": 1696433.8,
+  "counts_validation": false,
+  "counts_steps_after_rollback": true,
+  "deduplication": "monotonic flight id plus original result hash",
+  "stages": [
+    {
+      "run": "global_planner_cpu_s20261110",
+      "stage_flights": 8549
+    },
+    {
+      "run": "global_planner_cpu_s20261110_campaign1",
+      "stage_flights": 82
+    },
+    {
+      "run": "global_planner_cpu_s20261110_campaign2r1",
+      "stage_flights": 124
+    },
+    {
+      "run": "global_planner_cpu_s20261110_campaign3",
+      "stage_flights": 196
+    },
+    {
+      "run": "global_planner_cpu_s20261110_campaign4",
+      "stage_flights": 192
+    },
+    {
+      "run": "global_planner_cpu_s20261110_campaign5",
+      "stage_flights": 1024
+    },
+    {
+      "run": "global_planner_cpu_s20261110_campaign6",
+      "stage_flights": 1024
+    },
+    {
+      "run": "global_planner_cpu_s20261110_campaign7",
+      "stage_flights": 76
+    },
+    {
+      "run": "global_planner_cpu_s20261110_rewardv2",
+      "stage_flights": 2113
+    },
+    {
+      "run": "global_planner_cpu_s20261110_rewardv3",
+      "stage_flights": 6117
+    }
+  ],
+  "latest_run_actual_gradient_steps": 340779,
+  "latest_run_actual_actor_steps": 125045
+}

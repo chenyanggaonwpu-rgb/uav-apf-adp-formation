@@ -1,3 +1,11 @@
+# 全局子目标规划 Actor：训练交接入口
+
+schema6完整训练工程已上传到 [training/global_subgoal_actor](training/global_subgoal_actor/README.md)。包含python/uav_rl、MATLAB原生接口、RTX4060配置、VAL256/MICRO32/TEST512、149/158 MAT与复现证据。完整训练checkpoint/Replay见 [同版本Release](https://github.com/chenyanggaonwpu-rgb/uav-apf-adp-formation/releases/tag/schema6-training-handoff-20261115)。
+
+乙方先读 [六项答复与开工确认](training/global_subgoal_actor/docs/六项答复与开工确认.md)。模块路径均相对训练工程目录；仓库根目录的MATLAB部署入口仍是历史版本。
+
+---
+
 # 无人机编队智能避障 2.3.4 统一Actor版本
 
 当前版本 `2.3.4-unified-actor-20261029`。执行 `main` 或 `main3d`，所有已知地图统一加载10月15日完成2000回合训练的同一个冻结Actor；模型随源码交付。

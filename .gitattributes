@@ -193,3 +193,6 @@ unified_actor3d/ua_setup.m -text
 unified_actor3d/ua_sha256.m -text
 unified_actor3d/ua_simulate.m -text
 unified_actor3d/ua_worker.m -text
+
+# Preserve exact training source, model and evidence hashes.
+training/global_subgoal_actor/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

@@ -1,0 +1,203 @@
+{
+  "passed": true,
+  "verified_at": "2026-11-16T00:05:34.071179",
+  "required_training_modules_present": [
+    "networks.py",
+    "reward.py",
+    "reward_v2.py",
+    "replay.py",
+    "campaign_replay.py",
+    "train.py",
+    "campaign_curriculum.py",
+    "dataset.py",
+    "evaluate.py",
+    "finalize.py",
+    "verify.py"
+  ],
+  "preflight": {
+    "passed": true,
+    "timestamp": "2026-11-15 23:57:13",
+    "python": "3.12.14",
+    "python_executable": "F:\\UAV project\\UAV_APF_ADP_Formation\\.runtime\\actor_generalist_v4_20261105\\venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu_threads": 20,
+    "physical_ram_bytes": 16876888064,
+    "available_ram_bytes": 3128455168,
+    "data_drive_free_bytes": 133651460096,
+    "recommended_workers": 1,
+    "torch_version": "2.8.0+cpu",
+    "torch_cuda_version": null,
+    "cuda_tested": false,
+    "gpu_name": null,
+    "dedicated_vram_bytes": null,
+    "actor_parameters": 2174982,
+    "observation_scope": "global_map",
+    "input_size": 3340,
+    "hidden": [
+      512,
+      512,
+      256,
+      256
+    ],
+    "activation": "ReLU",
+    "export_max_error": 3.166496753692627e-08,
+    "native_runtime": {
+      "passed": true,
+      "release": "2024a",
+      "fleet": 5,
+      "teacher_available": false
+    },
+    "native_worker_sha256": "21d8d493dba4c40f1182d2a70866bc323ce8a9e9d06899ef245c0cfe249c541c",
+    "diagnostic_only": true
+  },
+  "numeric_optimizer_and_rng": {
+    "passed": true,
+    "actor_frozen_during_critic_only": true,
+    "critic_updated": true,
+    "actual_rl_actor_updates": 6,
+    "new_bc_updates": 0,
+    "checkpoint_weights_only_loaded": true,
+    "next_update_resume_max_error": 0.0,
+    "scope": "Optimizer and serialization diagnostic; independent native-flight integration is recorded separately."
+  },
+  "portable_fresh_constructor_and_inference": {
+    "passed": true,
+    "scope": "Portable constructor, first real TRAIN inference, ingestion, physical budget accounting, idempotence and checkpoint serialization. No long training or GPU test.",
+    "fresh_random_constructor_passed": true,
+    "relative_dataset_and_pool_paths_passed": true,
+    "no_expired_wallclock_cutoff": true,
+    "native_train_inference_transitions": 107,
+    "actual_joint_steps_accounted_once": 2400,
+    "native_physics_audit": {
+      "passed": true,
+      "steps": 2400,
+      "physics_max_error": 0.0,
+      "measurement_max_error": 0.0,
+      "pair_distance_max_error": 8.881784197001252e-16,
+      "swept_obstacle_distance_max_error": 2.6645352591003757e-15,
+      "safety_result_independently_reconstructed": true,
+      "bounded_held_random_acceleration_verified": true,
+      "wind_intervals_verified": true
+    },
+    "long_training_started": false,
+    "rl_updates_in_native_inference_check": 0,
+    "model_checkpoint_actor_tensor_max_error": {
+      "retained149": 0.0,
+      "candidate158": 0.0
+    },
+    "source_worker_sha256": "21d8d493dba4c40f1182d2a70866bc323ce8a9e9d06899ef245c0cfe249c541c",
+    "test512_evaluated": false,
+    "cuda_tested": false,
+    "matlab_r2026a_tested": false
+  },
+  "complete_checkpoint_restore": {
+    "passed": true,
+    "checkpoint_resume_constructor_and_all_optimizers_loaded": true,
+    "actor_updates": 20230,
+    "replay_episodes": 1164,
+    "replay_transitions": 65745,
+    "historical_joint_steps_preserved": 32233512,
+    "source_and_config_gates_passed": true,
+    "long_training_started": false
+  },
+  "named_model_engineering_reproductions": {
+    "retained149": {
+      "scope": "one predeclared MICRO/VAL engineering case, not a full score replication",
+      "model_hashes": {
+        "candidate": "b2c051cacb795849dcfe223e85230f2657a9e17ab201809b33f974bef16c674a"
+      },
+      "summary": {
+        "candidate": {
+          "tasks": 1,
+          "safe_success": 1,
+          "unsafe": 0,
+          "critical": 0,
+          "triggered": 1,
+          "mean_leader_path_meters": 107.67612803847406,
+          "mean_fleet_path_meters": 575.6979514342542,
+          "mean_stagnant_seconds": 0.2,
+          "mean_revisit_seconds": 0.0,
+          "failure_counted_120_mean": 52.6,
+          "by_family": {
+            "single_window": {
+              "tasks": 1,
+              "safe_success": 1,
+              "unsafe": 0
+            }
+          }
+        }
+      },
+      "independent_physics_audit": {
+        "passed": true,
+        "checks": [
+          {
+            "passed": true,
+            "steps": 1052,
+            "physics_max_error": 0.0,
+            "measurement_max_error": 0.0,
+            "pair_distance_max_error": 8.881784197001252e-16,
+            "swept_obstacle_distance_max_error": 1.7763568394002505e-15,
+            "safety_result_independently_reconstructed": true,
+            "bounded_held_random_acceleration_verified": true,
+            "wind_intervals_verified": true
+          }
+        ]
+      }
+    },
+    "candidate158": {
+      "scope": "one predeclared MICRO/VAL engineering case, not a full score replication",
+      "model_hashes": {
+        "candidate": "03250c8af41c41935a274e26cccfe852c8d799eabb4b4bb8b3eda909dbe34d9d"
+      },
+      "summary": {
+        "candidate": {
+          "tasks": 1,
+          "safe_success": 1,
+          "unsafe": 0,
+          "critical": 0,
+          "triggered": 1,
+          "mean_leader_path_meters": 89.04297405777653,
+          "mean_fleet_path_meters": 442.54959397969753,
+          "mean_stagnant_seconds": 0.0,
+          "mean_revisit_seconds": 0.0,
+          "failure_counted_120_mean": 36.05,
+          "by_family": {
+            "single_window": {
+              "tasks": 1,
+              "safe_success": 1,
+              "unsafe": 0
+            }
+          }
+        }
+      },
+      "independent_physics_audit": {
+        "passed": true,
+        "checks": [
+          {
+            "passed": true,
+            "steps": 721,
+            "physics_max_error": 0.0,
+            "measurement_max_error": 0.0,
+            "pair_distance_max_error": 8.881784197001252e-16,
+            "swept_obstacle_distance_max_error": 2.6645352591003757e-15,
+            "safety_result_independently_reconstructed": true,
+            "bounded_held_random_acceleration_verified": true,
+            "wind_intervals_verified": true
+          }
+        ]
+      }
+    }
+  },
+  "checkpoint_archive_crc_and_all_replay_hashes_checked": true,
+  "local_long_training_resumed": false,
+  "test512_evaluated": false,
+  "cuda_tested": false,
+  "matlab_r2026a_tested": false,
+  "actual_local_dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "psutil": "7.0.0",
+    "matplotlib": "3.10.6",
+    "torch": "2.8.0+cpu"
+  }
+}

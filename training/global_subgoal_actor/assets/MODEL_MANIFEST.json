@@ -1,0 +1,32 @@
+{
+  "retained149": {
+    "model": "assets/reference_models/retained149.mat",
+    "sha256": "b2c051cacb795849dcfe223e85230f2657a9e17ab201809b33f974bef16c674a",
+    "safe_success": 149,
+    "tasks": 256,
+    "unsafe": 3,
+    "accepted": true,
+    "rejection_reasons": [],
+    "checkpoint_original": "F:/UAGP1/runs/global_planner_cpu_s20261110_campaign6/checkpoints/c0000001_u000112650.pt",
+    "checkpoint_sha256": "567d08f062d5074625725d8ade96eef6b68e5eb796acec7f78d9fc8aab660430",
+    "checkpoint_bytes": 88782559,
+    "training_checkpoint_archive": "schema6_checkpoints_149_158.zip",
+    "selection_record": "provenance/retained149/selection_original.json"
+  },
+  "candidate158": {
+    "model": "assets/reference_models/candidate158.mat",
+    "sha256": "03250c8af41c41935a274e26cccfe852c8d799eabb4b4bb8b3eda909dbe34d9d",
+    "safe_success": 158,
+    "tasks": 256,
+    "unsafe": 1,
+    "accepted": false,
+    "rejection_reasons": [
+      "family_regression_c_trap"
+    ],
+    "checkpoint_original": "F:/UAGP1/runs/global_planner_cpu_s20261110_campaign6/checkpoints/c0000106_u000129766.pt",
+    "checkpoint_sha256": "7105a6434579c7a770c555a96f076cfbbdc9abfb22aa9686d9b1634cd0da9eb0",
+    "checkpoint_bytes": 107148127,
+    "training_checkpoint_archive": "schema6_checkpoints_149_158.zip",
+    "selection_record": "provenance/candidate158/selection_original.json"
+  }
+}

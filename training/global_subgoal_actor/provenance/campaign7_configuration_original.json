@@ -1,0 +1,429 @@
+{
+  "schema": 3,
+  "network": {
+    "observation_size": 128,
+    "history_frames": 16,
+    "history_stride": 2,
+    "hidden": [
+      512,
+      512,
+      256,
+      256
+    ],
+    "activation": "ReLU",
+    "action_size": 3,
+    "layer_norm_epsilon": 1e-05,
+    "log_std_min": -4.0,
+    "log_std_max": -0.7,
+    "input_size": 3340,
+    "global_observation_schema": 1,
+    "maximum_obstacles": 128,
+    "global_feature_size": 1289,
+    "global_token_features": [
+      "present",
+      "box",
+      "cylinder",
+      "sphere",
+      "center_x",
+      "center_y",
+      "center_z",
+      "extent_x",
+      "extent_y",
+      "extent_z"
+    ],
+    "coordinate_scale": [
+      120.0,
+      120.0,
+      30.0
+    ],
+    "actor_schema": 6,
+    "action_semantics": "normalized_global_subgoal_xyz"
+  },
+  "system": {
+    "device": "cpu",
+    "workers": 2,
+    "torch_cpu_threads": 2,
+    "minimum_free_ram_gib": 0.5,
+    "minimum_free_disk_gib": 15,
+    "replay_max_bytes": 268435456,
+    "replay_transitions": 100000,
+    "worker_timeout_seconds": 1200,
+    "queue_depth": 1,
+    "checkpoint_every_flights": 8,
+    "warmup_updates_per_cohort": 128
+  },
+  "environment": {
+    "mission_seconds": 120,
+    "dt": 0.05,
+    "observation_seconds": 0.2,
+    "decision_seconds": 1.6,
+    "minimum_decision_seconds": 0.4,
+    "reached_meters": 1.5,
+    "stall_seconds": 1.2,
+    "projection_clearance": 1.2,
+    "minimum_subgoal_distance": 2.0,
+    "contexts": [
+      "global_planning"
+    ],
+    "context_probabilities": [
+      1.0
+    ],
+    "perturbed_probability": 0.5,
+    "protocol": "global_subgoal_v1",
+    "terminal_follower_planning": "shared_original"
+  },
+  "training": {
+    "seed": 20261110,
+    "maximum_flights": 200000,
+    "maximum_updates": 5000000,
+    "minimum_flights_before_goal_stop": 50000,
+    "bc_updates": 0,
+    "teacher_probability": 0,
+    "actor_initialization": "random",
+    "fresh_map_probability": 1.0,
+    "maximum_reuses_per_map": 0,
+    "updates_per_transition": 0.25,
+    "maximum_updates_per_flight": 32,
+    "policy_export_every_flights": 8,
+    "critic_min_transitions": 5000,
+    "critic_min_episodes": 32,
+    "critic_warmup_updates": 2000,
+    "critic_max_warmup_updates": 60000,
+    "critic_probe_max_td_rmse": 20.0,
+    "critic_probe_max_q_abs": 300.0,
+    "critic_probe_required_passes": 3,
+    "critic_probe_every_updates": 250,
+    "maximum_validation_rollbacks": 8,
+    "warmup_noise_hold_seconds": 1.6,
+    "rl_noise_hold_seconds": 1.6,
+    "critic_min_training_episodes": 24,
+    "critic_min_probe_episodes": 4,
+    "critic_min_unique_maps": 32,
+    "critic_probe_batch_size": 256
+  },
+  "learner": {
+    "actor_lr": 1e-06,
+    "critic_lr": 0.0003,
+    "alpha_lr": 0.0001,
+    "initial_alpha": 0.01,
+    "minimum_alpha": 0.001,
+    "maximum_alpha": 0.1,
+    "target_entropy": -3.0,
+    "gamma": 0.99,
+    "tau": 0.005,
+    "batch_size": 32,
+    "gradient_clip": 1.0,
+    "actor_delay": 2,
+    "maximum_actor_kl": 0.02,
+    "minimum_actor_lr": 1e-07
+  },
+  "reward": {
+    "potential_scale_meters": 8.0,
+    "time_per_second": 0.1,
+    "effort_per_unit": 0.0001,
+    "safety_per_second": 0.15,
+    "smoothness": 0.01,
+    "stagnation_per_second": 0.3,
+    "leader_path_per_meter": 0.01,
+    "fleet_path_per_meter": 0.001,
+    "revisit_per_second": 2.0,
+    "projection_per_meter": 0.005,
+    "repeated_subgoal": 0.1,
+    "full_success": 60.0,
+    "failure": -30.0,
+    "collision": -80.0,
+    "schema": 2,
+    "progress_interpolation": "trilinear",
+    "revisit_reference_per_second": 0.1,
+    "revisit_multiplier": 20.0,
+    "revisit_cell_meters": 3.0,
+    "revisit_gap_seconds": 8.0,
+    "near_safety_per_second": 1.0,
+    "near_safety_warning_meters": 1.0,
+    "workspace_safety_margin_meters": 0.0
+  },
+  "dataset": {
+    "families": [
+      "single_window",
+      "double_window",
+      "multi_window",
+      "u_trap",
+      "c_trap",
+      "nested_u",
+      "bamboo",
+      "dense_mixed",
+      "narrow_corridor",
+      "staggered_wall",
+      "slalom",
+      "maze",
+      "dead_end",
+      "fork_trap",
+      "height_chicane",
+      "mixed"
+    ],
+    "validation_maps": 256,
+    "test_maps": 512,
+    "micro_validation_maps": 32,
+    "generation_attempts": 64,
+    "bamboo_count": [
+      48,
+      72
+    ],
+    "bamboo_max_blank_lane_halfwidth": 5.5,
+    "geometric_clearance": 1.2,
+    "grid_step": 2.0,
+    "topology_train_buckets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "topology_validation_buckets": [
+      7
+    ],
+    "topology_test_buckets": [
+      8,
+      9
+    ]
+  },
+  "validation": {
+    "micro_every_flights": 128,
+    "full_every_flights": 512,
+    "first_micro_at_flights": 128,
+    "maximum_family_regression": 0.0625,
+    "zero_new_critical_collisions": true,
+    "test_used_for_selection": false,
+    "primary_baselines": [
+      "global_rule",
+      "rule",
+      "v2"
+    ],
+    "comparison_arms": [
+      "global_rule",
+      "apf",
+      "rule",
+      "v2",
+      "v4_anchor",
+      "candidate"
+    ],
+    "first_full_at_flights": 1000,
+    "stage_first_micro_after_flights": 64,
+    "stage_first_full_after_flights": 256
+  },
+  "retention": {
+    "recent_full_checkpoints": 8,
+    "keep_all_evaluated_actor_weights": true,
+    "raw_train_gib": 6,
+    "milestone_every_flights": 5000,
+    "keep_replay_compact": true,
+    "maximum_representative_failures_per_family": 8
+  },
+  "continuation_dataset_binding": {
+    "folder": "F:\\UAGP1\\datasets\\3c341a1bf245",
+    "validation_digest": "cf6c07a823eef07eb4ecc370f42035426f5c13463d7c1416f9e58570787f5c8c",
+    "test_digest": "34ce25f22201878833a0f8aa36429074acb1156e721a1db1e0bbd34c5847f556",
+    "micro_digest": "d8dedfbfb4cf6aea24091ce542f58569f3049cbb9f0beb201290dffcde3d98d5",
+    "reserved_before_gradient_updates": true
+  },
+  "campaign": {
+    "enabled": true,
+    "started_at": "2026-11-14T11:29:41+08:00",
+    "deadline": "2026-11-17T11:29:41+08:00",
+    "deadline_epoch": 1794886181.0,
+    "training_cutoff_epoch": 1794842981.0,
+    "pool_path": "F:\\UAGP1\\campaigns\\20261114_72h\\pools_direction_balanced_v2.json",
+    "policy_guard": {
+      "mean_meters": 8.0,
+      "p95_meters": 24.0
+    },
+    "terminal_rmse_limits": {
+      "ordinary": 20.0,
+      "success": 30.0,
+      "timeout": 25.0,
+      "unsafe": 25.0
+    },
+    "curriculum": [
+      {
+        "name": "U-trap learnability",
+        "families": [
+          "u_trap",
+          "u_trap",
+          "u_trap",
+          "u_trap",
+          "single_window",
+          "c_trap",
+          "narrow_corridor"
+        ],
+        "mastery_families": [
+          "u_trap"
+        ],
+        "minimum_flights": 256,
+        "review_after_flights": 1024,
+        "minimum_rate": 0.7
+      },
+      {
+        "name": "four hard families",
+        "families": [
+          "u_trap",
+          "nested_u",
+          "fork_trap",
+          "dead_end",
+          "u_trap",
+          "nested_u",
+          "fork_trap",
+          "dead_end",
+          "single_window",
+          "c_trap",
+          "narrow_corridor",
+          "slalom"
+        ],
+        "mastery_families": [
+          "u_trap",
+          "nested_u",
+          "fork_trap",
+          "dead_end"
+        ],
+        "minimum_flights": 512,
+        "review_after_flights": 2048,
+        "minimum_rate": 0.65
+      },
+      {
+        "name": "all fixed training families",
+        "families": [
+          "single_window",
+          "double_window",
+          "multi_window",
+          "u_trap",
+          "c_trap",
+          "nested_u",
+          "bamboo",
+          "dense_mixed",
+          "narrow_corridor",
+          "staggered_wall",
+          "slalom",
+          "maze",
+          "dead_end",
+          "fork_trap",
+          "height_chicane",
+          "mixed"
+        ],
+        "mastery_families": [
+          "single_window",
+          "double_window",
+          "multi_window",
+          "u_trap",
+          "c_trap",
+          "nested_u",
+          "bamboo",
+          "dense_mixed",
+          "narrow_corridor",
+          "staggered_wall",
+          "slalom",
+          "maze",
+          "dead_end",
+          "fork_trap",
+          "height_chicane",
+          "mixed"
+        ],
+        "minimum_flights": 1024,
+        "review_after_flights": 4096,
+        "minimum_rate": 0.65
+      },
+      {
+        "name": "fresh-map generalization",
+        "families": [
+          "single_window",
+          "double_window",
+          "multi_window",
+          "u_trap",
+          "c_trap",
+          "nested_u",
+          "bamboo",
+          "dense_mixed",
+          "narrow_corridor",
+          "staggered_wall",
+          "slalom",
+          "maze",
+          "dead_end",
+          "fork_trap",
+          "height_chicane",
+          "mixed"
+        ],
+        "mastery_families": [
+          "single_window",
+          "double_window",
+          "multi_window",
+          "u_trap",
+          "c_trap",
+          "nested_u",
+          "bamboo",
+          "dense_mixed",
+          "narrow_corridor",
+          "staggered_wall",
+          "slalom",
+          "maze",
+          "dead_end",
+          "fork_trap",
+          "height_chicane",
+          "mixed"
+        ],
+        "minimum_flights": 0,
+        "review_after_flights": 1000000,
+        "minimum_rate": 0.0
+      }
+    ],
+    "pool_digest": "75d0426a359b556daf9cd57b4ba6232c403c3714501f986565c9f0154d92a597",
+    "minimum_replay_episodes_per_family": 12,
+    "critic_loss": "importance_weighted_mse",
+    "unsafe_probe_is_diagnostic": true,
+    "behavior_exploration": {
+      "probability": 0.4,
+      "log_std_values": [
+        0.2,
+        0.5
+      ],
+      "hold_seconds": 8.0,
+      "hard_families": [
+        "u_trap",
+        "nested_u",
+        "fork_trap",
+        "dead_end",
+        "maze",
+        "height_chicane",
+        "staggered_wall",
+        "multi_window"
+      ]
+    },
+    "guard_recenter_on_nonregressing_micro": true,
+    "soft_policy_kl_weight": 0.1,
+    "rollback_keeps_critic_learning": true,
+    "actor_rewarm_after_rollback": true,
+    "seed_selection_file": "F:/UAGP1/campaigns/20261114_72h/campaign7_seed_selection.json",
+    "rehearsal_probability": 0.25,
+    "critic_action_fusion_enabled": true,
+    "mean_calibration_flights": 64,
+    "curriculum_mastery_policy": "deterministic_mean",
+    "rehearsal_policy": "deterministic_mean",
+    "guard_prefers_deterministic_successes": true,
+    "actor_optimizer_reset": true,
+    "latest_parent_critic_seed": true,
+    "reuse_equivalent_mean_calibration": true,
+    "policy_step_guard": {
+      "mean_meters": 0.25,
+      "p95_meters": 0.75
+    },
+    "soft_policy_beta_min": 0.1,
+    "soft_policy_beta_max": 10.0,
+    "soft_policy_target_mean_meters": 4.0,
+    "fresh_probability": 0.5,
+    "fresh_mean_probability": 0.5,
+    "targeted_mean_probability": 0.5,
+    "replay_diversity_soft_map_cap": 8,
+    "minimum_accepted_actor_updates_for_review": 2000,
+    "curriculum_failed_review_action": "record_failure_rotate_priority",
+    "seed_selection_digest": "866a5f69f8dcb7ba7b732ae60f6d533fd2d2ebb93fd4390694033c3f76ec459e"
+  }
+}

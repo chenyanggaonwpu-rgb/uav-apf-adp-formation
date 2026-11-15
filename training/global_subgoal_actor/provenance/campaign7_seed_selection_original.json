@@ -1,0 +1,1041 @@
+{
+  "selected_at": "2026-11-15 22:32:01",
+  "run": "F:\\UAGP1\\runs\\global_planner_cpu_s20261110_average_search3",
+  "best": {
+    "timestamp": "2026-11-15 22:31:49",
+    "level": "full",
+    "model": "F:\\UAGP1\\runs\\global_planner_cpu_s20261110_average_search3\\policies\\actor_average_a075.mat",
+    "model_sha256": "b977363dc9d2a352f8bc381338c1c5cf2f3649142baf9b701c585defd33e1f58",
+    "actor_updates": 23113,
+    "new_actor_updates": 0,
+    "bc_updates": 0,
+    "gate": {
+      "admissible": true,
+      "improved": true,
+      "problems": [],
+      "new_critical_cases": [],
+      "candidate": {
+        "tasks": 256,
+        "safe_success": 160,
+        "unsafe": 3,
+        "critical": 0,
+        "triggered": 256,
+        "mean_leader_path_meters": 125.68601992531336,
+        "mean_fleet_path_meters": 717.3541851839053,
+        "mean_stagnant_seconds": 5.73984375,
+        "mean_revisit_seconds": 0.29882812500000006,
+        "failure_counted_120_mean": 81.5443359375,
+        "by_family": {
+          "single_window": {
+            "tasks": 16,
+            "safe_success": 16,
+            "unsafe": 0
+          },
+          "double_window": {
+            "tasks": 16,
+            "safe_success": 15,
+            "unsafe": 0
+          },
+          "multi_window": {
+            "tasks": 16,
+            "safe_success": 13,
+            "unsafe": 0
+          },
+          "u_trap": {
+            "tasks": 16,
+            "safe_success": 1,
+            "unsafe": 0
+          },
+          "c_trap": {
+            "tasks": 16,
+            "safe_success": 15,
+            "unsafe": 0
+          },
+          "nested_u": {
+            "tasks": 16,
+            "safe_success": 4,
+            "unsafe": 1
+          },
+          "bamboo": {
+            "tasks": 16,
+            "safe_success": 12,
+            "unsafe": 1
+          },
+          "dense_mixed": {
+            "tasks": 16,
+            "safe_success": 14,
+            "unsafe": 0
+          },
+          "narrow_corridor": {
+            "tasks": 16,
+            "safe_success": 16,
+            "unsafe": 0
+          },
+          "staggered_wall": {
+            "tasks": 16,
+            "safe_success": 9,
+            "unsafe": 0
+          },
+          "slalom": {
+            "tasks": 16,
+            "safe_success": 16,
+            "unsafe": 0
+          },
+          "maze": {
+            "tasks": 16,
+            "safe_success": 10,
+            "unsafe": 0
+          },
+          "dead_end": {
+            "tasks": 16,
+            "safe_success": 1,
+            "unsafe": 0
+          },
+          "fork_trap": {
+            "tasks": 16,
+            "safe_success": 3,
+            "unsafe": 1
+          },
+          "height_chicane": {
+            "tasks": 16,
+            "safe_success": 14,
+            "unsafe": 0
+          },
+          "mixed": {
+            "tasks": 16,
+            "safe_success": 1,
+            "unsafe": 0
+          }
+        }
+      },
+      "reference": {
+        "tasks": 256,
+        "safe_success": 149,
+        "unsafe": 3,
+        "critical": 0,
+        "triggered": 256,
+        "mean_leader_path_meters": 126.18508852293414,
+        "mean_fleet_path_meters": 725.0078373477575,
+        "mean_stagnant_seconds": 6.1373046875,
+        "mean_revisit_seconds": 0.295703125,
+        "failure_counted_120_mean": 84.015234375,
+        "by_family": {
+          "single_window": {
+            "tasks": 16,
+            "safe_success": 15,
+            "unsafe": 0
+          },
+          "double_window": {
+            "tasks": 16,
+            "safe_success": 14,
+            "unsafe": 0
+          },
+          "multi_window": {
+            "tasks": 16,
+            "safe_success": 9,
+            "unsafe": 0
+          },
+          "u_trap": {
+            "tasks": 16,
+            "safe_success": 1,
+            "unsafe": 0
+          },
+          "c_trap": {
+            "tasks": 16,
+            "safe_success": 16,
+            "unsafe": 0
+          },
+          "nested_u": {
+            "tasks": 16,
+            "safe_success": 3,
+            "unsafe": 1
+          },
+          "bamboo": {
+            "tasks": 16,
+            "safe_success": 12,
+            "unsafe": 0
+          },
+          "dense_mixed": {
+            "tasks": 16,
+            "safe_success": 13,
+            "unsafe": 0
+          },
+          "narrow_corridor": {
+            "tasks": 16,
+            "safe_success": 16,
+            "unsafe": 0
+          },
+          "staggered_wall": {
+            "tasks": 16,
+            "safe_success": 9,
+            "unsafe": 0
+          },
+          "slalom": {
+            "tasks": 16,
+            "safe_success": 16,
+            "unsafe": 0
+          },
+          "maze": {
+            "tasks": 16,
+            "safe_success": 9,
+            "unsafe": 0
+          },
+          "dead_end": {
+            "tasks": 16,
+            "safe_success": 1,
+            "unsafe": 1
+          },
+          "fork_trap": {
+            "tasks": 16,
+            "safe_success": 2,
+            "unsafe": 1
+          },
+          "height_chicane": {
+            "tasks": 16,
+            "safe_success": 12,
+            "unsafe": 0
+          },
+          "mixed": {
+            "tasks": 16,
+            "safe_success": 1,
+            "unsafe": 0
+          }
+        }
+      },
+      "original_anchor_gate": {
+        "admissible": true,
+        "improved": true,
+        "problems": [],
+        "new_critical_cases": [],
+        "candidate": {
+          "tasks": 256,
+          "safe_success": 160,
+          "unsafe": 3,
+          "critical": 0,
+          "triggered": 256,
+          "mean_leader_path_meters": 125.68601992531336,
+          "mean_fleet_path_meters": 717.3541851839053,
+          "mean_stagnant_seconds": 5.73984375,
+          "mean_revisit_seconds": 0.29882812500000006,
+          "failure_counted_120_mean": 81.5443359375,
+          "by_family": {
+            "single_window": {
+              "tasks": 16,
+              "safe_success": 16,
+              "unsafe": 0
+            },
+            "double_window": {
+              "tasks": 16,
+              "safe_success": 15,
+              "unsafe": 0
+            },
+            "multi_window": {
+              "tasks": 16,
+              "safe_success": 13,
+              "unsafe": 0
+            },
+            "u_trap": {
+              "tasks": 16,
+              "safe_success": 1,
+              "unsafe": 0
+            },
+            "c_trap": {
+              "tasks": 16,
+              "safe_success": 15,
+              "unsafe": 0
+            },
+            "nested_u": {
+              "tasks": 16,
+              "safe_success": 4,
+              "unsafe": 1
+            },
+            "bamboo": {
+              "tasks": 16,
+              "safe_success": 12,
+              "unsafe": 1
+            },
+            "dense_mixed": {
+              "tasks": 16,
+              "safe_success": 14,
+              "unsafe": 0
+            },
+            "narrow_corridor": {
+              "tasks": 16,
+              "safe_success": 16,
+              "unsafe": 0
+            },
+            "staggered_wall": {
+              "tasks": 16,
+              "safe_success": 9,
+              "unsafe": 0
+            },
+            "slalom": {
+              "tasks": 16,
+              "safe_success": 16,
+              "unsafe": 0
+            },
+            "maze": {
+              "tasks": 16,
+              "safe_success": 10,
+              "unsafe": 0
+            },
+            "dead_end": {
+              "tasks": 16,
+              "safe_success": 1,
+              "unsafe": 0
+            },
+            "fork_trap": {
+              "tasks": 16,
+              "safe_success": 3,
+              "unsafe": 1
+            },
+            "height_chicane": {
+              "tasks": 16,
+              "safe_success": 14,
+              "unsafe": 0
+            },
+            "mixed": {
+              "tasks": 16,
+              "safe_success": 1,
+              "unsafe": 0
+            }
+          }
+        },
+        "reference": {
+          "tasks": 256,
+          "safe_success": 141,
+          "unsafe": 4,
+          "critical": 0,
+          "triggered": 256,
+          "mean_leader_path_meters": 126.37209660592703,
+          "mean_fleet_path_meters": 728.1287277812935,
+          "mean_stagnant_seconds": 6.387890625000001,
+          "mean_revisit_seconds": 0.3111328125,
+          "failure_counted_120_mean": 84.664453125,
+          "by_family": {
+            "single_window": {
+              "tasks": 16,
+              "safe_success": 16,
+              "unsafe": 0
+            },
+            "double_window": {
+              "tasks": 16,
+              "safe_success": 15,
+              "unsafe": 0
+            },
+            "multi_window": {
+              "tasks": 16,
+              "safe_success": 10,
+              "unsafe": 0
+            },
+            "u_trap": {
+              "tasks": 16,
+              "safe_success": 1,
+              "unsafe": 2
+            },
+            "c_trap": {
+              "tasks": 16,
+              "safe_success": 15,
+              "unsafe": 0
+            },
+            "nested_u": {
+              "tasks": 16,
+              "safe_success": 3,
+              "unsafe": 1
+            },
+            "bamboo": {
+              "tasks": 16,
+              "safe_success": 13,
+              "unsafe": 0
+            },
+            "dense_mixed": {
+              "tasks": 16,
+              "safe_success": 12,
+              "unsafe": 0
+            },
+            "narrow_corridor": {
+              "tasks": 16,
+              "safe_success": 16,
+              "unsafe": 0
+            },
+            "staggered_wall": {
+              "tasks": 16,
+              "safe_success": 6,
+              "unsafe": 0
+            },
+            "slalom": {
+              "tasks": 16,
+              "safe_success": 12,
+              "unsafe": 0
+            },
+            "maze": {
+              "tasks": 16,
+              "safe_success": 9,
+              "unsafe": 0
+            },
+            "dead_end": {
+              "tasks": 16,
+              "safe_success": 1,
+              "unsafe": 0
+            },
+            "fork_trap": {
+              "tasks": 16,
+              "safe_success": 2,
+              "unsafe": 0
+            },
+            "height_chicane": {
+              "tasks": 16,
+              "safe_success": 10,
+              "unsafe": 1
+            },
+            "mixed": {
+              "tasks": 16,
+              "safe_success": 0,
+              "unsafe": 0
+            }
+          }
+        }
+      }
+    },
+    "evaluation": "F:\\UAGP1\\runs\\global_planner_cpu_s20261110_average_search3\\evaluations\\full_a075",
+    "arm": "candidate",
+    "checkpoint": {
+      "path": "F:\\UAGP1\\runs\\global_planner_cpu_s20261110_average_search3\\policies\\actor_average_a075.mat",
+      "sha256": "b977363dc9d2a352f8bc381338c1c5cf2f3649142baf9b701c585defd33e1f58",
+      "kind": "inference_only_derived_actor"
+    },
+    "derivation": {
+      "kind": "convex average of same-random-lineage RL descendants",
+      "weight_b": 0.75,
+      "parents": [
+        {
+          "path": "F:\\UAGP1\\runs\\global_planner_cpu_s20261110_campaign6\\policies\\initial_selected_seed.mat",
+          "sha256": "b2c051cacb795849dcfe223e85230f2657a9e17ab201809b33f974bef16c674a"
+        },
+        {
+          "path": "F:\\UAGP1\\runs\\global_planner_cpu_s20261110_campaign6\\policies\\p00000106_a000023113.mat",
+          "sha256": "03250c8af41c41935a274e26cccfe852c8d799eabb4b4bb8b3eda909dbe34d9d"
+        }
+      ],
+      "network_structure_unchanged": true,
+      "expert_action_labels": false,
+      "bc_updates": 0,
+      "parent_actor_updates_in_lineage": [
+        20230,
+        23113
+      ],
+      "new_gradient_updates": 0
+    },
+    "teacher_queries": 0
+  },
+  "audit": {
+    "timestamp": "2026-11-15 22:31:54",
+    "selection_basis": "fixed validation256 only; original safety/family gates",
+    "test_used_for_selection": false,
+    "candidates": [
+      {
+        "run": "F:\\UAGP1\\runs\\global_planner_cpu_s20261110_campaign6",
+        "model_sha256": "b2c051cacb795849dcfe223e85230f2657a9e17ab201809b33f974bef16c674a",
+        "gate_recomputed": {
+          "admissible": true,
+          "improved": true,
+          "problems": [],
+          "new_critical_cases": [],
+          "candidate": {
+            "tasks": 256,
+            "safe_success": 149,
+            "unsafe": 3,
+            "critical": 0,
+            "triggered": 256,
+            "mean_leader_path_meters": 126.18508852293414,
+            "mean_fleet_path_meters": 725.0078373477575,
+            "mean_stagnant_seconds": 6.1373046875,
+            "mean_revisit_seconds": 0.295703125,
+            "failure_counted_120_mean": 84.015234375,
+            "by_family": {
+              "single_window": {
+                "tasks": 16,
+                "safe_success": 15,
+                "unsafe": 0
+              },
+              "double_window": {
+                "tasks": 16,
+                "safe_success": 14,
+                "unsafe": 0
+              },
+              "multi_window": {
+                "tasks": 16,
+                "safe_success": 9,
+                "unsafe": 0
+              },
+              "u_trap": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 0
+              },
+              "c_trap": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "nested_u": {
+                "tasks": 16,
+                "safe_success": 3,
+                "unsafe": 1
+              },
+              "bamboo": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 0
+              },
+              "dense_mixed": {
+                "tasks": 16,
+                "safe_success": 13,
+                "unsafe": 0
+              },
+              "narrow_corridor": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "staggered_wall": {
+                "tasks": 16,
+                "safe_success": 9,
+                "unsafe": 0
+              },
+              "slalom": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "maze": {
+                "tasks": 16,
+                "safe_success": 9,
+                "unsafe": 0
+              },
+              "dead_end": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 1
+              },
+              "fork_trap": {
+                "tasks": 16,
+                "safe_success": 2,
+                "unsafe": 1
+              },
+              "height_chicane": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 0
+              },
+              "mixed": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 0
+              }
+            }
+          },
+          "reference": {
+            "tasks": 256,
+            "safe_success": 141,
+            "unsafe": 4,
+            "critical": 0,
+            "triggered": 256,
+            "mean_leader_path_meters": 126.37209660592703,
+            "mean_fleet_path_meters": 728.1287277812935,
+            "mean_stagnant_seconds": 6.387890625000001,
+            "mean_revisit_seconds": 0.3111328125,
+            "failure_counted_120_mean": 84.664453125,
+            "by_family": {
+              "single_window": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "double_window": {
+                "tasks": 16,
+                "safe_success": 15,
+                "unsafe": 0
+              },
+              "multi_window": {
+                "tasks": 16,
+                "safe_success": 10,
+                "unsafe": 0
+              },
+              "u_trap": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 2
+              },
+              "c_trap": {
+                "tasks": 16,
+                "safe_success": 15,
+                "unsafe": 0
+              },
+              "nested_u": {
+                "tasks": 16,
+                "safe_success": 3,
+                "unsafe": 1
+              },
+              "bamboo": {
+                "tasks": 16,
+                "safe_success": 13,
+                "unsafe": 0
+              },
+              "dense_mixed": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 0
+              },
+              "narrow_corridor": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "staggered_wall": {
+                "tasks": 16,
+                "safe_success": 6,
+                "unsafe": 0
+              },
+              "slalom": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 0
+              },
+              "maze": {
+                "tasks": 16,
+                "safe_success": 9,
+                "unsafe": 0
+              },
+              "dead_end": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 0
+              },
+              "fork_trap": {
+                "tasks": 16,
+                "safe_success": 2,
+                "unsafe": 0
+              },
+              "height_chicane": {
+                "tasks": 16,
+                "safe_success": 10,
+                "unsafe": 1
+              },
+              "mixed": {
+                "tasks": 16,
+                "safe_success": 0,
+                "unsafe": 0
+              }
+            }
+          }
+        },
+        "eligible": true
+      },
+      {
+        "run": "F:\\UAGP1\\runs\\global_planner_cpu_s20261110_average_search3",
+        "model_sha256": "b977363dc9d2a352f8bc381338c1c5cf2f3649142baf9b701c585defd33e1f58",
+        "gate_recomputed": {
+          "admissible": true,
+          "improved": true,
+          "problems": [],
+          "new_critical_cases": [],
+          "candidate": {
+            "tasks": 256,
+            "safe_success": 160,
+            "unsafe": 3,
+            "critical": 0,
+            "triggered": 256,
+            "mean_leader_path_meters": 125.68601992531336,
+            "mean_fleet_path_meters": 717.3541851839053,
+            "mean_stagnant_seconds": 5.73984375,
+            "mean_revisit_seconds": 0.29882812500000006,
+            "failure_counted_120_mean": 81.5443359375,
+            "by_family": {
+              "single_window": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "double_window": {
+                "tasks": 16,
+                "safe_success": 15,
+                "unsafe": 0
+              },
+              "multi_window": {
+                "tasks": 16,
+                "safe_success": 13,
+                "unsafe": 0
+              },
+              "u_trap": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 0
+              },
+              "c_trap": {
+                "tasks": 16,
+                "safe_success": 15,
+                "unsafe": 0
+              },
+              "nested_u": {
+                "tasks": 16,
+                "safe_success": 4,
+                "unsafe": 1
+              },
+              "bamboo": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 1
+              },
+              "dense_mixed": {
+                "tasks": 16,
+                "safe_success": 14,
+                "unsafe": 0
+              },
+              "narrow_corridor": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "staggered_wall": {
+                "tasks": 16,
+                "safe_success": 9,
+                "unsafe": 0
+              },
+              "slalom": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "maze": {
+                "tasks": 16,
+                "safe_success": 10,
+                "unsafe": 0
+              },
+              "dead_end": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 0
+              },
+              "fork_trap": {
+                "tasks": 16,
+                "safe_success": 3,
+                "unsafe": 1
+              },
+              "height_chicane": {
+                "tasks": 16,
+                "safe_success": 14,
+                "unsafe": 0
+              },
+              "mixed": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 0
+              }
+            }
+          },
+          "reference": {
+            "tasks": 256,
+            "safe_success": 141,
+            "unsafe": 4,
+            "critical": 0,
+            "triggered": 256,
+            "mean_leader_path_meters": 126.37209660592703,
+            "mean_fleet_path_meters": 728.1287277812935,
+            "mean_stagnant_seconds": 6.387890625000001,
+            "mean_revisit_seconds": 0.3111328125,
+            "failure_counted_120_mean": 84.664453125,
+            "by_family": {
+              "single_window": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "double_window": {
+                "tasks": 16,
+                "safe_success": 15,
+                "unsafe": 0
+              },
+              "multi_window": {
+                "tasks": 16,
+                "safe_success": 10,
+                "unsafe": 0
+              },
+              "u_trap": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 2
+              },
+              "c_trap": {
+                "tasks": 16,
+                "safe_success": 15,
+                "unsafe": 0
+              },
+              "nested_u": {
+                "tasks": 16,
+                "safe_success": 3,
+                "unsafe": 1
+              },
+              "bamboo": {
+                "tasks": 16,
+                "safe_success": 13,
+                "unsafe": 0
+              },
+              "dense_mixed": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 0
+              },
+              "narrow_corridor": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "staggered_wall": {
+                "tasks": 16,
+                "safe_success": 6,
+                "unsafe": 0
+              },
+              "slalom": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 0
+              },
+              "maze": {
+                "tasks": 16,
+                "safe_success": 9,
+                "unsafe": 0
+              },
+              "dead_end": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 0
+              },
+              "fork_trap": {
+                "tasks": 16,
+                "safe_success": 2,
+                "unsafe": 0
+              },
+              "height_chicane": {
+                "tasks": 16,
+                "safe_success": 10,
+                "unsafe": 1
+              },
+              "mixed": {
+                "tasks": 16,
+                "safe_success": 0,
+                "unsafe": 0
+              }
+            }
+          }
+        },
+        "eligible": true
+      },
+      {
+        "run": "F:\\UAGP1\\runs\\global_planner_cpu_s20261110_average_search2",
+        "model_sha256": "b2c051cacb795849dcfe223e85230f2657a9e17ab201809b33f974bef16c674a",
+        "gate_recomputed": {
+          "admissible": true,
+          "improved": true,
+          "problems": [],
+          "new_critical_cases": [],
+          "candidate": {
+            "tasks": 256,
+            "safe_success": 149,
+            "unsafe": 3,
+            "critical": 0,
+            "triggered": 256,
+            "mean_leader_path_meters": 126.18508852293414,
+            "mean_fleet_path_meters": 725.0078373477575,
+            "mean_stagnant_seconds": 6.1373046875,
+            "mean_revisit_seconds": 0.295703125,
+            "failure_counted_120_mean": 84.015234375,
+            "by_family": {
+              "single_window": {
+                "tasks": 16,
+                "safe_success": 15,
+                "unsafe": 0
+              },
+              "double_window": {
+                "tasks": 16,
+                "safe_success": 14,
+                "unsafe": 0
+              },
+              "multi_window": {
+                "tasks": 16,
+                "safe_success": 9,
+                "unsafe": 0
+              },
+              "u_trap": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 0
+              },
+              "c_trap": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "nested_u": {
+                "tasks": 16,
+                "safe_success": 3,
+                "unsafe": 1
+              },
+              "bamboo": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 0
+              },
+              "dense_mixed": {
+                "tasks": 16,
+                "safe_success": 13,
+                "unsafe": 0
+              },
+              "narrow_corridor": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "staggered_wall": {
+                "tasks": 16,
+                "safe_success": 9,
+                "unsafe": 0
+              },
+              "slalom": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "maze": {
+                "tasks": 16,
+                "safe_success": 9,
+                "unsafe": 0
+              },
+              "dead_end": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 1
+              },
+              "fork_trap": {
+                "tasks": 16,
+                "safe_success": 2,
+                "unsafe": 1
+              },
+              "height_chicane": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 0
+              },
+              "mixed": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 0
+              }
+            }
+          },
+          "reference": {
+            "tasks": 256,
+            "safe_success": 141,
+            "unsafe": 4,
+            "critical": 0,
+            "triggered": 256,
+            "mean_leader_path_meters": 126.37209660592703,
+            "mean_fleet_path_meters": 728.1287277812935,
+            "mean_stagnant_seconds": 6.387890625000001,
+            "mean_revisit_seconds": 0.3111328125,
+            "failure_counted_120_mean": 84.664453125,
+            "by_family": {
+              "single_window": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "double_window": {
+                "tasks": 16,
+                "safe_success": 15,
+                "unsafe": 0
+              },
+              "multi_window": {
+                "tasks": 16,
+                "safe_success": 10,
+                "unsafe": 0
+              },
+              "u_trap": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 2
+              },
+              "c_trap": {
+                "tasks": 16,
+                "safe_success": 15,
+                "unsafe": 0
+              },
+              "nested_u": {
+                "tasks": 16,
+                "safe_success": 3,
+                "unsafe": 1
+              },
+              "bamboo": {
+                "tasks": 16,
+                "safe_success": 13,
+                "unsafe": 0
+              },
+              "dense_mixed": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 0
+              },
+              "narrow_corridor": {
+                "tasks": 16,
+                "safe_success": 16,
+                "unsafe": 0
+              },
+              "staggered_wall": {
+                "tasks": 16,
+                "safe_success": 6,
+                "unsafe": 0
+              },
+              "slalom": {
+                "tasks": 16,
+                "safe_success": 12,
+                "unsafe": 0
+              },
+              "maze": {
+                "tasks": 16,
+                "safe_success": 9,
+                "unsafe": 0
+              },
+              "dead_end": {
+                "tasks": 16,
+                "safe_success": 1,
+                "unsafe": 0
+              },
+              "fork_trap": {
+                "tasks": 16,
+                "safe_success": 2,
+                "unsafe": 0
+              },
+              "height_chicane": {
+                "tasks": 16,
+                "safe_success": 10,
+                "unsafe": 1
+              },
+              "mixed": {
+                "tasks": 16,
+                "safe_success": 0,
+                "unsafe": 0
+              }
+            }
+          }
+        },
+        "eligible": true
+      }
+    ],
+    "selected_run": "F:\\UAGP1\\runs\\global_planner_cpu_s20261110_average_search3",
+    "model_sha256": "b977363dc9d2a352f8bc381338c1c5cf2f3649142baf9b701c585defd33e1f58"
+  },
+  "test_used_for_selection": false,
+  "orchestrator_sha256": "417b831cfeeea162971917a79913c9c7e270e4e2f855d783d676fd12833e0fe3",
+  "training_recipe": "record failed curriculum review and rotate sampling priority; preserve original performance and safety gates",
+  "prior_short_budget_models_are_not_promoted": true
+}

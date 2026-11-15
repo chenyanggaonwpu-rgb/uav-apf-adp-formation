@@ -1,0 +1,16 @@
+{
+  "retained149": {
+    "flights": 18397,
+    "joint_physics_steps": 32233512,
+    "actual_gradient_steps": 314466,
+    "retained_actor_updates": 20230,
+    "counts_validation": false
+  },
+  "candidate158": {
+    "flights": 19165,
+    "joint_physics_steps": 33418549,
+    "actual_gradient_steps": 331582,
+    "retained_actor_updates": 23113,
+    "counts_validation": false
+  }
+}

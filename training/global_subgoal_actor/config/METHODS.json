@@ -1,0 +1,59 @@
+{
+  "methods": [
+    {
+      "id": "G0_GLOBAL_RULE_APF",
+      "code_arm": "global_rule",
+      "label": "全图规则规划+APF",
+      "leader_rule_path": true,
+      "asset": null,
+      "primary_comparator": true
+    },
+    {
+      "id": "G1_LOCAL_RULE_ESCAPE_APF",
+      "code_arm": "rule",
+      "label": "局部规则脱困+APF（无leader全局路径）",
+      "leader_rule_path": false,
+      "asset": null,
+      "primary_comparator": true
+    },
+    {
+      "id": "G2_V2_ESCAPE_APF",
+      "code_arm": "v2",
+      "label": "V2脱困+APF（无leader全局路径）",
+      "leader_rule_path": false,
+      "asset": "assets/v2_numeric.mat",
+      "primary_comparator": true
+    },
+    {
+      "id": "G3_APF_ONLY",
+      "code_arm": "apf",
+      "label": "纯APF+公共编队与安全层",
+      "leader_rule_path": false,
+      "asset": null,
+      "primary_comparator": false
+    },
+    {
+      "id": "G4_V4_ESCAPE_APF",
+      "code_arm": "v4_anchor",
+      "label": "旧V4局部脱困+APF（无leader全局路径）",
+      "leader_rule_path": false,
+      "asset": "assets/v4_initial.mat",
+      "primary_comparator": false
+    },
+    {
+      "id": "F_SCHEMA6_GLOBAL_SUBGOAL_APF",
+      "code_arm": "candidate",
+      "label": "全程全局子目标Actor+APF",
+      "leader_rule_path": false,
+      "asset": "selected model in locked panel",
+      "primary_comparator": false
+    }
+  ],
+  "terminal_follower_planning": "shared_original",
+  "internal_run_anchor_note": "run_anchor is an internal reference field; in historical continuation runs it may be a trained RL reference, not random. D2 must use the actual saved initialization of each formal seed.",
+  "inference_controls": [
+    "D0 frozen final Actor",
+    "D1 no Actor, direct goal",
+    "D2 saved per-seed random initialization"
+  ]
+}

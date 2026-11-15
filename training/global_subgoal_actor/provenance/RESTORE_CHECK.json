@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checkpoint_resume_constructor_and_all_optimizers_loaded": true,
+  "actor_updates": 20230,
+  "replay_episodes": 1164,
+  "replay_transitions": 65745,
+  "historical_joint_steps_preserved": 32233512,
+  "source_and_config_gates_passed": true,
+  "long_training_started": false
+}
