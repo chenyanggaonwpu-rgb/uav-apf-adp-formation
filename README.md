@@ -4,6 +4,8 @@ schema6完整训练工程已上传到 [training/global_subgoal_actor](training/g
 
 乙方先读 [六项答复与开工确认](training/global_subgoal_actor/docs/六项答复与开工确认.md)。模块路径均相对训练工程目录；仓库根目录的MATLAB部署入口仍是历史版本。
 
+当前仿真验收版本见 [全图规则规划＋Actor Z＋APF](experiments3d/global_rule_actor_z/README.md)，附 MATLAB 演示、模型校验和同图对照结果。
+
 ---
 
 # 无人机编队智能避障 2.3.4 统一Actor版本
